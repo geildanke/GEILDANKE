@@ -3,7 +3,8 @@ Jekyll version of geildanke.com
 
 ## Installation
 
-`bundle install`
+1. Set the correct project path in `_data/compass.yml`
+2. `bundle install`
 
 ## Development
 
