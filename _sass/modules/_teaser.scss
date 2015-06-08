@@ -1,0 +1,66 @@
+.teaser-box-wrapper {
+	text-align: center;
+
+	margin: 0 auto;
+}
+
+.fontawesome-wrench:before,
+.fontawesome-cloud:before, {
+	position: relative;
+	top: -50px;
+	background: white;
+	padding: 1.5em;
+	border-radius: 4em;
+	margin: 0.5em;
+	color: $geildanke-color-lighter;
+}
+
+.teaser-box {
+	box-sizing: border-box;
+	padding: 2em;
+	max-width: 25em;
+	margin: 40px auto 0 auto;
+	padding-top: 4em;
+
+	text-align: center;
+
+	@media screen and (min-width: $l-small) {
+
+	}
+
+	@media screen and (min-width: $l-middle) {
+		padding-top: 2em;
+		width: 50%;
+		display: inline-block;
+	}
+
+	h2 {
+		padding: 0;
+	}
+
+
+	ul {
+
+		// text-align: left;
+
+		li {
+			padding-bottom: 1em;
+
+			&:first-child {
+				padding-top: 1.5em;
+			}
+
+			strong {
+				font-weight: 700;
+			}
+		}
+	}
+}
+
+.teaser-box-services {
+	border-right: 1% solid $wireframe-grey-light;
+}
+
+.teaser-box-services {
+	border-left: 1% solid $wireframe-grey-light;
+}

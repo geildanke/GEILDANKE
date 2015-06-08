@@ -1,0 +1,20 @@
+<div class="product-box">
+  <div class="product-img" style="background-image: url('/images/{{project.image}}'); background-position: {{project.imageBackgroundPosition}};"></div>
+  <div class="product-text-wrapper">
+      <h2>{{ project.title }}</h2>
+      <p class="teaser">{{ project.teaser }}</p>
+      <p>{{ project.description }}</p>
+
+      {% if project.permalink %}
+      <a class="btn" href="{{ project.permalink }}">
+      	{% if project.open %}
+      		{{ project.open }}
+      	{% else %}
+      		{{ t.openTitle }}
+      	{% endif %}
+      </a>
+      {% else if project.externlink %}
+      <a class="btn" target="_blank" href="{{ project.externlink }}">{{ project.open }}</a>
+      {% endif %}
+  </div>
+</div>

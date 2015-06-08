@@ -1,0 +1,53 @@
+// Product page styles
+// Page container settings are in layout.css
+
+#products {
+	background: $wireframe-grey-light;
+	@include clearfix;
+}
+
+.product-box-wrapper {
+	@include breakpoint-cover-page;
+
+	text-align: center; // To float the boxed in center
+}
+
+.product-box {
+	@include content-box-standard;
+	background: $wireframe-grey-dark;
+	padding: 0;
+
+	color: $wireframe-white;
+
+	.product-img {
+		background: transparent;
+		background-position: 50% 50%;
+		background-size: cover;
+		width: 100%;
+		height: 200px;
+	}
+
+	.product-text-wrapper {
+		padding: $l-space-small;
+
+		@include landing-page-typo;			// Mixin for teaser, h2 and p on landingpage
+		font-size: 14px;
+		text-align: left;
+
+		.teaser {
+			padding-bottom: 12px;
+		}
+
+		p {
+			line-height: 1.5em;
+		}
+
+		p:last-child {
+			padding-bottom: 0;
+		}
+	}
+}
+
+.btn {
+	@include btn-standard($wireframe-grey-dark);									// Adding the standard button mixin
+}

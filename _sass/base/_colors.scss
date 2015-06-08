@@ -1,0 +1,36 @@
+// Configure color variables
+
+$wireframe-black:           #000;
+$wireframe-grey-dark:       #222;
+$wireframe-grey	:           #555;
+$wireframe-grey-light:      #EEE;
+$wireframe-white-dark:		  #AAA;
+$wireframe-white:           #DEDEDE;
+$wireframe-white-light:     #EFEFEF;
+
+$wireframe-shine-black:         rgba(0,0,0,0.8);
+$wireframe-shine-grey-dark:     rgba(0,0,0,0.5);
+$wireframe-shine-grey:          rgba(0,0,0,0.2);
+$wireframe-shine-grey-light:    rgba(255,255,255,0.2);
+$wireframe-shine-white-dark:    rgba(255,255,255,0.8);
+$wireframe-shine-white:			rgba(255,255,255,0.7);
+
+$geildanke-color:             #5E2534;
+$geildanke-color-dark:        #362327;
+$geildanke-color-darker:      #212020;
+$geildanke-color-light:       #911D3C;
+$geildanke-color-lighter:     #E50048;
+
+$geildanke-grey:              #C2BABF;
+$geildanke-grey-dark:         #7F7A7E;
+$geildanke-grey-darker:       #403D40;
+$geildanke-grey-light:        #EBEBEB;
+$geildanke-grey-lighter:      #FFFFFF;
+
+$background-color:            $wireframe-white-light;
+
+$geildanke-color-light-transparent: rgba(229,0,72,0.5);
+
+body {
+    background: $background-color;
+}

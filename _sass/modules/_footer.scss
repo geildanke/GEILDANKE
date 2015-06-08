@@ -1,0 +1,22 @@
+// Footer module
+
+footer {
+	background: $wireframe-grey-dark;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+
+	color: $wireframe-white;
+}
+
+.footer-container {
+	display: block;
+	@include breakpoint-cover-page;
+	margin: 0;
+	padding: 1em 2em 1em 1em;
+
+	a {
+		border: none;
+	}
+}

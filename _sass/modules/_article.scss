@@ -1,0 +1,68 @@
+// Article module
+
+.article-img-top {
+	background: transparent url(../img/staticmap.png) no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+}
+
+.article-standard {
+	margin: 0;
+	position: relative;
+	
+
+	@media screen and (min-width: $l-small) {
+		margin-left: 0;
+		overflow: hidden;
+	}
+}
+
+.article-standard-wrapper {
+	@include breakpoint-cover-page;
+
+	strong {
+		font-weight: 700;
+	}
+
+	h1,
+	p {
+		@include trailer(1, 1em, margin);
+	}
+
+	img {
+		width: 100%;
+		@include leader(1, 1em, margin);
+		@include trailer(2, 1em, margin);
+	}
+
+	.btn {
+		@include btn-standard ($background-color, $wireframe-grey-dark);
+		overflow: visible;
+		margin-bottom: 1em;
+	}
+
+	p,
+	h1,
+	.btn,
+	a {
+		margin: 2em;
+	}
+
+	p {
+		a {
+			margin: 0;
+		}
+	}
+
+	@media screen and (min-width: $l-middle) {
+		margin: 0 auto;
+		max-width: 45em;
+	}
+
+	.helper-div {
+		padding: 1em;
+	}
+}

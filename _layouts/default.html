@@ -1,0 +1,88 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+  {% assign t = site.data.content.[page.lang] %}
+
+  {% include head.html %}
+
+  <body itemscope itemtype="http://schema.org/ProfilePage">
+
+    {% include header-default.html %}
+
+    <section id="geildanke">
+      <div class="full-width-img-container" style="background-image: url('/images/cover.jpg'); background-position: 50% 50%;">
+        <img itemprop="image" src="/images/cover.jpg" style="display: none;">
+        <div class="full-width-wrapper">
+          <h1 class="titel" itemprop="name">{{ t.title }}</h1>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="grid-container">
+        <div class="teaser-box-wrapper">
+          <h1 itemprop="description">{{ t.teaser.title}}</h1>
+          <div class="teaser-box teaser-box-services fontawesome-wrench">
+            <h2 class="">{{ t.teaser.h2.1}}</h2>
+            <ul>
+              <li>{{t.teaser.lists.1.1}}</li>
+              <li>{{t.teaser.lists.1.2}}</li>
+              <li>{{t.teaser.lists.1.3}}</li>
+            </ul>
+          </div><div class="teaser-box teaser-box-products fontawesome-cloud">
+            <h2 class="">{{ t.teaser.h2.2}}</h2>
+            <ul>
+              <li>{{t.teaser.lists.2.1}}</li>
+              <li>{{t.teaser.lists.2.2}}</li>
+              <li>{{t.teaser.lists.2.3}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="projects">
+      <div class="grid-container">
+          <div class="project-box-wrapper">
+            <h1>{{t.projects}}</h1>
+            <!-- Add projects with pages first -->
+            {% for project in site.projects %}
+              {% if project.lang == page.lang %}
+                {% include project-box.html %}
+              {% endif %}
+            {% endfor %}
+
+            <!-- add projects, that are tiles only -->
+            {% for project in site.projecttiles %}
+              {% if project.lang == page.lang %}
+                {% include project-box.html %}
+              {% endif %}
+            {% endfor %}
+          </div>
+      </div>
+    </section>
+
+    {% if site.products %}
+    <section id="products">
+      <div class="grid-container">
+        <div class="product-box-wrapper">
+          <h1>{{t.products}}</h1>
+            {% for project in site.products %}
+              {% if project.lang == page.lang %}
+                {% include project-box.html %}
+              {% endif %}
+            {% endfor %}
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+    {% include contact.html %}
+    {% include footer.html %}
+
+  </body>
+
+</html>

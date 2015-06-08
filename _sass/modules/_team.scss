@@ -1,0 +1,116 @@
+// Team page styles
+// Page container settings are in layout.css
+
+.team-box-wrapper {
+	// @include breakpoint-cover-page;
+	max-width: $l-width-standard;
+	margin: 0 auto;
+}
+
+.team-boxes {
+	margin: 0 auto;
+	width: 100%;
+
+	a {
+		border-bottom: none;
+
+		&:hover,
+		&:active {
+			color: white;
+		}
+	}
+}
+
+.team-box {
+	float: left;
+	vertical-align: top;
+	position: relative;
+
+	color: $wireframe-white;
+
+	width: 50%;
+	height: 0;
+	padding-bottom: 50%;
+
+	@media screen and (min-width: $l-small) {
+		width: 33.3333%;
+		padding-bottom: 33.3333%;
+	}
+
+	@media screen and (min-width: $l-big) {
+		width: 25%;
+		padding-bottom: 25%;
+	}
+
+	p {
+		float: left;
+		text-align: center;
+		position: absolute;
+		bottom: 2%;
+		left: 4%;
+		text-shadow: 0px 0px 12px black;
+	}
+}
+
+.img-wrapper-team {
+	// @include img-round;
+	background: transparent url(http://lorempixum.com/200/200/people) no-repeat;
+	background-size: cover;
+	margin: 0 auto 0 0;
+
+	&:hover,
+	&:active {
+		@include box-shadow(0 100em 0 $geildanke-color-light-transparent inset);
+	}
+}
+
+.helper-div {
+	margin-top: 84px;
+	width: 100%;
+	padding-bottom: 140px;
+	clear: both;
+	height: 0;
+}
+
+.article-team-wrapper {
+	text-align: center;
+
+	h1 {
+		padding: 66px 0 30px 0;
+		font-size: 2em;
+		padding: 1.75em 2em 0 2em;
+	}
+
+	p {
+		padding: 0.5em 2em 0.5em 2em;
+	}
+
+	ul {
+		padding-bottom: 4em;
+		max-width: 42em;
+		margin: auto;
+
+		li {
+			display: inline-block;
+			padding: 0.75em;
+			width: 2em;
+			height: 2em;
+
+			&:hover,
+			&:active {
+				color: $geildanke-color-lighter;
+			}
+
+			a {
+				border-bottom: none;
+			}
+		}
+	}
+}
+
+.img-team {
+	max-width: 8em;
+	display: block;
+	margin: 4em auto 0 auto;
+	border-radius: 10em;
+}
