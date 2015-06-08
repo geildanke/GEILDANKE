@@ -1,0 +1,43 @@
+.article-jobs-wrapper {
+	margin: 0 auto;
+	padding-bottom: 8em;
+	max-width: 90%;
+
+	text-align: center;
+
+	h1 {
+		padding-bottom: 2rem;
+	}
+
+	p,
+	ul,
+	.btn {
+		max-width: 42em;
+		margin: 0 auto;
+		text-align: left;
+	}
+
+	.btn {
+		position: relative;
+		top: 4em;
+	}
+
+	.teaser {
+		text-align: center;
+		padding-bottom: 2em;
+	}
+}
+
+.jobs-list {
+	padding: 2em 0;
+
+	li {
+		display: block;
+		padding-left: 14px;
+	}
+
+	.fontawesome-angle-right:before {
+		position: relative;
+		left: -14px;
+	}
+}

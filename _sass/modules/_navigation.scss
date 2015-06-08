@@ -1,0 +1,70 @@
+// Module variable
+$navigation-background-color: $wireframe-shine-black;
+
+.main-nav {
+    
+    background-color: black;
+    opacity: 0.85;
+    position: fixed;
+    width: 100%;
+    min-height: 3em;
+    z-index: 2;
+
+    ul {
+
+        li {
+            display: none;
+            float: left;
+            padding: 0.65em;
+
+            a {
+                border: none;
+                padding: 1em;
+
+                color: $wireframe-white-dark;
+            }
+        }
+
+        .language-toggle-wrapper {
+            float: right;
+        }
+
+        .menu-toggle-wrapper {
+            display: block;
+            text-transform: uppercase;
+            padding-left: 1.6em;
+
+            color: $wireframe-white-dark;
+        }
+    }
+
+    @media screen and (min-width: 55em) {
+        background-color: $navigation-background-color;
+
+        ul {
+
+            li {
+                display: inline;
+            }
+
+            #menu-toggle {
+                display: none;
+            }
+        }
+    }
+}
+
+.is-visible {
+
+    ul {
+
+        li {
+            display: block;
+            float: none;
+        }
+
+        .language-toggle-wrapper {
+            float: none;
+        }
+    }
+}

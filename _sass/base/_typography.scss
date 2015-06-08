@@ -1,0 +1,128 @@
+body {
+  	color: $copy-font-color;
+  	@include establish-baseline;
+  	font-family: $copy-font-family;
+  	font-size: $base-font-size;
+  	line-height: $base-line-height;
+}
+
+a {
+  border-bottom: 1px dashed $copy-font-color;
+  color: $copy-font-color;
+	text-decoration: none;
+	text-transform: uppercase;
+
+  &:hover {
+    color: $geildanke-color-lighter;
+    border-bottom: 1px solid $geildanke-color-lighter;
+  }
+}
+
+// Basic font styles and mixins
+
+
+@mixin headline-base {
+  font-family: $headline-font-family;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+@mixin headline-1 {
+  padding: $l-space-standard 0;
+  @include headline-base;
+
+  color: $geildanke-color-lighter;
+  font-size: 2.5em;
+  text-align: center;   
+  font-style: italic;
+  font-weight: 400;
+
+  .headline-strong {
+    font-family: $copy-font-family;
+    font-size: 1.05em;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    @include text-shadow(
+      0px 2px 1px rgba(0,0,0,0.3),
+      0px 4px 6px rgba(0,0,0,0.1),
+      0px 9px 11px rgba(0,0,0,0.1)
+    )
+  }
+}
+
+@mixin headline-2 {
+  @include headline-base;
+  @include leader (2, 1em, padding);
+  @include trailer (1.5, 1em, padding);
+  font-size: 1.5em;
+}
+
+@mixin headline-3 {
+  @include headline-base;
+  @include leader (2, 1em, padding);
+  @include trailer (1.5, 1em, padding);
+  font-size: 1.125em;
+}
+
+
+
+h1 {
+  @include headline-1;
+}
+
+h2 {
+  @include headline-2;
+}
+
+h3 {
+  @include headline-3;
+}
+
+
+.teaser {
+  line-height: 1.875em;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.btn-back {
+  display: block;
+  border-bottom: none;
+  background: $geildanke-color-lighter;
+  margin: 0 ! important;
+  padding: 1em;
+
+  color: $wireframe-white;
+  text-align: center;
+
+  &:hover,
+  &:active {
+    border-bottom: none;
+
+    color: $wireframe-white;
+
+    &:before {
+      content: "\f104";
+      font-family: 'fontawesome', sans-serif;
+      position: absolute;
+      left: 28px;
+    }
+  }
+}
+
+h1 {
+    padding: 84px 0 84px 0;
+  &:before {
+    content: "\f00d \f00d \f00d";
+    // color: $geildanke-grey-dark;
+    font-family: 'fontawesome', sans-serif;
+    font-style: normal;
+    font-size: 0.75em;
+    
+    display: inherit;
+    position: relative;
+    top: -0.8em;
+  }
+}

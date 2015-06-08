@@ -1,0 +1,16 @@
+/* TEAM */
+	Producer: Richard Brammer
+	Contact: richard.brammer@geildanke.com
+	Twitter: @richardbrammer
+	From: Berlin, Germany
+
+	Creative Director: Michaela Lehr
+	Contact: michaela.lehr@geildanke.com
+	Twitter: @fischaelameer
+	From: Berlin, Germany
+		
+/* SITE */
+	Last update: 2015
+	Language: Deutsch / English
+	Doctype: HTML5
+	IDE: Sublime Text 3, Jekyll

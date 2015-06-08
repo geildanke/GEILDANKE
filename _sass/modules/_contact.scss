@@ -1,0 +1,86 @@
+// Contact module
+
+#contact {
+	clear: both;
+	margin-top: $l-space-standard;
+}
+
+.contact-container {
+	@include breakpoint-cover-page;
+	@include clearfix;
+	min-height: 330px;
+	max-width: $l-width-standard;
+	margin: 0 auto 84px auto;
+}
+
+/* Removed in favor of Google Maps API */
+
+// .maps-img-container {
+// 	background: transparent url(http://maps.googleapis.com/maps/api/staticmap?center=52.52178,13.414913&zoom=15&format=png&sensor=false&size=1000x1000&scale=2&maptype=roadmap&visual_refresh=true&style=hue:0xff0055&style=feature:landscape|element:labels|visibility:off&style=feature:poi|element:labels|visibility:off&markers=color:yellow%7C52.52178,13.414913) no-repeat;
+// 	background-position: 0;
+// 	// background-attachment: fixed;
+// 	background-size: cover;
+// 	width: 100%;
+// 	height: 450px;
+// }
+
+.adress {
+	padding: 1em;
+
+	@media screen and (min-width: $l-small) {
+		float: left;
+		width: 40%;
+	}
+	@media screen and (min-width: $l-middle) {
+		float: left;
+		width: 40%;
+	}
+}
+
+.socialmedia {
+
+	padding: 1em;
+
+	@media screen and (min-width: $l-small) {
+		float: left;
+		width: 60%;
+	}
+	@media screen and (min-width: $l-middle) {
+		float: left;
+		width: 60%;
+	}
+
+	.btn {
+		@include btn-standard ($background-color, $wireframe-grey-dark);
+		// position: absolute;
+	}
+
+	ul {
+		margin-bottom: 3em;
+		// @include clearfix-mixin;
+	}
+
+	li {
+		cursor: pointer;
+		display: inline-block;
+
+		a {
+			// display: inline-block;
+			border: none;
+			background: $wireframe-grey-dark;
+			display: block;
+			margin: 1em 0.5em 0 0;
+			padding: 1.5em 1.6em 1.4em 1.6em;
+			min-width: 25px;
+
+			color: $wireframe-white;
+			font-size: 0.875em;
+			text-align: center;
+
+			&:hover {
+				border: none;
+				background: $geildanke-color-lighter;
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+.article-imprint-wrapper {
+	@extend .article-jobs-wrapper;
+
+	h2 {
+		text-align: left;
+		max-width: 42rem;
+		margin: 0 auto;
+	}
+
+	p {
+		max-width: 42rem;
+	}
+}
