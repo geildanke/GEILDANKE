@@ -60,7 +60,7 @@
 
 	&:hover,
 	&:active {
-		@include box-shadow(0 100em 0 $geildanke-color-light-transparent inset);
+		// @include box-shadow(0 100em 0 $geildanke-color-light-transparent inset);
 	}
 }
 

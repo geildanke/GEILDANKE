@@ -12,7 +12,7 @@
 .article-standard {
 	margin: 0;
 	position: relative;
-	
+
 
 	@media screen and (min-width: $l-small) {
 		margin-left: 0;
@@ -29,13 +29,13 @@
 
 	h1,
 	p {
-		@include trailer(1, 1em, margin);
+		// @include trailer(1, 1em, margin);
 	}
 
 	img {
 		width: 100%;
-		@include leader(1, 1em, margin);
-		@include trailer(2, 1em, margin);
+		// @include leader(1, 1em, margin);
+		// @include trailer(2, 1em, margin);
 	}
 
 	.btn {

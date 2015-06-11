@@ -17,7 +17,7 @@
 @mixin breakpoint-cover-page {
 
 	h1 {
-	//	padding-bottom: 0; 
+	//	padding-bottom: 0;
 	}
 
 	@media screen and (min-width: $l-small) {
@@ -52,7 +52,7 @@
 // Box shadow mixins
 
 @mixin box-shadow-milk {
-	@include box-shadow($wireframe-shine-white 0 0 0 0.5em inset);
+	// @include box-shadow($wireframe-shine-white 0 0 0 0.5em inset);
 }
 
 
@@ -68,23 +68,23 @@
 	padding: 12px 12px;
 	margin: 0;
 	min-width: 4em;
-  
+
 	color: $btn-color;
 	font-size: 14px;
 	text-transform: uppercase;
-  
-	@include transition-property(box-shadow, color);
-	@include transition-duration(0.15s);
+
+	// @include transition-property(box-shadow, color);
+	// @include transition-duration(0.15s);
 
 	&:hover {
-		@include box-shadow($btn-color 0 3.5rem 0 0 inset);
+		// @include box-shadow($btn-color 0 3.5rem 0 0 inset);
 		border: 1px solid $btn-color;
-  
+
 		color: $btn-background-color;
 	}
 
 	&:active {
-		@include box-shadow($geildanke-color-lighter 0 3.5rem 0 0 inset);
+		// @include box-shadow($geildanke-color-lighter 0 3.5rem 0 0 inset);
 		border: 1px solid $geildanke-color-lighter;
 
 		color: $wireframe-white;
@@ -99,15 +99,15 @@
 @mixin img-round {
 	border-radius: none;
 //	@include box-shadow-milk;								// Adding box-shadow mixin
-	display: block; 
+	display: block;
 	width: 8em;
 	height: 8em;
-  
+
 //	@include transition-property(box-shadow);
 //	@include transition-duration(0.2s);
-  
+
 //	&:hover {
-//		@include box-shadow($geildanke-color 0 0 0 1px inset, 
+//		@include box-shadow($geildanke-color 0 0 0 1px inset,
 //		$wireframe-shine-white 0 0 0 10em inset);
 //	}
 
@@ -145,23 +145,23 @@
 	background-position: center;
 	background-size: 100%;
 	overflow: hidden;
-	@include trailer(1, 1em, margin);
+	// @include trailer(1, 1em, margin);
 	width: columns(8,8);
 	height: auto;
 
-    
-	@include transition-property(background-size);
-	@include transition-duration(0.1s);
+
+	// @include transition-property(background-size);
+	// @include transition-duration(0.1s);
 
 	&:hover,
 	&:active {
-		@include transition-property(background-size);
-		@include transition-duration(4s);
+		// @include transition-property(background-size);
+		// @include transition-duration(4s);
 
 		background-size: 150%;
 
 		.product-img-caption {
-			@include transform(scale(1));
+			// @include transform(scale(1));
 		}
     }
 
@@ -170,12 +170,12 @@
 		padding: 4em;
 		width: auto;
 		height: auto;
-	      
+
 		color: $wireframe-white;
-		font-style: italic; 
+		font-style: italic;
 		text-align: center;
-	      
-		@include transform(scale(0));
+
+		// @include transform(scale(0));
     }
 }
 
@@ -189,12 +189,12 @@
 	}
 
 	p {
-		@include trailer(1, 1em, padding);
+		// @include trailer(1, 1em, padding);
 	}
 
   	.teaser {
 		line-height: 1.5em;
-		@include trailer(1, 1em, padding);
+		// @include trailer(1, 1em, padding);
 	}
 }
 

@@ -7,7 +7,7 @@
 
 .contact-container {
 	@include breakpoint-cover-page;
-	@include clearfix;
+	// @include clearfix;
 	min-height: 330px;
 	max-width: $l-width-standard;
 	margin: 0 auto 84px auto;
