@@ -18,4 +18,7 @@ collections:
   products:
 
 sass:
+  sass_dir: _assets/stylesheets
   style: compressed
+
+gems: [jekyll-assets, autoprefixer-rails]
