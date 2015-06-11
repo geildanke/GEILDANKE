@@ -17,5 +17,5 @@ collections:
     output: true
   products:
 
-gems:
-- jekyll-compass
+sass:
+  style: compressed

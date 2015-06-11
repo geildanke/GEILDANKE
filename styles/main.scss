@@ -1,11 +1,6 @@
-// Import compass mixins
-
-@import "compass/css3";
-@import "compass/typography";
-@import "compass/reset";
-@import "compass/utilities/general/clearfix";
-
-
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
 
 // Import base scss files
 
@@ -30,8 +25,3 @@
 @import "modules/teaser";
 @import "modules/jobs";
 @import "modules/imprint";
-
-
-// Import states
-
-// Import vendor
