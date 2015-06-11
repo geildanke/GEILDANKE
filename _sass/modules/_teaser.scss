@@ -24,10 +24,6 @@
 
 	text-align: center;
 
-	@media screen and (min-width: $l-small) {
-
-	}
-
 	@media screen and (min-width: $l-middle) {
 		padding-top: 2em;
 		width: 50%;
@@ -40,8 +36,6 @@
 
 
 	ul {
-
-		// text-align: left;
 
 		li {
 			padding-bottom: 1em;

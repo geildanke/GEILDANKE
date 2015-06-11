@@ -3,12 +3,10 @@
 
 #products {
 	background: $wireframe-grey-light;
-	// @include clearfix;
+	clear: both;
 }
 
 .product-box-wrapper {
-	@include breakpoint-cover-page;
-
 	text-align: center; // To float the boxed in center
 }
 

@@ -9,12 +9,10 @@
 
 .full-width-img-container {
 	@include cover-full-width;				// Mixin for background image with full width
-	// background-attachment: fixed;
 }
 
 
 .full-width-wrapper {
-	// background: $wireframe-shine-grey-dark;
 
 	ul {
 		display: none;
@@ -45,7 +43,6 @@
 
 
 .titel {
-	@include breakpoint-cover-page;			// Mixin for centered text on cover page
 
 	margin: 20% auto 0 auto;
 	padding: 1em;
@@ -55,7 +52,6 @@
 	font-family: $copy-font-family;
 	font-size: 1.25em;
 	font-weight: 100;
-	// text-align: left;
 	font-style: normal;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -68,13 +64,11 @@
 		color: $wireframe-white;
 		font-size: 2.5em;
 		letter-spacing: 5px;
-		// max-width: 50%;
 	}
 
 	@media screen and (min-width: $l-middle) {
 		color: $wireframe-white;
 		font-size: 3.25em;
-		// max-width: 40%;
 	}
 }
 
