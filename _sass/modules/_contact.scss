@@ -9,7 +9,7 @@
 	clear: both;
 	min-height: 330px;
 	max-width: $l-width-standard;
-	margin: 0 auto 84px auto;
+	margin: 0 auto 0 auto;
 }
 
 .adress {
@@ -27,7 +27,7 @@
 
 .socialmedia {
 
-	padding: 1em;
+	padding: 1em 0 8em 0;
 
 	@media screen and (min-width: $l-small) {
 		float: left;
@@ -43,8 +43,10 @@
 	}
 
 	ul {
-		margin-bottom: 3em;
 		@include clearfix-mixin;
+		padding: 0;
+		margin-top: 0;
+		margin-bottom: 2em;
 	}
 
 	li {
@@ -55,12 +57,13 @@
 			border: none;
 			background: $wireframe-grey-dark;
 			display: block;
-			margin: 1em 0.5em 0 0;
-			padding: 1.5em 1.6em 1.4em 1.6em;
-			min-width: 25px;
+			margin: 0.75em 0.5em 0 0;
+			width: 64px;
+			height: 64px;
 
 			color: $wireframe-white;
 			font-size: 0.875em;
+			line-height: 4.5em;
 			text-align: center;
 
 			&:hover {
