@@ -1,9 +1,0 @@
----
-require:
-- jekyll-compass
-project_path: "/Users/richardbrammer/Repositories/GEILDANKE"
-http_path: "/"
-css_dir: styles
-sass_dir: _sass
-images_dir: images
-javascripts_dir: scripts

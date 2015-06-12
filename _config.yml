@@ -17,5 +17,8 @@ collections:
     output: true
   products:
 
-gems:
-- jekyll-compass
+sass:
+  sass_dir: _assets/stylesheets
+  style: compressed
+
+gems: [jekyll-assets, autoprefixer-rails]
