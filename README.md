@@ -8,7 +8,7 @@ Jekyll version of geildanke.com
 
 ## Development
 
-`$ jekyll serve --watch``
+`$ jekyll serve --watch`
 
 ## Build
 
