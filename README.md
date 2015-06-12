@@ -1,6 +1,8 @@
 # GEILDANKE
 Jekyll version of geildanke.com
 
+[![Code Climate](https://codeclimate.com/github/geildanke/GEILDANKE/badges/gpa.svg)](https://codeclimate.com/github/geildanke/GEILDANKE)
+
 ## Installation
 
 1. Set the correct project path in `_data/compass.yml`
