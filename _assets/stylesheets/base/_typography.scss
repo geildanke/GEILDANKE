@@ -23,7 +23,6 @@ h1, h2, h3, p {
 
 // Basic font styles and mixins
 
-
 @mixin headline-base {
   font-family: $headline-font-family;
   font-weight: 700;
@@ -31,8 +30,8 @@ h1, h2, h3, p {
 }
 
 @mixin headline-1 {
-  padding: $l-space-standard 0;
   @include headline-base;
+  padding: $l-space-standard 0 $l-space-small 0;
 
   color: $geildanke-color-lighter;
   font-size: 2.5em;
@@ -69,6 +68,14 @@ h1, h2, h3, p {
 
 h1 {
   @include headline-1;
+
+  &:before {
+    content: url('../images/icons/cross.svg');
+
+    display: inherit;
+    position: relative;
+    top: -0.5em;
+  }
 }
 
 h2 {
@@ -108,20 +115,5 @@ h3 {
       position: absolute;
       left: 28px;
     }
-  }
-}
-
-h1 {
-    padding: 84px 0 84px 0;
-
-  &:before {
-    content: "\f00d \f00d \f00d";
-    font-family: 'fontawesome', sans-serif;
-    font-style: normal;
-    font-size: 0.75em;
-
-    display: inherit;
-    position: relative;
-    top: -0.8em;
   }
 }

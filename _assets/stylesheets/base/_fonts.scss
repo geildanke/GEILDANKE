@@ -1,17 +1,37 @@
-// Import and setup icon fonts
-@import url(http://weloveiconfonts.com/api/?family=fontawesome|maki|zocial);
-
-/* fontawesome */
-[class*="fontawesome-"]:before {
-    font-family: 'fontawesome', sans-serif;
+.icon {
+    background-position: 50%;
+    background-repeat: no-repeat;
 }
 
-/* maki */
-[class*="maki-"]:before {
-    font-family: 'maki', sans-serif;
+.icon--round {
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 0 1em 0;
+    width: 60px;
+    height: 60px;
 }
 
-/* zocial */
-[class*="zocial-"]:before {
-    font-family: 'zocial', sans-serif;
+.icon--facebook {
+    background-image: url(../images/icons/facebook.svg);
+}
+
+.icon--envelope {
+    background-image: url(../images/icons/email.svg);
+}
+
+.icon--google-plus {
+    background-image: url(../images/icons/google-plus.svg);
+}
+
+.icon--twitter {
+    background-image: url(../images/icons/twitter.svg);
+}
+
+.icon--sword {
+    background-image: url(../images/icons/sword.svg);
+}
+
+.icon--rocket {
+    background-image: url(../images/icons/rocket.svg);
 }
