@@ -2,6 +2,7 @@
 
 footer {
 	background: $wireframe-grey-dark;
+	clear: both;
 	margin: 0;
 	padding: 0;
 	width: auto;
@@ -12,7 +13,6 @@ footer {
 
 .footer-container {
 	display: block;
-	@include breakpoint-cover-page;
 	margin: 0;
 	padding: 1em 2em 1em 1em;
 

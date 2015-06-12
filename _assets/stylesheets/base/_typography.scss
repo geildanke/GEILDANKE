@@ -1,6 +1,5 @@
 body {
   	color: $copy-font-color;
-  	@include establish-baseline;
   	font-family: $copy-font-family;
   	font-size: $base-font-size;
   	line-height: $base-line-height;
@@ -18,8 +17,11 @@ a {
   }
 }
 
-// Basic font styles and mixins
+h1, h2, h3, p {
+  margin: 0;
+}
 
+// Basic font styles and mixins
 
 @mixin headline-base {
   font-family: $headline-font-family;
@@ -28,12 +30,12 @@ a {
 }
 
 @mixin headline-1 {
-  padding: $l-space-standard 0;
   @include headline-base;
+  padding: $l-space-standard 0 $l-space-small 0;
 
   color: $geildanke-color-lighter;
   font-size: 2.5em;
-  text-align: center;   
+  text-align: center;
   font-style: italic;
   font-weight: 400;
 
@@ -44,25 +46,21 @@ a {
     font-weight: 900;
     text-transform: uppercase;
 
-    @include text-shadow(
-      0px 2px 1px rgba(0,0,0,0.3),
-      0px 4px 6px rgba(0,0,0,0.1),
-      0px 9px 11px rgba(0,0,0,0.1)
-    )
+    text-shadow: 0px 2px 1px rgba(0,0,0,0.3), 0px 4px 6px rgba(0,0,0,0.1), 0px 9px 11px rgba(0,0,0,0.1);
   }
 }
 
 @mixin headline-2 {
   @include headline-base;
-  @include leader (2, 1em, padding);
-  @include trailer (1.5, 1em, padding);
+  padding-top: 2em;
+  padding-bottom: 1.5em;
   font-size: 1.5em;
 }
 
 @mixin headline-3 {
   @include headline-base;
-  @include leader (2, 1em, padding);
-  @include trailer (1.5, 1em, padding);
+  padding-top: 2em;
+  padding-bottom: 1.5em;
   font-size: 1.125em;
 }
 
@@ -70,6 +68,14 @@ a {
 
 h1 {
   @include headline-1;
+
+  &:before {
+    content: url('../images/icons/cross.svg');
+
+    display: inherit;
+    position: relative;
+    top: -0.5em;
+  }
 }
 
 h2 {
@@ -109,20 +115,5 @@ h3 {
       position: absolute;
       left: 28px;
     }
-  }
-}
-
-h1 {
-    padding: 84px 0 84px 0;
-  &:before {
-    content: "\f00d \f00d \f00d";
-    // color: $geildanke-grey-dark;
-    font-family: 'fontawesome', sans-serif;
-    font-style: normal;
-    font-size: 0.75em;
-    
-    display: inherit;
-    position: relative;
-    top: -0.8em;
   }
 }

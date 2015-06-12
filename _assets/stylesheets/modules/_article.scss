@@ -12,7 +12,7 @@
 .article-standard {
 	margin: 0;
 	position: relative;
-	
+
 
 	@media screen and (min-width: $l-small) {
 		margin-left: 0;
@@ -21,7 +21,6 @@
 }
 
 .article-standard-wrapper {
-	@include breakpoint-cover-page;
 
 	strong {
 		font-weight: 700;
@@ -29,13 +28,13 @@
 
 	h1,
 	p {
-		@include trailer(1, 1em, margin);
+		margin-bottom: 1em;
 	}
 
 	img {
 		width: 100%;
-		@include leader(1, 1em, margin);
-		@include trailer(2, 1em, margin);
+		margin-bottom: 1em;
+		margin-top: 2em;
 	}
 
 	.btn {
