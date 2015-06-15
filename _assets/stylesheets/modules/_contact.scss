@@ -1,0 +1,75 @@
+// Contact module
+
+#contact {
+	clear: both;
+	margin-top: $l-space-standard;
+}
+
+.contact-container {
+	clear: both;
+	min-height: 330px;
+	max-width: $l-width-standard;
+	margin: 0 auto 0 auto;
+}
+
+.adress {
+	padding: 1em;
+
+	@media screen and (min-width: $l-small) {
+		float: left;
+		width: 40%;
+	}
+	@media screen and (min-width: $l-middle) {
+		float: left;
+		width: 40%;
+	}
+}
+
+.socialmedia {
+
+	padding: 1em 0 8em 0;
+
+	@media screen and (min-width: $l-small) {
+		float: left;
+		width: 60%;
+	}
+	@media screen and (min-width: $l-middle) {
+		float: left;
+		width: 60%;
+	}
+
+	.btn {
+		@include btn-standard ($background-color, $wireframe-grey-dark);
+	}
+
+	ul {
+		@include clearfix-mixin;
+		padding: 0;
+		margin-top: 0;
+		margin-bottom: 2em;
+	}
+
+	li {
+		cursor: pointer;
+		display: inline-block;
+
+		a {
+			border: none;
+			background-color: $wireframe-grey-dark;
+			display: block;
+			margin: 0.75em 0.5em 0 0;
+			width: 64px;
+			height: 64px;
+
+			color: $wireframe-white;
+			font-size: 0.875em;
+			line-height: 4.5em;
+			text-align: center;
+
+			&:hover {
+				border: none;
+				background-color: $geildanke-color-lighter;
+			}
+		}
+	}
+}
