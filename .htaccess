@@ -552,6 +552,12 @@ RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
 
+Redirect 301 /2011/09/rolling-stone-deutschland/ https://geildanke.com/de/projekt/rolling-stone-deutschland-ipad-zeitungskiosk.html
+Redirect 301 /adobe-dps-entitlement-server-one-click-buy-autobild.html https://geildanke.com/de/projekt/adobe-dps-entitlement-server-one-click-buy-autobild.html
+Redirect 301 /50-years-of-porsche-911-ipad-app.html https://geildanke.com/en/project/50-years-of-porsche-911-ipad-app.html
+Redirect 301 /elektrospieler-games-magazin.html http://support.geildanke.com/#/de/elektrospieler
+Redirect 301 /crate-gaming-apps-magazine.html http://support.geildanke.com/#/de/crate
+Redirect 301 /privacy.html https://geildanke.com/de/privacy.html
 Redirect 301 /news/ http://geildanke.com/
 Redirect 301 /news http://geildanke.com/
 Redirect 301 /team/ http://geildanke.com/index.html
