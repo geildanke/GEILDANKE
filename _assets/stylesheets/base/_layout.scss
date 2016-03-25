@@ -1,0 +1,9 @@
+$layout-unit: 1.25rem; // 20/16
+$layout-unit-grid: 3 * $layout-unit;
+$layout-unit-gutter: $layout-unit;
+
+.layout-container {
+  margin: 0 auto;
+  padding: 0 $layout-unit;
+  max-width: 60rem; // 960/16
+}

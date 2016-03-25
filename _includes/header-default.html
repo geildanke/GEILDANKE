@@ -1,13 +1,12 @@
-<header>
-    <section class="main-nav">
-        <ul>
-            <li class="menu-toggle-wrapper" id="menu-toggle">{{t.menu.menu.value}}</li>
-            <li><a href="#geildanke">{{t.menu.home.value}}</a></li>
-            <li><a href="#about">{{t.menu.about.value}}</a></li>
-            <li><a href="#projects">{{t.menu.projects.value}}</a></li>
-            {% if site.products %} <li><a href="#products">{{t.menu.products.value}}</a></li> {% endif %}
-            <li><a href="#contact">{{t.menu.contact.value}}</a></li>
-            <li class="language-toggle-wrapper"><a href="{{ t.language.btn.link}}">{{ t.language.btn.value}}</a></li>
+<header class="header layout-container typo-label">
+    <nav class="nav">
+        <span class="nav__home-icon"></span>
+        <span class="nav__title">{{t.nav.slogan.value}}</span>
+        <ul class="nav__list">
+            <li class="nav__list__element"><a  class="nav__link"href="/about">{{t.nav.projects.value}}</a></li>
+            <li class="nav__list__element"><a  class="nav__link"href="/projects">{{t.nav.about.value}}</a></li>
+            <li class="nav__list__element"><a  class="nav__link"href="#contact">{{t.nav.contact.value}}</a></li>
+            <li class="nav__list__element"><a  class="nav__link"href="{{ t.language.btn.link}}">{{ t.language.btn.value}}</a></li>
         </ul>
-    </section>
+    </nav>
 </header>

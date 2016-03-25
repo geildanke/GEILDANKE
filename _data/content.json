@@ -12,24 +12,15 @@
 		"imprint" : "Impressum",
 		"privacy": "Datenschutzerklärung",
 		"openTitle": "Mehr erfahren",
-		"menu": {
-			"menu": {
-				"value": "Menü"
-			},
-			"home": {
-				"value": "Start"
+		"nav": {
+			"slogan": {
+				"value": "A creative technology studio"
 			},
 			"about": {
-				"value": "Leistungen"
+				"value": "Über uns"
 			},
 			"projects": {
 				"value": "Projekte"
-			},
-			"products": {
-				"value": "Produkte"
-			},
-			"team": {
-				"value": "Team"
 			},
 			"contact": {
 				"value": "Kontakt"
@@ -69,24 +60,15 @@
 		"imprint": "Imprint",
 		"privacy": "Privacy Policy",
 		"openTitle": "Read more",
-		"menu": {
-			"menu": {
-				"value": "Menu"
-			},
-			"home": {
-				"value": "Home"
+		"nav": {
+			"slogan": {
+				"value": "A creative technology studio"
 			},
 			"about": {
 				"value": "About"
 			},
 			"projects": {
 				"value": "Projects"
-			},
-			"products": {
-				"value": "Products"
-			},
-			"team": {
-				"value": "Team"
 			},
 			"contact": {
 				"value": "Contact"
