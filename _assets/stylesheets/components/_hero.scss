@@ -1,0 +1,58 @@
+.hero {
+  @include clearfix();
+
+  border-bottom: 3px solid $color-black;
+}
+
+.hero__benefit {
+  margin: 0 ($layout-unit * 6) 0 ($layout-unit * 8);
+  position: absolute;
+  bottom: $layout-unit * 2;
+}
+
+.hero__colum {
+  border-right: 1px solid $color-black;
+  float: left;
+  width: 80%;
+  height: $layout-unit * 13;
+}
+
+.hero__column--aside {
+  float: left;
+  margin: ($layout-unit * 2) 0;
+  padding: 0 $layout-unit;
+  width: 20%;
+}
+
+.hero__column--main {
+  position: relative;
+}
+
+.hero__list {
+  line-height: $layout-unit;
+  margin-bottom: $layout-unit;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.hero__list__element {}
+
+.hero__title {
+  @include clearfix();
+
+  border-top: 1px solid $color-black;
+  border-bottom: 1px solid $color-black;
+  padding: ($layout-unit * 1.5) 0;
+}
+
+.hero__title__logo {
+  background-image: url('../images/geildanke-logo-typographic.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+  margin-left: $layout-unit * 8;
+  width: 20.625rem; //330/16
+  height: $layout-unit * 2;
+}

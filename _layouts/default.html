@@ -12,72 +12,30 @@
 
     {% include header-default.html %}
 
-    <section id="geildanke">
-    </section>
-    <section id="about">
-      <div class="grid-container">
-        <div class="teaser-box-wrapper">
-          <h1 itemprop="description">{{ t.teaser.title}}</h1>
-          <div class="teaser-box teaser-box-services">
-            <div class="icon icon--round icon--sword"></div>
-            <h2 class="">{{ t.teaser.h2.1}}</h2>
-            <ul>
-              <li>{{t.teaser.lists.1.1}}</li>
-              <li>{{t.teaser.lists.1.2}}</li>
-              <li>{{t.teaser.lists.1.3}}</li>
-            </ul>
-          </div><div class="teaser-box teaser-box-products">
-          <div class="icon icon--round icon--rocket"></div>
-            <h2 class="">{{ t.teaser.h2.2}}</h2>
-            <ul>
-              <li>{{t.teaser.lists.2.1}}</li>
-              <li>{{t.teaser.lists.2.2}}</li>
-              <li>{{t.teaser.lists.2.3}}</li>
-            </ul>
-          </div>
+    <section id="geildanke" class="layout-container">
+      <div class="hero">
+        <div class="hero__title">
+          <span class="hero__title__logo"></span>
+        </div>
+        <div class="hero__colum hero__column--main">
+          <div class="hero__benefit typo-title">For You We Create Mobile-friendly and High-performant Websites and Apps That Will Make Your Business Idea a Success.</div>
+        </div>
+        <div class="hero__column hero__column--aside typo-label">
+          <ul class="hero__list">
+            <li class="hero__list__element">Apps</li>
+            <li class="hero__list__element">Websites</li>
+            <li class="hero__list__element">Games</li>
+            <li class="hero__list__element">Magazines</li>
+          </ul>
+          <ul class="hero__list">
+            <li class="hero__list__element">Design</li>
+            <li class="hero__list__element">Development</li>
+            <li class="hero__list__element">Production</li>
+            <li class="hero__list__element">Consulting</li>
+          </ul>
         </div>
       </div>
     </section>
-
-
-    <section id="projects">
-      <div class="grid-container">
-          <div class="project-box-wrapper">
-            <h1>{{t.projects}}</h1>
-            <!-- Add projects with pages first -->
-            {% for project in site.projects %}
-              {% if project.lang == page.lang %}
-                {% include project-box.html %}
-              {% endif %}
-            {% endfor %}
-
-            <!-- add projects, that are tiles only -->
-            {% for project in site.projecttiles %}
-              {% if project.lang == page.lang %}
-                {% include project-box.html %}
-              {% endif %}
-            {% endfor %}
-          </div>
-      </div>
-    </section>
-
-    {% if site.products %}
-    <section id="products">
-      <div class="grid-container">
-        <div class="product-box-wrapper">
-          <h1>{{t.products}}</h1>
-            {% for project in site.products %}
-              {% if project.lang == page.lang %}
-                {% include project-box.html %}
-              {% endif %}
-            {% endfor %}
-        </div>
-      </div>
-    </section>
-    {% endif %}
-
-    {% include contact.html %}
-    {% include footer.html %}
 
   </body>
 
