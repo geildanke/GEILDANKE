@@ -1,58 +1,98 @@
 .hero {
-  @include clearfix();
-
-  border-bottom: 3px solid $color-black;
-}
-
-.hero__benefit {
-  margin: 0 ($layout-unit * 6) 0 ($layout-unit * 8);
-  position: absolute;
-  bottom: $layout-unit * 2;
-}
-
-.hero__colum {
-  border-right: 1px solid $color-black;
-  float: left;
-  width: 80%;
-  height: $layout-unit * 13;
-}
-
-.hero__column--aside {
-  float: left;
-  margin: ($layout-unit * 2) 0;
-  padding: 0 $layout-unit;
-  width: 20%;
-}
-
-.hero__column--main {
+  background-image: url('../images/cover.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 56%;
   position: relative;
+  height: 0;
 }
 
-.hero__list {
-  line-height: $layout-unit;
-  margin-bottom: $layout-unit;
+.hero__keywords {
 
-  &:last-child {
-    margin-bottom: 0;
+  @media screen and (min-width: $mq-m) {
+    color: $color-white;
+
+    display: inline-block;
+    position: absolute;
+    bottom: 80px;
+    right: 40px;
+    width: 140px;
   }
 }
 
-.hero__list__element {}
+.hero__keywordlist__item {
+  opacity: 0;
 
-.hero__title {
-  @include clearfix();
-
-  border-top: 1px solid $color-black;
-  border-bottom: 1px solid $color-black;
-  padding: ($layout-unit * 1.5) 0;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-name: fadein;
+  animation-timing-function: $geildanke-easing;
 }
 
-.hero__title__logo {
-  background-image: url('../images/geildanke-logo-typographic.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  float: left;
-  margin-left: $layout-unit * 8;
-  width: 20.625rem; //330/16
-  height: $layout-unit * 2;
+@for $i from 1 through 8 {
+  .hero__keywordlist__item--#{$i} {
+    animation-delay: 1s + (0.4s * $i);
+
+    @media screen and (min-width: $mq-m) {
+      animation-delay: 2s + (0.4s * $i);
+    }
+  }
+}
+
+.hero__keywordlist {
+  border-left: 5px solid $color-black;
+  display: inline-block;
+  margin-top: $layout-unit;
+  padding-left: $layout-unit;
+  opacity: 0.8;
+  width: 100px;
+
+  @media screen and (min-width: $mq-s) {
+    width: 140px;
+  }
+
+  @media screen and (min-width: $mq-m) {
+    border: none;
+    padding: 0;
+    width: 100%;
+  }
+
+  &:first-child {
+    margin-right: $layout-unit * 2;
+
+    @media screen and (min-width: $mq-m) {
+      margin-right: 0;
+    }
+  }
+}
+
+.hero__title {
+  color: $color-white;
+  font-size: 16px;
+
+  background-color: $color-black;
+  display: inline-block;
+  padding: $layout-unit;
+
+  @media screen and (min-width: $mq-s) {
+    font-size: 18px;
+
+    background-color: $color-black-alpha;
+    padding: $layout-unit;
+    position: absolute;
+    left: $layout-unit * 4;
+    bottom: $layout-unit * 7;
+    width: 350px;
+  }
+
+  @media screen and (min-width: $mq-m) {
+    font-size: 22px;
+
+    padding: $layout-unit * 2;
+    position: absolute;
+    bottom: $layout-unit * 2;
+    left: $layout-unit * 2;
+    width: 500px;
+  }
 }

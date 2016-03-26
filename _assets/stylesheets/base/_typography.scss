@@ -38,11 +38,7 @@ body {
 }
 
 .headline--5 {
-  font-size: $base-em * $ms0;
-
-  @media (min-width: $mq-s) {
-    font-size: $base-em * $ms1;
-  }
+  font-size: $base-em * $ms1;
 
   @media (min-width: $mq-m) {
     font-size: $base-em * $ms2;
@@ -124,9 +120,13 @@ body {
   font-weight: 300;
 }
 
-.typo-title {
-  @extend .headline--5;
 
-  font-family: 'Montserrat', sans-serif;
+// Weights
+
+.typo-light {
   font-weight: 300;
+}
+
+.typo-bold {
+  font-weight: 700;
 }

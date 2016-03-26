@@ -2,3 +2,7 @@ html,
 body {
   background-color: $color-gray-light;
 }
+
+html {
+  border-top: $layout-unit solid $color-black;
+}
