@@ -9,6 +9,7 @@
 
 .header__slogan {
   line-height: $layout-unit;
+  text-align: right;
 
   border-top: 1px solid $color-black;
   border-bottom: 3px solid $color-black;
@@ -18,5 +19,9 @@
   @media screen and (min-width: $mq-s) {
     margin: $layout-unit 0 0 0;
     padding: $layout-unit 0 $layout-unit ($layout-unit * 4);
+  }
+
+  @media screen and (min-width: $mq-m) {
+    text-align: left;
   }
 }
