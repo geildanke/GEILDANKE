@@ -10,38 +10,45 @@
 
 .hero__keywords {
 
-  @media screen and (min-width: $mq-m) {
+  @media screen and (min-width: $mq-s) {
     color: $color-white;
 
     display: inline-block;
     position: absolute;
-    bottom: 80px;
-    right: 40px;
+    bottom: $layout-unit * 2;
+    right: $layout-unit;
     width: 140px;
+  }
+
+  @media screen and (min-width: $mq-m) {
+    bottom: $layout-unit * 4;
+    right: $layout-unit * 2;
   }
 }
 
 .hero__keywordlist__item {
-  opacity: 0;
 
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-  animation-name: fadein;
-  animation-timing-function: $geildanke-easing;
+  @media screen and (min-width: $mq-s) {
+    opacity: 0;
+
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-name: fadein;
+    animation-timing-function: $geildanke-easing;
+  }
 }
 
 @for $i from 1 through 8 {
   .hero__keywordlist__item--#{$i} {
-    animation-delay: 1s + (0.4s * $i);
 
-    @media screen and (min-width: $mq-m) {
+    @media screen and (min-width: $mq-s) {
       animation-delay: 2s + (0.4s * $i);
     }
   }
 }
 
 .hero__keywordlist {
-  border-left: 5px solid $color-black;
+  border-left: 3px solid $color-black;
   display: inline-block;
   margin-top: $layout-unit;
   padding-left: $layout-unit;
@@ -52,37 +59,35 @@
     width: 140px;
   }
 
-  @media screen and (min-width: $mq-m) {
+  @media screen and (min-width: $mq-s) {
     border: none;
     padding: 0;
-    width: 100%;
   }
 
   &:first-child {
     margin-right: $layout-unit * 2;
 
-    @media screen and (min-width: $mq-m) {
+    @media screen and (min-width: $mq-s) {
       margin-right: 0;
     }
   }
 }
 
 .hero__title {
-  color: $color-white;
   font-size: 16px;
 
-  background-color: $color-black;
   display: inline-block;
-  padding: $layout-unit;
+  padding: $layout-unit ($layout-unit * 4) 0 0;
 
   @media screen and (min-width: $mq-s) {
+    color: $color-white;
     font-size: 18px;
 
     background-color: $color-black-alpha;
     padding: $layout-unit;
     position: absolute;
-    left: $layout-unit * 4;
-    bottom: $layout-unit * 7;
+    left: $layout-unit * 2;
+    bottom: $layout-unit;
     width: 350px;
   }
 
