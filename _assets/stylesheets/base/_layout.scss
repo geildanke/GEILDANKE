@@ -10,3 +10,8 @@ $layout-unit: 20px;
     width: calc(100% - 120px);
   }
 }
+
+.layout-innercontainer--border-bottom {
+  border-bottom: ($layout-unit / 4) solid $color-black;
+  padding: 0 0 $layout-unit 0;
+}
