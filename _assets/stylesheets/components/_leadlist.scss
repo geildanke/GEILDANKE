@@ -1,0 +1,40 @@
+.leadlist {
+  background-color: $color-smoky-alpha;
+  margin-top: $layout-unit * 4;
+  position: relative;
+
+  transform: rotateZ(350deg);
+
+  &::before {
+    background-color: $color-black-alpha;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    transform: rotateZ(12deg);
+  }
+}
+
+.leadlist__content {
+  color: $color-white;
+
+  padding: ($layout-unit * 4) ($layout-unit * 8);
+
+  transform: rotateZ(-350deg);
+}
+
+.leadlist__headline {
+  width: $layout-unit * 13;
+}
+
+.leadlist__list {
+  margin-left: $layout-unit * 15;
+}
+
+.leadlist__list__item {
+  list-style: circle;
+}

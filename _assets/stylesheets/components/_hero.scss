@@ -4,7 +4,7 @@
 
 .hero__image {
   background-image: url('../images/cover.jpg');
-  background-position: 50% 50%;
+  background-position: 50% 80%;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 56%;
@@ -77,30 +77,32 @@
 }
 
 .hero__title {
-  font-size: 16px;
-
   display: inline-block;
-  padding: $layout-unit ($layout-unit * 4) 0 0;
+  padding: $layout-unit $layout-unit $layout-unit 0;
+  width: 100%;
+  max-width: 380px;
 
   @media screen and (min-width: $mq-s) {
     color: $color-white;
-    font-size: 18px;
 
     background-color: $color-black-alpha;
     padding: $layout-unit;
     position: absolute;
     left: $layout-unit * 2;
     bottom: $layout-unit;
-    width: 350px;
+    width: 390px;
+    max-width: none;
   }
 
   @media screen and (min-width: $mq-m) {
-    font-size: 22px;
-
     padding: $layout-unit * 2;
     position: absolute;
     bottom: $layout-unit * 2;
     left: $layout-unit * 2;
     width: 500px;
+  }
+
+  @media screen and (min-width: $mq-l) {
+    width: 570px;
   }
 }
