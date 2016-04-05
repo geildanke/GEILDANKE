@@ -115,6 +115,10 @@ body {
 
 // More typographic styles
 
+.typo-color--main {
+  color: $color-main;
+}
+
 .typo-label {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
