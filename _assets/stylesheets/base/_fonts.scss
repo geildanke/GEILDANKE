@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'OpenSans';
-  src: url('../fonts/opensans-light/opensans-light-webfont.eot');
-  src: url('../fonts/opensans-light/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/opensans-light/opensans-light-webfont.woff2') format('woff2'),
-       url('../fonts/opensans-light/opensans-light-webfont.woff') format('woff'),
-       url('../fonts/opensans-light/opensans-light-webfont.ttf') format('truetype'),
-       url('../fonts/opensans-light/opensans-light-webfont.svg#open_sanslight') format('svg');
+  font-family: 'Icons';
+  src: url('../fonts/icons/icomoon.eot');
+  src: url('../fonts/icons/icomoon.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/icons/icomoon.woff2') format('woff2'),
+       url('../fonts/icons/icomoon.woff') format('woff'),
+       url('../fonts/icons/icomoon.ttf') format('truetype'),
+       url('../fonts/icons/icomoon.svg#icomoon') format('svg');
   font-weight: 300;
   font-style: normal;
 }
@@ -43,5 +43,17 @@
        url('../fonts/montserrat-bold/montserrat-bold-webfont.ttf') format('truetype'),
        url('../fonts/montserrat-bold/montserrat-bold-webfont.svg#montserratsemi_bold') format('svg');
   font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/opensans-light/opensans-light-webfont.eot');
+  src: url('../fonts/opensans-light/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/opensans-light/opensans-light-webfont.woff2') format('woff2'),
+  url('../fonts/opensans-light/opensans-light-webfont.woff') format('woff'),
+  url('../fonts/opensans-light/opensans-light-webfont.ttf') format('truetype'),
+  url('../fonts/opensans-light/opensans-light-webfont.svg#open_sanslight') format('svg');
+  font-weight: 300;
   font-style: normal;
 }

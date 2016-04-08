@@ -1,9 +1,13 @@
 .leadlist {
   background-color: $color-smoky-alpha;
-  margin-top: $layout-unit * 4;
+  margin-top: $layout-unit * 2;
   position: relative;
 
   transform: rotateZ(350deg);
+
+  @media screen and (min-width: $mq-s) {
+    margin-top: $layout-unit * 4;
+  }
 
   &::before {
     background-color: $color-black-alpha;
@@ -22,19 +26,60 @@
 .leadlist__content {
   color: $color-white;
 
-  padding: ($layout-unit * 4) ($layout-unit * 8);
+  padding: $layout-unit * 2;
 
   transform: rotateZ(-350deg);
+
+  @media screen and (min-width: $mq-xs) {
+    padding: ($layout-unit * 4);
+  }
+
+  @media screen and (min-width: $mq-s) {
+    padding: ($layout-unit * 4) ($layout-unit * 8);
+  }
 }
 
 .leadlist__headline {
-  width: $layout-unit * 13;
+  max-width: $layout-unit * 13;
 }
 
 .leadlist__list {
-  margin-left: $layout-unit * 15;
+  margin: $layout-unit 0 0 0;
+
+  @media screen and (min-width: $mq-xs) {
+    margin-left: $layout-unit * 5;
+  }
+
+  @media screen and (min-width: $mq-s) {
+    margin-left: $layout-unit * 8;
+  }
+
+  @media screen and (min-width: $mq-m) {
+    margin-left: $layout-unit * 15;
+  }
 }
 
 .leadlist__list__item {
-  list-style: circle;
+  list-style: none;
+
+  margin-bottom: $layout-unit / 2;
+  position: relative;
+
+  &:before {
+    color: $color-main;
+    font-family: 'Icons' !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    speak: none;
+    text-transform: none;
+
+    content: '\e061';
+    position: absolute;
+    left: -2em;
+    top: 2px;
+  }
 }
