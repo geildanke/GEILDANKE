@@ -1,0 +1,11 @@
+.button {
+  color: $color-main;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1em;
+
+  border: 2px solid $color-main;
+  display: inline-block;
+  padding: ($layout-unit / 2) ($layout-unit * 1.5) ($layout-unit / 4) ($layout-unit / 4)
+}

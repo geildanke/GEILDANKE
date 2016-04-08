@@ -1,6 +1,6 @@
 .leadlist {
   background-color: $color-smoky-alpha;
-  margin-top: $layout-unit * 2;
+  margin: ($layout-unit * 2) auto ($layout-unit * 4) auto;
   position: relative;
 
   transform: rotateZ(350deg);

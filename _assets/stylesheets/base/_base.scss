@@ -6,3 +6,8 @@ body {
 html {
   border-top: $layout-unit solid $color-black;
 }
+
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
