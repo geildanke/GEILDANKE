@@ -1,12 +1,12 @@
 .leadlist {
-  background-color: $color-smoky-alpha;
+  background-color: $color-ming-alpha;
   margin: ($layout-unit * 2) auto ($layout-unit * 4) auto;
   position: relative;
 
-  transform: rotateZ(350deg);
+  transform: rotateZ(353deg);
 
   @media screen and (min-width: $mq-s) {
-    margin-top: $layout-unit * 4;
+    margin-top: $layout-unit * 3;
   }
 
   &::before {
@@ -19,44 +19,39 @@
     width: 100%;
     height: 100%;
 
-    transform: rotateZ(12deg);
+    transform: rotateZ(10deg);
   }
 }
 
 .leadlist__content {
   color: $color-white;
 
-  padding: $layout-unit * 2;
+  padding: ($layout-unit * 2) 0;
 
-  transform: rotateZ(-350deg);
-
-  @media screen and (min-width: $mq-xs) {
-    padding: ($layout-unit * 4);
-  }
+  transform: rotateZ(-353deg);
 
   @media screen and (min-width: $mq-s) {
-    padding: ($layout-unit * 4) ($layout-unit * 8);
+    padding: ($layout-unit * 4) 0;
   }
-}
-
-.leadlist__headline {
-  max-width: $layout-unit * 13;
 }
 
 .leadlist__list {
-  margin: $layout-unit 0 0 0;
+  @extend %ten-twelfths;
+  @extend %push--two-twelfths;
 
-  @media screen and (min-width: $mq-xs) {
-    margin-left: $layout-unit * 5;
-  }
+  @extend %xs--nine-twelfths;
+  @extend %push--xs--three-twelfths;
 
-  @media screen and (min-width: $mq-s) {
-    margin-left: $layout-unit * 8;
-  }
+  @extend %s--eight-twelfths;
+  @extend %push--s--four-twelfths;
 
-  @media screen and (min-width: $mq-m) {
-    margin-left: $layout-unit * 15;
-  }
+  @extend %m--seven-twelfths;
+  @extend %push--m--five-twelfths;
+
+  @extend %l--seven-twelfths;
+  @extend %push--l--five-twelfths;
+
+  margin-top: $layout-unit;
 }
 
 .leadlist__list__item {
