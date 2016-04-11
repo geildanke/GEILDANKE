@@ -11,48 +11,8 @@
   <body itemscope itemtype="http://schema.org/ProfilePage">
 
     {% include header-default.html %}
-
-    <section id="geildanke" class="layout-container layout-container--border-bottom">
-      <div class="layout-innercontainer layout-innercontainer--border-bottom">
-        <div class="hero">
-          <div class="hero__image"></div>
-          <div class="headline headline--3 hero__title typo-bold">For You We Create Mobile-friendly Websites and Apps That Will Make Your Business a Success<span class="typo-color--main">.</span></div>
-          <div class="hero__keywords typo-label">
-            <ul class="hero__keywordlist">
-              <li class="hero__keywordlist__item hero__keywordlist__item--1">Apps</li>
-              <li class="hero__keywordlist__item hero__keywordlist__item--2">Websites</li>
-              <li class="hero__keywordlist__item hero__keywordlist__item--3">Games</li>
-              <li class="hero__keywordlist__item hero__keywordlist__item--4">Magazines</li>
-            </ul><!--
-            --><ul class="hero__keywordlist">
-              <li class="hero__keywordlist__item hero__keywordlist__item--5">Design</li>
-              <li class="hero__keywordlist__item hero__keywordlist__item--6">Development</li>
-              <li class="hero__keywordlist__item hero__keywordlist__item--7">Production</li>
-              <li class="hero__keywordlist__item hero__keywordlist__item--8">Consulting</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="layout-container leadlist">
-      <div class="leadlist__content">
-        <div class="layout__grid">
-          <h2 class="headline headline--3 layout__grid__item layout__grid__item--headline">What can we do for you?</h2>
-        </div class="layout__grid leadlist__content">
-        <div class="layout__grid">
-          <ul class="layout__grid__item leadlist__list">
-            <li class="leadlist__list__item">Responsive Web Design and Development</li>
-            <li class="leadlist__list__item">Cross Platform Apps</li>
-            <li class="leadlist__list__item">Strategic Consulting</li>
-            <li class="leadlist__list__item">User Experience and Information Architecture</li>
-            <li class="leadlist__list__item">Research and Prototyping</li>
-            <li class="leadlist__list__item">Front-end and Back-end Development</li>
-            <li class="leadlist__list__item">Digital Publishing</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    {% include hero.html %}
+    {% include leadlist.html %}
 
   </body>
 

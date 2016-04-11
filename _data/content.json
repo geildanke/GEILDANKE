@@ -6,16 +6,25 @@
 				"value": "EN"
 			}
 		},
-		"contact": "<span class=\"headline-strong\">Schreiben</span> Sie uns!",
-		"products": "Diese schönen <span class=\"headline-strong\">Produkte</span> vermarkten wir selbst",
-		"projects": "Unsere besten <span class=\"headline-strong\">Projekte</span>",
-		"imprint" : "Impressum",
-		"privacy": "Datenschutzerklärung",
-		"openTitle": "Mehr erfahren",
-		"nav": {
+		"hero": {
+			"keyword": {
+				"1": "Apps",
+				"2": "Webseiten",
+				"3": "Games",
+				"4": "Magazine",
+				"5": "Consulting",
+				"6": "Design",
+				"7": "Entwicklung",
+				"8": "Produktion"
+			}
+		},
+		"meta": {
 			"slogan": {
-				"value": "A creative technology studio"
-			},
+				"short": "A creative technology studio",
+				"long": "For You We Create Mobile-friendly Websites and Apps That Will Make Your Business a Success"
+			}
+		},
+		"nav": {
 			"about": {
 				"value": "Über uns"
 			},
@@ -26,26 +35,29 @@
 				"value": "Kontakt"
 			}
 		},
-		"title": "Apps, Webseiten, Games, Magazine",
-		"teaser": {
-			"title": "<span class=\"headline-strong\">Design</span>, <span class=\"headline-strong\">Entwicklung</span> und <span class=\"headline-strong\">Publishing</span> für alle Plattformen",
-			"h2": {
-				"1": "Leistungen",
-				"2": "Tools & Technologie"
+		"services": [
+			{
+				"name": "Responsive Web Design and Development"
 			},
-			"lists": {
-				"1": {
-					"1": "Multi-Plattform <strong>responsive</strong> Web-Design und Web-App-Development, Backend-Development mit <strong>Node.js</strong>, PHP und Python.",
-					"2": "<strong>Apps und Games</strong> für alle Plattformen",
-					"3": "<strong>Schnittstellen-Entwicklung</strong> für Magazine, Verlage und Corporate Publisher"
-				},
-				"2": {
-					"1": "HTML5, CSS3, <strong>SCSS/SASS/LESS</strong> nach SMACSS/OOCSS",
-					"2": "JavaScript, <strong>AngularJS</strong>, jQuery, Node.js, PHP, <strong>Expression Engine</strong> und andere CMS",
-					"3": "Apple <strong>App Store</strong>, Google <strong>Play Store</strong>, Firefox Marketplace, Facebook, Chrome Store, <strong>Grunt</strong>, Git, <strong>JIRA</strong>, Adobe Digital Publishing Suite und Publish, Phonegap"
-				}
+			{
+				"name": "Cross Platform Apps"
+			},
+			{
+				"name": "Strategic Consulting"
+			},
+			{
+				"name": "User Experience and Information Architecture"
+			},
+			{
+				"name": "Research and Prototyping"
+			},
+			{
+				"name": "Front-end and Back-end Development"
+			},
+			{
+				"name": "Digital Publishing"
 			}
-		}
+		]
 	},
 	"en": {
 		"language": {
@@ -54,16 +66,25 @@
 				"value": "DE"
 			}
 		},
-		"contact": "<span class=\"headline-strong\">Contact</span> us",
-		"products": "Take a <span class=\"headline-strong\">look</span> at our <span class=\"headline-strong\">products</span>",
-		"projects": "The <span class=\"headline-strong\">best</span> of our <span class=\"headline-strong\">projects</span>",
-		"imprint": "Imprint",
-		"privacy": "Privacy Policy",
-		"openTitle": "Read more",
-		"nav": {
+		"hero": {
+			"keyword": {
+				"1": "Apps",
+				"2": "Websites",
+				"3": "Games",
+				"4": "Magazines",
+				"5": "Consulting",
+				"6": "Design",
+				"7": "Development",
+				"8": "Production"
+			}
+		},
+		"meta": {
 			"slogan": {
-				"value": "A creative technology studio"
-			},
+				"short": "A creative technology studio",
+				"long": "For You We Create Mobile-friendly Websites and Apps That Will Make Your Business a Success"
+			}
+		},
+		"nav": {
 			"about": {
 				"value": "About"
 			},
@@ -74,25 +95,28 @@
 				"value": "Contact"
 			}
 		},
-		"title": "Apps, Websites, Games, Magazines",
-		"teaser": {
-			"title": "Multi platform <span class=\"headline-strong\">design</span>, <span class=\"headline-strong\">development</span>, and <span class=\"headline-strong\">publishing</span>.",
-			"h2": {
-				"1": "Services",
-				"2": "Technologies"
+		"services": [
+			{
+				"name": "Responsive Web Design and Development"
 			},
-			"lists": {
-				"1": {
-					"1": "<strong>Responsive</strong> Web Design and Development, Backend Development with <strong>Node.js</strong> and PHP",
-					"2": "<strong>HTML5 Apps</strong> for all Platforms",
-					"3": "<strong>Cross Plattform Development</strong> for your Adobe DPS Magazines, Interface Development for DPS Enterprise Customers"
-				},
-				"2": {
-					"1": "HTML5, CSS3, <strong>SCSS/SASS/LESS</strong> with SMACSS/OOCSS",
-					"2": "JavaScript, <strong>AngularJS</strong>, jQuery, Node.js, PHP, <strong>Expression Engine</strong> and other CMS",
-					"3": "<strong>Grunt</strong>, Yeoman, Bower, Git, Adobe Digital Publishing Suite incl. API, Adobe CC, Phonegap"
-				}
+			{
+				"name": "Cross Platform Apps"
+			},
+			{
+				"name": "Strategic Consulting"
+			},
+			{
+				"name": "User Experience and Information Architecture"
+			},
+			{
+				"name": "Research and Prototyping"
+			},
+			{
+				"name": "Front-end and Back-end Development"
+			},
+			{
+				"name": "Digital Publishing"
 			}
-		}
+		]
 	}
 }
