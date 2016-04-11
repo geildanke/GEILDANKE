@@ -1,0 +1,74 @@
+.corecompetence {}
+
+.corecompetence__button {
+  margin-top: $layout-unit;
+  margin-bottom: $layout-unit * 3;
+}
+
+.corecompetence__figure__caption__paragraph {
+  @extend .typo-label;
+  @extend .typo-small;
+
+  display: inline-block;
+  margin-top: $layout-unit;
+}
+
+.corecompetence__figure__grid {
+  @extend %xs--six-twelfths;
+}
+
+.corecompetence__figure__img {
+  width: 100%;
+}
+
+.corecompetence__figure-container {
+  @extend %s--four-twelfths;
+
+  @extend %m--three-twelfths;
+
+  @extend %l--three-twelfths;
+}
+
+.corecompetence__header {
+  border-top: 2px solid $color-black;
+  border-bottom: 1px solid $color-black;
+  padding-top: $layout-unit * 3;
+  padding-bottom: $layout-unit;
+}
+
+.corecompetence__headline {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+
+  @extend %push--m--two-twelfths;
+
+  @extend %push--l--two-twelfths;
+}
+
+.corecompetence__lead {
+  @extend .typo-lead;
+
+  text-align: right;
+
+  padding-top: $layout-unit * 2;
+  padding-bottom: $layout-unit * 2;
+}
+
+.corecompetence__main {
+  padding-top: $layout-unit * 3;
+  padding-bottom: $layout-unit * 3;
+}
+
+.corecompetence__paragraph {
+  padding-bottom: $layout-unit;
+}
+
+.corecompetence__text-container {
+  @extend %s--eight-twelfths;
+
+  @extend %m--eight-twelfths;
+  @extend %push--m--one-twelfth;
+
+  @extend %l--eight-twelfths;
+  @extend %push--l--one-twelfth;
+}
