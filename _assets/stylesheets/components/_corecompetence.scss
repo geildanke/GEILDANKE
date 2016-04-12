@@ -5,8 +5,8 @@
 }
 
 .corecompetence__article-aside--left {
-  @extend %m--three-twelfths;
-  @extend %l--three-twelfths;
+  @extend %m--four-twelfths;
+  @extend %l--four-twelfths;
 }
 
 .corecompetence__article-aside--right {
@@ -20,11 +20,6 @@
   @extend %l--eight-twelfths;
 }
 
-.corecompetence__article-main--right {
-  @extend %push--m--one-twelfth;
-  @extend %push--l--one-twelfth;
-}
-
 .corecompetence__button {
   margin-top: $layout-unit;
   margin-bottom: $layout-unit * 3;
@@ -36,17 +31,16 @@
 
 .corecompetence__figurecontainer--1 {
   @extend %xs--four-eighths;
-  @extend %s--three-eighths;
-  @extend %m--three-eighths;
-  @extend %l--three-eighths;
+  @extend %s--four-eighths;
+  @extend %m--four-eighths;
+  @extend %l--four-eighths;
 }
 
 .corecompetence__figurecontainer--2 {
   @extend %xs--four-eighths;
-  @extend %s--five-eighths;
-  @extend %m--five-eighths;
+  @extend %s--four-eighths;
+  @extend %m--four-eighths;
   @extend %l--four-eighths;
-  @extend %push--l--one-eighth;
 
   margin-top: $layout-unit * 3;
 }
@@ -101,6 +95,7 @@
 
 .corecompetence__text-container {
   @extend %l--six-eighths;
+  @extend %push--l--one-eighth;
 }
 
 .corecompetence__text-container--left {
