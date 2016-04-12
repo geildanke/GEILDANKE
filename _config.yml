@@ -12,6 +12,8 @@ github_username:  geildanke
 markdown: kramdown
 
 collections:
+  corecompetences:
+    output: true
   projecttiles:
   projects:
     output: true
