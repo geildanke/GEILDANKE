@@ -20,6 +20,10 @@
   }
 }
 
+.nav__link {
+  color: $color-black;
+}
+
 .nav__list {
 
   @media screen and (min-width: $mq-s) {

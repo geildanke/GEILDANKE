@@ -7,8 +7,12 @@
   background-position: 50% 80%;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 56%;
-  height: 0;
+  height: 240px;
+
+  @media screen and (min-width: $mq-xs) {
+    padding-bottom: 56%;
+    height: 0;
+  }
 }
 
 .hero__keywords {
