@@ -34,30 +34,7 @@
 			"contact": {
 				"value": "Kontakt"
 			}
-		},
-		"services": [
-			{
-				"name": "Responsive Web Design and Development"
-			},
-			{
-				"name": "Cross Platform Apps"
-			},
-			{
-				"name": "Strategic Consulting"
-			},
-			{
-				"name": "User Experience and Information Architecture"
-			},
-			{
-				"name": "Research and Prototyping"
-			},
-			{
-				"name": "Front-end and Back-end Development"
-			},
-			{
-				"name": "Digital Publishing"
-			}
-		]
+		}
 	},
 	"en": {
 		"language": {
@@ -94,29 +71,6 @@
 			"contact": {
 				"value": "Contact"
 			}
-		},
-		"services": [
-			{
-				"name": "Responsive Web Design and Development"
-			},
-			{
-				"name": "Cross Platform Apps"
-			},
-			{
-				"name": "Strategic Consulting"
-			},
-			{
-				"name": "User Experience and Information Architecture"
-			},
-			{
-				"name": "Research and Prototyping"
-			},
-			{
-				"name": "Front-end and Back-end Development"
-			},
-			{
-				"name": "Digital Publishing"
-			}
-		]
+		}
 	}
 }

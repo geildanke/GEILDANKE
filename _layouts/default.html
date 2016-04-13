@@ -12,7 +12,14 @@
 
     {% include header-default.html %}
     {% include hero.html %}
-    {% include leadlist.html %}
+
+    {% for list in site.lists %}
+      {% if list.lang == page.lang %}
+        {% if list == site.lists[0] %}
+          {% include leadlist.html %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
 
     {% for corecompetence in site.corecompetences %}
       {% if corecompetence.lang == page.lang %}
@@ -21,6 +28,14 @@
         {% endif %}
         {% if corecompetence.images == 4 %}
           {% include article_corecompetence_4-images.html %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% for list in site.lists %}
+      {% if list.lang == page.lang %}
+        {% if list == site.lists[1] %}
+          {% include leadlist.html %}
         {% endif %}
       {% endif %}
     {% endfor %}
