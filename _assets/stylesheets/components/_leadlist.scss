@@ -1,5 +1,4 @@
 .leadlist {
-  background-color: $color-ming-alpha;
   margin: ($layout-unit * 2) auto ($layout-unit * 2) auto;
   position: relative;
 
@@ -22,6 +21,14 @@
 
     transform: rotateZ(10deg);
   }
+}
+
+.leadlist--blue {
+  background-color: $color-ming-alpha;
+}
+
+.leadlist--green {
+  background-color: $color-gulf-stream-alpha;
 }
 
 .leadlist__content {
