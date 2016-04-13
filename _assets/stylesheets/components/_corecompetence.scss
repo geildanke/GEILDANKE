@@ -71,7 +71,9 @@
 .corecompetence__headline {
   @extend %ten-twelfths;
   @extend %push--one-twelfth;
+  @extend %m--nine-twelfths;
   @extend %push--m--two-twelfths;
+  @extend %l--nine-twelfths;
   @extend %push--l--two-twelfths;
 }
 
@@ -86,7 +88,6 @@
 
 .corecompetence__main {
   padding-top: $layout-unit * 3;
-  padding-bottom: $layout-unit * 3;
 }
 
 .corecompetence__paragraph {
