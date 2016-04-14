@@ -5,7 +5,18 @@
     </div>
   </div>
   <div class="layout__grid">
-    <div class="contact__address layout__grid__item contact__grid__item">
+    <div class="layout__grid__item contact__grid__item--large">
+      <form class="contact__form">
+        <label class="contact__form__label" for="email">{{t.contact.form.email.label}}</label>
+        <input class="contact__form__element contact__form__element--input" type="text" name="email" value="{{t.contact.form.email.placeholder}}">
+        <label class="contact__form__label" for="email">{{t.contact.form.message.label}}</label>
+        <textarea class="contact__form__element contact__form__element--textarea" name="textarea" rows="10" cols="50">{{t.contact.form.message.placeholder}}</textarea>
+        <input class="contact__form__element contact__form__element--checkbox" type="checkbox" name="privacy" required>
+        <label class="contact__form__label contact__form__label--checkbox" for="privacy" required>{{t.contact.form.privacy.label}}</label><br>
+        <button class="button contact__form__button" type="submit">{{t.contact.form.button.label}}</button>
+      </form>
+    </div><!--
+ --><div class="contact__address layout__grid__item contact__grid__item--small">
       <div class="socialmedia">
           <ul class="socialmedia__list">
               <li class="socialmedia__list__item"><a href="{{t.meta.socialmedia.twitter}}" class="icon icon--twitter"></a></li>
@@ -13,25 +24,7 @@
               <li class="socialmedia__list__item"><a href="{{t.meta.socialmedia.googleplus}}" class="icon icon--googleplus"></a></li>
           </ul>
       </div>
-      <div itemscope itemtype="http://schema.org/Organization" class="address">
-          <p itemprop="name">{{t.meta.companyname}}</p>
-          <div class="address__main" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-              <p itemprop="streetAddress">{{t.meta.address.street}}</p>
-              <p><span itemprop="postalCode">{{t.meta.address.zipcode}}</span> <span itemprop="addressLocality">{{t.meta.address.city}}</span></p>
-          </div>
-          <a class="button contact__button" href="{{t.meta.email.default.url}}">{{t.meta.email.default.label}}</a>
-      </div>
-    </div><!--
- --><div class="layout__grid__item contact__grid__item">
-      <form class="contact__form">
-        <label class="contact__form__label" for="email">{{t.contact.form.email.label}}</label>
-        <input class="contact__form__element contact__form__element--input" type="text" name="email" value="{{t.contact.form.email.placeholder}}">
-        <label class="contact__form__label" for="email">{{t.contact.form.message.label}}</label>
-        <textarea class="contact__form__element contact__form__element--textarea" name="textarea" rows="10" cols="50">{{t.contact.form.message.placeholder}}</textarea>
-        <input class="contact__form__element contact__form__element--checkbox" type="checkbox" name="privacy" required>
-        <label class="contact__form__label contact__form__label--checkbox" for="privacy" required>{{t.contact.form.privacy.label}}</label>
-        <button class="button contact__form__button" type="submit">{{t.contact.form.button.label}}</button>
-      </form>
+      <a class="button contact__button" href="{{t.meta.email.default.url}}">{{t.meta.email.default.label}}</a>
     </div>
   </div>
 </section>

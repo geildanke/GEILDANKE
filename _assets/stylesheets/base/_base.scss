@@ -1,13 +1,23 @@
 html,
 body {
   background-color: $color-gray-light;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 html {
   border-top: $layout-unit solid $color-black;
 }
 
-body {
-  overflow-y: auto;
-  overflow-x: hidden;
+button,
+input,
+textarea {
+
+  &:active,
+  &:focus {
+    outline-color: $color-ming;
+    outline-offset: 2px;
+    outline-style: solid;
+    outline-width: 2px;
+  }
 }

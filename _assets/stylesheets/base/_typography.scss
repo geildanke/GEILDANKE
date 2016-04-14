@@ -31,6 +31,11 @@ body {
 
 a {
   color: $color-main;
+
+  &:active,
+  &:hover {
+    color: $color-gulf-stream;
+  }
 }
 
 // Headlines

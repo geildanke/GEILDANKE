@@ -1,7 +1,10 @@
 .contact {}
 
 .contact__address {
-  padding-top: $layout-unit * 2;
+  text-align: right;
+
+  padding-top: $layout-unit;
+  padding-bottom: $layout-unit * 2;
 
   @media screen and (min-width: $mq-s) {
     padding-top: $layout-unit * 4.5;
@@ -15,17 +18,23 @@
 }
 
 .contact__form {
-  padding-top: $layout-unit * 3;
-  padding-bottom: $layout-unit * 3;
+  padding-top: $layout-unit * 2;
+  padding-bottom: $layout-unit;
+
+  @media screen and (min-width: $mq-s) {
+    padding-top: $layout-unit * 3;
+    padding-bottom: $layout-unit * 3;
+  }
 }
 
-.contact__form__button {  display: inline-block;
+.contact__form__button {
+  display: inline-block;
 }
 
 .contact__form__element {
   @extend .typo-small;
 
-  color: $color-white;
+  color: $color-ming;
   font-family: 'OpenSans', sans-serif;
   font-weight: 300;
 
@@ -48,6 +57,14 @@
 
   display: block;
   margin-bottom: $layout-unit / 2;
+
+  a {
+
+    &:active,
+    &:focus {
+      border-bottom: 2px solid $color-ming;
+    }
+  }
 }
 
 .contact__form__label--checkbox {
@@ -55,10 +72,18 @@
   margin-bottom: $layout-unit * 2;
 }
 
-.contact__grid__item {
+.contact__grid__item--small {
+  @extend %s--six-twelfths;
+  @extend %m--six-twelfths;
+  @extend %l--four-twelfths;
+  @extend %push--l--two-twelfths;
+}
+
+.contact__grid__item--large {
   @extend %s--six-twelfths;
   @extend %m--six-twelfths;
   @extend %l--six-twelfths;
+  @extend %push--l--two-twelfths;
 }
 
 .contact__header {

@@ -1,7 +1,7 @@
 .button {
   color: $color-main;
   font-family: 'Montserrat';
-  font-size: 1rem;
+  font-size: inherit;
   font-weight: 500;
   letter-spacing: 1px;
   line-height: 1em;
@@ -10,5 +10,11 @@
   border: 2px solid $color-main;
   cursor: pointer;
   display: inline-block;
-  padding: ($layout-unit) ($layout-unit * 2.5) ($layout-unit / 2) ($layout-unit / 2)
+  padding: ($layout-unit) ($layout-unit * 2.5) ($layout-unit / 2) ($layout-unit / 2);
+
+  &:hover,
+  &:active {
+    color: $color-ming;
+    border-color: $color-ming;
+  }
 }
