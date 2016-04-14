@@ -1,36 +1,36 @@
 <section class="contact layout-container">
   <div class="contact__header">
     <div class="layout__grid">
-      <h2 class="contact__headline headline headline--2 layout__grid__item">{{ t.contact }}</h2>
+      <h2 class="contact__headline headline headline--2 layout__grid__item">{{t.contact.headline}}</h2>
     </div>
   </div>
   <div class="layout__grid">
     <div class="contact__address layout__grid__item contact__grid__item">
       <div class="socialmedia">
           <ul class="socialmedia__list">
-              <li class="socialmedia__list__item"><a href="https://twitter.com/GeilDanke" class="icon icon--twitter"></a></li>
-              <li class="socialmedia__list__item"><a href="https://www.facebook.com/geildanke" class="icon icon--facebook"></a></li>
-              <li class="socialmedia__list__item"><a href="https://www.google.com/+GeildankeBerlin" class="icon icon--googleplus"></a></li>
+              <li class="socialmedia__list__item"><a href="{{t.meta.socialmedia.twitter}}" class="icon icon--twitter"></a></li>
+              <li class="socialmedia__list__item"><a href="{{t.meta.socialmedia.facebook}}" class="icon icon--facebook"></a></li>
+              <li class="socialmedia__list__item"><a href="{{t.meta.socialmedia.googleplus}}" class="icon icon--googleplus"></a></li>
           </ul>
       </div>
       <div itemscope itemtype="http://schema.org/Organization" class="address">
-          <p itemprop="name">Geil,Danke! GmbH</p>
+          <p itemprop="name">{{t.meta.companyname}}</p>
           <div class="address__main" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-              <p itemprop="streetAddress">Fischerinsel 4</p>
-              <p><span itemprop="postalCode">10179</span> <span itemprop="addressLocality">Berlin, Germany</span></p>
+              <p itemprop="streetAddress">{{t.meta.address.street}}</p>
+              <p><span itemprop="postalCode">{{t.meta.address.zipcode}}</span> <span itemprop="addressLocality">{{t.meta.address.city}}</span></p>
           </div>
-          <a class="button contact__button" href="mailto:kontakt@geildanke.com?subject=Referer:%20{{ page.title }}">kontakt@geildanke.com</a>
+          <a class="button contact__button" href="{{t.meta.email.default.url}}">{{t.meta.email.default.label}}</a>
       </div>
     </div><!--
  --><div class="layout__grid__item contact__grid__item">
       <form class="contact__form">
-        <label class="contact__form__label" for="email">Your Email:</label>
-        <input class="contact__form__element contact__form__element--input" type="text" name="email" value="ben.solo@resistance.org">
-        <label class="contact__form__label" for="email">Your Message:</label>
-        <textarea class="contact__form__element contact__form__element--textarea" name="textarea" rows="10" cols="50">Write something here...</textarea>
+        <label class="contact__form__label" for="email">{{t.contact.form.email.label}}</label>
+        <input class="contact__form__element contact__form__element--input" type="text" name="email" value="{{t.contact.form.email.placeholder}}">
+        <label class="contact__form__label" for="email">{{t.contact.form.message.label}}</label>
+        <textarea class="contact__form__element contact__form__element--textarea" name="textarea" rows="10" cols="50">{{t.contact.form.message.placeholder}}</textarea>
         <input class="contact__form__element contact__form__element--checkbox" type="checkbox" name="privacy" required>
-        <label class="contact__form__label contact__form__label--checkbox" for="privacy" required>Ich bin mit der <a href="#">Datenschutzerklärung</a> einverstanden.</label>
-        <button class="button contact__form__button" type="submit">Send</button>
+        <label class="contact__form__label contact__form__label--checkbox" for="privacy" required>{{t.contact.form.privacy.label}}</label>
+        <button class="button contact__form__button" type="submit">{{t.contact.form.button.label}}</button>
       </form>
     </div>
   </div>

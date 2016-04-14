@@ -22,6 +22,23 @@
 			"slogan": {
 				"short": "A creative technology studio",
 				"long": "For You We Create Mobile-friendly Websites and Apps That Will Make Your Business a Success"
+			},
+			"companyname": "Geil,Danke! GmbH",
+			"address": {
+				"street": "Fischerinsel 4",
+				"zipcode": "10179",
+				"city": "Berlin, Germany"
+			},
+			"email": {
+				"default": {
+					"label": "kontakt@geildanke.com",
+					"url": "mailto:kontakt@geildanke.com"
+				}
+			},
+			"socialmedia": {
+				"facebook": "https://www.facebook.com/geildanke",
+				"googleplus": "https://www.google.com/+GeildankeBerlin",
+				"twitter": "https://twitter.com/GeilDanke"
 			}
 		},
 		"nav": {
@@ -35,7 +52,31 @@
 				"value": "Kontakt"
 			}
 		},
-		"contact": "Kontakt"
+		"cta": {
+			"headline": "Get the latest updates with our newsletter",
+			"copy": "Durch unseren professionellen Entwicklungsprozess und durch das Einhalten von im Web gültigen Standards sind auch Seiten mit hohen Ansprüchen an Optik und Verhalten möglich, ohne die Kompatibilität zu älteren Browsern wie Smartphones mit Android 2.3 oder Internet Explorer 9 einzuschränken.",
+			"button": "Subscribe"
+		},
+		"contact": {
+			"headline": "Kontakt",
+			"form": {
+				"email": {
+					"label": "Your Email:",
+					"placeholder": ""
+				},
+				"message": {
+					"label": "Your Message:",
+					"placeholder": ""
+				},
+				"privacy": {
+					"label": "Ich bin mit der <a href=\"#\">Datenschutzerklärung</a> einverstanden."
+				},
+				"button": {
+					"label": "Senden"
+				}
+			}
+		},
+		"imprint": "Impressum"
 	},
 	"en": {
 		"language": {
@@ -60,6 +101,23 @@
 			"slogan": {
 				"short": "A creative technology studio",
 				"long": "For You We Create Mobile-friendly Websites and Apps That Will Make Your Business a Success"
+			},
+			"companyname": "Geil,Danke! GmbH",
+			"address": {
+				"street": "Fischerinsel 4",
+				"zipcode": "10179",
+				"city": "Berlin, Germany"
+			},
+			"email": {
+				"default": {
+					"label": "kontakt@geildanke.com",
+					"url": "mailto:kontakt@geildanke.com"
+				}
+			},
+			"socialmedia": {
+				"facebook": "https://www.facebook.com/geildanke",
+				"googleplus": "https://www.google.com/+GeildankeBerlin",
+				"twitter": "https://twitter.com/GeilDanke"
 			}
 		},
 		"nav": {
@@ -73,6 +131,30 @@
 				"value": "Contact"
 			}
 		},
-		"contact": "Contact"
-	}
+		"cta": {
+			"headline": "Get the latest updates with our newsletter",
+			"copy": "Durch unseren professionellen Entwicklungsprozess und durch das Einhalten von im Web gültigen Standards sind auch Seiten mit hohen Ansprüchen an Optik und Verhalten möglich, ohne die Kompatibilität zu älteren Browsern wie Smartphones mit Android 2.3 oder Internet Explorer 9 einzuschränken.",
+			"button": "Subscribe"
+		},
+		"contact": {
+			"headline": "Contact",
+			"form": {
+				"email": {
+					"label": "Your Email:",
+					"placeholder": ""
+				},
+				"message": {
+					"label": "Your Message:",
+					"placeholder": ""
+				},
+				"privacy": {
+					"label": "Ich bin mit der <a href=\"#\">Datenschutzerklärung</a> einverstanden."
+				},
+				"button": {
+					"label": "Send"
+				}
+			}
+		}
+	},
+	"imprint": "Imprint"
 }
