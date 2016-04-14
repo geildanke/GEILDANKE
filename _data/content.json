@@ -34,7 +34,8 @@
 			"contact": {
 				"value": "Kontakt"
 			}
-		}
+		},
+		"contact": "Kontakt"
 	},
 	"en": {
 		"language": {
@@ -71,6 +72,7 @@
 			"contact": {
 				"value": "Contact"
 			}
-		}
+		},
+		"contact": "Contact"
 	}
 }

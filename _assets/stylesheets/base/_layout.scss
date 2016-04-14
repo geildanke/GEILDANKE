@@ -26,10 +26,7 @@ $layout-unit: 20px;
 
 .layout__grid__item--onehalf {
   @extend %xs--six-twelfths;
-
   @extend %s--six-twelfths;
-
   @extend %m--six-twelfths;
-
   @extend %l--six-twelfths;
 }
