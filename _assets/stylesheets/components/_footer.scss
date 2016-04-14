@@ -1,0 +1,18 @@
+.footer {
+  text-align: right;
+
+  border-top: 1px solid $color-black;
+  border-bottom: $layout-unit solid $color-black;
+  padding: ($layout-unit) 0;
+}
+
+.footer__link {
+  color: $color-black;
+}
+
+.footer__list {}
+
+.footer__list__item {
+  display: inline-block;
+  margin-left: $layout-unit / 2;
+}
