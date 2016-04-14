@@ -36,6 +36,10 @@
   width: 100%;
 }
 
+.contact__form__element--checkbox {
+  width: auto;
+}
+
 .contact__form__label {
   @extend .typo-label;
   @extend .typo-small;
@@ -44,6 +48,11 @@
 
   display: block;
   margin-bottom: $layout-unit / 2;
+}
+
+.contact__form__label--checkbox {
+  display: inline-block;
+  margin-bottom: $layout-unit * 2;
 }
 
 .contact__grid__item {
