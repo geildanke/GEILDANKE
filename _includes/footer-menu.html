@@ -1,17 +1,25 @@
 <div class="footer">
-  <div class="layout-container">
-    <div class="layout__grid">
-      {% for footerlist in site.footerlists %}
-        {% if footerlist.lang == page.lang %}
-        <div class="footer__grid__item footer__grid__item--{{forloop.index0}} layout__grid__item">
-          <ul class="footer__list">
-            {% for bulletpoint in footerlist.bulletpoints %}
-            <li class="footer__list__item footer__list__item--img typo-smaller typo-label">{{ bulletpoint }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-        {% endif %}
-      {% endfor %}
+  <div class="footer__slogan">
+    <ul class="footer__list">
+      <li class="footer__list__item"><a class="footer__logo" href="https://geildanke.com"></a></li>
+      <li class="footer__list__item">Proudly published by<br><a href="https://geildanke.com" title="Michaela Lehr">Michaela Lehr</a> and Richard Brammer.</li>
+    </ul>
+  </div>
+  <div class="footer__links">
+    <div class="layout-container">
+      <div class="layout__grid">
+        {% for footerlist in site.footerlists %}
+          {% if footerlist.lang == page.lang %}
+          <div class="footer__grid__item footer__grid__item--{{forloop.index0}} layout__grid__item">
+            <ul class="footer__list">
+              {% for bulletpoint in footerlist.bulletpoints %}
+              <li class="footer__list__item footer__list__item--img typo-smaller typo-label">{{ bulletpoint }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>

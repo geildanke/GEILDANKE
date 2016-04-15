@@ -1,11 +1,8 @@
 .footer {
-  color: $color-gray;
-
-  background-color: $color-black;
-  padding: ($layout-unit * 3) 0 ($layout-unit * 2) 0;
 
   a {
     color: $color-gray;
+    text-decoration: underline;
   }
 }
 
@@ -17,13 +14,10 @@
 }
 
 .footer__grid__item--1 {
-
-  @media screen and (min-width: $mq-xs) {
-    text-align: center;
-  }
-}
-
-.footer__grid__item--2 {
+  @extend %push--xs--four-twelfths;
+  @extend %push--s--four-twelfths;
+  @extend %push--m--four-twelfths;
+  @extend %push--l--four-twelfths;
 
   @media screen and (min-width: $mq-xs) {
     text-align: right;
@@ -34,9 +28,45 @@
   color: $color-black;
 }
 
+.footer__links {
+  color: $color-gray;
+
+  background-color: $color-black;
+  padding: ($layout-unit * 3) 0 ($layout-unit * 2) 0;
+}
+
 .footer__list {}
 
 .footer__list__item {
   display: block;
   margin-bottom: $layout-unit;
+}
+
+.footer__logo {
+  font-family: 'Icons' !important;
+  font-size: $layout-unit * 2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  speak: none;
+  text-decoration: none !important;
+  text-transform: none;
+
+  &::before {
+    content: "\e900";
+  }
+}
+
+.footer__slogan {
+  @extend .typo-small;
+  @extend .typo-label;
+
+  text-align: center;
+  color: $color-gray;
+
+  background-color: $color-black;
+  padding: ($layout-unit * 3) $layout-unit ($layout-unit * 2) $layout-unit;
 }
