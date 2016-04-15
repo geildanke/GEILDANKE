@@ -14,6 +14,7 @@ markdown: kramdown
 collections:
   corecompetences:
     output: true
+  footerlists:
   lists:
   projecttiles:
   projects:

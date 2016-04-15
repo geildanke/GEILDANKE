@@ -87,6 +87,7 @@
 }
 
 .contact__header {
+  border-top: $layout-unit solid $color-black;
   border-bottom: 1px solid $color-black;
   padding-top: $layout-unit * 3;
   padding-bottom: $layout-unit;

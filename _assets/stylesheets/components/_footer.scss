@@ -1,9 +1,28 @@
 .footer {
-  text-align: right;
+  color: $color-gray;
 
-  border-top: 1px solid $color-black;
-  border-bottom: $layout-unit solid $color-black;
-  padding: ($layout-unit) 0;
+  background-color: $color-black;
+  padding: ($layout-unit * 3) 0 ($layout-unit * 2) 0;
+
+  a {
+    color: $color-gray;
+  }
+}
+
+.footer__grid__item--0 {
+  @extend %four-twelfths;
+}
+
+.footer__grid__item--1 {
+  @extend %four-twelfths;
+  @extend %push--one-twelfth;
+}
+
+.footer__grid__item--2 {
+  @extend %two-twelfths;
+  @extend %push--two-twelfths;
+
+  text-align: right;
 }
 
 .footer__link {
@@ -13,6 +32,6 @@
 .footer__list {}
 
 .footer__list__item {
-  display: inline-block;
-  margin-left: $layout-unit / 2;
+  display: block;
+  margin-bottom: $layout-unit;
 }
