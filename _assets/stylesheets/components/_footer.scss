@@ -9,19 +9,15 @@
   }
 }
 
-.footer__grid__item--0 {
+.footer__grid__item {
   @extend %four-twelfths;
 }
 
 .footer__grid__item--1 {
-  @extend %four-twelfths;
-  @extend %push--one-twelfth;
+  text-align: center;
 }
 
 .footer__grid__item--2 {
-  @extend %two-twelfths;
-  @extend %push--two-twelfths;
-
   text-align: right;
 }
 
