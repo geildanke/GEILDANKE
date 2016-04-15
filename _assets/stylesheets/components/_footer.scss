@@ -10,15 +10,24 @@
 }
 
 .footer__grid__item {
-  @extend %four-twelfths;
+  @extend %xs--four-twelfths;
+  @extend %s--four-twelfths;
+  @extend %m--four-twelfths;
+  @extend %l--four-twelfths;
 }
 
 .footer__grid__item--1 {
-  text-align: center;
+
+  @media screen and (min-width: $mq-xs) {
+    text-align: center;
+  }
 }
 
 .footer__grid__item--2 {
-  text-align: right;
+
+  @media screen and (min-width: $mq-xs) {
+    text-align: right;
+  }
 }
 
 .footer__link {
