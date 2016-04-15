@@ -3,6 +3,11 @@
   a {
     color: $color-gray;
     text-decoration: underline;
+
+    &:active,
+    &:hover {
+      color: $color-gulf-stream;
+    }
   }
 }
 
