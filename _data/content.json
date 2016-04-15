@@ -21,7 +21,7 @@
 		"meta": {
 			"slogan": {
 				"short": "A creative technology studio",
-				"long": "For You We Create Mobile-friendly Websites and Apps That Will Make Your Business a Success"
+				"long": "Für Sie entwickeln wir responsive Webseiten und Apps, die Ihr Business erfolgreich machen."
 			},
 			"companyname": "Geil,Danke! GmbH",
 			"address": {
@@ -31,8 +31,8 @@
 			},
 			"email": {
 				"default": {
-					"label": "kontakt@geildanke.com",
-					"url": "mailto:kontakt@geildanke.com"
+					"label": "hallo@geildanke.com",
+					"url": "mailto:hallo@geildanke.com"
 				}
 			},
 			"socialmedia": {
@@ -53,20 +53,20 @@
 			}
 		},
 		"cta": {
-			"headline": "Get the latest updates with our newsletter",
-			"copy": "Durch unseren professionellen Entwicklungsprozess und durch das Einhalten von im Web gültigen Standards sind auch Seiten mit hohen Ansprüchen an Optik und Verhalten möglich, ohne die Kompatibilität zu älteren Browsern wie Smartphones mit Android 2.3 oder Internet Explorer 9 einzuschränken.",
-			"button": "Subscribe"
+			"headline": "Werfen Sie einen Blick in unser Blog",
+			"copy": "Interessieren Sie sich für digitales Publizieren mit Web-Technologien, AngularJS, Blockchain oder die neuesten Entwicklungen von Geil,Danke!? Vielleicht finden Sie im unserem Unternehmensblog Artikel, die Sie interessieren.",
+			"button": "Zum Blog"
 		},
 		"contact": {
 			"headline": "Kontakt",
 			"form": {
 				"email": {
-					"label": "Your Email:",
-					"placeholder": ""
+					"label": "Ihre Email-Adresse:",
+					"placeholder": "hallo@geildanke.com"
 				},
 				"message": {
-					"label": "Your Message:",
-					"placeholder": ""
+					"label": "Ihre Nachricht:",
+					"placeholder": "Geben Sie hier Ihre Nachricht an uns ein..."
 				},
 				"privacy": {
 					"label": "Ich bin mit der <a href=\"#\">Datenschutzerklärung</a> einverstanden."
@@ -110,8 +110,8 @@
 			},
 			"email": {
 				"default": {
-					"label": "kontakt@geildanke.com",
-					"url": "mailto:kontakt@geildanke.com"
+					"label": "hello@geildanke.com",
+					"url": "mailto:hello@geildanke.com"
 				}
 			},
 			"socialmedia": {
@@ -132,23 +132,23 @@
 			}
 		},
 		"cta": {
-			"headline": "Get the latest updates with our newsletter",
-			"copy": "Durch unseren professionellen Entwicklungsprozess und durch das Einhalten von im Web gültigen Standards sind auch Seiten mit hohen Ansprüchen an Optik und Verhalten möglich, ohne die Kompatibilität zu älteren Browsern wie Smartphones mit Android 2.3 oder Internet Explorer 9 einzuschränken.",
-			"button": "Subscribe"
+			"headline": "Take a Look at Our Blog",
+			"copy": "Are you interested in digital publishing with web technologies, AngularJS, Blockchain or news about our company? Then our blog might be interesting for you.",
+			"button": "Take the blog"
 		},
 		"contact": {
 			"headline": "Contact",
 			"form": {
 				"email": {
 					"label": "Your Email:",
-					"placeholder": ""
+					"placeholder": "hello@geildanke.com"
 				},
 				"message": {
 					"label": "Your Message:",
-					"placeholder": ""
+					"placeholder": "Your message here..."
 				},
 				"privacy": {
-					"label": "Ich bin mit der <a href=\"#\">Datenschutzerklärung</a> einverstanden."
+					"label": "I accept the <a href=\"#\">privacy policy</a>."
 				},
 				"button": {
 					"label": "Send"
