@@ -2,3 +2,9 @@
   from { opacity: 0; }
   to   { opacity: 1; }
 }
+
+@keyframes rotate {
+  from { transform: rotateZ(9deg); }
+  50% { transform: rotateZ(11deg)}
+  to   { transform: rotateZ(9deg); }
+}
