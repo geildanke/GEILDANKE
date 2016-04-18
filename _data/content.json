@@ -36,6 +36,8 @@
 				}
 			},
 			"socialmedia": {
+				"appstore": "https://itunes.apple.com/us/developer/geil-danke!-gmbh/id438669892",
+				"playstore": "https://play.google.com/store/apps/dev?id=7392305221979596210&hl=en",
 				"facebook": "https://www.facebook.com/geildanke",
 				"googleplus": "https://www.google.com/+GeildankeBerlin",
 				"twitter": "https://twitter.com/GeilDanke"
@@ -115,6 +117,8 @@
 				}
 			},
 			"socialmedia": {
+				"appstore": "https://itunes.apple.com/us/developer/geil-danke!-gmbh/id438669892",
+				"playstore": "https://play.google.com/store/apps/dev?id=7392305221979596210&hl=en",
 				"facebook": "https://www.facebook.com/geildanke",
 				"googleplus": "https://www.google.com/+GeildankeBerlin",
 				"twitter": "https://twitter.com/GeilDanke"
