@@ -25,6 +25,14 @@ layout: compress
       {% endif %}
     {% endfor %}
 
+    {% for cta in site.ctas %}
+      {% if cta.lang == page.lang %}
+        {% if cta == site.ctas[2] %}
+          {% include cta.html %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
     {% for corecompetence in site.corecompetences %}
       {% if corecompetence.lang == page.lang %}
         {% if corecompetence.images == 3 %}
@@ -40,6 +48,14 @@ layout: compress
       {% if list.lang == page.lang %}
         {% if list == site.lists[1] %}
           {% include leadlist.html %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% for cta in site.ctas %}
+      {% if cta.lang == page.lang %}
+        {% if cta == site.ctas[0] %}
+          {% include cta.html %}
         {% endif %}
       {% endif %}
     {% endfor %}

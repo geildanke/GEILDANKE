@@ -54,11 +54,6 @@
 				"value": "Kontakt"
 			}
 		},
-		"cta": {
-			"headline": "Werfen Sie einen Blick in unser Blog",
-			"copy": "Interessieren Sie sich für digitales Publizieren mit Web-Technologien, AngularJS, Blockchain oder die neuesten Entwicklungen von Geil,Danke!? Vielleicht finden Sie im unserem Unternehmensblog Artikel, die Sie interessieren.",
-			"button": "Zum Blog"
-		},
 		"contact": {
 			"headline": "Kontakt",
 			"form": {
@@ -134,11 +129,6 @@
 			"contact": {
 				"value": "Contact"
 			}
-		},
-		"cta": {
-			"headline": "Take a Look at Our Blog",
-			"copy": "Are you interested in digital publishing with web technologies, AngularJS, Blockchain or news about our company? Then our blog might be interesting for you.",
-			"button": "Take the blog"
 		},
 		"contact": {
 			"headline": "Contact",
