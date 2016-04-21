@@ -1,0 +1,17 @@
+.pattern {
+  position: relative;
+
+  &::before {
+    background-color: $color-gulf-stream-alpha;
+    border-bottom: ($layout-unit * 2) solid $color-tacha-alpha;
+    content: '';
+    position: absolute;
+    top: -($layout-unit * 4);
+    left: -25%;
+    width: 150%;
+    height: 400px;
+    transform: rotateZ(-3deg);
+  }
+}
+
+.pattern--about {}
