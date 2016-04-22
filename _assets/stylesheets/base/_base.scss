@@ -1,12 +1,16 @@
 html,
 body {
-  background-color: $color-gray-light;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
 html {
+  background-color: $color-black;
   border-top: $layout-unit solid $color-black;
+}
+
+body {
+  background-color: $color-gray-light;
 }
 
 button,

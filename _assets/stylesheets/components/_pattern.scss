@@ -2,8 +2,8 @@
   position: relative;
 
   &::before {
-    background-color: $color-gulf-stream-alpha;
-    border-bottom: ($layout-unit * 2) solid $color-tacha-alpha;
+    background-color: lighten($color-gulf-stream-alpha, 10);
+    border-bottom: ($layout-unit * 2) solid lighten($color-smoky-alpha, 40);
     content: '';
     position: absolute;
     top: -($layout-unit * 4);

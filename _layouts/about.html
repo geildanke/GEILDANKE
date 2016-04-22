@@ -12,6 +12,14 @@
     {% include pattern-about.html %}
     {% include header-default.html %}
     {% include hero-about.html %}
+
+    {% for cta in site.ctas %}
+      {% if cta.lang == page.lang %}
+        {% if cta == site.ctas[2] %}
+          {% include cta.html %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
   </body>
 
 </html>
