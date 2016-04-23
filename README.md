@@ -1,5 +1,5 @@
 # GEILDANKE
-Jekyll version of geildanke.com
+Jekyll version of https://geildanke.com
 
 [![Code Climate](https://codeclimate.com/github/geildanke/GEILDANKE/badges/gpa.svg)](https://codeclimate.com/github/geildanke/GEILDANKE)
 
