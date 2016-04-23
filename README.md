@@ -18,7 +18,4 @@ Jekyll version of https://geildanke.com
 
 ## Deployment
 
-Create a `_glynn.yml` from the template `_glynn.yml_template` and update the data according to your host.
-Glynn will build the site and uplkoad it to the given directory.
-
-`$ glynn`
+Continuous deployment is provided executed using codeship.io.
