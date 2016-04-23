@@ -18,4 +18,11 @@ Jekyll version of https://geildanke.com
 
 ## Deployment
 
-Continuous deployment is provided executed using codeship.io.
+Continuous deployment is provided executed using codeship.io
+
+### gitflow Branch targets:
+
+master      https://geildanke.com           (planned)
+develop     https://develop.geildanke.com
+release/*   https://release.geildanke.com   (planned)
+hotfix/*    https://release.geildanke.com   (planned)
