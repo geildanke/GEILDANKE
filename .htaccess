@@ -987,9 +987,13 @@ FileETag None
 # | Redirects                                                                  |
 # ------------------------------------------------------------------------------
 
-RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /
+    RewriteCond %{REQUEST_URI} !(.*)GEILDANKE
+    RewriteRule ^(.*)$ GEILDANKE/$1 [L]
+</IfModule>
 
 
 Redirect 301 /2011/09/rolling-stone-deutschland/ https://geildanke.com/de/projekt/rolling-stone-deutschland-ipad-zeitungskiosk.html
