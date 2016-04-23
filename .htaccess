@@ -992,14 +992,16 @@ FileETag None
     RewriteEngine on
     RewriteBase /
 
+    # geildanke.com/curated-blockchain-news is geildanke.com/BLOCKCHAIN
     RewriteCond %{REQUEST_URI} (.*)curated-blockchain-news(.*) [NC]
-    RewriteRule ^curated-blockchain-news/(.*)$ BLOCKCHAIN/$1 [QSA,L]
+    RewriteRule ^curated-blockchain-news(.*)$ BLOCKCHAIN/$1 [QSA,L]
 
     # Do not further rewrite already rewritten URLs
     RewriteCond %{REQUEST_URI} (.*)BLOCKCHAIN(.*) [NC]
     RewriteRule ^.*$ - [QSA,L]
 
     # rewrite non catched base URLs to GEILDANKE
+    # geildanke.com is geildanke.com/GEILDANKE
     RewriteCond %{REQUEST_URI} !(.*)GEILDANKE [NC]
     RewriteRule ^(.*)$ GEILDANKE/$1 [QSA,L]
 
