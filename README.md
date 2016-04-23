@@ -1,3 +1,11 @@
+<!--
+@Author: Richard Brammer <richardbrammer>
+@Date:   2015-06-16T01:29:41+02:00
+@Email:  richard.brammer@geildanke.com
+@Last modified by:   richardbrammer
+@Last modified time: 2016-04-23T14:57:50+02:00
+-->
+
 # GEILDANKE
 Jekyll version of https://geildanke.com
 
@@ -26,3 +34,5 @@ master      https://geildanke.com           (planned)
 develop     https://develop.geildanke.com
 release/*   https://release.geildanke.com   (planned)
 hotfix/*    https://release.geildanke.com   (planned)
+
+### Last Change
