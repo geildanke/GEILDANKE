@@ -1,0 +1,90 @@
+.whoweare__article {
+  @extend .layout__grid__item;
+  @extend %six-twelfths;
+}
+
+.whoweare__copy {
+  padding-bottom: $layout-unit * 2;
+}
+
+.whoweare__figure {
+  position: relative;
+  margin-bottom: $layout-unit;
+}
+
+.whoweare__figure__caption {
+  @extend .typo-bold;
+  @extend .typo-label;
+
+  color: $color-white;
+  text-align: right;
+  text-shadow: 1px 1px 0 $color-black,
+               2px 2px 0 $color-black,
+               3px 3px 0 $color-black,
+               4px 4px 0 $color-black;
+
+  position: absolute;
+  left: $layout-unit;
+  right: $layout-unit;
+  bottom: $layout-unit;
+}
+
+.whoweare__figure__image {
+  width: 100%;
+}
+
+.whoweare__grid {
+  @extend .layout__grid;
+}
+
+.whoweare__list__item {
+  margin-bottom: $layout-unit / 3;
+}
+
+.whoweare__list__item--term {
+  @extend .typo-label;
+
+  color: $color-white;
+  font-size: 12px;
+  line-height: 1em;
+  text-transform: uppercase;
+
+  border-radius: $layout-unit / 6;
+  display: inline-block;
+  margin-top: $layout-unit;
+  padding: ($layout-unit / 4) $layout-unit ($layout-unit / 5) $layout-unit;
+}
+
+.whoweare__list__item--articles {
+  background-color: $color-gulf-stream;
+}
+
+.whoweare__list__item--books {
+  background-color: $color-smoky;
+}
+
+.whoweare__list__item--newsletter {
+  background-color: $color-froly;
+}
+
+.whoweare__list__item--talks {
+  background-color: $color-hopbush;
+}
+
+.whoweare__list__link {
+  color: $color-black;
+}
+
+.whoweare__title-container {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+
+  padding-top: $layout-unit * 4;
+  padding-bottom: $layout-unit * 2;
+}
+
+.whoweare__title {
+  @extend .headline;
+  @extend .typo-bold;
+  @extend .headline--1;
+}

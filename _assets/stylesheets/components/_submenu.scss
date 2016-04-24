@@ -1,9 +1,5 @@
 .submenu {
-  @extend .layout__grid;
-
-  border-bottom: ($layout-unit / 2) solid $color-black;
   margin-bottom: $layout-unit;
-  padding-bottom: $layout-unit;
 }
 
 .submenu__container {
@@ -14,6 +10,11 @@
   @extend .typo-small;
 
   border-top: 1px solid $color-black;
+}
+
+.submenu__grid {
+  border-bottom: ($layout-unit / 2) solid $color-black;
+  padding-bottom: $layout-unit;
 }
 
 .submenu__label {
