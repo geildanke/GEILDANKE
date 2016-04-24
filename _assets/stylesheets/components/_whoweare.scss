@@ -1,6 +1,9 @@
 .whoweare__article {
   @extend .layout__grid__item;
-  @extend %six-twelfths;
+  @extend %xs--six-twelfths;
+  @extend %s--six-twelfths;
+  @extend %m--six-twelfths;
+  @extend %l--six-twelfths;
 }
 
 .whoweare__copy {
@@ -56,23 +59,71 @@
 }
 
 .whoweare__list__item--articles {
-  background-color: $color-gulf-stream;
-}
-
-.whoweare__list__item--books {
-  background-color: $color-smoky;
-}
-
-.whoweare__list__item--newsletter {
   background-color: $color-froly;
 }
 
-.whoweare__list__item--talks {
+.whoweare__list__item--books {
+  background-color: $color-ming;
+}
+
+.whoweare__list__item--newsletter {
   background-color: $color-hopbush;
+}
+
+.whoweare__list__item--talks {
+  background-color: $color-smoky;
 }
 
 .whoweare__list__link {
   color: $color-black;
+}
+
+.whoweare__socialmedialist {
+  padding-top: $layout-unit * 3;
+  padding-bottom: $layout-unit * 3;
+}
+
+.whoweare__socialmedialist__item {
+  display: inline-block;
+  margin-right: $layout-unit / 2;
+  width: $layout-unit * 2;
+  height: $layout-unit * 2;
+}
+
+.whoweare__socialmedialist__icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.whoweare__socialmedialist__icon--facebook {
+  background-image: url('../images/icons/1452621019_facebook.svg');
+}
+
+.whoweare__socialmedialist__icon--twitter {
+  background-image: url('../images/icons/1452621077_twitter.svg');
+}
+
+.whoweare__socialmedialist__icon--xing {
+  background-image: url('../images/icons/1452621155_xing.svg');
+}
+
+.whoweare__socialmedialist__icon--stackoverflow {
+  background-image: url('../images/icons/1452621213_overflow.svg');
+}
+
+.whoweare__socialmedialist__icon--dribbble {
+  background-image: url('../images/icons/1452621217_dribbble.svg');
+}
+
+.whoweare__socialmedialist__icon--github {
+  background-image: url('../images/icons/1452621259_github.svg');
+}
+
+.whoweare__socialmedialist__icon--instagram {
+  background-image: url('../images/icons/1452621085_instagram.svg');
 }
 
 .whoweare__title-container {
