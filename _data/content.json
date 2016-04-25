@@ -75,6 +75,9 @@
 		},
 		"imprint": "Impressum",
 		"about": {
+			"submenu": {
+				"label": "Read more about:"
+			},
 			"headline": "We are an agile creative technology studio",
 			"copy": "GeilDanke is a creative technology studio. We're specialized in effective and innovative web development with a focus on <span class=\"typo-bold\">performance</span>, <span class=\"typo-bold\">usability</span> and <span class=\"typo-bold\">content</span>. Our projects are always <span class=\"typo-bold\">mobile-friendly</span>, our solutions elegant and simple. Because we believe in web technology and a web for everybody. <span class=\"typo-bold\">Reliability</span> and maintainability is an inherent part of our working ethics. That's why we have <span class=\"typo-bold\">agile</span> workflows and a <span class=\"typo-bold\">test-driven</span> development process. Working remotely means that we can work with the best experts from anywhere.",
 			"whoweare": {
@@ -425,6 +428,9 @@
 			},
 		"imprint": "Imprint",
 		"about": {
+				"submenu": {
+					"label": "Read more about:"
+				},
 				"headline": "We are an agile creative technology studio",
 				"copy": "GeilDanke is a creative technology studio. We're specialized in effective and innovative web development with a focus on <span class=\"typo-bold\">performance</span>, <span class=\"typo-bold\">usability</span> and <span class=\"typo-bold\">content</span>. Our projects are always <span class=\"typo-bold\">mobile-friendly</span>, our solutions elegant and simple. Because we believe in web technology and a web for everybody. <span class=\"typo-bold\">Reliability</span> and maintainability is an inherent part of our working ethics. That's why we have <span class=\"typo-bold\">agile</span> workflows and a <span class=\"typo-bold\">test-driven</span> development process. Working remotely means that we can work with the best experts from anywhere.",
 				"whoweare": {
