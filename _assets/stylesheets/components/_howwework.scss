@@ -1,0 +1,67 @@
+.howwework {
+  padding-bottom: $layout-unit * 2;
+}
+
+.howwework__article {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+
+  border-top: 1px solid $color-white;
+  margin-top: $layout-unit * 2;
+  padding-top: $layout-unit * 2;
+}
+
+.howwework__article__column {
+  vertical-align: top;
+
+  display: inline-block;
+}
+
+.howwework__article__column--1 {
+  @extend %s--two-tenths;
+  @extend %m--two-tenths;
+  @extend %l--two-tenths;
+}
+
+.howwework__article__column--2,
+.howwework__article__column--3 {
+  @extend %s--four-tenths;
+  @extend %m--four-tenths;
+  @extend %l--four-tenths;
+}
+
+.howwework__article__copy {
+  padding-top: $layout-unit;
+
+  @media screen and (min-width: $mq-s) {
+    padding-top: 0;
+    padding-left: $layout-unit / 2;
+    padding-right: $layout-unit / 2;
+  }
+}
+
+.howwework__article__headline--mindset {
+  @include colortag($color-smoky);
+}
+
+.howwework__article__headline--process {
+  @include colortag($color-hopbush);
+}
+
+.howwework__article__headline--service {
+  @include colortag($color-froly);
+}
+
+.howwework__title {
+  @extend .headline;
+  @extend .typo-bold;
+  @extend .headline--1;
+}
+
+.howwework__title-container {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+
+  padding-top: $layout-unit * 4;
+  padding-bottom: $layout-unit * 2;
+}

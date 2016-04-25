@@ -5,5 +5,20 @@ $geildanke-easing: cubic-bezier(0.62, 0.28, 0.23, 0.99);
   background: -moz-linear-gradient(45deg, $color-1 0%, $color-2 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg, $color-1 0%,$color-2 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg, $color-1 0%,$color-2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-1', endColorstr='$color-2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */  
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-1', endColorstr='$color-2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+@mixin colortag ($color) {
+  @extend .typo-label;
+
+  color: $color-white;
+  font-size: 12px;
+  line-height: 1em;
+  text-transform: uppercase;
+
+  background-color: $color;
+  border-radius: $layout-unit / 6;
+  display: inline-block;
+  margin-top: $layout-unit;
+  padding: ($layout-unit / 4) $layout-unit ($layout-unit / 5) $layout-unit;
 }

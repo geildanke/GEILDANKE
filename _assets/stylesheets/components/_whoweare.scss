@@ -44,34 +44,20 @@
   margin-bottom: $layout-unit / 3;
 }
 
-.whoweare__list__item--term {
-  @extend .typo-label;
-
-  color: $color-white;
-  font-size: 12px;
-  line-height: 1em;
-  text-transform: uppercase;
-
-  border-radius: $layout-unit / 6;
-  display: inline-block;
-  margin-top: $layout-unit;
-  padding: ($layout-unit / 4) $layout-unit ($layout-unit / 5) $layout-unit;
-}
-
 .whoweare__list__item--articles {
-  background-color: $color-froly;
+  @include colortag($color-froly);
 }
 
 .whoweare__list__item--books {
-  background-color: $color-ming;
+  @include colortag($color-ming);
 }
 
 .whoweare__list__item--newsletter {
-  background-color: $color-hopbush;
+  @include colortag($color-hopbush);
 }
 
 .whoweare__list__item--talks {
-  background-color: $color-smoky;
+  @include colortag($color-smoky);
 }
 
 .whoweare__list__link {

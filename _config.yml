@@ -21,6 +21,7 @@ collections:
   projects:
     output: true
   products:
+  services:
 
 sass:
   sass_dir: _assets/stylesheets

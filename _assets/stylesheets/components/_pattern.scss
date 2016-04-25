@@ -1,5 +1,8 @@
 .pattern {
   position: relative;
+}
+
+.pattern--about {
 
   &::before {
     background-color: lighten($color-gulf-stream-alpha, 10);
@@ -10,8 +13,41 @@
     left: -25%;
     width: 150%;
     height: 400px;
+
     transform: rotateZ(-3deg);
   }
 }
 
-.pattern--about {}
+.pattern--flower {
+
+  &::before {
+    background-image: url('../images/pattern-flower.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: contain;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 600%;
+    height: 1600px;
+
+    transform: translateX(-50%);
+  }
+
+  @media screen and (min-width: $mq-xs) {
+
+    &::before {
+      width: 380%;
+      height: 1500px;
+    }
+  }
+
+  @media screen and (min-width: $mq-s) {
+
+    &::before {
+      width: 150%;
+    }
+  }
+}
