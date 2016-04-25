@@ -305,6 +305,48 @@
 					}
 				],
 				"footnote": "* Wir können auch Web Components, WebGL, Canvas — SCSS, LESS — jQuery, Bootstrap — React — XML, MySQL, PostgreSQL — PHP, Wordpress, CodeIgniter — Python, Django — Brokoli, Angular CLI — Jenkins, TeamCity — Unity, UnityScript, C# — Solidity — Encryption"
+			},
+			"whatmatters": {
+				"headline": "What matters to us",
+				"copy": "Die Umwelt und alle Lebewesen liegen uns am Herzen. Dies spiegelt sich natürlich auch in unserem Unternehmen wieder.",
+				"items": [
+					{
+						"value": "Wir arbeiten ausschließlich mit Naturstrom."
+					},
+					{
+						"value": "Unsere Rechner sind refurbished (Gebrauchtgeräte) von Apple."
+					},
+					{
+						"value": "Alte Geräte verkaufen wir weiter oder recyclen sie."
+					},
+					{
+						"value": "Wir schreiben nachhaltigen Code, der die Batterien der Geräte schont."
+					},
+					{
+						"value": "Wir achten auf Datenschutz, Datensicherung und die Verschlüsselung mit SSL."
+					},
+					{
+						"value": "Soweit wie möglich unterstützen wir lokale Geschäfte und verzichten auf den Kauf bei Amazon."
+					},
+					{
+						"value": "Am liebsten reisen wir mit der BahnCard und Ökostrom. "
+					},
+					{
+						"value": "Wenn sich Flugreisen nicht vermeiden lassen, achten wir auf den CO2-Ausgleich."
+					},
+					{
+						"value": "Wir versuchen immer ohne Papier zu arbeiten und so wenig wie möglich zu drucken."
+					},
+					{
+						"value": "Bücher konsumieren wir hauptsächlich papierlos."
+					},
+					{
+						"value": "Sowohl privat als auch beruflich sind wir Minimalisten und besitzen wir kein Auto."
+					},
+					{
+						"value": "Wann immer möglich ernähren wir uns pflanzlich."
+					}
+				]
 			}
 		}
 	},
@@ -613,6 +655,48 @@
 						}
 					],
 					"footnote": "* Wir können auch Web Components, WebGL, Canvas — SCSS, LESS — jQuery, Bootstrap — React — XML, MySQL, PostgreSQL — PHP, Wordpress, CodeIgniter — Python, Django — Brokoli, Angular CLI — Jenkins, TeamCity — Unity, UnityScript, C# — Solidity — Encryption"
+				},
+				"whatmatters": {
+					"headline": "What matters to us",
+					"copy": "Die Umwelt und alle Lebewesen liegen uns am Herzen. Dies spiegelt sich natürlich auch in unserem Unternehmen wieder.",
+					"items": [
+						{
+							"value": "Wir arbeiten ausschließlich mit Naturstrom."
+						},
+						{
+							"value": "Unsere Rechner sind refurbished (Gebrauchtgeräte) von Apple."
+						},
+						{
+							"value": "Alte Geräte verkaufen wir weiter oder recyclen sie."
+						},
+						{
+							"value": "Wir schreiben nachhaltigen Code, der die Batterien der Geräte schont."
+						},
+						{
+							"value": "Wir achten auf Datenschutz, Datensicherung und die Verschlüsselung mit SSL."
+						},
+						{
+							"value": "Soweit wie möglich unterstützen wir lokale Geschäfte und verzichten auf den Kauf bei Amazon."
+						},
+						{
+							"value": "Am liebsten reisen wir mit der BahnCard und Ökostrom. "
+						},
+						{
+							"value": "Wenn sich Flugreisen nicht vermeiden lassen, achten wir auf den CO2-Ausgleich."
+						},
+						{
+							"value": "Wir versuchen immer ohne Papier zu arbeiten und so wenig wie möglich zu drucken."
+						},
+						{
+							"value": "Bücher konsumieren wir hauptsächlich papierlos."
+						},
+						{
+							"value": "Sowohl privat als auch beruflich sind wir Minimalisten und besitzen wir kein Auto."
+						},
+						{
+							"value": "Wann immer möglich ernähren wir uns pflanzlich."
+						}
+					]
 				}
 			}
 		}

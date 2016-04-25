@@ -78,26 +78,7 @@
 }
 
 .leadlist__list__item {
-  list-style: none;
+  @include list-dots();
 
   margin-bottom: $layout-unit / 2;
-  position: relative;
-
-  &:before {
-    color: $color-main;
-    font-family: 'Icons' !important;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    speak: none;
-    text-transform: none;
-
-    content: '\e061';
-    position: absolute;
-    left: -2em;
-    top: 2px;
-  }
 }

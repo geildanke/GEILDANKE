@@ -21,3 +21,38 @@ $geildanke-easing: cubic-bezier(0.62, 0.28, 0.23, 0.99);
   display: inline-block;
   padding: ($layout-unit / 4) $layout-unit ($layout-unit / 5) $layout-unit;
 }
+
+@mixin list-dots () {
+  list-style: none;
+
+  position: relative;
+
+  &:before {
+    color: $color-main;
+    font-family: 'Icons' !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    speak: none;
+    text-transform: none;
+
+    content: '\e061';
+    position: absolute;
+    left: -2em;
+    top: 2px;
+  }
+}
+
+@mixin list-stroke () {
+  list-style: none;
+
+  position: relative;
+
+  &::before {
+    content: '—';
+    margin-right: $layout-unit / 2;
+  }
+}
