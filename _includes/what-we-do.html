@@ -1,0 +1,22 @@
+<section class="layout-container">
+  <div class="layout-innercontainer">
+    <div class="whatwedo">
+      <div class="whatwedo__title-container">
+        <div class="whatwedo__title">{{t.about.whatwedo.headline}}<span class="typo-color--main">.</span></div>
+      </div>
+      <ul class="whatwedo__grid">
+        {% for skill in t.about.whatwedo.skills %}
+          <li class="whatwedo__grid__item">
+            <p class="whatwedo__grid__headline">{{skill.name}}</p>
+            <ul class="whatwedo__list">
+              {% for item in skill.items %}
+                <li class="whatwedo__list__item">{{item.name}}</li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% endfor %}
+      </ul>
+      <p class="whatwedo__footnote">{{t.about.whatwedo.footnote}}</p>
+    </div>
+  </div>
+</section>

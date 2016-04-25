@@ -223,6 +223,88 @@
 			},
 			"howwework": {
 				"headline": "How we work"
+			},
+			"whatwedo": {
+				"headline": "What we do",
+				"skills": [
+					{
+						"name": "Sprachen",
+						"items": [
+							{
+								"name": "HTML5"
+							},
+							{
+								"name": "CSS3, Sass"
+							},
+							{
+								"name": "JavaScript, TypeScript"
+							}
+						]
+					},
+					{
+						"name": "Frameworks",
+						"items": [
+							{
+								"name": "AngularJS 1.x, Angular 2"
+							},
+							{
+								"name": "Node.js"
+							},
+							{
+								"name": "Phonegap, Cordova"
+							},
+							{
+								"name": "React Native"
+							}
+						]
+					},
+					{
+						"name": "Datenbanken",
+						"items": [
+							{
+								"name": "NoSQL, Mongo, CouchDB"
+							},
+							{
+								"name": "LocalStorage"
+							},
+							{
+								"name": "Device API"
+							}
+						]
+					},
+					{
+						"name": "Development",
+						"items": [
+							{
+								"name": "Grunt, Gulp"
+							},
+							{
+								"name": "Git, JIRA"
+							}
+						]
+					},
+					{
+						"name": "Konzepte",
+						"items": [
+							{
+								"name": "Test-driven Development (TDD)"
+							},
+							{
+								"name": "REST, REST-ful API, JSON"
+							},
+							{
+								"name": "MVC, MVVM"
+							},
+							{
+								"name": "Media Queries"
+							},
+							{
+								"name": "CSS3 Transitions, CSS3 and JavaScript Animations"
+							}
+						]
+					}
+				],
+				"footnote": "* Wir können auch Web Components, WebGL, Canvas — SCSS, LESS — jQuery, Bootstrap — React — XML, MySQL, PostgreSQL — PHP, Wordpress, CodeIgniter — Python, Django — Brokoli, Angular CLI — Jenkins, TeamCity — Unity, UnityScript, C# — Solidity — Encryption"
 			}
 		}
 	},
@@ -449,6 +531,88 @@
 				},
 				"howwework": {
 					"headline": "How we work"
+				},
+				"whatwedo": {
+					"headline": "What we do",
+					"skills": [
+						{
+							"name": "Sprachen",
+							"items": [
+								{
+									"name": "HTML5"
+								},
+								{
+									"name": "CSS3, Sass"
+								},
+								{
+									"name": "JavaScript, TypeScript"
+								}
+							]
+						},
+						{
+							"name": "Frameworks",
+							"items": [
+								{
+									"name": "AngularJS 1.x, Angular 2"
+								},
+								{
+									"name": "Node.js"
+								},
+								{
+									"name": "Phonegap, Cordova"
+								},
+								{
+									"name": "React Native"
+								}
+							]
+						},
+						{
+							"name": "Datenbanken",
+							"items": [
+								{
+									"name": "NoSQL, Mongo, CouchDB"
+								},
+								{
+									"name": "LocalStorage"
+								},
+								{
+									"name": "Device API"
+								}
+							]
+						},
+						{
+							"name": "Development",
+							"items": [
+								{
+									"name": "Grunt, Gulp"
+								},
+								{
+									"name": "Git, JIRA"
+								}
+							]
+						},
+						{
+							"name": "Konzepte",
+							"items": [
+								{
+									"name": "Test-driven Development (TDD)"
+								},
+								{
+									"name": "REST, REST-ful API, JSON"
+								},
+								{
+									"name": "MVC, MVVM"
+								},
+								{
+									"name": "Media Queries"
+								},
+								{
+									"name": "CSS3 Transitions, CSS3 and JavaScript Animations"
+								}
+							]
+						}
+					],
+					"footnote": "* Wir können auch Web Components, WebGL, Canvas — SCSS, LESS — jQuery, Bootstrap — React — XML, MySQL, PostgreSQL — PHP, Wordpress, CodeIgniter — Python, Django — Brokoli, Angular CLI — Jenkins, TeamCity — Unity, UnityScript, C# — Solidity — Encryption"
 				}
 			}
 		}

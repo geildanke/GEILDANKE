@@ -7,14 +7,16 @@
       {% for service in site.services %}
         {% if service.lang == page.lang %}
           <article class="howwework__article">
-            <div class="howwework__article__column howwework__article__column--1">
-              <h3 class="howwework__article__headline howwework__article__headline--{{service.name}}">{{service.headline}}</h3>
-            </div><!--
-        --><div class="howwework__article__column howwework__article__column--2">
-              <p class="howwework__article__copy">{{service.column-1}}</p>
-            </div><!--
-        --><div class="howwework__article__column howwework__article__column--3">
-              <p class="howwework__article__copy">{{service.column-2}}</p>
+            <div class="howwework__grid">
+              <div class="howwework__article__column howwework__article__column--1">
+                <h3 class="howwework__article__headline howwework__article__headline--{{service.name}}">{{service.headline}}</h3>
+              </div><!--
+          --><div class="howwework__article__column howwework__article__column--2">
+                <p class="howwework__article__copy">{{service.column-1}}</p>
+              </div><!--
+          --><div class="howwework__article__column howwework__article__column--3">
+                <p class="howwework__article__copy">{{service.column-2}}</p>
+              </div>
             </div>
           </article>
         {% endif %}
