@@ -994,17 +994,20 @@ FileETag None
 
     # geildanke.com/curated-blockchain-news is geildanke.com/BLOCKCHAIN
     RewriteCond %{REQUEST_URI} (.*)curated-blockchain-news(.*) [NC]
-    RewriteRule ^curated-blockchain-news(.*)$ BLOCKCHAIN/$1 [QSA,L]
+    RewriteRule ^curated-blockchain-news(.*)$ BLOCKCHAIN$1 [QSA,L]
+
+    RewriteCond %{REQUEST_URI} (.*)wordpress-theme/double-beat-palace-electronic-music-band(.*) [NC]
+    RewriteRule ^wordpress-theme/double-beat-palace-electronic-music-band(.*)$ DBP$1 [QSA,L]
 
     # Do not further rewrite already rewritten URLs
-    RewriteCond %{REQUEST_URI} (.*)BLOCKCHAIN(.*) [NC]
+    RewriteCond %{REQUEST_URI} (.*)BLOCKCHAIN(.*) [OR]
+    RewriteCond %{REQUEST_URI} (.*)DBP(.*)
     RewriteRule ^.*$ - [QSA,L]
 
     # rewrite non catched base URLs to GEILDANKE
     # geildanke.com is geildanke.com/GEILDANKE
     RewriteCond %{REQUEST_URI} !(.*)GEILDANKE [NC]
     RewriteRule ^(.*)$ GEILDANKE/$1 [QSA,L]
-
 </IfModule>
 
 
