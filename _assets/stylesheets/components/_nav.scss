@@ -24,6 +24,10 @@
   color: $color-black;
 }
 
+.nav__link--active {
+  font-weight: 700;
+}
+
 .nav__list {
 
   @media screen and (min-width: $mq-s) {
