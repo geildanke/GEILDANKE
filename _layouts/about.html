@@ -15,7 +15,7 @@
 
     {% for cta in site.ctas %}
       {% if cta.lang == page.lang %}
-        {% if cta == site.ctas[2] %}
+        {% if cta == site.ctas[3] %}
           {% include cta.html %}
         {% endif %}
       {% endif %}
@@ -26,7 +26,7 @@
 
     {% for cta in site.ctas %}
       {% if cta.lang == page.lang %}
-        {% if cta == site.ctas[1] %}
+        {% if cta == site.ctas[4] %}
           {% include cta.html %}
         {% endif %}
       {% endif %}
@@ -35,21 +35,12 @@
     {% include submenu.html %}
     {% include pattern-flower.html %}
     {% include how-we-work.html %}
-
-    {% for cta in site.ctas %}
-      {% if cta.lang == page.lang %}
-        {% if cta == site.ctas[1] %}
-          {% include cta.html %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-
     {% include submenu.html %}
     {% include what-we-do.html %}
 
     {% for cta in site.ctas %}
       {% if cta.lang == page.lang %}
-        {% if cta == site.ctas[1] %}
+        {% if cta == site.ctas[5] %}
           {% include cta.html %}
         {% endif %}
       {% endif %}
@@ -60,7 +51,7 @@
 
     {% for cta in site.ctas %}
       {% if cta.lang == page.lang %}
-        {% if cta == site.ctas[0] %}
+        {% if cta == site.ctas[6] %}
           {% include cta.html %}
         {% endif %}
       {% endif %}
