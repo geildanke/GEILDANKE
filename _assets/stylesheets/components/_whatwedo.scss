@@ -1,0 +1,50 @@
+.whatwedo__footnote {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+
+  padding-bottom: $layout-unit * 4;
+}
+
+.whatwedo__grid {
+  @extend .layout__grid;
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+
+  padding-top: $layout-unit * 3;
+}
+
+.whatwedo__grid__headline {
+  @extend .typo-small;
+  @extend .typo-label;
+
+  text-transform: uppercase;
+
+  border-bottom: 1px solid $color-main;
+  margin-bottom: $layout-unit;
+  padding-bottom: $layout-unit / 2;
+}
+
+.whatwedo__grid__item {
+  @extend .layout__grid__item;
+  @extend %xs--five-tenths;
+  @extend %s--three-tenths;
+  @extend %m--three-tenths;
+  @extend %l--three-tenths;
+
+  display: inline-block;
+  padding-bottom: $layout-unit * 3;
+}
+
+.whatwedo__title {
+  @extend .headline;
+  @extend .typo-bold;
+  @extend .headline--1;
+}
+
+.whatwedo__title-container {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+
+  padding-top: $layout-unit * 4;
+  padding-bottom: $layout-unit * 2;
+}

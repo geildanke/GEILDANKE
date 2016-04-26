@@ -1,119 +1,164 @@
+// Ratio and base variables
+$ratio: 1.2;
+$base: 1;
+$base-em: $base * 0.875em;
+$base-px: $base * 14px;
+
+// Scale step variables
+// Type scaling after http://type-scale.com/ with golden ratio
+$ms0: 1;
+$ms1: $ratio; /* 1.2 */
+$ms2: $ratio * $ms1; /* 1.44 */
+$ms3: $ratio * $ms2; /* 1.728 */
+$ms4: $ratio * $ms3; /* 2.074 */
+$ms5: $ratio * $ms4; /* 2.488 */
+$ms6: $ratio * $ms5; /* 2.986 */
+$ms7: $ratio * $ms6; /* 3.583 */
+$ms8: $ratio * $ms7; /* 4.2996 */
+$ms9: $ratio * $ms8; /* 5.15952 */
+
+// Font- Styles Reset
 body {
-  	color: $copy-font-color;
-  	font-family: $copy-font-family;
-  	font-size: $base-font-size;
-  	line-height: $base-line-height;
+  font-family: 'OpenSans', sans-serif;
+  font-size: $base-em * $ms0;
+  font-weight: 300;
+  line-height: $base * $ms2;
+
+  @media (min-width: $mq-s) {
+    font-size: $base-px * $ms1;
+  }
 }
 
 a {
-  border-bottom: 1px dashed $copy-font-color;
-  color: $copy-font-color;
-	text-decoration: none;
-	text-transform: uppercase;
+  color: $color-main;
 
+  &:active,
   &:hover {
-    color: $geildanke-color-lighter;
-    border-bottom: 1px solid $geildanke-color-lighter;
+    color: $color-gulf-stream;
   }
 }
 
-h1, h2, h3, p {
-  margin: 0;
+// Headlines
+
+.headline {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
-// Basic font styles and mixins
+.headline--5 {
+  font-size: $base-em * $ms1;
 
-@mixin headline-base {
-  font-family: $headline-font-family;
-  font-weight: 700;
-  line-height: 1.5em;
-}
+  @media (min-width: $mq-m) {
+    font-size: $base-em * $ms2;
+  }
 
-@mixin headline-1 {
-  @include headline-base;
-  padding: $l-space-standard 0 $l-space-small 0;
-
-  color: $geildanke-color-lighter;
-  font-size: 2.5em;
-  text-align: center;
-  font-style: italic;
-  font-weight: 400;
-
-  .headline-strong {
-    font-family: $copy-font-family;
-    font-size: 1.05em;
-    font-style: normal;
-    font-weight: 900;
-    text-transform: uppercase;
-
-    text-shadow: 0px 2px 1px rgba(0,0,0,0.3), 0px 4px 6px rgba(0,0,0,0.1), 0px 9px 11px rgba(0,0,0,0.1);
+  @media (min-width: $mq-l) {
+    font-size: $base-em * $ms3;
   }
 }
 
-@mixin headline-2 {
-  @include headline-base;
-  padding-top: 2em;
-  padding-bottom: 1.5em;
-  font-size: 1.5em;
-}
+.headline--4 {
+  font-size: $base-em * $ms1;
 
-@mixin headline-3 {
-  @include headline-base;
-  padding-top: 2em;
-  padding-bottom: 1.5em;
-  font-size: 1.125em;
-}
+  @media (min-width: $mq-s) {
+    font-size: $base-em * $ms2;
+  }
 
+  @media (min-width: $mq-m) {
+    font-size: $base-em * $ms3;
+  }
 
-
-h1 {
-  @include headline-1;
-
-  &:before {
-    content: url('../images/icons/cross.svg');
-
-    display: inherit;
-    position: relative;
-    top: -0.5em;
+  @media (min-width: $mq-l) {
+    font-size: $base-em * $ms4;
   }
 }
 
-h2 {
-  @include headline-2;
-}
+.headline--3 {
+  font-size: $base-em * $ms2;
 
-h3 {
-  @include headline-3;
-}
-
-
-.teaser {
-  line-height: 1.875em;
-  font-size: 1.25em;
-  font-weight: 700;
-}
-
-.btn-back {
-  display: block;
-  border-bottom: none;
-  background: $geildanke-color-lighter;
-  margin: 0 ! important;
-  padding: 1em;
-
-  color: $wireframe-white;
-  text-align: center;
-
-  &:hover,
-  &:active {
-    border-bottom: none;
-
-    color: $wireframe-white;
-
-    &:before {
-      content: "\f104";
-      font-family: 'fontawesome', sans-serif;
-      position: absolute;
-      left: 28px;
-    }
+  @media (min-width: $mq-s) {
+    font-size: $base-em * $ms3;
   }
+
+  @media (min-width: $mq-m) {
+    font-size: $base-em * $ms4;
+  }
+
+  @media (min-width: $mq-l) {
+    font-size: $base-em * $ms5;
+  }
+}
+
+.headline--2 {
+  font-size: $base-em * $ms3;
+
+  @media (min-width: $mq-s) {
+    font-size: $base-em * $ms4;
+  }
+
+  @media (min-width: $mq-m) {
+    font-size: $base-em * $ms5;
+  }
+
+  @media (min-width: $mq-l) {
+    font-size: $base-em * $ms6;
+  }
+}
+
+.headline--1 {
+  font-size: $base-em * $ms4;
+
+  @media (min-width: $mq-s) {
+    font-size: $base-em * $ms5;
+  }
+
+  @media (min-width: $mq-m) {
+    font-size: $base-em * $ms6;
+  }
+
+  @media (min-width: $mq-l) {
+    font-size: $base-em * $ms7;
+  }
+}
+
+// More typographic styles
+
+.typo-color--main {
+  color: $color-main;
+}
+
+.typo-label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.typo-lead {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+
+// Weights
+
+.typo-light {
+  font-weight: 300;
+}
+
+.typo-bold {
+  font-weight: 900;
+}
+
+.typo-small {
+  font-size: $base-em * $ms0 * 0.875;
+
+  @media (min-width: $mq-s) {
+    font-size: $base-px * $ms1 * 0.875;
+  }
+}
+
+.typo-smaller {
+  font-size: $base-em * $ms0 * 0.875;
 }

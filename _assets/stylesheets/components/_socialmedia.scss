@@ -1,0 +1,10 @@
+.socialmedia {}
+.socialmedia__list {}
+
+.socialmedia__list__item {
+  display: inline-block;
+  margin-right: $layout-unit / 4;
+  margin-bottom: $layout-unit;
+  width: $layout-unit * 2;
+  height: $layout-unit * 2;
+}

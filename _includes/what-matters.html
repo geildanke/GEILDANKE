@@ -1,0 +1,17 @@
+<section id="whatmatters" class="layout-container">
+  <div class="layout-innercontainer">
+    <div class="whatmatters">
+      <div class="whatmatters__title-container">
+        <div class="whatmatters__title">{{t.about.whatmatters.headline}}<span class="typo-color--main">.</span></div>
+      </div>
+      <div class="whatmatters__text">
+        <p class="whatmatters__copy">{{t.about.whatmatters.copy}}</p>
+        <ul class="whatmatters__list">
+          {% for item in t.about.whatmatters.items %}
+            <li class="whatmatters__list__item">{{item.value}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

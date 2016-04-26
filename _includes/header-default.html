@@ -1,13 +1,13 @@
-<header>
-    <section class="main-nav">
-        <ul>
-            <li class="menu-toggle-wrapper" id="menu-toggle">{{t.menu.menu.value}}</li>
-            <li><a href="#geildanke">{{t.menu.home.value}}</a></li>
-            <li><a href="#about">{{t.menu.about.value}}</a></li>
-            <li><a href="#projects">{{t.menu.projects.value}}</a></li>
-            {% if site.products %} <li><a href="#products">{{t.menu.products.value}}</a></li> {% endif %}
-            <li><a href="#contact">{{t.menu.contact.value}}</a></li>
-            <li class="language-toggle-wrapper"><a href="{{ t.language.btn.link}}">{{ t.language.btn.value}}</a></li>
+<header class="header layout-container typo-label">
+    <nav class="nav">
+        <span class="nav__home-icon"></span>
+        <span class="nav__logo"></span>
+        <ul class="nav__list">
+            <li class="nav__list__element"><a  class="nav__link{% if page.url == '/about/index.html' %} nav__link--active{% endif %}" href="/about">{{t.nav.about.value}}</a></li>
+            <li class="nav__list__element"><a  class="nav__link{% if page.url == '/projects/index.html' %} nav__link--active{% endif %}" href="/projects">{{t.nav.projects.value}}</a></li>
+            <li class="nav__list__element"><a  class="nav__link{% if page.url == '/contact/index.html' %} nav__link--active{% endif %}" href="/contact">{{t.nav.contact.value}}</a></li>
+            <li class="nav__list__element"><a  class="nav__link" href="{{ t.language.btn.link}}">{{t.language.btn.value}}</a></li>
         </ul>
-    </section>
+    </nav>
+    <div class="header__slogan">{{t.meta.slogan.short}}</div>
 </header>

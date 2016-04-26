@@ -2,24 +2,35 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-// Import base scss files
+@import "vendor/css-reset";
+@import "vendor/csswizardry-grids.scss";
 
-@import "base/colors";
+@import "base/reset";
 @import "base/variables";
+@import "base/colors";
+@import "base/utilities";
 @import "base/fonts";
 @import "base/typography";
-@import "base/mixins";
 @import "base/layout";
+@import "base/base";
+@import "base/animations";
+@import "base/mixins";
 
-
-// Import modules
-
-@import "modules/navigation";
-@import "modules/landingpage";
-@import "modules/product";
-@import "modules/projects";
-@import "modules/contact";
-@import "modules/footer";
-@import "modules/article";
-@import "modules/teaser";
-@import "modules/imprint";
+@import "components/address";
+@import "components/button";
+@import "components/contact";
+@import "components/corecompetence";
+@import "components/cta";
+@import "components/footer";
+@import "components/header";
+@import "components/hero";
+@import "components/howwework";
+@import "components/icon";
+@import "components/leadlist";
+@import "components/nav";
+@import "components/pattern";
+@import "components/socialmedia";
+@import "components/submenu";
+@import "components/whatmatters";
+@import "components/whatwedo";
+@import "components/whoweare";

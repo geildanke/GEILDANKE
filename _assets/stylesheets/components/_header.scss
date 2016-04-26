@@ -1,0 +1,27 @@
+.header {
+  padding-top: ($layout-unit * 1.5);
+  padding-bottom: $layout-unit;
+
+  @media screen and (min-width: $mq-s) {
+    padding-top: ($layout-unit * 2);
+  }
+}
+
+.header__slogan {
+  line-height: $layout-unit;
+  text-align: right;
+
+  border-top: 1px solid $color-black;
+  border-bottom: 3px solid $color-black;
+  margin: ($layout-unit / 2) 0 0 0;
+  padding: ($layout-unit / 2) 0 ($layout-unit / 2) 0;
+
+  @media screen and (min-width: $mq-s) {
+    margin: $layout-unit 0 0 0;
+    padding: $layout-unit 0 $layout-unit ($layout-unit * 4);
+  }
+
+  @media screen and (min-width: $mq-m) {
+    text-align: left;
+  }
+}

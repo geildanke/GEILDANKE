@@ -1,37 +1,70 @@
-.icon {
-    background-position: 50%;
-    background-repeat: no-repeat;
+@font-face {
+  font-family: 'Icons';
+  src: url('../fonts/icons/icomoon.eot');
+  src: url('../fonts/icons/icomoon.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/icons/icomoon.woff') format('woff'),
+       url('../fonts/icons/icomoon.ttf') format('truetype'),
+       url('../fonts/icons/icomoon.svg#icomoon') format('svg');
+  font-weight: 300;
+  font-style: normal;
 }
 
-.icon--round {
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0 0 1em 0;
-    width: 60px;
-    height: 60px;
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat-light/montserrat-light-webfont.eot');
+  src: url('../fonts/montserrat-light/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/montserrat-light/montserrat-light-webfont.woff2') format('woff2'),
+       url('../fonts/montserrat-light/montserrat-light-webfont.woff') format('woff'),
+       url('../fonts/montserrat-light/montserrat-light-webfont.ttf') format('truetype'),
+       url('../fonts/montserrat-light/montserrat-light-webfont.svg#montserratsemi_bold') format('svg');
+  font-weight: 300;
+  font-style: normal;
 }
 
-.icon--facebook {
-    background-image: url(../images/icons/facebook.svg);
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat-semibold/montserrat-semibold-webfont.eot');
+  src: url('../fonts/montserrat-semibold/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/montserrat-semibold/montserrat-semibold-webfont.woff2') format('woff2'),
+       url('../fonts/montserrat-semibold/montserrat-semibold-webfont.woff') format('woff'),
+       url('../fonts/montserrat-semibold/montserrat-semibold-webfont.ttf') format('truetype'),
+       url('../fonts/montserrat-semibold/montserrat-semibold-webfont.svg#montserratsemi_bold') format('svg');
+  font-weight: 500;
+  font-style: normal;
 }
 
-.icon--envelope {
-    background-image: url(../images/icons/email.svg);
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat-bold/montserrat-bold-webfont.eot');
+  src: url('../fonts/montserrat-bold/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/montserrat-bold/montserrat-bold-webfont.woff2') format('woff2'),
+       url('../fonts/montserrat-bold/montserrat-bold-webfont.woff') format('woff'),
+       url('../fonts/montserrat-bold/montserrat-bold-webfont.ttf') format('truetype'),
+       url('../fonts/montserrat-bold/montserrat-bold-webfont.svg#montserratsemi_bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
 }
 
-.icon--google-plus {
-    background-image: url(../images/icons/google-plus.svg);
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/opensans-light/opensans-light-webfont.eot');
+  src: url('../fonts/opensans-light/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/opensans-light/opensans-light-webfont.woff2') format('woff2'),
+  url('../fonts/opensans-light/opensans-light-webfont.woff') format('woff'),
+  url('../fonts/opensans-light/opensans-light-webfont.ttf') format('truetype'),
+  url('../fonts/opensans-light/opensans-light-webfont.svg#open_sanslight') format('svg');
+  font-weight: 300;
+  font-style: normal;
 }
 
-.icon--twitter {
-    background-image: url(../images/icons/twitter.svg);
-}
-
-.icon--sword {
-    background-image: url(../images/icons/sword.svg);
-}
-
-.icon--rocket {
-    background-image: url(../images/icons/rocket.svg);
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/opensans-extrabold/Opensans-Extrabold.eot');
+  src: url('../fonts/opensans-extrabold/Opensans-Extrabold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/opensans-extrabold/Opensans-Extrabold.woff2') format('woff2'),
+  url('../fonts/opensans-extrabold/Opensans-Extrabold.woff') format('woff'),
+  url('../fonts/opensans-extrabold/Opensans-Extrabold.ttf') format('truetype'),
+  url('../fonts/opensans-extrabold/Opensans-Extrabold.svg#open_sanslight') format('svg');
+  font-weight: 900;
+  font-style: normal;
 }

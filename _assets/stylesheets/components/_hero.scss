@@ -1,0 +1,124 @@
+.hero {
+  position: relative;
+}
+
+.hero__image {
+  background-image: url('../images/cover1.png');
+  background-position: 50% 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+
+  @media screen and (min-width: $mq-xs) {
+    padding-bottom: 56%;
+    height: 0;
+  }
+}
+
+.hero__keywords {
+  padding: 10px 0 0 0;
+
+  @media screen and (min-width: $mq-s) {
+    position: absolute;
+    bottom: $layout-unit;
+    left: 50%;
+    width: 520px;
+
+    transform: translateX(-50%);
+  }
+
+  @media screen and (min-width: $mq-m) {
+    width: 610px;
+  }
+
+  @media screen and (min-width: $mq-l) {
+    width: 710px;
+  }
+}
+
+.hero__keywordlist__item {
+  color: $color-smoky-alpha;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  display: inline-block;
+  padding: 0 2px;
+  opacity: 0;
+
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-name: fadein;
+  animation-timing-function: $geildanke-easing;
+
+  @media screen and (min-width: $mq-s) {
+    color: $color-white;
+  }
+}
+
+@for $i from 1 through 8 {
+  .hero__keywordlist__item--#{$i} {
+
+    @media screen and (min-width: $mq-s) {
+      animation-delay: 2s + (0.4s * $i);
+    }
+  }
+}
+
+.hero__keywordlist {
+  text-align: center;
+
+  opacity: 0.8;
+
+  &:first-child {
+  }
+}
+
+.hero__text-container {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+
+  padding-top: $layout-unit * 4;
+  padding-bottom: $layout-unit * 2;
+}
+
+.hero__title {
+  @extend .headline;
+  @extend .typo-bold;
+}
+
+.hero__title--about {
+  @extend .headline--1;
+
+  padding-bottom: $layout-unit * 2;
+}
+
+.hero__title--home {
+  @extend .headline--3;
+
+  color: $color-white;
+  text-align: center;
+
+  padding: 0 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 390px;
+  max-width: 100%;
+
+  transform: translate(-50%, -75%);
+
+  @media screen and (min-width: $mq-s) {
+    padding: 0;
+    width: 520px;
+
+    transform: translate(-50%, -50%);
+  }
+
+  @media screen and (min-width: $mq-m) {
+    width: 610px;
+  }
+
+  @media screen and (min-width: $mq-l) {
+    width: 710px;
+  }
+}

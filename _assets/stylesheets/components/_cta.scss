@@ -1,0 +1,23 @@
+.cta__column {
+  @extend %xs--eight-twelfths;
+  @extend %push--xs--two-twelfths;
+  @extend %s--eight-twelfths;
+  @extend %push--s--two-twelfths;
+  @extend %m--six-twelfths;
+  @extend %push--m--three-twelfths;
+  @extend %l--six-twelfths;
+  @extend %push--l--three-twelfths;
+
+  text-align: center;
+
+  padding-top: $layout-unit * 4;
+  padding-bottom: $layout-unit * 4;
+}
+
+.cta__copy {
+  padding-bottom: $layout-unit * 2;
+}
+
+.cta__headline {
+  padding-bottom: $layout-unit;
+}

@@ -1,27 +1,5 @@
-// Configure typography variables
-
-$base-font-size:				16px;
-$base-line-height:				28px;
-
-$copy-font-color:				$wireframe-grey;
-$copy-font-family:				"proxima-nova-alt";
-$headline-font-color:			$wireframe-grey-light;
-$headline-font-family:			"quatro-slab";
-
-// Configure breakpoint variables
-
-$l-small-small: 320px;
-$l-small: 768px;
-$l-middle: 1024px;
-$l-big: 1200px;
-$l-bigbig: 1400px;
-
-// Condigure spaces
-
-$l-space-small: 20px;
-$l-space-standard: 84px;
-
-// Configure widths
-
-$l-width-standard: 40em;
-$l-width-small: 25em;
+// Media Queries
+$mq-xs: 480px;
+$mq-s: 760px;
+$mq-m: 960px;
+$mq-l: 1200px;

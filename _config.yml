@@ -12,10 +12,16 @@ github_username:  geildanke
 markdown: kramdown
 
 collections:
+  corecompetences:
+    output: true
+  ctas:
+  footerlists:
+  lists:
   projecttiles:
   projects:
     output: true
   products:
+  services:
 
 sass:
   sass_dir: _assets/stylesheets

@@ -1,0 +1,74 @@
+.nav {
+  @include clearfix();
+
+  @media screen and (min-width: $mq-m) {
+    height: $layout-unit * 2;
+  }
+}
+
+.nav__home-icon {
+  background-image: url('../images/geildanke-logo.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+  margin-right: $layout-unit;
+  width: $layout-unit * 2;
+  height: $layout-unit * 2;
+
+  @media screen and (min-width: $mq-s) {
+    margin-right: $layout-unit * 2;
+  }
+}
+
+.nav__link {
+  color: $color-black;
+}
+
+.nav__link--active {
+  font-weight: 700;
+}
+
+.nav__list {
+
+  @media screen and (min-width: $mq-s) {
+    margin: $layout-unit 0 0 ($layout-unit * 4);
+  }
+
+  @media screen and (min-width: $mq-m) {
+    float: right;
+    margin-top: 0;
+  }
+}
+
+.nav__list__element {
+  line-height: $layout-unit * 2;
+
+  display: inline-block;
+  margin: 0 ($layout-unit / 2) 0 0;
+
+  @media screen and (min-width: $mq-m) {
+    margin: 0 0 0 ($layout-unit / 2);
+  }
+}
+
+.nav__logo {
+  background-image: url('../images/geildanke-logo-typographic.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin: ($layout-unit / 2) 0;
+  width: 200px;
+  height: $layout-unit;
+
+  @media screen and (min-width: $mq-s) {
+    margin: 0;
+    width: 336px;
+    height: $layout-unit * 2;
+  }
+}
+
+.nav__title {
+  line-height: $layout-unit * 2;
+
+  float: left;
+}

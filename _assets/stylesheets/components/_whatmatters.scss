@@ -1,0 +1,31 @@
+.whatmatters__copy {
+  padding-bottom: $layout-unit * 2;
+}
+
+.whatmatters__list__item {
+  @include list-stroke();
+
+  padding-bottom: $layout-unit / 2;
+}
+
+.whatmatters__text {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+
+  padding-top: $layout-unit * 3;
+  padding-bottom: $layout-unit * 3;
+}
+
+.whatmatters__title {
+  @extend .headline;
+  @extend .typo-bold;
+  @extend .headline--1;
+}
+
+.whatmatters__title-container {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+
+  padding-top: $layout-unit * 4;
+  padding-bottom: $layout-unit * 2;
+}
