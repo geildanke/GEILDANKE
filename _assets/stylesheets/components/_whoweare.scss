@@ -44,6 +44,10 @@
   margin-bottom: $layout-unit / 3;
 }
 
+.whoweare__list__item--term {
+  margin-top: $layout-unit;
+}
+
 .whoweare__list__item--articles {
   @include colortag($color-froly);
 }
@@ -66,7 +70,7 @@
 
 .whoweare__socialmedialist {
   padding-top: $layout-unit * 3;
-  padding-bottom: $layout-unit * 3;
+  padding-bottom: $layout-unit;
 }
 
 .whoweare__socialmedialist__item {

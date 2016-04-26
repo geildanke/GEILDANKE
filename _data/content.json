@@ -76,26 +76,26 @@
 		"imprint": "Impressum",
 		"about": {
 			"submenu": {
-				"label": "Read more about:"
+				"label": "Mehr:"
 			},
-			"headline": "We are an agile creative technology studio",
-			"copy": "GeilDanke is a creative technology studio. We're specialized in effective and innovative web development with a focus on <span class=\"typo-bold\">performance</span>, <span class=\"typo-bold\">usability</span> and <span class=\"typo-bold\">content</span>. Our projects are always <span class=\"typo-bold\">mobile-friendly</span>, our solutions elegant and simple. Because we believe in web technology and a web for everybody. <span class=\"typo-bold\">Reliability</span> and maintainability is an inherent part of our working ethics. That's why we have <span class=\"typo-bold\">agile</span> workflows and a <span class=\"typo-bold\">test-driven</span> development process. Working remotely means that we can work with the best experts from anywhere.",
+			"headline": "Wir sind ein agiles, kreatives Technologie-Studio",
+			"copy": "GeilDanke ist ein kreatives Technologie-Studio. Wir sind auf innovativer Web-Entwicklung spezialisiert und haben einen Fokus auf <span class=\"typo-bold\">Performance</span>, <span class=\"typo-bold\">Benutzerfreundlichkeit</span> und <span class=\"typo-bold\">Inhalte</span>. Unsere Projekte sind immer <span class=\"typo-bold\">für Mobilgeräte optimiert</span>, unsere Lösungen immer simpel und elegant. Wir glauben daran, dass Web-Technologie und das Web niemanden ausschießen sollte. <span class=\"typo-bold\">Zuverlässigkeit</span> und <span class=\"typo-bold\">Wartbarkeit</span> gehört fest zu unserer Arbeits-Philosophie. Darum arbeiten wir <span class=\"typo-bold\">agil</span> und entwickeln <span class=\"typo-bold\">Test-getrieben</span>. Unser Remote-Büro macht es möglich, dass wir mit Experten auf der ganzen Welt zusammenarbeiten können.",
 			"whoweare": {
-				"headline": "Who we are",
+				"headline": "Über uns",
 				"michaela": {
 					"name": "Michaela Lehr",
-					"position": "Managing Partner and Creative Director",
-					"copy": "Michaela is GeilDanke's creative front-end developer and UX designer. Working in the tech industry for over five years, she constantly fights for the user's interests or the importance of logically consistent stylesheets. In her free time she enjoys reading a lot of books, practicing yoga, surfing and knitting.",
+					"position": "Managing Partner und Creative Director",
+					"copy": "Michaela ist kreative <span class=\"typo-bold\">Frontend-Entwicklering</span> und <span class=\"typo-bold\">UX-Designerin</span> bei Geil,Danke!. In den über fünf Jahren Branchen-Erfahrung kämpft sie imer für die <span class=\"typo-bold\">Interessen der Benutzer</span> und Konsistenz in Design- und Code-Mustern. In ihrer Freizeit liest sie gerne Bücher, macht Yoga, geht surfen oder strickt.",
 					"books": {
-						"name": "Books",
+						"name": "Bücher",
 						"items": [
 							{
 								"name": "„Digitales Publizieren für Tablets: Magazin-Apps mit InDesign für iPad, Android & Co.“",
-								"url": ""
+								"url": "http://www.amazon.de/gp/product/3898647811/ref=as_li_ss_tl?ie=UTF8&tag=paploo-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3898647811"
 							},
 							{
 								"name": "„Adobe Digital Publishing Suite: Apps entwickeln mit InDesign und HTML5 - inklusive Prozessoptimierung und Profi-Tipps aus der Praxis“",
-								"url": ""
+								"url": "http://www.amazon.de/Adobe-Digital-Publishing-Suite-Prozessoptimierung-ebook/dp/B00DUH4ZR4/"
 							}
 						]
 					},
@@ -104,19 +104,19 @@
 						"items": [
 							{
 								"name": "EnterJS 2016 „Erste Schritte mit Angular 2: Components, Directives, Templates“",
-								"url": ""
+								"url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
 							},
 							{
 								"name": "Pubkon 2014 „HTML und CSS für Designer / HTML & CSS for designers“",
-								"url": ""
+								"url": "http://de.slideshare.net/michaelalehr/html-und-css-fr-designer-html-css-for-designers-pubkon-2014"
 							},
 							{
 								"name": "Medienplantage 2014 „Digital Publishing: Was Print-Designer von Web-Designern lernen können“",
-								"url": ""
+								"url": "http://de.slideshare.net/michaelalehr/digital-publishing-22546555"
 							},
 							{
 								"name": "Typographie Workshop 2015 „Digitale Magazine erstellen“",
-								"url": ""
+								"url": "http://de.slideshare.net/michaelalehr/digitale-magazine-1-handout"
 							}
 						]
 					},
@@ -125,20 +125,20 @@
 						"items": [
 							{
 								"name": "Angular 2 Comet",
-								"url": ""
+								"url": "http://bit.ly/ng2comet"
 							}
 						]
 					},
 					"articles": {
-						"name": "Articles",
+						"name": "Artikel",
 						"items": [
 							{
 								"name": "SitePoint Article \"Creating a WebGL Game with Unity 5 and JavaScript\"",
-								"url": ""
+								"url": "http://www.sitepoint.com/creating-webgl-game-unity-5-javascript/"
 							},
 							{
 								"name": "Interview Junge Gründer",
-								"url": ""
+								"url": "http://www.junge-gruender.de/interviews/interview-mit-michaela-lehr-mitgruenderin-von-geildanke-gmbh/"
 							}
 						]
 					},
@@ -167,18 +167,18 @@
 				},
 				"richard": {
 					"name": "Richard Brammer",
-					"position": "Managing Partner and Technical Director",
-					"copy": "Richard is GeilDanke's lead strategist and full stack web developer. With more than fifteen years of experiences in web technologies, he always finds the best solutions to your challenges. In private you can listen to him talking for hours and hours about Star Wars or find him traveling the world, hiking or surfing.",
+					"position": "Managing Partner und Technical Director",
+					"copy": "Richard ist für die <span class=\"typo-bold\">strategische Ausrichtung</span> von Geil,Danke! zuständig und <span class=\"typo-bold\">Full-stack Web-Entwickler</span>. Mit mehr als <span class=\"typo-bold\">fünfzehn Jahren Erfahrung</span> mit Web-Technologien findet er immer die besten Lösungen für Ihre Herausforderungen. Privat ist er ein großer Star-Wars-Fan; er reist und wandert gerne oder geht surfen.",
 					"books": {
-						"name": "Books",
+						"name": "Bücher",
 						"items": [
 							{
 								"name": "„Digitales Publizieren für Tablets: Magazin-Apps mit InDesign für iPad, Android & Co.“",
-								"url": ""
+								"url": "http://www.amazon.de/gp/product/3898647811/ref=as_li_ss_tl?ie=UTF8&tag=paploo-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3898647811"
 							},
 							{
 								"name": "„Adobe Digital Publishing Suite: Apps entwickeln mit InDesign und HTML5 - inklusive Prozessoptimierung und Profi-Tipps aus der Praxis“",
-								"url": ""
+								"url": "http://www.amazon.de/Adobe-Digital-Publishing-Suite-Prozessoptimierung-ebook/dp/B00DUH4ZR4/"
 							}
 						]
 					},
@@ -187,7 +187,7 @@
 						"items": [
 							{
 								"name": "Pubkon 2013: „Digital Mobile Publishing für Tablets und Smartphones“",
-								"url": ""
+								"url": "http://fr.slideshare.net/RichardBrammer/digital-mobile-publishing-f"
 							}
 						]
 					},
@@ -196,39 +196,39 @@
 						"items": [
 							{
 								"name": "Curated Blockchain News",
-								"url": ""
+								"url": "https://geildanke.com/curated-blockchain-news/"
 							}
 						]
 					},
 					"socialmediaprofiles": [
 						{
-							"name": "dribbble",
-							"url": "https://dribbble.com/fischaelameer"
+							"name": "github",
+							"url": "https://github.com/richardbrammer"
 						},
 						{
 							"name": "twitter",
-							"url": "https://twitter.com/FischaelaMeer"
+							"url": "https://twitter.com/richardbrammer"
 						},
 						{
 							"name": "xing",
-							"url": "https://www.xing.com/profile/Michaela_Lehr2"
+							"url": "https://www.xing.com/profile/Richard_Brammer"
 						},
 						{
 							"name": "facebook",
-							"url": "https://www.facebook.com/michaela.lehr"
+							"url": "https://www.facebook.com/richard.brammer.75"
 						},
 						{
 							"name": "instagram",
-							"url": "https://www.instagram.com/fischaelameer/"
+							"url": "https://www.instagram.com/rias1138/"
 						}
 					]
 				}
 			},
 			"howwework": {
-				"headline": "How we work"
+				"headline": "Wie wir arbeiten"
 			},
 			"whatwedo": {
-				"headline": "What we do",
+				"headline": "Was wir tun",
 				"skills": [
 					{
 						"name": "Sprachen",
@@ -310,44 +310,44 @@
 				"footnote": "* Wir können auch Web Components, WebGL, Canvas — SCSS, LESS — jQuery, Bootstrap — React — XML, MySQL, PostgreSQL — PHP, Wordpress, CodeIgniter — Python, Django — Brokoli, Angular CLI — Jenkins, TeamCity — Unity, UnityScript, C# — Solidity — Encryption"
 			},
 			"whatmatters": {
-				"headline": "What matters to us",
+				"headline": "Was uns am Herzen liegt",
 				"copy": "Die Umwelt und alle Lebewesen liegen uns am Herzen. Dies spiegelt sich natürlich auch in unserem Unternehmen wieder.",
 				"items": [
 					{
-						"value": "Wir arbeiten ausschließlich mit Naturstrom."
+						"value": "Wir arbeiten ausschließlich mit <span class=\"typo-bold\">Naturstrom</span>."
 					},
 					{
-						"value": "Unsere Rechner sind refurbished (Gebrauchtgeräte) von Apple."
+						"value": "Unsere Rechner sind refurbished (<span class=\"typo-bold\">Gebrauchtgeräte</span>) von Apple."
 					},
 					{
-						"value": "Alte Geräte verkaufen wir weiter oder recyclen sie."
+						"value": "Alte Geräte verkaufen wir weiter oder <span class=\"typo-bold\">recyclen</span> sie."
 					},
 					{
 						"value": "Wir schreiben nachhaltigen Code, der die Batterien der Geräte schont."
 					},
 					{
-						"value": "Wir achten auf Datenschutz, Datensicherung und die Verschlüsselung mit SSL."
+						"value": "Wir achten auf <span class=\"typo-bold\">Datenschutz</span>, Datensicherung und die <span class=\"typo-bold\">Verschlüsselung</span> mit SSL."
 					},
 					{
-						"value": "Soweit wie möglich unterstützen wir lokale Geschäfte und verzichten auf den Kauf bei Amazon."
+						"value": "Soweit wie möglich unterstützen wir <span class=\"typo-bold\">lokale Geschäfte</span> und verzichten auf den Kauf bei Amazon."
 					},
 					{
-						"value": "Am liebsten reisen wir mit der BahnCard und Ökostrom. "
+						"value": "Am liebsten reisen wir mit der BahnCard und <span class=\"typo-bold\">Ökostrom</span>. "
 					},
 					{
-						"value": "Wenn sich Flugreisen nicht vermeiden lassen, achten wir auf den CO2-Ausgleich."
+						"value": "Wenn sich Flugreisen nicht vermeiden lassen, achten wir auf den <span class=\"typo-bold\">CO2-Ausgleich</span>."
 					},
 					{
 						"value": "Wir versuchen immer ohne Papier zu arbeiten und so wenig wie möglich zu drucken."
 					},
 					{
-						"value": "Bücher konsumieren wir hauptsächlich papierlos."
+						"value": "Bücher konsumieren wir hauptsächlich <span class=\"typo-bold\">papierlos</span>."
 					},
 					{
-						"value": "Sowohl privat als auch beruflich sind wir Minimalisten und besitzen wir kein Auto."
+						"value": "Sowohl privat als auch beruflich sind wir <span class=\"typo-bold\">Minimalisten</span> und besitzen wir kein Auto."
 					},
 					{
-						"value": "Wann immer möglich ernähren wir uns pflanzlich."
+						"value": "Wann immer möglich ernähren wir uns <span class=\"typo-bold\">pflanzlich</span>."
 					}
 				]
 			}

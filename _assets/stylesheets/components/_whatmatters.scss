@@ -4,6 +4,8 @@
 
 .whatmatters__list__item {
   @include list-stroke();
+
+  padding-bottom: $layout-unit / 2;
 }
 
 .whatmatters__text {

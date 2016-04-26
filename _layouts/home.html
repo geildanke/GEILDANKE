@@ -44,6 +44,14 @@ layout: compress
       {% endif %}
     {% endfor %}
 
+    {% for cta in site.ctas %}
+      {% if cta.lang == page.lang %}
+        {% if cta == site.ctas[1] %}
+          {% include cta.html %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
     {% for list in site.lists %}
       {% if list.lang == page.lang %}
         {% if list == site.lists[1] %}
