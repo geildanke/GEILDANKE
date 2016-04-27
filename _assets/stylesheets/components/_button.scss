@@ -15,6 +15,28 @@
   &:hover,
   &:active {
     color: $color-ming;
+
     border-color: $color-ming;
+  }
+}
+
+.button--primary {
+  @include box-shadow(2);
+
+  color: $color-white;
+
+  background-color: $color-main;
+
+  transition: transform, box-shadow 0.125s $gd-easing;
+
+  &:hover,
+  &:active {
+    @include box-shadow(1);
+
+    color: $color-white;
+
+    border-color: $color-main;
+
+    transform: translateY(1px);
   }
 }
