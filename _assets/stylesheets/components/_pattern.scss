@@ -5,7 +5,7 @@
 .pattern--slant {
 
   &::before {
-    background-color: lighten($color-tacha-alpha, 20);
+    background-color: lighten($color-ming-alpha, 50);
     border-bottom: ($layout-unit * 2) solid lighten($color-froly-alpha, 20);
     content: '';
     position: absolute;
