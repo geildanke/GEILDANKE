@@ -1006,7 +1006,7 @@ FileETag None
 
     # rewrite non catched base URLs to GEILDANKE
     # geildanke.com is geildanke.com/GEILDANKE
-    RewriteCond %{REQUEST_URI} !(.*)GEILDANKE [NC]
+    RewriteCond %{REQUEST_URI} !(.*)/GEILDANKE/ [NC]
     RewriteRule ^(.*)$ GEILDANKE/$1 [QSA,L]
 </IfModule>
 
