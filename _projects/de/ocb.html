@@ -10,14 +10,14 @@ headline: Bezahl-Schnittstelle zur Adobe Digital Publishing Suite
 subheadline: Den Entitlement-Server der AutoBILD- und der SportBILD-Apps haben wir an die One-Click-Buy-Technologie von Axel Springer "mypass.de" angebunden.
 ---
 <p>Im Shop auf autobild.de – der von weiteren Projektpartnern implementiert wurde – können Kunden von Axel Springer nun mit ihren Login-Daten ein Abonnement der Auto BILD oder Sport BILD+ kaufen. Dabei bietet Axel Springer neben der reinen Digital-Ausgabe auch ein Bundle mit der Printausgabe an.</p>
-<img src="/images/ocb-1.jpg">
+<img src="../../images/ocb-1.jpg">
 <p>Mit den selben Login-Daten (Single-Sign-On) der Premium Content Platform laden sich Leser nach dem Kauf auf autobild.de die Ausgaben kostenlos auf ihr iPad oder Android-Tablet herunter. Mittels der Entitlement-Server-API der Adobe Digital Publishing Suite spart Axel Springer beim Verkauf der Ausgaben über ihren eigenen Shop 30% Provision gegenüber dem Verkauf über Apple, Google oder Amazon.</p>
-<img src="/images/ocb-2.jpg">
-<p>Die Kommunikation mit dem Lesershop24, sowie die Gutschein-Funktion des Server blieb erhalten. Falls Sie auch an der Entitlement-Server-Technik für Ihre Adobe-DPS-Apps interessiert sind, so schauen Sie sich unsere sofort einsatzbereite Lösung <a href="https://entitlement.dps.server.geildanke.com/">Portier</a> an. Oder <a href="mailto:kontakt@geildanke.com">schreiben Sie uns</a>, wenn Sie Ihre Backend-Anwendungen an Ihre Apps anbinden wollen.</p>
+<img src="../../images/ocb-2.jpg">
+<p>Die Kommunikation mit dem Lesershop24, sowie die Gutschein-Funktion des Server blieb erhalten. Falls Sie auch an der Entitlement-Server-Technik für Ihre Adobe-DPS-Apps interessiert sind, so schauen Sie sich unsere sofort einsatzbereite Lösung <a href="https://portier.geildanke.com/#/">Portier</a> an. Oder <a href="mailto:kontakt@geildanke.com">schreiben Sie uns</a>, wenn Sie Ihre Backend-Anwendungen an Ihre Apps anbinden wollen.</p>
 
 {% for cta in site.ctas %}
   {% if cta.lang == page.lang %}
-    {% if cta == site.ctas[7] %}
+    {% if cta.id == 'contact-entitlement' %}
       {% include cta-plain.html %}
     {% endif %}
   {% endif %}

@@ -11,19 +11,27 @@ subheadline: Als Spezialisten für Inhalte auf mobilen Geräten wie Smartphones 
 ---
 
 <p>Unsere Webseiten passen sich an alle Displaygrößen an und sehen auf allen Geräten nahezu perfekt aus. Durch unseren professionellen Entwicklungsprozess und durch das Einhalten von im Web gültigen Standards sind auch Seiten mit hohen Ansprüchen an Optik und Verhalten möglich, ohne die Kompatibilität zu älteren Browsern wie Smartphones mit Android 2.3 oder Internet Explorer 9 einzuschränken.</p>
-<img src="/images/webdesign-1.jpg">
+<img src="../../images/webdesign-1.jpg">
 <p>Beispielsweise haben wir Projekte mit Parallax-Effekten auf Smartphones realisiert, oder nutzen Bildergalerien, die Sie mit Wisch-Gesten steuern können. Als Backend-Systeme dienen uns regelmäßig Wordpress, ExpressionEngine oder selbst entwickelte Systeme auf PHP- oder Node.js-Basis.</p>
 <p>Unser Entwicklungsprozess beinhaltet die Minifizierung von Stylsheets und Scripten, bei großen hochauflösenden Bildern kommen progressive Lademethoden zum Einsatz. Wir achten auf die Auszeichnung der korrekten Meta-Daten, um optimale Ergebnisse beim Teilen über Facebook, Twitter und Google+ zu erreichen und um die Darstellung auf den Homescreens von Android, iOS und Windows Phone zu steuern.</p>
-<img src="/images/webdesign-2.jpg">
+<img src="../../images/webdesign-2.jpg">
 <p>Durch unser Device Lab mit über 25 verschiedenen Testgeräten – vom Android-Smartphone mit der Betriebsystem-Version 2.3.6 und 240x320-Display über Windows Phones bis zum MacBook mit Retina-Display und 27-Zoll-Monitor – werden Ihre Webseiten vor der Veröffentlichung intensiv getestet.</p>
 <p>Wo es möglich ist und die Kompatibilität nicht einschränkt, nutzen wir die Hardwarebeschleunigung der Geräte und Browser. Das Ziel unserer Projekte ist immer die möglichst große Zugänglichkeit und eine schnelle Ladezeit der Seiten. Während unserer Arbeit an Projekten bilden wir uns ständig weiter und verbessern kontinuierlich unseren Prozess – eine Arbeitsweise für die uns unsere Arbeitgeber schätzen und die uns motiviert, ständig das Beste zu geben.</p>
-<img src="/images/webdesign-3.jpg">
+<img src="../../images/webdesign-3.jpg">
 <p>Beispiele für schöne Seiten, die in enger Zusammenarbeit mit unseren Auftraggebern <a href="http://razorfish.com">Razorfish</a> und <a href="http://www.n3vision.de/">n3vision</a> entstanden sind:</p>
-<p>Audi TT: Car Configurator mit WebGL, Canvas und CSS3-Animationen: <a target="_blank" href="http://microsites.audi.com/tt/">microsites.audi.com/tt/</a><br> WebGL- und Canvas-Animationen für den Audi Q7: <a target="blank" href="http://microsites.audi.com/q7mapofgreatness/">microsites.audi.com/q7mapofgreatness/</a><br>Parallax-Effekte auf allen Geräten: <a href="http://www.lychener35.de/" target="_blank">lychener35.de</a><br> Wordpress mit Custom-Post-Types zum Archivieren von Referenzen: <a href="http://www.kolarski-re.com/" target="_blank">kolarski.de</a><br> Responsiver Vorhangeffekt mit Video, Bildergalerie und Kontaktformular <a href="http://swin112.com/" target="_blank">swin112.com</a><br>Animierte Webseite mit responsive Lightbox- und Slideshow-Effekten: <a href="http://www.jachimowicz.de/" target="_blank">Jachimowicz Group</a></p>
+<p>
+  Audi TT Car Configurator mit WebGL, Canvas und CSS3-Animationen: <a target="_blank" href="http://microsites.audi.com/tt/">microsites.audi.com/tt/</a><br>
+  WebGL- und Canvas-Animationen für den Audi Q7: <a target="blank" href="http://microsites.audi.com/q7mapofgreatness/">microsites.audi.com/q7mapofgreatness/</a><br>
+  Parallax-Effekte auf allen Geräten: <a href="http://www.lychener35.de/" target="_blank">lychener35.de</a><br>
+  Wordpress mit Custom-Post-Types zum Archivieren von Referenzen: <a href="http://www.kolarski-re.com/" target="_blank">kolarski.de</a><br>
+  Responsiver Vorhangeffekt mit Video, Bildergalerie und Kontaktformular <a href="http://swin112.com/" target="_blank">swin112.com</a><br>
+  Mobile-first Landing-Page: <a href="http://corpussireo.n3vision.web.server.geildanke.com/koeln/dist/">Corpus Sireo</a><br>
+  Animierte Webseite mit responsive Lightbox- und Slideshow-Effekten: <a href="http://www.jachimowicz.de/" target="_blank">Jachimowicz Group</a>
+</p>
 
 {% for cta in site.ctas %}
   {% if cta.lang == page.lang %}
-    {% if cta == site.ctas[1] %}
+    {% if cta.id == 'contact-responsive-website' %}
       {% include cta-plain.html %}
     {% endif %}
   {% endif %}

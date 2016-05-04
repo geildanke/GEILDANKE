@@ -7,18 +7,19 @@ teaser: Das Multimedia-Spektakel für Musik-Experten auf dem iPad
 description: Der weltweit erste ROLLING STONE auf dem iPad ist die deutsche Publikation von Axel Springer, die in enger Zusammenarbeit mit Geil,Danke! konzipiert wurde. Wir entwickelten den monatlichen Produktionsprozess.
 moodimage: rollingstone_gradient.png
 headline: Der deutsche Rolling Stone ist ein Multimedia-Spektakel für Musik-Experten
-subheadline: Die Produktion der deutschen <a href='https://itunes.apple.com/de/app/rolling-stone/id459438953?mt=8&affId=1857076&ign-mpt=uo%3D4'>Rolling Stone iPad-Ausgabe</a> ist unser erstes und zugleich liebstes Referenzprojekt.
-badgeurl: https://itunes.apple.com/de/app/rolling-stone/id459438953?mt=8
+subheadline: Die Produktion der deutschen <a href="https://itunes.apple.com/de/app/rolling-stone/id459438953?mt=8&affId=1857076&ign-mpt=uo%3D4">Rolling Stone iPad-Ausgabe</a> ist unser erstes und zugleich liebstes Referenzprojekt.
+appstoreid: 459438953
 ---
-<p>Seit der ersten Veröffentlichung der iPad-Ausgabe kümmern wir uns um den Design-Prozess, die HTML5-Entwicklung und die regelmäßigen App-Updates. Heute übernehmen wir die komplette Produktion sowie den Lesersupport und die Entwicklung von Enterprise-Features. Der deutsche <a href='https://itunes.apple.com/de/app/rolling-stone/id459438953?mt=8&affId=1857076&ign-mpt=uo%3D4'>Rolling Stone für das iPad</a> ist prall gefüllt mit Multimedia und Interaktivität. Die Produktion wird zudem von HTML5, CSS3 und JavaScript unterstützt. Wir verwenden für regelmäßig verwendete Artikeltypen konfigurierbare HTML5-Templates, passende iTunes-Vorschausongs werden in jeden Artikel eingefügt und monatlich gibt es ein neues HTML5-Quiz inklusive Gewinnspiel-Server. Außerdem verwendet der Rolling Stone unseren Entitlement-Server <a href='entitlement.dps.server.geildanke.com'>Portier</a>, um Ausgaben Vermarktern oder ausgewählten Lesern zur Verfügung zu stellen.</p>
-<img src="/images/rs-coverflow.jpg">
+<p>Seit der ersten Veröffentlichung der iPad-Ausgabe kümmerten wir uns um den Design-Prozess, die HTML5-Entwicklung und die regelmäßigen App-Updates. Wir übernahmen die komplette Produktion sowie den Lesersupport und die Entwicklung von Enterprise-Features. Der deutsche <a href="https://itunes.apple.com/de/app/rolling-stone/id459438953?mt=8&affId=1857076&ign-mpt=uo%3D4">Rolling Stone für das iPad</a> ist prall gefüllt mit Multimedia und Interaktivität. Die Produktion wird zudem von HTML5, CSS3 und JavaScript unterstützt. Für regelmäßig verwendete Artikeltypen gibt es konfigurierbare HTML5-Templates, passende iTunes-Vorschausongs werden in jeden Artikel eingefügt und monatlich gibt es ein neues HTML5-Quiz inklusive Gewinnspiel-Server. Außerdem verwendete der Rolling Stone unseren Entitlement-Server <a href="https://portier.geildanke.com/#/">Portier</a>, um Ausgaben Vermarktern oder ausgewählten Lesern zur Verfügung zu stellen.</p>
+<img src="../../images/rs-coverflow.jpg">
 <p>Seit Beginn des Projekts haben wir <strong>kontinuierlich den Entwicklungs- und Produktionsprozess verbessert</strong> sowie die InDesign-Templates. Sobald die Print-Layouts fertig gestellt sind, reichen im Schnitt 10 Tage, um die über 132-seitige Printpublikation für das iPad zu entwickeln.</p>
-<img src="/images/rs-templates.jpg">
+<img src="../../images/rs-templates.jpg">
+<p>Laden Sie den Rolling Store im App Store herunter:</p>
 <p>{% include badge.html store="apple" %}</p>
 
 {% for cta in site.ctas %}
   {% if cta.lang == page.lang %}
-    {% if cta == site.ctas[6] %}
+    {% if cta.id == 'about-project' %}
       {% include cta-plain.html %}
     {% endif %}
   {% endif %}
