@@ -1,0 +1,25 @@
+.article {
+
+  // dynamic article formats for usage without classes
+  h2 {
+    @extend .headline;
+    @extend .headline--5;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h2,
+  img,
+  p {
+    margin-bottom: $layout-unit * 2;
+  }
+}
+
+.article__main {
+  @extend %eight-twelfths;
+  @extend %push--two-twelfths;
+
+  margin-top: $layout-unit * 2;
+}

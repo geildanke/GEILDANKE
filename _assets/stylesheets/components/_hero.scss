@@ -122,3 +122,26 @@
     width: 710px;
   }
 }
+
+.hero__hgroup {
+  @extend %eight-twelfths;
+  @extend %push--two-twelfths;
+  @extend .headline;
+
+  color: $color-white;
+
+  position: absolute;
+  bottom: $layout-unit * 5;
+}
+
+.hero__title--page {
+  @extend .headline--1;
+
+  margin-bottom: $layout-unit;
+}
+
+.hero__subtitle--page {
+  @extend .headline--5;
+
+  font-weight: 300;
+}

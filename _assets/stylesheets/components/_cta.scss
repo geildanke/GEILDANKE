@@ -14,6 +14,22 @@
   padding-bottom: $layout-unit * 4;
 }
 
+.cta__column--plain {
+  @extend %xs--six-eighths;
+  @extend %push--xs--one-eighth;
+  @extend %s--six-eighths;
+  @extend %push--s--one-eighth;
+  @extend %m--six-eighths;
+  @extend %push--m--one-eighth;
+  @extend %l--six-eighths;
+  @extend %push--l--one-eighth;
+
+  h2,
+  p {
+    margin-bottom: 0; // reset dynamic article formats
+  }
+}
+
 .cta__copy {
   padding-bottom: $layout-unit * 2;
 }

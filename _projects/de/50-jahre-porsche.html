@@ -5,15 +5,23 @@ permalink: /de/projekt/50-jahre-porsche-911-ipad-app.html
 title: 50 Jahre Porsche 911
 teaser: Die App zum Jubiläum der edlen Automarke
 description: Zusammen mit Relevance-Hamburg haben wir die Jubiläums-App "50 Jahre Porsche 911" für Motor Presse Stuttgart konzipiert, layoutet, mit HTML5 angereichert und entwickelt. Die App erreichte die Top 5 der Bezahl-Apps im deutschen App Store.
-image: porsche-1.jpg
-moodimage: porsche-4.jpg
+moodimage: porsche-bg-gradient.jpg
+headline: 50 Jahre Porsche 911
+subheadline: Zusammen mit <a href="http://www.relevance-hamburg.de/">Relevance</a> haben wir die Jubiläums-App "<a href="https://itunes.apple.com/us/app/50-jahre-porsche-911-die-geschichte/id689255464?mt=8">50 Jahre Porsche 911</a>" für Motor Presse Stuttgart konzipiert, layoutet, mit HTML5 angereichert und entwickelt.
+badgeurl: https://itunes.apple.com/de/app/50-jahre-porsche-911-die-geschichte/id689255464?mt=8
 ---
-<h1>50 Jahre <span class="headline-strong">Porsche</span> 911</h1>
-<p class="teaser">Zusammen mit <a href="http://www.relevance-hamburg.de/">Relevance</a> haben wir die Jubiläums-App "<a href="https://itunes.apple.com/us/app/50-jahre-porsche-911-die-geschichte/id689255464?mt=8">50 Jahre Porsche 911</a>" für Motor Presse Stuttgart konzipiert, layoutet, mit HTML5 angereichert und entwickelt.</p>
-<img src="/images/porsche-1.jpg">
 <p>Die App erreichte die Top 5 der Bezahl-Apps im deutschen App Store. Dieser Erfolg wurde durch die enge Zusammenarbeit zwischen Relevance, Motor Presse Stuttgart mit uns ermöglicht – und durch die hohe Qualität der Inhalte sowie die hochwertige Aufbereitung.</p>
 <img src="/images/porsche-2.jpg">
 <p>Neben einem Porsche-Quiz für 911-Kenner entwickelten wir auch zwei interaktive Zeitleisten mit Gestensteuerung, die alle 911-Modelle seit den 60er-Jahren bis heute mit Bildern und technischen Daten chronoligisch sortiert anzeigen – alles in HTML5 und optimiert für Touchgeräte und Retina-Displays.</p>
 <img src="/images/porsche-3.jpg">
 <p>Die Inhalte haben wir gemeinsam mit den Designern des Auftraggebers konzipiert und im Team layoutet. Abschließend haben wir Relevance in einem Workshop befähigt, selbst Adobe-DPS-Apps zu erstellen und in den App Store einzureichen.</p>
-<a class="btn" href="https://itunes.apple.com/de/app/50-jahre-porsche-911-die-geschichte/id689255464?mt=8">Die App im App Store</a><br>
+<img src="/images/porsche-1.jpg">
+<p>{% include badge.html store="apple" %}</p>
+
+{% for cta in site.ctas %}
+  {% if cta.lang == page.lang %}
+    {% if cta == site.ctas[6] %}
+      {% include cta-plain.html %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
