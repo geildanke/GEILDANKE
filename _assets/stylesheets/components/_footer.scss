@@ -18,7 +18,8 @@
   @extend %l--four-twelfths;
 }
 
-.footer__grid__item--1 {
+.footer__grid__item--1,
+.footer__grid__item--3 {
   @extend %push--xs--four-twelfths;
   @extend %push--s--four-twelfths;
   @extend %push--m--four-twelfths;

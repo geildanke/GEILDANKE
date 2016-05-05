@@ -1,29 +1,22 @@
+---
+layout: compress
+---
+
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	
-	{% assign t = site.data.content.[page.lang] %}
+
+  {% assign t = site.data.content.[page.lang] %}
 
   {% include head.html %}
 
   <body itemscope itemtype="http://schema.org/ProfilePage">
 
-    {% include header-project.html %}
-
-    <section class="article-standard">
-	    <div class="article-img-top" style="background-image: url('/images/{{ page.moodimage }}')"></div>
-	    <div class="grid-container">
-	        <div class="article-standard-wrapper">
-	      			{{ content }}
-	            <div class="helper-div"></div>
-	            <!-- Helps adding a complete <a> tag above -->
-	        </div>
-	    </div>
-		</section>
-
-    {% include contact.html %}
+    {% include header-default.html %}
+		{% include hero-page.html %}
+		{% include article.html %}
     {% include footer.html %}
 
   </body>

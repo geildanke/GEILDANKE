@@ -1,0 +1,29 @@
+.badge {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 135px;
+  height: 40px;
+}
+
+.badge--de {
+
+  &.badge--apple {
+    background-image: url('../images/badges/Download_on_the_App_Store_Badge_DE_Source_135x40.svg');
+  }
+
+  &.badge--google {
+    background-image: url('../images/badges/google-play-badge-de.png');
+  }
+}
+
+.badge--en {
+
+  &.badge--apple {
+    background-image: url('../images/badges/Download_on_the_App_Store_Badge_US-UK_135x40.svg');
+  }
+
+  &.badge--google {
+    background-image: url('../images/badges/google-play-badge.png');
+  }
+}

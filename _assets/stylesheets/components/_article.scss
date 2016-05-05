@@ -1,0 +1,31 @@
+.article {
+
+  // dynamic article formats for usage without classes
+  h2 {
+    @extend .headline;
+    @extend .headline--5;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h2,
+  img,
+  p {
+    margin-bottom: $layout-unit * 2;
+  }
+}
+
+.article__main {
+  @extend %xs--ten-twelfths;
+  @extend %push--xs--one-twelfth;
+  @extend %s--eight-twelfths;
+  @extend %push--s--two-twelfths;
+  @extend %m--eight-twelfths;
+  @extend %push--m--two-twelfths;
+  @extend %l--eight-twelfths;
+  @extend %push--l--two-twelfths;
+
+  margin-top: $layout-unit * 2;
+}
