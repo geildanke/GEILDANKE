@@ -15,7 +15,7 @@
 
     {% for cta in site.ctas %}
       {% if cta.lang == page.lang %}
-        {% if cta == site.ctas[3] %}
+        {% if cta.id == 'contact-whoweare' %}
           {% include cta.html %}
         {% endif %}
       {% endif %}
@@ -26,7 +26,7 @@
 
     {% for cta in site.ctas %}
       {% if cta.lang == page.lang %}
-        {% if cta == site.ctas[4] %}
+        {% if cta.id == 'contact-persons' %}
           {% include cta.html %}
         {% endif %}
       {% endif %}
@@ -40,7 +40,7 @@
 
     {% for cta in site.ctas %}
       {% if cta.lang == page.lang %}
-        {% if cta == site.ctas[5] %}
+        {% if cta.id == 'contact-technology' %}
           {% include cta.html %}
         {% endif %}
       {% endif %}
@@ -51,7 +51,7 @@
 
     {% for cta in site.ctas %}
       {% if cta.lang == page.lang %}
-        {% if cta == site.ctas[6] %}
+        {% if cta.id == 'contact-services' %}
           {% include cta.html %}
         {% endif %}
       {% endif %}

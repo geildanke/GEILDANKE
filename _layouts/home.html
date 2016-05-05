@@ -27,7 +27,7 @@ layout: compress
 
     {% for cta in site.ctas %}
       {% if cta.lang == page.lang %}
-        {% if cta == site.ctas[2] %}
+        {% if cta.id == 'contact-services' %}
           {% include cta.html %}
         {% endif %}
       {% endif %}
@@ -46,7 +46,7 @@ layout: compress
 
     {% for cta in site.ctas %}
       {% if cta.lang == page.lang %}
-        {% if cta == site.ctas[1] %}
+        {% if cta.id == 'contact-responsive-website' %}
           {% include cta.html %}
         {% endif %}
       {% endif %}
@@ -62,7 +62,7 @@ layout: compress
 
     {% for cta in site.ctas %}
       {% if cta.lang == page.lang %}
-        {% if cta == site.ctas[0] %}
+        {% if cta.id == 'blog' %}
           {% include cta.html %}
         {% endif %}
       {% endif %}
