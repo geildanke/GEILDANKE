@@ -19,7 +19,7 @@ layout: compress
 
     {% for list in site.lists %}
       {% if list.lang == page.lang %}
-        {% if list == site.lists[0] %}
+        {% if list.id == 'list-services' %}
           {% include leadlist.html %}
         {% endif %}
       {% endif %}
@@ -54,7 +54,7 @@ layout: compress
 
     {% for list in site.lists %}
       {% if list.lang == page.lang %}
-        {% if list == site.lists[1] %}
+        {% if list.id == 'list-clients' %}
           {% include leadlist.html %}
         {% endif %}
       {% endif %}
@@ -62,7 +62,7 @@ layout: compress
 
     {% for cta in site.ctas %}
       {% if cta.lang == page.lang %}
-        {% if cta.id == 'blog' %}
+        {% if cta.id == 'about-project' %}
           {% include cta.html %}
         {% endif %}
       {% endif %}
