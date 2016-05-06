@@ -426,6 +426,7 @@
 					"label": "Send"
 				}
 			},
+		},
 		"imprint": "Imprint",
 		"about": {
 				"submenu": {
