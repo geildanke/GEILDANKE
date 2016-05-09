@@ -55,6 +55,8 @@
 			}
 		},
 		"contact": {
+			"title": "Wir würden uns sehr über eine Nachricht freuen",
+			"copy": "Schreiben Sie uns eine E-Mail an <a href=\"mailto:hello@geildanke.com\">hallo@geildanke.com</a> oder verwenden Sie dieses Kontakt-Formular, um uns eine Nachricht zu senden.",
 			"headline": "Kontakt",
 			"form": {
 				"email": {
@@ -409,7 +411,9 @@
 			}
 		},
 		"contact": {
+			"title": "We would love to hear from you",
 			"headline": "Contact",
+			"copy": "Feel free to send us an email to <a href=\"mailto:hello@geildanke.com\">hello@geildanke.com</a> or use this contact form to send us a message.",
 			"form": {
 				"email": {
 					"label": "Your Email:",
