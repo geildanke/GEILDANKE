@@ -64,6 +64,10 @@
   @include colortag($color-smoky);
 }
 
+.whoweare__list__item--opensource {
+  @include colortag($color-gulf-stream);
+}
+
 .whoweare__list__link {
   color: $color-black;
 }

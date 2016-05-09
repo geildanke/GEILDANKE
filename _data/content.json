@@ -144,6 +144,15 @@
 							}
 						]
 					},
+					"opensource": {
+						"name": "Open Source",
+						"items": [
+							{
+								"name": "Podlove",
+								"url": "https://github.com/podlove/podlove-subscribe-button"
+							}
+						]
+					},
 					"socialmediaprofiles": [
 						{
 							"name": "dribbble",
@@ -497,6 +506,15 @@
 								{
 									"name": "Interview Junge Gründer",
 									"url": ""
+								}
+							]
+						},
+						"opensource": {
+							"name": "Open Source",
+							"items": [
+								{
+									"name": "Podlove",
+									"url": "https://github.com/podlove/podlove-subscribe-button"
 								}
 							]
 						},

@@ -30,6 +30,10 @@
             {% for item in t.about.whoweare.michaela.articles.items %}
               <dd class="whoweare__list__item whoweare__list__item--description"><a class="whoweare__list__link" href="{{item.url}}">{{item.name}}</a></dd>
             {% endfor %}
+            <dt class="whoweare__list__item whoweare__list__item--term whoweare__list__item--opensource">{{t.about.whoweare.michaela.opensource.name}}</dt>
+            {% for item in t.about.whoweare.michaela.opensource.items %}
+              <dd class="whoweare__list__item whoweare__list__item--description"><a class="whoweare__list__link" href="{{item.url}}">{{item.name}}</a></dd>
+            {% endfor %}
           </dl>
           <ul class="whoweare__socialmedialist">
             {% for socialmediaprofile in t.about.whoweare.michaela.socialmediaprofiles %}
