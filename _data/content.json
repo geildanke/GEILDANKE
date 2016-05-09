@@ -86,7 +86,7 @@
 				"headline": "Über uns",
 				"michaela": {
 					"name": "Michaela Lehr",
-					"position": "Managing Partner und Creative Director",
+					"position": "Geschäftsführender Gesellschafter Kreation",
 					"copy": "Michaela ist kreative <span class=\"typo-bold\">Frontend-Entwicklering</span> und <span class=\"typo-bold\">UX-Designerin</span> bei Geil,Danke!. In den über fünf Jahren Branchen-Erfahrung kämpft sie imer für die <span class=\"typo-bold\">Interessen der Benutzer</span> und Konsistenz in Design- und Code-Mustern. In ihrer Freizeit liest sie gerne Bücher, macht Yoga, geht surfen oder strickt.",
 					"books": {
 						"name": "Bücher",
@@ -178,7 +178,7 @@
 				},
 				"richard": {
 					"name": "Richard Brammer",
-					"position": "Managing Partner und Technical Director",
+					"position": "Geschäftsführender Gesellschafter Technologie",
 					"copy": "Richard ist für die <span class=\"typo-bold\">strategische Ausrichtung</span> von Geil,Danke! zuständig und <span class=\"typo-bold\">Full-stack Web-Entwickler</span>. Mit mehr als <span class=\"typo-bold\">fünfzehn Jahren Erfahrung</span> mit Web-Technologien findet er immer die besten Lösungen für Ihre Herausforderungen. Privat ist er ein großer Star-Wars-Fan; er reist und wandert gerne oder geht surfen.",
 					"books": {
 						"name": "Bücher",
@@ -451,7 +451,7 @@
 					"headline": "Who we are",
 					"michaela": {
 						"name": "Michaela Lehr",
-						"position": "Managing Partner and Creative Director",
+						"position": "Executive Partner Creation",
 						"copy": "Michaela is GeilDanke's creative front-end developer and UX designer. Working in the tech industry for over five years, she constantly fights for the user's interests or the importance of logically consistent stylesheets. In her free time she enjoys reading a lot of books, practicing yoga, surfing and knitting.",
 						"books": {
 							"name": "Books",
@@ -543,7 +543,7 @@
 					},
 					"richard": {
 						"name": "Richard Brammer",
-						"position": "Managing Partner and Technical Director",
+						"position": "Executive Partner Technology",
 						"copy": "Richard is GeilDanke's lead strategist and full stack web developer. With more than fifteen years of experiences in web technologies, he always finds the best solutions to your challenges. In private you can listen to him talking for hours and hours about Star Wars or find him traveling the world, hiking or surfing.",
 						"books": {
 							"name": "Books",
