@@ -13,7 +13,7 @@
           <div class="footer__grid__item footer__grid__item--{{forloop.index0}} layout__grid__item">
             <ul class="footer__list">
               {% for bulletpoint in footerlist.bulletpoints %}
-              <li class="footer__list__item footer__list__item--img typo-smaller typo-label">{{ bulletpoint }}</li>
+              <li class="footer__list__item footer__list__item--img typo-smaller typo-label"><a href="{{ bulletpoint.url }}">{{ bulletpoint.name }}</a></li>
               {% endfor %}
             </ul>
           </div>

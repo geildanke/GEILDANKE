@@ -19,6 +19,12 @@
 			}
 		},
 		"meta": {
+			"links": {
+				"home": "/",
+				"about": "/about",
+				"contact": "/contact",
+				"imprint": "/imprint"
+			},
 			"slogan": {
 				"short": "A creative technology studio",
 				"long": "Für Sie entwickeln wir responsive Webseiten und Apps, die Ihr Business erfolgreich machen"
@@ -337,6 +343,9 @@
 						"value": "Wir schreiben nachhaltigen Code, der die Batterien der Geräte schont."
 					},
 					{
+						"value": "Wir arbeiten an Open-Source-Projekteb mit, z.B. an <a href=\"https://github.com/podlove\">Podlove</a>."
+					},
+					{
 						"value": "Wir achten auf <span class=\"typo-bold\">Datenschutz</span>, Datensicherung und die <span class=\"typo-bold\">Verschlüsselung</span> mit SSL."
 					},
 					{
@@ -384,6 +393,12 @@
 			}
 		},
 		"meta": {
+			"links": {
+				"home": "/en/",
+				"about": "/en/about",
+				"contact": "/en/contact",
+				"imprint": "/en/imprint"
+			},
 			"slogan": {
 				"short": "A creative technology studio",
 				"long": "For You We Create Mobile-friendly Websites and Apps That Will Make Your Business a Success"
@@ -700,6 +715,9 @@
 						},
 						{
 							"value": "Wir schreiben nachhaltigen Code, der die Batterien der Geräte schont."
+						},
+						{
+							"value": "We contribute to open source projects, e.g. <a href=\"https://github.com/podlove\">Podlove</a>."
 						},
 						{
 							"value": "Wir achten auf Datenschutz, Datensicherung und die Verschlüsselung mit SSL."
