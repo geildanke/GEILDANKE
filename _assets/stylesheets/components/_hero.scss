@@ -82,11 +82,21 @@
 }
 
 .hero__text-container {
-  @extend %ten-twelfths;
-  @extend %push--one-twelfth;
+  @extend %xs--ten-twelfths;
+  @extend %push--xs--one-twelfth;
+  @extend %s--ten-twelfths;
+  @extend %push--s--one-twelfth;
+  @extend %m--ten-twelfths;
+  @extend %push--m--one-twelfth;
+  @extend %l--ten-twelfths;
+  @extend %push--l--one-twelfth;
 
-  padding-top: $layout-unit * 4;
+  padding-top: $layout-unit * 2;
   padding-bottom: $layout-unit * 2;
+
+  @media screen and (min-width: $mq-xs) {
+    padding-top: $layout-unit * 4;
+  }
 }
 
 .hero__title {

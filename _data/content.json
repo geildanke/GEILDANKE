@@ -55,21 +55,23 @@
 			}
 		},
 		"contact": {
+			"title": "Wir würden uns sehr über eine Nachricht freuen",
+			"copy": "Schreiben Sie uns eine E-Mail an <a href=\"mailto:hello@geildanke.com\">hallo@geildanke.com</a> oder verwenden Sie dieses Kontakt-Formular, um uns eine Nachricht zu senden.",
 			"headline": "Kontakt",
 			"form": {
 				"email": {
 					"label": "Ihre Email-Adresse:",
-					"placeholder": "hallo@geildanke.com"
+					"placeholder": "Z.B. hallo@geildanke.com"
 				},
 				"message": {
 					"label": "Ihre Nachricht:",
-					"placeholder": "Geben Sie hier Ihre Nachricht an uns ein..."
+					"placeholder": "Bitte geben Sie hier Ihre Nachricht an uns ein..."
 				},
 				"privacy": {
 					"label": "Ich bin mit der <a href=\"#\">Datenschutzerklärung</a> einverstanden."
 				},
 				"button": {
-					"label": "Senden"
+					"label": "E-Mail senden"
 				}
 			}
 		},
@@ -409,23 +411,26 @@
 			}
 		},
 		"contact": {
+			"title": "We would love to hear from you",
 			"headline": "Contact",
+			"copy": "Feel free to send us an email to <a href=\"mailto:hello@geildanke.com\">hello@geildanke.com</a> or use this contact form to send us a message.",
 			"form": {
 				"email": {
 					"label": "Your Email:",
-					"placeholder": "hello@geildanke.com"
+					"placeholder": "e.g. hello@geildanke.com"
 				},
 				"message": {
 					"label": "Your Message:",
-					"placeholder": "Your message here..."
+					"placeholder": "Please enter your message here..."
 				},
 				"privacy": {
 					"label": "I accept the <a href=\"#\">privacy policy</a>."
 				},
 				"button": {
-					"label": "Send"
+					"label": "Send message"
 				}
 			},
+		},
 		"imprint": "Imprint",
 		"about": {
 				"submenu": {

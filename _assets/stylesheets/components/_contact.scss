@@ -17,21 +17,22 @@
   max-width: 100%;
 }
 
-.contact__form {
-  padding-top: $layout-unit * 2;
-  padding-bottom: $layout-unit;
+.contactform {
+  @extend .layout-container;
+
+  padding-bottom: $layout-unit * 4;
 
   @media screen and (min-width: $mq-s) {
-    padding-top: $layout-unit * 3;
-    padding-bottom: $layout-unit * 3;
+    padding-top: $layout-unit * 2;
+    padding-bottom: $layout-unit * 5;
   }
 }
 
-.contact__form__button {
+.contactform__button {
   display: inline-block;
 }
 
-.contact__form__element {
+.contactform__element {
   @extend .typo-small;
 
   color: $color-ming;
@@ -45,11 +46,22 @@
   width: 100%;
 }
 
-.contact__form__element--checkbox {
+.contactform__element--checkbox {
   width: auto;
 }
 
-.contact__form__label {
+.contactform__form {
+  @extend %xs--ten-twelfths;
+  @extend %push--xs--one-twelfth;
+  @extend %s--ten-twelfths;
+  @extend %push--s--one-twelfth;
+  @extend %m--ten-twelfths;
+  @extend %push--m--one-twelfth;
+  @extend %l--ten-twelfths;
+  @extend %push--l--one-twelfth;
+}
+
+.contactform__label {
   @extend .typo-label;
   @extend .typo-small;
 
@@ -67,7 +79,7 @@
   }
 }
 
-.contact__form__label--checkbox {
+.contactform__label--checkbox {
   display: inline-block;
   margin-bottom: $layout-unit * 2;
 }
