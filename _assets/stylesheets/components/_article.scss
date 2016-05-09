@@ -1,4 +1,6 @@
 .article {
+  padding-top: $layout-unit * 2;
+  padding-bottom: $layout-unit * 2;
 
   // dynamic article formats for usage without classes
   h2 {
