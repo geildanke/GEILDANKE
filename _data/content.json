@@ -61,17 +61,17 @@
 			"form": {
 				"email": {
 					"label": "Ihre Email-Adresse:",
-					"placeholder": "hallo@geildanke.com"
+					"placeholder": "Z.B. hallo@geildanke.com"
 				},
 				"message": {
 					"label": "Ihre Nachricht:",
-					"placeholder": "Geben Sie hier Ihre Nachricht an uns ein..."
+					"placeholder": "Bitte geben Sie hier Ihre Nachricht an uns ein..."
 				},
 				"privacy": {
 					"label": "Ich bin mit der <a href=\"#\">Datenschutzerklärung</a> einverstanden."
 				},
 				"button": {
-					"label": "Senden"
+					"label": "E-Mail senden"
 				}
 			}
 		},
@@ -417,17 +417,17 @@
 			"form": {
 				"email": {
 					"label": "Your Email:",
-					"placeholder": "hello@geildanke.com"
+					"placeholder": "e.g. hello@geildanke.com"
 				},
 				"message": {
 					"label": "Your Message:",
-					"placeholder": "Your message here..."
+					"placeholder": "Please enter your message here..."
 				},
 				"privacy": {
 					"label": "I accept the <a href=\"#\">privacy policy</a>."
 				},
 				"button": {
-					"label": "Send"
+					"label": "Send message"
 				}
 			},
 		},
