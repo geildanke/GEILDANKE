@@ -11,8 +11,16 @@
   <body>
     {% include pattern-slant.html %}
     {% include header-default.html %}
-    {% include hero-contact.html %}
-    {% include contact-form.html %}
+    {% include hero-prompt.html %}
+
+    {% for cta in site.ctas %}
+      {% if cta.lang == page.lang %}
+        {% if cta.id == 'about-project' %}
+          {% include cta.html %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
     {% include footer.html %}
   </body>
 
