@@ -3,29 +3,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ page.title }} by Geil,Danke!</title>
     <meta name="description" content="{{ page.teaser }}">
-    
+
+    <link rel="stylesheet" href="/styles/main.css">
+
     <link rel="author" href="https://plus.google.com/103699709433425277252">
     <link rel="publisher" href="https://plus.google.com/109913507347365861932">
-    
+
     <!-- Facebook Open Graph -->
     <meta property="og:title" content="Geil,Danke! Apps, Websites, Games, Magazines">
     <meta property="og:type" content="website">
     <meta property="og:description" content="{{ page.teaser }}">
-    <meta property="og:image" content="https://geildanke.com/social-sharing-image.jpg">
-    <meta property="og:url" content="https://geildanke.com">
+    <meta property="og:image" content="{{ site.main_host }}/social-sharing-image.jpg">
+    <meta property="og:url" content="{{ site.main_host }}">
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:url" content="https://geildanke.com">
+    <meta name="twitter:url" content="{{ site.main_host }}">
     <meta name="twitter:title" content="Geil,Danke! Apps, Websites, Games, Magazines">
     <meta name="twitter:description" content="{{ page.teaser }}">
-    <meta name="twitter:image" content="https://geildanke.com/social-sharing-image.jpg">
+    <meta name="twitter:image" content="{{ site.main_host }}/social-sharing-image.jpg">
     <meta name="twitter:creator" content="@geildanke">
 
     <!-- Itemprops -->
     <meta itemprop="creator" content="Michaela Lehr">
     <meta itemprop="publisher" content="Geil,Danke!">
     <meta itemprop="contributor" content="Richard Brammer">
+
+    <link rel="canonical" href="{{ site.main_host }}{{ page.url }}">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -40,8 +44,6 @@
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
     <meta name="msapplication-TileColor" content="#1e1b1c">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-    
-    <link rel="stylesheet" href="/styles/main.css">
 
     <script src="/scripts/modernizr.custom.27160.js" async="true"></script>
 </head>
