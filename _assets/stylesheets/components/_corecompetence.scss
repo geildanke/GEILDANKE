@@ -112,6 +112,10 @@
 }
 
 .corecompetence__paragraph {
+  padding-bottom: $layout-unit * 3;
+}
+
+.corecompetence__paragraph--short {
   padding-bottom: $layout-unit;
 }
 

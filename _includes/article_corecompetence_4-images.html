@@ -8,8 +8,10 @@
     <div class="corecompetence__article-main layout__grid__item">
       <div class="corecompetence__text-container corecompetence__text-container--left">
         <p class="corecompetence__lead typo__lead">{{corecompetence.lead}}</p>
-        <p class="corecompetence__paragraph">{{corecompetence.teaser}}</p>
-        <button class="button corecompetence__button">{{corecompetence.cta}}</button>
+        <p class="corecompetence__paragraph {% if corecompetence.cta %}corecompetence__paragraph--short{% endif %}">{{corecompetence.teaser}}</p>
+        {% if corecompetence.cta %}
+        <a class="button corecompetence__button" href="{{corecompetence.cta.url}}">{{corecompetence.cta.label}}</a>
+        {% endif %}
       </div>
       <div class="layout__grid">
         <div class="layout__grid__item corecompetence__figurecontainer corecompetence__figurecontainer--1">
