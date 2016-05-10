@@ -1,3 +1,7 @@
+{% capture about_url %}/{{ page.lang }}/about/index.html{% endcapture %}
+{% capture contact_url %}/{{ page.lang }}/contact/index.html{% endcapture %}
+{% capture projects_url %}/{{ page.lang }}/projects/index.html{% endcapture %}
+
 <header class="header layout-container typo-label">
     <nav class="nav">
         <a href="{{t.meta.links.home}}">
@@ -5,10 +9,10 @@
             <span class="nav__logo"></span>
         </a>
         <ul class="nav__list">
-            <li class="nav__list__element"><a  class="nav__link{% if page.url == '/about/index.html' %} nav__link--active{% endif %}" href="{{t.meta.links.about}}">{{t.nav.about.value}}</a></li>
-            <!--<li class="nav__list__element"><a  class="nav__link{% if page.url == '/projects/index.html' %} nav__link--active{% endif %}" href="/projects">{{t.nav.projects.value}}</a></li>-->
-            <li class="nav__list__element"><a  class="nav__link{% if page.url == '/contact/index.html' %} nav__link--active{% endif %}" href="{{t.meta.links.contact}}">{{t.nav.contact.value}}</a></li>
-            <li class="nav__list__element"><a  class="nav__link" href="{{ t.language.btn.link}}">{{t.language.btn.value}}</a></li>
+            <li class="nav__list__element"><a  class="nav__link{% if page.url == about_url %} nav__link--active{% endif %}" href="{{ t.meta.links.about }}">{{t.nav.about.value}}</a></li>
+            <!--<li class="nav__list__element"><a  class="nav__link{% if page.url == projects_url %} nav__link--active{% endif %}" href="/projects">{{ t.nav.projects.value }}</a></li>-->
+            <li class="nav__list__element"><a  class="nav__link{% if page.url == contact_url %} nav__link--active{% endif %}" href="{{ t.meta.links.contact }}">{{t.nav.contact.value}}</a></li>
+            <li class="nav__list__element"><a  class="nav__link" href="{{ t.language.btn.link }}">{{t.language.btn.value}}</a></li>
         </ul>
     </nav>
     <div class="header__slogan">{{t.meta.slogan.short}}</div>

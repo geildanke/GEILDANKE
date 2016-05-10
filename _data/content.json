@@ -20,10 +20,10 @@
 		},
 		"meta": {
 			"links": {
-				"home": "/",
-				"about": "/about",
-				"contact": "/contact",
-				"imprint": "/imprint"
+				"home": "/de/",
+				"about": "/de/about",
+				"contact": "/de/contact",
+				"imprint": "/de/imprint"
 			},
 			"slogan": {
 				"short": "A creative technology studio",
