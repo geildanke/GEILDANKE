@@ -38,7 +38,7 @@
   color: $color-gray;
 
   background-color: $color-black;
-  padding: ($layout-unit * 3) 0 ($layout-unit * 2) 0;
+  padding: ($layout-unit * 3) 0 ($layout-unit * 4) 0;
 }
 
 .footer__list {}
@@ -75,4 +75,10 @@
 
   background-color: $color-black;
   padding: ($layout-unit * 3) $layout-unit ($layout-unit * 2) $layout-unit;
+}
+
+.footer__socialmedia {
+  text-align: center;
+
+  background-color: $color-black;
 }
