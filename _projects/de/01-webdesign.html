@@ -1,7 +1,7 @@
 ---
 layout: project
 lang: de
-permalink: /projekt/wunderschoene-mobile-responsive-webseiten-mit-html5.html
+permalink: /de/projekt/wunderschoene-mobile-responsive-webseiten-mit-html5.html
 title: Reponsive Web-Design
 teaser: Anspruchsvolle, mobile, animierte Webseiten für Audi &amp; Co
 description: Als Spezialisten für Inhalte auf mobilen Geräten wie Smartphones und Tablets und durch unsere Erfahrung mit HTML5 sind wir in der Lage, anspruchsvolle responsive Webseiten zu entwickeln, die sich an alle Displaygrößen anpassen und auf allen Geräten nahezu perfekt aussehen.
@@ -14,6 +14,15 @@ subheadline: Als Spezialisten für Inhalte auf mobilen Geräten wie Smartphones 
 <img src="../../images/webdesign-1.jpg">
 <p>Beispielsweise haben wir Projekte mit Parallax-Effekten auf Smartphones realisiert, oder nutzen Bildergalerien, die Sie mit Wisch-Gesten steuern können. Als Backend-Systeme dienen uns regelmäßig Wordpress, ExpressionEngine oder selbst entwickelte Systeme auf PHP- oder Node.js-Basis.</p>
 <p>Unser Entwicklungsprozess beinhaltet die Minifizierung von Stylsheets und Scripten, bei großen hochauflösenden Bildern kommen progressive Lademethoden zum Einsatz. Wir achten auf die Auszeichnung der korrekten Meta-Daten, um optimale Ergebnisse beim Teilen über Facebook, Twitter und Google+ zu erreichen und um die Darstellung auf den Homescreens von Android, iOS und Windows Phone zu steuern.</p>
+
+{% for cta in site.ctas %}
+  {% if cta.lang == page.lang %}
+    {% if cta.id == 'contact-responsive-website' %}
+      {% include cta-plain.html %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
 <img src="../../images/webdesign-2.jpg">
 <p>Durch unser Device Lab mit über 25 verschiedenen Testgeräten – vom Android-Smartphone mit der Betriebsystem-Version 2.3.6 und 240x320-Display über Windows Phones bis zum MacBook mit Retina-Display und 27-Zoll-Monitor – werden Ihre Webseiten vor der Veröffentlichung intensiv getestet.</p>
 <p>Wo es möglich ist und die Kompatibilität nicht einschränkt, nutzen wir die Hardwarebeschleunigung der Geräte und Browser. Das Ziel unserer Projekte ist immer die möglichst große Zugänglichkeit und eine schnelle Ladezeit der Seiten. Während unserer Arbeit an Projekten bilden wir uns ständig weiter und verbessern kontinuierlich unseren Prozess – eine Arbeitsweise für die uns unsere Arbeitgeber schätzen und die uns motiviert, ständig das Beste zu geben.</p>
@@ -31,7 +40,7 @@ subheadline: Als Spezialisten für Inhalte auf mobilen Geräten wie Smartphones 
 
 {% for cta in site.ctas %}
   {% if cta.lang == page.lang %}
-    {% if cta.id == 'contact-responsive-website' %}
+    {% if cta.id == 'about-project' %}
       {% include cta-plain.html %}
     {% endif %}
   {% endif %}

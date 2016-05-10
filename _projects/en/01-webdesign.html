@@ -14,6 +14,15 @@ subheadline: We are specialized in publishing content to mobile desvices – lik
 <img src="../../images/webdesign-1.jpg">
 <p>For example did we realize projects with parallax effects on Smartphones or implement image galleries with gesture control. As backend systems we use Wordpress, Drupal, ExpressionEngine, CodeIgniter, TaleShip or self custom systems based on PHP or Node.js.</p>
 <p>Our development process includes minification of stylsheets and scripts, when dealing with high resolution images we use progressive loading techniques. We respect correct meta data, to achieve optimal results when sharing via Facebook, Twitter or Google+ and saving a link on the homescreens of iOS, Android and Windows Phone.</p>
+
+{% for cta in site.ctas %}
+  {% if cta.lang == page.lang %}
+    {% if cta.id == 'contact-responsive-website' %}
+      {% include cta-plain.html %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
 <img src="../../images/webdesign-2.jpg">
 <p>As we have a device lab with over 25 different mobile test devices – from Android smartphones with an operating system version of 2.3.6 and a screen size of 240 by 320 pixels via Windows Phones to MacBooks with Retina displays and 27-inch monitors – we can assure that your site is tested well before the release. Also our general terms provide client friendly corrections rounds for the perfectionists among you.</p>
 <p>Wherever the compatibility is not limited, we use hardware acceleration of browsers and devices. The aim of our projects is a maximum availability and the quick loading time of a website. During our work on projects we continually imprive our knowledge and process – a principle of practice we are loved for by our clients and which keeps us motivated to always give our best.</p>
@@ -31,7 +40,7 @@ subheadline: We are specialized in publishing content to mobile desvices – lik
 
 {% for cta in site.ctas %}
   {% if cta.lang == page.lang %}
-    {% if cta.id == 'contact-responsive-website' %}
+    {% if cta.id == 'about-project' %}
       {% include cta-plain.html %}
     {% endif %}
   {% endif %}
