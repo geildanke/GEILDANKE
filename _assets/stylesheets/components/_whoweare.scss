@@ -6,6 +6,27 @@
   @extend %l--six-twelfths;
 }
 
+.whoweare__conferences {
+  @extend %xs--ten-twelfths;
+  @extend %push--xs--one-twelfth;
+  @extend %s--ten-twelfths;
+  @extend %push--s--one-twelfth;
+  @extend %m--ten-twelfths;
+  @extend %push--m--one-twelfth;
+  @extend %l--ten-twelfths;
+  @extend %push--l--one-twelfth;
+}
+
+.whoweare__conferences__copy {
+  margin-bottom: $layout-unit * 2;
+}
+
+.whoweare__conferences__list__item {
+  @include list-stroke();
+
+  padding-bottom: $layout-unit / 2;
+}
+
 .whoweare__copy {
   padding-bottom: $layout-unit * 2;
 }

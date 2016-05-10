@@ -138,7 +138,7 @@
 						]
 					},
 					"articles": {
-						"name": "Artikel",
+						"name": "Artikel/TV",
 						"items": [
 							{
 								"name": "SitePoint Article \"Creating a WebGL Game with Unity 5 and JavaScript\"",
@@ -147,6 +147,10 @@
 							{
 								"name": "Interview Junge Gründer",
 								"url": "http://www.junge-gruender.de/interviews/interview-mit-michaela-lehr-mitgruenderin-von-geildanke-gmbh/"
+							},
+							{
+								"name": "Elektrischer Reporter, ZDF info",
+								"url": "http://www.elektrischer-reporter.de/phase3/video/327/"
 							}
 						]
 					},
@@ -239,6 +243,92 @@
 							"url": "https://www.instagram.com/rias1138/"
 						}
 					]
+				},
+				"conferences": {
+					"headline": "Treffen Sie uns",
+					"copy": "Wir bilden uns ständig weiter. Dafür besuchen wir Konferenzen, Bar-Camps und Meetups. Sie sind auch auf einer der kommenden Konferenzen? Schreiben Sie uns eine kurze Nachricht – wir würden uns freuen, Sie zu treffen.",
+						"conferences": [
+							{
+								"name": "ChaosCommunicationCongress2016 33c3, Hamburg, Deutschland",
+								"url": "http://stenoknight.com/wiki/ChaosCommunicationCongress2016_33c3"
+							},
+							{
+								"name": "Google I/O 2016, Mountain View, United States",
+								"url": "https://events.google.com/io2016/"
+							},
+							{
+								"name": "Subscribe 7, Berlin, Deutschland",
+								"url": "http://das-sendezentrum.de/subscribe/sub7/"
+							},
+							{
+								"name": "32C3: 30th Chaos Communication Congress, Hamburg, Deutschland",
+								"url": "https://events.ccc.de/congress/2015/wiki/Static:Main_Page"
+							},
+							{
+								"name": "Meet the TAG (Technical Architecture Group) with Tim Berners Lee, Berlin, Deutschland",
+								"url": "http://lanyrd.com/2015/meetthetag/"
+							},
+							{
+								"name": "GDC Europe, Köln, Deutschland",
+								"url": "http://www.gdcvault.com/browse/gdc-europe-15"
+							},
+							{
+								"name": "Unite Europe 2015, Amsterdam, Niederlande",
+								"url": "https://unite.unity.com/archive/2015"
+							},
+							{
+								"name": "Beyond Tellerrand 2015, Düsseldorf, Deutschland",
+								"url": "https://beyondtellerrand.com/events/duesseldorf-2015/speakers"
+							},
+							{
+								"name": "Awwwards Conference 2015, Barcelona, Spanien",
+								"url": "http://www.awwwards.com/conference-barcelona-2015/"
+							},
+							{
+								"name": "31C3 Chaos Communication Congress, Hamburg, Deutschland",
+								"url": "https://events.ccc.de/category/31c3/"
+							},
+							{
+								"name": "Beyond Tellerrand 2014, Berlin, Deutschland",
+								"url": "https://beyondtellerrand.com/events/berlin-2014/speakers"
+							},
+							{
+								"name": "Pubkon 2014, Berlin, Deutschland",
+								"url": "http://2014.pubkon.eu/"
+							},
+							{
+								"name": "Beyond Tellerrand 2014, Düsseldorf, Deutschland",
+								"url": "https://beyondtellerrand.com/events/duesseldorf-2014/speakers"
+							},
+							{
+								"name": "Web Platform Doc Sprint, Düsseldorf, Deutschland",
+								"url": "http://lanyrd.com/2014/wpds-dusseldorf/"
+							},
+							{
+								"name": "Beyond Tellerrand 2013, Düsseldorf, Deutschland",
+								"url": "https://beyondtellerrand.com/events/duesseldorf-2013/speakers"
+							},
+							{
+								"name": "Web Platform Doc Sprint, Berlin Deutschland",
+								"url": "https://www.eventbrite.com/e/web-platform-doc-sprint-berlin-tickets-5062233276"
+							},
+							{
+								"name": "Techcrunch Disrupt 2013, New York City, United States",
+								"url": "http://techcrunch.com/events/disrupt-ny-2013/event-info/"
+							},
+							{
+								"name": "Pubkon 2013",
+								"url": "http://www.indesign-blog.de/einladung-zur-pubkon-%E2%80%93-18-%E2%80%9320-april-2013-berlin/"
+							},
+							{
+								"name": "Push Conference 2012, München, Deutschland",
+								"url": "http://push-conference.com/2012/"
+							},
+							{
+								"name": "Quo Vadis Game Developer Conference, Berlin, Deutschland",
+								"url": "http://www.golem.de/1004/74736.html"
+							}
+						]
 				}
 			},
 			"howwework": {
@@ -611,6 +701,92 @@
 							{
 								"name": "instagram",
 								"url": "https://www.instagram.com/fischaelameer/"
+							}
+						]
+					},
+					"conferences": {
+						"headline": "Meet us",
+						"copy": "We are constantly trying to learn more. Therefore we visit conferences, bar camps and meetups. Will you be on one of the upcoming conferences, too? We would love to meet you.",
+						"conferences": [
+							{
+								"name": "ChaosCommunicationCongress2016 33c3, Hamburg, Germany",
+								"url": "http://stenoknight.com/wiki/ChaosCommunicationCongress2016_33c3"
+							},
+							{
+								"name": "Google I/O 2016, Mountain View, United States",
+								"url": "https://events.google.com/io2016/"
+							},
+							{
+								"name": "Subscribe 7, Berlin, Germany",
+								"url": "http://das-sendezentrum.de/subscribe/sub7/"
+							},
+							{
+								"name": "32C3: 30th Chaos Communication Congress, Hamburg, Germany",
+								"url": "https://events.ccc.de/congress/2015/wiki/Static:Main_Page"
+							},
+							{
+								"name": "Meet the TAG (Technical Architecture Group) with Tim Berners Lee, Berlin, Germany",
+								"url": "http://lanyrd.com/2015/meetthetag/"
+							},
+							{
+								"name": "GDC Europe, Köln, Germany",
+								"url": "http://www.gdcvault.com/browse/gdc-europe-15"
+							},
+							{
+								"name": "Unite Europe 2015, Amsterdam, Netherlands",
+								"url": "https://unite.unity.com/archive/2015"
+							},
+							{
+								"name": "Beyond Tellerrand 2015, Düsseldorf, Germany",
+								"url": "https://beyondtellerrand.com/events/duesseldorf-2015/speakers"
+							},
+							{
+								"name": "Awwwards Conference 2015, Barcelona, Spain",
+								"url": "http://www.awwwards.com/conference-barcelona-2015/"
+							},
+							{
+								"name": "31C3 Chaos Communication Congress, Hamburg, Germany",
+								"url": "https://events.ccc.de/category/31c3/"
+							},
+							{
+								"name": "Beyond Tellerrand 2014, Berlin, Germany",
+								"url": "https://beyondtellerrand.com/events/berlin-2014/speakers"
+							},
+							{
+								"name": "Pubkon 2014, Berlin, Germany",
+								"url": "http://2014.pubkon.eu/"
+							},
+							{
+								"name": "Beyond Tellerrand 2014, Düsseldorf, Germany",
+								"url": "https://beyondtellerrand.com/events/duesseldorf-2014/speakers"
+							},
+							{
+								"name": "Web Platform Doc Sprint, Düsseldorf, Germany",
+								"url": "http://lanyrd.com/2014/wpds-dusseldorf/"
+							},
+							{
+								"name": "Beyond Tellerrand 2013, Düsseldorf, Germany",
+								"url": "https://beyondtellerrand.com/events/duesseldorf-2013/speakers"
+							},
+							{
+								"name": "Web Platform Doc Sprint, Berlin Germany",
+								"url": "https://www.eventbrite.com/e/web-platform-doc-sprint-berlin-tickets-5062233276"
+							},
+							{
+								"name": "Techcrunch Disrupt 2013, New York City, United States",
+								"url": "http://techcrunch.com/events/disrupt-ny-2013/event-info/"
+							},
+							{
+								"name": "Pubkon 2013",
+								"url": "http://www.indesign-blog.de/einladung-zur-pubkon-%E2%80%93-18-%E2%80%9320-april-2013-berlin/"
+							},
+							{
+								"name": "Push Conference 2012, München, Germany",
+								"url": "http://push-conference.com/2012/"
+							},
+							{
+								"name": "Quo Vadis Game Developer Conference, Berlin, Germany",
+								"url": "http://www.golem.de/1004/74736.html"
 							}
 						]
 					}

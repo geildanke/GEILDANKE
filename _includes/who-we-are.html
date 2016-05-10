@@ -70,6 +70,17 @@
           </ul>
         </article>
       </div>
+      <div class="whoweare__title-container">
+        <div class="whoweare__title">{{t.about.whoweare.conferences.headline}}<span class="typo-color--main">.</span></div>
+      </div>
+      <article class="whoweare__conferences">
+        <p class="whoweare__conferences__copy">{{t.about.whoweare.conferences.copy}}</p>
+        <ul class="whoweare__conferences__list">
+          {% for conference in t.about.whoweare.conferences.conferences %}
+            <li class="whoweare__conferences__list__item"><a href="{{conference.url}}">{{conference.name}}</a></li>
+          {% endfor %}
+        </ul>
+      </article>
     </div>
   </div>
 </section>
