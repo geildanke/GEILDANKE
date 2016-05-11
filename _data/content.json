@@ -26,8 +26,8 @@
 				"imprint": "/de/imprint"
 			},
 			"slogan": {
-				"short": "A creative technology studio",
-				"long": "Für Sie entwickeln wir responsive Webseiten und Apps, die Ihr Business erfolgreich machen"
+				"short": "Studio für Mobile App-Entwicklung und Responsive Web Design",
+				"long": "Starten Sie Ihr Business auf allen Kanälen: Apps und Webseiten für iPhone, iPad, Android und Windows"
 			},
 			"companyname": "Geil,Danke! GmbH",
 			"address": {
@@ -133,13 +133,17 @@
 						"items": [
 							{
 								"name": "Angular 2 Comet",
-								"url": "http://bit.ly/ng2comet"
+								"url": "https://geildanke.com/ng2comet"
 							}
 						]
 					},
 					"articles": {
 						"name": "Artikel/TV",
 						"items": [
+							{
+								"name": "SitePoint Article \"Build Your Own Chrome Extension Using Angular 2 & TypeScript\"",
+								"url": "http://www.sitepoint.com/chrome-extension-angular-2/"
+							},
 							{
 								"name": "SitePoint Article \"Creating a WebGL Game with Unity 5 and JavaScript\"",
 								"url": "http://www.sitepoint.com/creating-webgl-game-unity-5-javascript/"
@@ -458,7 +462,7 @@
 						"value": "Bücher konsumieren wir hauptsächlich <span class=\"typo-bold\">papierlos</span>."
 					},
 					{
-						"value": "Sowohl privat als auch beruflich sind wir <span class=\"typo-bold\">Minimalisten</span> und besitzen wir kein Auto."
+						"value": "Sowohl privat als auch beruflich sind wir <span class=\"typo-bold\">Minimalisten</span> und besitzen kein Auto."
 					},
 					{
 						"value": "Wann immer möglich ernähren wir uns <span class=\"typo-bold\">pflanzlich</span>."
@@ -494,8 +498,8 @@
 				"imprint": "/en/imprint"
 			},
 			"slogan": {
-				"short": "A creative technology studio",
-				"long": "For You We Create Mobile-friendly Websites and Apps That Will Make Your Business a Success"
+				"short": "A mobile app development and responsive web design studio",
+				"long": "Launch your business on all channels. Apps and web sites for iPhone, iPad, Android and Windows"
 			},
 			"companyname": "Geil,Danke! GmbH",
 			"address": {
@@ -567,11 +571,11 @@
 							"items": [
 								{
 									"name": "„Digitales Publizieren für Tablets: Magazin-Apps mit InDesign für iPad, Android & Co.“",
-									"url": ""
+									"url": "http://www.amazon.de/gp/product/3898647811/ref=as_li_ss_tl?ie=UTF8&tag=paploo-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3898647811"
 								},
 								{
 									"name": "„Adobe Digital Publishing Suite: Apps entwickeln mit InDesign und HTML5 - inklusive Prozessoptimierung und Profi-Tipps aus der Praxis“",
-									"url": ""
+									"url": "http://www.amazon.de/Adobe-Digital-Publishing-Suite-Prozessoptimierung-ebook/dp/B00DUH4ZR4/"
 								}
 							]
 						},
@@ -580,19 +584,19 @@
 							"items": [
 								{
 									"name": "EnterJS 2016 „Erste Schritte mit Angular 2: Components, Directives, Templates“",
-									"url": ""
+									"url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
 								},
 								{
 									"name": "Pubkon 2014 „HTML und CSS für Designer / HTML & CSS for designers“",
-									"url": ""
+									"url": "http://de.slideshare.net/michaelalehr/html-und-css-fr-designer-html-css-for-designers-pubkon-2014"
 								},
 								{
 									"name": "Medienplantage 2014 „Digital Publishing: Was Print-Designer von Web-Designern lernen können“",
-									"url": ""
+									"url": "http://de.slideshare.net/michaelalehr/digital-publishing-22546555"
 								},
 								{
 									"name": "Typographie Workshop 2015 „Digitale Magazine erstellen“",
-									"url": ""
+									"url": "http://de.slideshare.net/michaelalehr/digitale-magazine-1-handout"
 								}
 							]
 						},
@@ -601,7 +605,7 @@
 							"items": [
 								{
 									"name": "Angular 2 Comet",
-									"url": ""
+									"url": "https://geildanke.com/ng2comet"
 								}
 							]
 						},
@@ -609,12 +613,20 @@
 							"name": "Articles",
 							"items": [
 								{
+									"name": "SitePoint Article \"Build Your Own Chrome Extension Using Angular 2 & TypeScript\"",
+									"url": "http://www.sitepoint.com/chrome-extension-angular-2/"
+								},
+								{
 									"name": "SitePoint Article \"Creating a WebGL Game with Unity 5 and JavaScript\"",
-									"url": ""
+									"url": "http://www.sitepoint.com/creating-webgl-game-unity-5-javascript/"
 								},
 								{
 									"name": "Interview Junge Gründer",
-									"url": ""
+									"url": "http://www.junge-gruender.de/interviews/interview-mit-michaela-lehr-mitgruenderin-von-geildanke-gmbh/"
+								},
+								{
+									"name": "Elektrischer Reporter, ZDF info",
+									"url": "http://www.elektrischer-reporter.de/phase3/video/327/"
 								}
 							]
 						},
@@ -659,11 +671,11 @@
 							"items": [
 								{
 									"name": "„Digitales Publizieren für Tablets: Magazin-Apps mit InDesign für iPad, Android & Co.“",
-									"url": ""
+									"url": "http://www.amazon.de/gp/product/3898647811/ref=as_li_ss_tl?ie=UTF8&tag=paploo-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3898647811"
 								},
 								{
 									"name": "„Adobe Digital Publishing Suite: Apps entwickeln mit InDesign und HTML5 - inklusive Prozessoptimierung und Profi-Tipps aus der Praxis“",
-									"url": ""
+									"url": "http://www.amazon.de/Adobe-Digital-Publishing-Suite-Prozessoptimierung-ebook/dp/B00DUH4ZR4/"
 								}
 							]
 						},
@@ -672,7 +684,7 @@
 							"items": [
 								{
 									"name": "Pubkon 2013: „Digital Mobile Publishing für Tablets und Smartphones“",
-									"url": ""
+									"url": "http://fr.slideshare.net/RichardBrammer/digital-mobile-publishing-f"
 								}
 							]
 						},
@@ -681,7 +693,7 @@
 							"items": [
 								{
 									"name": "Curated Blockchain News",
-									"url": ""
+									"url": "https://geildanke.com/curated-blockchain-news/"
 								}
 							]
 						},
@@ -806,7 +818,7 @@
 					"headline": "What we do",
 					"skills": [
 						{
-							"name": "Sprachen",
+							"name": "Languages",
 							"items": [
 								{
 									"name": "HTML5"
@@ -837,7 +849,7 @@
 							]
 						},
 						{
-							"name": "Datenbanken",
+							"name": "Databases",
 							"items": [
 								{
 									"name": "NoSQL, Mongo, CouchDB"
@@ -862,7 +874,7 @@
 							]
 						},
 						{
-							"name": "Konzepte",
+							"name": "Conceps",
 							"items": [
 								{
 									"name": "Test-driven Development (TDD)"
@@ -882,50 +894,50 @@
 							]
 						}
 					],
-					"footnote": "* Wir können auch Web Components, WebGL, Canvas — SCSS, LESS — jQuery, Bootstrap — React — XML, MySQL, PostgreSQL — PHP, Wordpress, CodeIgniter — Python, Django — Brokoli, Angular CLI — Jenkins, TeamCity — Unity, UnityScript, C# — Solidity — Encryption"
+					"footnote": "* We also know Web Components, WebGL, Canvas — SCSS, LESS — jQuery, Bootstrap — React — XML, MySQL, PostgreSQL — PHP, Wordpress, CodeIgniter — Python, Django — Brokoli, Angular CLI — Jenkins, TeamCity — Unity, UnityScript, C# — Solidity — Encryption"
 				},
 				"whatmatters": {
 					"headline": "What matters to us",
-					"copy": "Die Umwelt und alle Lebewesen liegen uns am Herzen. Dies spiegelt sich natürlich auch in unserem Unternehmen wieder.",
+					"copy": "The environment, nature and all living beings lie at the heart. That reflects in how we run our company, of course.",
 					"items": [
 						{
-							"value": "Wir arbeiten ausschließlich mit Naturstrom."
+							"value": "We work with <span class=\"typo-bold\">alternative energy</span> only."
 						},
 						{
-							"value": "Unsere Rechner sind refurbished (Gebrauchtgeräte) von Apple."
+							"value": "Our MacBooks are <span class=\"typo-bold\">refurbished</span>."
 						},
 						{
-							"value": "Alte Geräte verkaufen wir weiter oder recyclen sie."
+							"value": "We <span class=\"typo-bold\">recycle</span> or sell old devices."
 						},
 						{
-							"value": "Wir schreiben nachhaltigen Code, der die Batterien der Geräte schont."
+							"value": "We write <span class=\"typo-bold\">sustainable code</span>, that saves the device's battery."
 						},
 						{
-							"value": "We contribute to open source projects, e.g. <a href=\"https://github.com/podlove\">Podlove</a>."
+							"value": "We contribute to <span class=\"typo-bold\">open source projects</span>, e.g. <a href=\"https://github.com/podlove\">Podlove</a>."
 						},
 						{
-							"value": "Wir achten auf Datenschutz, Datensicherung und die Verschlüsselung mit SSL."
+							"value": "We care about <span class=\"typo-bold\">privacy</span>, data security und SSL encryption."
 						},
 						{
-							"value": "Soweit wie möglich unterstützen wir lokale Geschäfte und verzichten auf den Kauf bei Amazon."
+							"value": "Whenever possible we support local stores and go without buying on Amazon."
 						},
 						{
-							"value": "Am liebsten reisen wir mit der BahnCard und Ökostrom. "
+							"value": "Preferably we travel with the train and alternative energy."
 						},
 						{
-							"value": "Wenn sich Flugreisen nicht vermeiden lassen, achten wir auf den CO2-Ausgleich."
+							"value": "Whenever flights cannot be avoided, we watch out for the <span class=\"typo-bold\">carbon offset</span>."
 						},
 						{
-							"value": "Wir versuchen immer ohne Papier zu arbeiten und so wenig wie möglich zu drucken."
+							"value": "We try to work <span class=\"typo-bold\">without paper</span> and print as little as possible."
 						},
 						{
-							"value": "Bücher konsumieren wir hauptsächlich papierlos."
+							"value": "We consume our books without paper."
 						},
 						{
-							"value": "Sowohl privat als auch beruflich sind wir Minimalisten und besitzen wir kein Auto."
+							"value": "Both in privat and work-related we are <span class=\"typo-bold\">minimalists</span> and don't have a car."
 						},
 						{
-							"value": "Wann immer möglich ernähren wir uns pflanzlich."
+							"value": "Whenever possible we eat <span class=\"typo-bold\">plant-based</span>."
 						}
 					]
 				}
