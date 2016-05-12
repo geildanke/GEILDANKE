@@ -36,10 +36,17 @@
 
 .submenu__list__item {
   margin-left: $layout-unit * 2.5;
+  padding-top: $layout-unit / 1.5;
+  padding-bottom: $layout-unit / 1.5;
   position: relative;
 
   @media screen and (min-width: $mq-xs) {
     display: inline-block;
+  }
+
+  @media screen and (min-width: $mq-m) {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   &::before {
