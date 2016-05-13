@@ -1,0 +1,129 @@
+.corecompetence {}
+
+.corecompetence__article-aside {
+  @extend %s--four-twelfths;
+}
+
+.corecompetence__article-aside--left {
+  @extend %m--four-twelfths;
+  @extend %l--four-twelfths;
+}
+
+.corecompetence__article-aside--right {
+  @extend %m--four-twelfths;
+  @extend %l--four-twelfths;
+}
+
+.corecompetence__article-main {
+  @extend %s--eight-twelfths;
+  @extend %m--eight-twelfths;
+  @extend %l--eight-twelfths;
+}
+
+.corecompetence__button {
+  margin-top: $layout-unit;
+  margin-bottom: $layout-unit * 3;
+}
+
+.corecompetence__figure {
+
+  @media screen and (min-width: $mq-xs) {
+    margin-bottom: $layout-unit;
+  }
+
+  @media screen and (min-width: $mq-s) {
+    margin-bottom: $layout-unit * 3;
+  }
+}
+
+.corecompetence__figurecontainer--1 {
+  @extend %xs--four-eighths;
+  @extend %s--four-eighths;
+  @extend %m--four-eighths;
+  @extend %l--four-eighths;
+}
+
+.corecompetence__figurecontainer--2 {
+  @extend %xs--four-eighths;
+  @extend %s--four-eighths;
+  @extend %m--four-eighths;
+  @extend %l--four-eighths;
+
+  @media screen and (min-width: $mq-s) {
+    margin-top: $layout-unit * 3;
+  }
+}
+
+.corecompetence__figure__caption {
+  margin-top: $layout-unit / 2;
+  margin-bottom: $layout-unit;
+}
+
+.corecompetence__figure__caption__paragraph {
+  @extend .typo-label;
+  @extend .typo-small;
+
+  display: inline-block;
+  margin-bottom: $layout-unit / 2;
+}
+
+.corecompetence__figure__grid {
+  @extend %xs--six-twelfths;
+}
+
+.corecompetence__figure__img {
+  width: 100%;
+}
+
+.corecompetence__header {
+  border-top: 2px solid $color-black;
+  border-bottom: 1px solid $color-black;
+  padding-top: $layout-unit * 3;
+  padding-bottom: $layout-unit;
+}
+
+.corecompetence__headline {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+  @extend %m--nine-twelfths;
+  @extend %push--m--two-twelfths;
+  @extend %l--nine-twelfths;
+  @extend %push--l--two-twelfths;
+}
+
+.corecompetence__lead {
+  @extend .typo-lead;
+
+  text-align: right;
+
+  padding-bottom: $layout-unit * 2;
+
+  @media screen and (min-width: $mq-s) {
+    padding-top: $layout-unit * 2;
+  }
+}
+
+.corecompetence__main {
+  padding-top: $layout-unit * 2;
+
+  @media screen and (min-width: $mq-s) {
+    padding-top: $layout-unit * 3;
+  }
+}
+
+.corecompetence__paragraph {
+  padding-bottom: $layout-unit * 3;
+}
+
+.corecompetence__paragraph--short {
+  padding-bottom: $layout-unit;
+}
+
+.corecompetence__text-container {
+  @extend %l--six-eighths;
+  @extend %push--l--one-eighth;
+}
+
+.corecompetence__text-container--left {
+  @extend %push--l--one-eighth;
+}

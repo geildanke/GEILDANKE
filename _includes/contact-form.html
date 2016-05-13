@@ -1,0 +1,11 @@
+<section class="contactform">
+  <form class="contactform__form" action="https://exist.geildanke.com/api/v1/maildanke/GEILDANKE/clientform/" method="post">
+    <label class="contactform__label" for="contactform__email">{{t.contact.form.email.label}}</label>
+    <input required class="contactform__element" id="contactform__email" type="email" name="email" placeholder="{{t.contact.form.email.placeholder}}">
+    <label class="contactform__label" for="contactform__message">{{t.contact.form.message.label}}</label>
+    <textarea required class="contactform__element" id="contactform__message" name="message" id="" cols="30" rows="10" placeholder="{{t.contact.form.message.placeholder}}"></textarea>
+    <input type="hidden" name="url_success" value="{{site.main_host}}/{{page.lang}}/contact/success">
+    <input type="hidden" name="url_error" value="{{site.main_host}}/{{page.lang}}/contact/error">
+    <button class="button contactform__button" type="submit">{{t.contact.form.button.label}}</button>
+  </form>
+</section>

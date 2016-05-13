@@ -1,0 +1,53 @@
+.pattern {
+  position: relative;
+}
+
+.pattern--slant {
+
+  &::before {
+    background-color: lighten($color-ming-alpha, 50);
+    border-bottom: ($layout-unit * 2) solid lighten($color-froly-alpha, 20);
+    content: '';
+    position: absolute;
+    top: -($layout-unit * 4);
+    left: -25%;
+    width: 150%;
+    height: 400px;
+
+    transform: rotateZ(-3deg);
+  }
+}
+
+.pattern--flower {
+
+  &::before {
+    background-image: url('../images/pattern-flower.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: contain;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 600%;
+    height: 1600px;
+
+    transform: translateX(-50%);
+  }
+
+  @media screen and (min-width: $mq-xs) {
+
+    &::before {
+      width: 380%;
+      height: 1500px;
+    }
+  }
+
+  @media screen and (min-width: $mq-s) {
+
+    &::before {
+      width: 150%;
+    }
+  }
+}

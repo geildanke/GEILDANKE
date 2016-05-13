@@ -1,0 +1,42 @@
+.button {
+  color: $color-main;
+  font-family: 'Montserrat';
+  font-size: inherit;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1em;
+
+  background-color: transparent;
+  border: 2px solid $color-main;
+  cursor: pointer;
+  display: inline-block;
+  padding: ($layout-unit) ($layout-unit * 2.5) ($layout-unit / 2) ($layout-unit / 2);
+
+  &:hover,
+  &:active {
+    color: $color-ming;
+
+    border-color: $color-ming;
+  }
+}
+
+.button--primary {
+  @include box-shadow(2);
+
+  color: $color-white;
+
+  background-color: $color-main;
+
+  transition: transform, box-shadow 0.125s $gd-easing;
+
+  &:hover,
+  &:active {
+    @include box-shadow(1);
+
+    color: $color-white;
+
+    border-color: $color-main;
+
+    transform: translateY(1px);
+  }
+}

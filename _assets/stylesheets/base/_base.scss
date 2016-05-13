@@ -1,0 +1,27 @@
+html,
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+html {
+  background-color: $color-black;
+  border-top: $layout-unit solid $color-black;
+}
+
+body {
+  background-color: $color-gray-light;
+}
+
+button,
+input,
+textarea {
+
+  &:active,
+  &:focus {
+    outline-color: $color-ming;
+    outline-offset: 2px;
+    outline-style: solid;
+    outline-width: 2px;
+  }
+}

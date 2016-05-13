@@ -1,5 +1,13 @@
+<!--
+@Author: Richard Brammer <richardbrammer>
+@Date:   2015-06-16T01:29:41+02:00
+@Email:  richard.brammer@geildanke.com
+@Last modified by:   richardbrammer
+@Last modified time: 2016-04-23T15:01:00+02:00
+-->
+
 # GEILDANKE
-Jekyll version of geildanke.com
+Jekyll version of https://geildanke.com
 
 [![Code Climate](https://codeclimate.com/github/geildanke/GEILDANKE/badges/gpa.svg)](https://codeclimate.com/github/geildanke/GEILDANKE)
 
@@ -18,7 +26,15 @@ Jekyll version of geildanke.com
 
 ## Deployment
 
-Create a `_glynn.yml` from the template `_glynn.yml_template` and update the data according to your host.
-Glynn will build the site and uplkoad it to the given directory.
+Continuous deployment is provided executed using codeship.io
 
-`$ glynn`
+### gitflow Branch targets:
+
+master      https://geildanke.com           (planned)
+develop     https://develop.geildanke.com
+release/*   https://release.geildanke.com   (planned)
+hotfix/*    https://release.geildanke.com   (planned)
+
+### Impediment / Todo
+
+.htaccess in this repository is not copied to root directory

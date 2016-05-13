@@ -1,0 +1,76 @@
+.howwework {
+  @extend .layout__grid;
+  padding-bottom: $layout-unit * 2;
+}
+
+.howwework__article {
+  @extend .layout__grid__item;
+  @extend %xs--ten-twelfths;
+  @extend %push--xs--one-twelfth;
+
+  padding-top: $layout-unit * 2;
+
+  @media screen and (min-width: $mq-xs) {
+    border-top: 1px solid $color-white;
+    margin-top: $layout-unit * 2;
+  }
+}
+
+.howwework__article__column {
+  @extend .layout__grid__item;
+
+  vertical-align: top;
+
+  display: inline-block;
+}
+
+.howwework__article__column--1 {
+  @extend %s--two-tenths;
+  @extend %m--two-tenths;
+  @extend %l--two-tenths;
+}
+
+.howwework__article__column--2,
+.howwework__article__column--3 {
+  @extend %s--four-tenths;
+  @extend %m--four-tenths;
+  @extend %l--four-tenths;
+}
+
+.howwework__article__copy {
+  padding-top: $layout-unit;
+
+  @media screen and (min-width: $mq-s) {
+    padding-top: 0;
+  }
+}
+
+.howwework__article__headline--mindset {
+  @include colortag($color-smoky);
+}
+
+.howwework__article__headline--process {
+  @include colortag($color-hopbush);
+}
+
+.howwework__article__headline--service {
+  @include colortag($color-froly);
+}
+
+.howwework__grid {
+  @extend .layout__grid;
+}
+
+.howwework__title {
+  @extend .headline;
+  @extend .typo-bold;
+  @extend .headline--1;
+}
+
+.howwework__title-container {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+
+  padding-top: $layout-unit * 4;
+  padding-bottom: $layout-unit * 2;
+}

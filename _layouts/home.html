@@ -1,0 +1,76 @@
+---
+layout: compress
+---
+
+<!doctype html>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="{{ page.lang }}"> <!--<![endif]-->
+
+  {% assign t = site.data.content.[page.lang] %}
+
+  {% include head.html %}
+
+  <body itemscope itemtype="http://schema.org/ProfilePage">
+
+    {% include header-default.html %}
+    {% include hero-home.html %}
+
+    {% for list in site.lists %}
+      {% if list.lang == page.lang %}
+        {% if list.id == 'list-services' %}
+          {% include leadlist.html %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% for cta in site.ctas %}
+      {% if cta.lang == page.lang %}
+        {% if cta.id == 'contact-services' %}
+          {% include cta.html %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% for corecompetence in site.corecompetences %}
+      {% if corecompetence.lang == page.lang %}
+        {% if corecompetence.images == 3 %}
+          {% include article_corecompetence_3-images.html %}
+        {% endif %}
+        {% if corecompetence.images == 4 %}
+          {% include article_corecompetence_4-images.html %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% for cta in site.ctas %}
+      {% if cta.lang == page.lang %}
+        {% if cta.id == 'contact-responsive-website' %}
+          {% include cta.html %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% for list in site.lists %}
+      {% if list.lang == page.lang %}
+        {% if list.id == 'list-clients' %}
+          {% include leadlist.html %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% for cta in site.ctas %}
+      {% if cta.lang == page.lang %}
+        {% if cta.id == 'about-project' %}
+          {% include cta.html %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

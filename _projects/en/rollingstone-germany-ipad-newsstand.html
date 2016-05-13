@@ -5,15 +5,21 @@ permalink: /en/project/rolling-stone-magazine-germany-ipad-newsstand.html
 title: Rolling Stone Germany
 teaser: A multi-media spectacle for music experts
 description: The worlds first Rolling Stone magazine on iPad was the german publication by Axel Springer, which was concepted and developed in close collaboration with us. We produce the digital magazine each month.
-image: rollingstone.jpg
-moodimage: rollingstone.jpg
+moodimage: rollingstone_gradient.jpg
+headline: The German Rolling Stone is a multi-media spectacle for music experts
+subheadline: The production of the german <a href='https://itunes.apple.com/de/app/rolling-stone/id459438953?mt=8&affId=1857076&ign-mpt=uo%3D4'>Rolling Stone iPad edition</a> is one of our first and most favorite reference projects.
 ---
-<h1>The German <span class='headline-strong'>Rolling Stone</span> is a multi-media <span class='headline-strong'>spectacle</span> for music experts</h1>
-<p class="teaser">The production of the german <a href='https://itunes.apple.com/de/app/rolling-stone/id459438953?mt=8&affId=1857076&ign-mpt=uo%3D4'>Rolling Stone iPad edition</a> is one of our first and most favorite reference projects. Since the first publication of the digital edition we are managing the design process and are responsible for HTML5 developments. Today we support the whole produtcion process, including app and enterprise feature development.</p>
-<img src="images/rs-222.jpg">
-<p>The german <a href='https://itunes.apple.com/de/app/rolling-stone/id459438953?mt=8&affId=1857076&ign-mpt=uo%3D4'>Rolling Stone for iPad</a> is filled with a lot of interactive and process improving features built with HTML5, CSS3 and Javascript. We are using a configurable <strong>iOS-optimized 3D coverflow</strong> as index for music reviews. <strong>iTunes audio samples</strong> are streamed into every article and the <strong>hardest music quiz</strong> of germany including a contest server was developed by Geil,Danke! <a href='http://www.axel-springer-mediahouse-berlin.de/'>Axel Springer</a> is using <a href='entitlement.dps.server.geildanke.com'>Portier</a> as an entitlement server to distribute single issues to advertisers. A custom push notification service is integrated into the App.</p>
-<img src="images/rs-coverflow.jpg">
+<p>Since the first publication of the digital edition we were managing the design process and were responsible for HTML5 developments. We supported the whole produtcion process, including app and enterprise feature development. The german <a href='https://itunes.apple.com/de/app/rolling-stone/id459438953?mt=8&affId=1857076&ign-mpt=uo%3D4'>Rolling Stone for iPad</a> is filled with a lot of interactive and process improving features built with HTML5, CSS3 and Javascript. A configurable <strong>iOS-optimized 3D coverflow</strong> as index for music reviews is used. <strong>iTunes audio samples</strong> are streamed into every article and the <strong>hardest music quiz</strong> of germany including a contest server was developed by Geil,Danke! <a href='http://www.axel-springer-mediahouse-berlin.de/'>Axel Springer</a> used <a href='https://portier.geildanke.com/#/'>Portier</a> as an entitlement server to distribute single issues to advertisers. A custom push notification service is integrated into the App.</p>
+<img src="../../images/rs-coverflow.jpg">
 <p>Since the first days we are <strong>improving the development workflow</strong> and adapring InDesign templates regularly. As soon as the finished print layouts and contents arrive at Geil,Danke! we have a period of about <strong>10-12 days</strong> to complete the whole edition – sometimes more than 170 pages with additional special content.</p>
-<img src="images/rs-templates.jpg">
+<img src="../../images/rs-templates.jpg">
+<p>Download the Rolling Stone from the App Store:</p>
+<p>{% include badge.html store="apple" %}</p>
 
-<a class="btn" href="https://itunes.apple.com/de/app/rolling-stone/id459438953?mt=8">Rolling Stone (only in the German App Store)</a><br>
+{% for cta in site.ctas %}
+  {% if cta.lang == page.lang %}
+    {% if cta.id == 'about-project' %}
+      {% include cta-plain.html %}
+    {% endif %}
+  {% endif %}
+{% endfor %}

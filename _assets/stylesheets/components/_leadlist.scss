@@ -1,0 +1,84 @@
+.leadlist {
+  margin: ($layout-unit * 2) auto ($layout-unit * 2) auto;
+  position: relative;
+
+  transform: rotateZ(353deg);
+
+  @media screen and (min-width: $mq-s) {
+    margin-top: $layout-unit * 3;
+    margin-bottom: $layout-unit * 3;
+  }
+
+  &::before {
+    background-color: $color-black-alpha;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    animation-duration: 16s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: rotate;
+    animation-timing-function: $geildanke-easing;
+  }
+}
+
+.leadlist--blue {
+  background-color: $color-ming-alpha;
+}
+
+.leadlist--green {
+  background-color: $color-gulf-stream-alpha;
+}
+
+.leadlist__content {
+  color: $color-white;
+
+  padding: ($layout-unit * 2) 0;
+
+  transform: rotateZ(-353deg);
+
+  @media screen and (min-width: $mq-s) {
+    padding: ($layout-unit * 4) 0;
+  }
+}
+
+.leadlist__headline {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+
+  @extend %m--three-twelfths;
+  @extend %push--m--two-twelfths;
+
+  @extend %l--three-twelfths;
+  @extend %push--l--two-twelfths;
+}
+
+.leadlist__list {
+  @extend %ten-twelfths;
+  @extend %push--two-twelfths;
+
+  @extend %xs--nine-twelfths;
+  @extend %push--xs--three-twelfths;
+
+  @extend %s--eight-twelfths;
+  @extend %push--s--four-twelfths;
+
+  @extend %m--seven-twelfths;
+  @extend %push--m--five-twelfths;
+
+  @extend %l--seven-twelfths;
+  @extend %push--l--five-twelfths;
+
+  margin-top: $layout-unit;
+}
+
+.leadlist__list__item {
+  @include list-dots();
+
+  margin-bottom: $layout-unit / 2;
+}

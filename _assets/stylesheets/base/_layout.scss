@@ -1,17 +1,32 @@
-* {
-    box-sizing: border-box;
+$layout-unit: 20px;
+
+.layout-container {
+  margin: 0 auto;
+  padding: 0 $layout-unit;
+  position: relative;
+  max-width: 1200px;
+
+  @media screen and (min-width: $mq-m) {
+    width: calc(100% - 120px);
+  }
 }
 
-html {
-	height: 100%;
+.layout-innercontainer--border-bottom {
+  border-bottom: ($layout-unit / 4) solid $color-black;
+  padding: 0 0 $layout-unit 0;
 }
 
-body {
-	height: 100%;
-  	margin: 0 auto;
-  	padding: 0;
+.layout__grid {
+  @extend %grid;
 }
 
-img {
-    max-width: 100%;
+.layout__grid__item {
+  @extend %grid__item;
+}
+
+.layout__grid__item--onehalf {
+  @extend %xs--six-twelfths;
+  @extend %s--six-twelfths;
+  @extend %m--six-twelfths;
+  @extend %l--six-twelfths;
 }

@@ -1,196 +1,74 @@
-// My mixins
+$geildanke-easing: cubic-bezier(0.62, 0.28, 0.23, 0.99);
 
-
-// Mixin for background image with full width
-@mixin cover-full-width {
-	background: url(../img/cover.png) no-repeat top left;
-	background-size: cover;
-	position: absolute;
-	min-width: 100%;
-	min-height: 100%;
-	z-index: -1;
+@mixin gradient ($color-1, $color-2) {
+  background: $color-1; /* Old browsers */
+  background: -moz-linear-gradient(45deg, $color-1 0%, $color-2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, $color-1 0%,$color-2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, $color-1 0%,$color-2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-1', endColorstr='$color-2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-// Project and product boxes
-
-@mixin content-box-standard {
-	display: inline-block;
-	margin: 10px;
-	max-width: 24em;
-	min-height: 33em;
-	vertical-align: top;
+@mixin box-shadow ($level: 1) {
+  @if $level == 1 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  } @else if $level == 2 {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  } @else if $level == 3 {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  } @else if $level == 4 {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  } @else if $level == 5 {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  } @else {
+    @warn "Invalid $depth `#{$depth}` for mixin `box-shadow`.";
+  }
 }
 
-@mixin content-box-small {
-	display: inline-block;
+@mixin colortag ($color) {
+  @extend .typo-label;
+
+  color: $color-white;
+  font-size: 12px;
+  line-height: 1em;
+  text-transform: uppercase;
+
+  background-color: $color;
+  border-radius: $layout-unit / 6;
+  display: inline-block;
+  padding: ($layout-unit / 4) $layout-unit ($layout-unit / 5) $layout-unit;
 }
 
+@mixin list-dots () {
+  list-style: none;
 
-// Button mixin
+  position: relative;
 
-@mixin btn-standard ($btn-background-color, $btn-color: $wireframe-white) {
-	cursor: pointer;
+  &:before {
+    color: $color-main;
+    font-family: 'Icons' !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    speak: none;
+    text-transform: none;
 
-	background: $btn-background-color;
-	border: 1px solid $btn-color;
-	border-radius: none;
-	display: inline-block;
-	padding: 12px 12px;
-	margin: 1em 0 0 0;
-	min-width: 4em;
-
-	color: $btn-color;
-	font-size: 14px;
-	text-transform: uppercase;
-
-	transition-property: box-shadow, color;
-	transition-duration: 0.15s;
-
-	&:hover {
-		box-shadow: inset 0 3.5rem 0 0 $btn-color;
-		border: 1px solid $btn-color;
-
-		color: $btn-background-color;
-	}
-
-	&:active {
-		box-shadow: inset 0 3.5rem 0 0 $geildanke-color-lighter;
-		border: 1px solid $geildanke-color-lighter;
-
-		color: $wireframe-white;
-	}
+    content: '\e061';
+    position: absolute;
+    left: -2em;
+    top: 2px;
+  }
 }
 
+@mixin list-stroke () {
+  list-style: none;
 
-// Small standard images
+  position: relative;
 
-@mixin img-small {
-	width: 100%;
-	height: 100%;
-
-	@media screen and (min-width: $l-small) {
-		width: columns(4,10);
-		float: left;
-	}
-
-	@media screen and (min-width: $l-middle) {
-		float: left;
-		width: columns(5,12);
-	}
-}
-
-
-// Standard image mixin for images in text
-@mixin img-standard {
-	background: transparent url(../img/cover.jpg) no-repeat;
-	background-position: center;
-	background-size: 100%;
-	overflow: hidden;
-	margin-top: 1em;
-	width: columns(8,8);
-	height: auto;
-	transition-property: background-size;
-	transition-duration: 0.1s;
-
-	&:hover,
-	&:active {
-		transition-property: background-size;
-		transition-duration: 4s;
-
-		background-size: 150%;
-
-		.product-img-caption {
-			transform: scale(1);
-		}
-    }
-
-    .product-img-caption {
-    	background-color: $wireframe-shine-white;
-		padding: 4em;
-		width: auto;
-		height: auto;
-
-		color: $wireframe-white;
-		font-style: italic;
-		text-align: center;
-
-		transform: scale(0);
-    }
-}
-
-
-// Typo mixins
-
-@mixin landing-page-typo {
-	h2 {
-		padding-top: 0;										// Delete standard paddings for better box view
-		padding-bottom: 0;
-	}
-
-	p {
-		padding-top: 1em;
-	}
-
-  	.teaser {
-		line-height: 1.5em;
-		padding-top: 1em;
-	}
-}
-
-// Typo on onepager
-
-
-
-
-// Animation mixins
-
-
-// Arrow Animation
-
-@-webkit-keyframes fall-down {
-	0%		{ top: 0; opacity: 0;}
-	10%		{ top: 4em; opacity:1; }
-	100%	{ top: 4em; opacity:1; }
-}
-
-@-moz-keyframes fall-down {
-	0%		{ top: 0; opacity: 0;}
-	10%		{ top: 4em; opacity:1; }
-	100%	{ top: 4em; opacity:1; }
-}
-
-@-o-keyframes fall-down {
-	0%		{ top: 0; opacity: 0;}
-	10%		{ top: 4em; opacity:1; }
-	100%	{ top: 4em; opacity:1; }
-}
-
-@keyframes fall-down {
-	0%		{ top: 0; opacity: 0;}
-	10%		{ top: 4em; opacity:1; }
-	100%	{ top: 4em; opacity:1; }
-}
-
-
-@mixin arrow-animation {
-	-webkit-animation:	fall-down 5s infinite ease-in;
-	-moz-animation:		fall-down 5s infinite ease-in;
-	-o-animation:		fall-down 5s infinite ease-in;
-	animation:			fall-down 5s infinite ease-in;
-
-	position: absolute;
-}
-
-// Clearfix
-
-@mixin clearfix-mixin {
-    &:before,
-    &:after {
-        content: " "; /* 1 */
-        display: table; /* 2 */
-    }
-
-    &:after {
-        clear: both;
-    }
+  &::before {
+    content: '—';
+    margin-right: $layout-unit / 2;
+  }
 }
