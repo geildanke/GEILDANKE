@@ -26,7 +26,7 @@
                 "imprint": "/de/imprint"
             },
             "slogan": {
-                "short": "Studio für Mobile App-Entwicklung und Responsive Web Design",
+                "short": "Studio für Mobile-App-Entwicklung und Responsive Web Design",
                 "long": "Starten Sie Ihr Business auf allen Kanälen: Apps und Webseiten für iPhone, iPad, Android und Windows"
             },
             "companyname": "Geil,Danke! GmbH",
@@ -87,13 +87,13 @@
                 "label": "Mehr:"
             },
             "headline": "Wir sind ein agiles, kreatives Technologie-Studio",
-            "copy": "GeilDanke ist ein kreatives Technologie-Studio. Wir sind auf innovativer Web-Entwicklung spezialisiert und haben einen Fokus auf <span class=\"typo-bold\">Performance</span>, <span class=\"typo-bold\">Benutzerfreundlichkeit</span> und <span class=\"typo-bold\">Inhalte</span>. Unsere Projekte sind immer <span class=\"typo-bold\">für Mobilgeräte optimiert</span>, unsere Lösungen immer simpel und elegant. Wir glauben daran, dass Web-Technologie und das Web niemanden ausschießen sollte. <span class=\"typo-bold\">Zuverlässigkeit</span> und <span class=\"typo-bold\">Wartbarkeit</span> gehört fest zu unserer Arbeits-Philosophie. Darum arbeiten wir <span class=\"typo-bold\">agil</span> und entwickeln <span class=\"typo-bold\">Test-getrieben</span>. Unser Remote-Büro macht es möglich, dass wir mit Experten auf der ganzen Welt zusammenarbeiten können.",
+            "copy": "GeilDanke ist ein kreatives Technologie-Studio. Wir sind auf Web-Entwicklung spezialisiert und haben unseren Fokus auf <span class=\"typo-bold\">Innovation</span>, <span class=\"typo-bold\">Performance</span>, <span class=\"typo-bold\">Benutzerfreundlichkeit</span> und <span class=\"typo-bold\">Inhalt</span>. Alle unsere Projekte sind <span class=\"typo-bold\">für Mobilgeräte optimiert</span>, unsere Lösungen sind geradlinig und elegant. Wir glauben daran, dass Web-Technologie und das Web niemanden ausschießen sollte. <span class=\"typo-bold\">Zuverlässigkeit</span> und <span class=\"typo-bold\">Wartbarkeit</span> gehören fest zu unserer Arbeits-Philosophie. Darum arbeiten wir <span class=\"typo-bold\">agil</span> und entwickeln <span class=\"typo-bold\">Test-getrieben</span>. Unser virtuelles Büro macht es möglich, dass wir mit den besten Experten weltweit zusammenarbeiten können.",
             "whoweare": {
                 "headline": "Über uns",
                 "michaela": {
                     "name": "Michaela Lehr",
                     "position": "Geschäftsführender Gesellschafter Kreation",
-                    "copy": "Michaela ist kreative <span class=\"typo-bold\">Frontend-Entwicklering</span> und <span class=\"typo-bold\">UX-Designerin</span> bei Geil,Danke!. In den über fünf Jahren Branchen-Erfahrung kämpft sie imer für die <span class=\"typo-bold\">Interessen der Benutzer</span> und Konsistenz in Design- und Code-Mustern. In ihrer Freizeit liest sie gerne Bücher, macht Yoga, geht surfen oder strickt.",
+                    "copy": "Michaela ist kreative <span class=\"typo-bold\">Frontend-Entwicklering</span> und <span class=\"typo-bold\">UX-Designerin</span> bei GeilDanke. In über fünf Jahren Branchen-Erfahrung kämpft sie immer für die <span class=\"typo-bold\">Interessen der Benutzer</span> und Konsistenz in Design- und Code-Mustern. In ihrer Freizeit liest sie gerne Bücher, macht Yoga, geht surfen oder strickt.",
                     "books": {
                         "name": "Bücher",
                         "items": [
@@ -193,7 +193,7 @@
                 "richard": {
                     "name": "Richard Brammer",
                     "position": "Geschäftsführender Gesellschafter Technologie",
-                    "copy": "Richard ist für die <span class=\"typo-bold\">strategische Ausrichtung</span> von Geil,Danke! zuständig und <span class=\"typo-bold\">Full-stack Web-Entwickler</span>. Mit mehr als <span class=\"typo-bold\">fünfzehn Jahren Erfahrung</span> mit Web-Technologien findet er immer die besten Lösungen für Ihre Herausforderungen. Privat ist er ein großer Star-Wars-Fan; er reist und wandert gerne oder geht surfen.",
+                    "copy": "Richard ist für die <span class=\"typo-bold\">strategische Ausrichtung</span> von GeilDanke zuständig und arbeitet als <span class=\"typo-bold\">Full-stack Web-Entwickler</span>. Mit fast <span class=\"typo-bold\">zwanzig Jahren Erfahrung</span> mit Web-Technologie findet er immer die beste Lösung für Ihre Herausforderung. Privat ist er ein großer Star-Wars-Fan; er reist und wandert gerne oder geht surfen.",
                     "books": {
                         "name": "Bücher",
                         "items": [
@@ -346,7 +346,7 @@
                 "headline": "Was wir tun",
                 "skills": [
                     {
-                        "name": "Sprachen",
+                        "name": "Languages",
                         "items": [
                             {
                                 "name": "HTML5"
@@ -363,13 +363,13 @@
                         "name": "Frameworks",
                         "items": [
                             {
-                                "name": "AngularJS 1.x, Angular 2"
+                                "name": "AngularJS 1.5, Angular 2"
                             },
                             {
                                 "name": "Node.js"
                             },
                             {
-                                "name": "Phonegap, Cordova"
+                                "name": "Cordova, Phonegap"
                             },
                             {
                                 "name": "React Native"
@@ -377,27 +377,30 @@
                         ]
                     },
                     {
-                        "name": "Datenbanken",
+                        "name": "Databases",
                         "items": [
                             {
-                                "name": "NoSQL, Mongo, CouchDB"
+                                "name": "NoSQL, MongoDB, MySQL"
                             },
                             {
-                                "name": "LocalStorage"
+                                "name": "Web Storage, LocalStorage"
                             },
                             {
-                                "name": "Device API"
+                                "name": "IndexedDB, Device APIs"
                             }
                         ]
                     },
                     {
-                        "name": "Development",
+                        "name": "Entwicklung",
                         "items": [
                             {
-                                "name": "Grunt, Gulp"
+                                "name": "Grunt, Gulp, Webpack"
                             },
                             {
                                 "name": "Git, JIRA"
+                            },
+                            {
+                                "name": "Codeship, TeamCity, Jenkins"
                             }
                         ]
                     },
@@ -408,61 +411,61 @@
                                 "name": "Test-driven Development (TDD)"
                             },
                             {
-                                "name": "REST, REST-ful API, JSON"
+                                "name": "REST, REST-ful API, JSON, CORS"
                             },
                             {
                                 "name": "MVC, MVVM"
                             },
                             {
-                                "name": "Media Queries"
+                                "name": "Scrum, Kanban, Feature-based Programming"
                             },
                             {
-                                "name": "CSS3 Transitions, CSS3 and JavaScript Animations"
+                                "name": "Media Queries, CSS3 Transitions, CSS3 Animationen and jQuery Animationen"
                             }
                         ]
                     }
                 ],
-                "footnote": "* Wir können auch Web Components, WebGL, Canvas — SCSS, LESS — jQuery, Bootstrap — React — XML, MySQL, PostgreSQL — PHP, Wordpress, CodeIgniter — Python, Django — Brokoli, Angular CLI — Jenkins, TeamCity — Unity, UnityScript, C# — Solidity — Encryption"
+                "footnote": "* Wir kennen uns auch aus mit Web Components, WebGL, Canvas — SCSS, LESS — jQuery, Bootstrap, Angular 1.4 und davor — Titanium, React, React JS, Reactive Programming — CouchDB, XML, SQL, PostgreSQL — PHP, Wordpress, Laravel, CodeIgniter — Python, Django — Broccoli, Angular CLI — Unity, UnityScript, C#, Java — Solidity — Encryption"
             },
             "whatmatters": {
                 "headline": "Was uns am Herzen liegt",
                 "copy": "Die Umwelt und alle Lebewesen liegen uns am Herzen. Dies spiegelt sich natürlich auch in unserem Unternehmen wieder.",
                 "items": [
                     {
-                        "value": "Wir arbeiten ausschließlich mit <span class=\"typo-bold\">Naturstrom</span>."
+                        "value": "Unsere Geräte arbeiten ausschließlich mit zertifiziertem Strom aus <span class=\"typo-bold\">erneuerbaren Energiequellen</span>."
                     },
                     {
                         "value": "Unsere Rechner sind refurbished (<span class=\"typo-bold\">Gebrauchtgeräte</span>) von Apple."
                     },
                     {
-                        "value": "Alte Geräte verkaufen wir weiter oder <span class=\"typo-bold\">recyclen</span> sie."
+                        "value": "Nicht benötigte Geräte verkaufen wir weiter oder <span class=\"typo-bold\">recyclen</span> sie."
                     },
                     {
-                        "value": "Wir schreiben nachhaltigen Code, der die Batterien der Geräte schont."
+                        "value": "Wir schreiben effizienten Code, der die Batterien der Geräte schont."
                     },
                     {
-                        "value": "Wir arbeiten an Open-Source-Projekteb mit, z.B. an <a href=\"https://github.com/podlove\">Podlove</a>."
+                        "value": "Wir arbeiten an Open-Source-Projekten mit, z.&nbsp;B. an <a href=\"https://github.com/podlove\">Podlove</a>."
                     },
                     {
-                        "value": "Wir achten auf <span class=\"typo-bold\">Datenschutz</span>, Datensicherung und die <span class=\"typo-bold\">Verschlüsselung</span> mit SSL."
+                        "value": "Wir achten auf <span class=\"typo-bold\">Datenschutz</span>, Datensicherheit und <span class=\"typo-bold\">Verschlüsselung</span>."
                     },
                     {
-                        "value": "Soweit wie möglich unterstützen wir <span class=\"typo-bold\">lokale Geschäfte</span> und verzichten auf den Kauf bei Amazon."
+                        "value": "Soweit möglich unterstützen wir <span class=\"typo-bold\">lokale Geschäfte</span> und verzichten beispielsweise auf den Kauf bei amazon."
                     },
                     {
-                        "value": "Am liebsten reisen wir mit der BahnCard und <span class=\"typo-bold\">Ökostrom</span>. "
+                        "value": "Am liebsten reisen wir mit dem Zug und durch die BahnCard mit <span class=\"typo-bold\">Ökostrom</span>. "
                     },
                     {
                         "value": "Wenn sich Flugreisen nicht vermeiden lassen, achten wir auf den <span class=\"typo-bold\">CO2-Ausgleich</span>."
                     },
                     {
-                        "value": "Wir versuchen immer ohne Papier zu arbeiten und so wenig wie möglich zu drucken."
+                        "value": "Wir arbeiten fast vollständig papierlos und drucken so wenig wie möglich. Unser Drucker ist ein Relikt aus einer anderen Zeit."
                     },
                     {
-                        "value": "Bücher konsumieren wir hauptsächlich <span class=\"typo-bold\">papierlos</span>."
+                        "value": "Bücher konsumieren wir <span class=\"typo-bold\">papierlos</span> aud E-Readern."
                     },
                     {
-                        "value": "Sowohl privat als auch beruflich sind wir <span class=\"typo-bold\">Minimalisten</span> und besitzen kein Auto."
+                        "value": "Sowohl privat als auch beruflich sind wir <span class=\"typo-bold\">Minimalisten</span> und hinterfragen unseren Konsum von Produkten und Dienstleistungen."
                     },
                     {
                         "value": "Wann immer möglich ernähren wir uns <span class=\"typo-bold\">pflanzlich</span>."
@@ -533,17 +536,17 @@
             }
         },
         "contact": {
-            "title": "We would love to hear from you",
+            "title": "We love to hear from you",
             "headline": "Contact",
-            "copy": "Feel free to send us an email to <a href=\"mailto:hello@geildanke.com\">hello@geildanke.com</a> or use this contact form to send us a message.",
+            "copy": "Please send us an email to <a href=\"mailto:hello@geildanke.com\">hello@geildanke.com</a> or use this contact form to send us a message.",
             "form": {
                 "email": {
                     "label": "Your Email:",
-                    "placeholder": "e.g. hello@geildanke.com"
+                    "placeholder": "e.g. your.email@example.com"
                 },
                 "message": {
                     "label": "Your Message:",
-                    "placeholder": "Please enter your message here..."
+                    "placeholder": "Please enter your message here."
                 },
                 "privacy": {
                     "label": "I accept the <a href=\"#\">privacy policy</a>."
@@ -558,8 +561,8 @@
             "submenu": {
                 "label": "Read more about:"
             },
-            "headline": "We are an agile creative technology studio",
-            "copy": "GeilDanke is a creative technology studio. We're specialized in effective and innovative web development with a focus on <span class=\"typo-bold\">performance</span>, <span class=\"typo-bold\">usability</span> and <span class=\"typo-bold\">content</span>. Our projects are always <span class=\"typo-bold\">mobile-friendly</span>, our solutions elegant and simple. Because we believe in web technology and a web for everybody. <span class=\"typo-bold\">Reliability</span> and maintainability is an inherent part of our working ethics. That's why we have <span class=\"typo-bold\">agile</span> workflows and a <span class=\"typo-bold\">test-driven</span> development process. Working remotely means that we can work with the best experts from anywhere.",
+            "headline": "We are agile",
+            "copy": "GeilDanke is an agile creative technology studio. We're specialized in effective web development with a focus on <span class=\"typo-bold\">innovation</span>, <span class=\"typo-bold\">performance</span>, <span class=\"typo-bold\">usability</span> and <span class=\"typo-bold\">content</span>. Our projects are <span class=\"typo-bold\">mobile-friendly</span> always, our solutions elegant and simple. We believe in web standards and a web for everybody. <span class=\"typo-bold\">Reliability</span> and maintainability are inherent parts of our working ethics. That's why we practice <span class=\"typo-bold\">agile</span> workflows and a <span class=\"typo-bold\">test-driven</span> development process. Working remotely means that we can work with the best experts from anywhere.",
             "whoweare": {
                 "headline": "Who we are",
                 "michaela": {
@@ -665,7 +668,7 @@
                 "richard": {
                     "name": "Richard Brammer",
                     "position": "Executive Partner Technology",
-                    "copy": "Richard is GeilDanke's lead strategist and full stack web developer. With more than fifteen years of experiences in web technologies, he always finds the best solutions to your challenges. In private you can listen to him talking for hours and hours about Star Wars or find him traveling the world, hiking or surfing.",
+                    "copy": "Richard is GeilDanke's lead strategist and full stack web developer. With almost twenty years of experiences in web development, he finds a solution to every challenge. In private you can listen to him talking about Star Wars for hours and hours or find him traveling the world, hiking and surfing.",
                     "books": {
                         "name": "Books",
                         "items": [
@@ -722,7 +725,7 @@
                 },
                 "conferences": {
                     "headline": "Meet us",
-                    "copy": "We are constantly trying to learn more. Therefore we visit conferences, bar camps and meetups. Will you be on one of the upcoming conferences, too? We would love to meet you.",
+                    "copy": "Continuously we are learning more. We visit conferences, meetups and bar camps. Will you be on one of the upcoming conferences, too? We would love to meet you.",
                     "conferences": [
                         {
                             "name": "ChaosCommunicationCongress2016 33c3, Hamburg, Germany",
@@ -835,13 +838,13 @@
                         "name": "Frameworks",
                         "items": [
                             {
-                                "name": "AngularJS 1.x, Angular 2"
+                                "name": "AngularJS 1.5, Angular 2"
                             },
                             {
                                 "name": "Node.js"
                             },
                             {
-                                "name": "Phonegap, Cordova"
+                                "name": "Cordova, Phonegap, Titanium"
                             },
                             {
                                 "name": "React Native"
@@ -852,13 +855,13 @@
                         "name": "Databases",
                         "items": [
                             {
-                                "name": "NoSQL, Mongo, CouchDB"
+                                "name": "NoSQL, MongoDB, CouchDB, MySQL"
                             },
                             {
-                                "name": "LocalStorage"
+                                "name": "Web Storage, LocalStorage"
                             },
                             {
-                                "name": "Device API"
+                                "name": "IndexedDB, Device APIs"
                             }
                         ]
                     },
@@ -866,7 +869,7 @@
                         "name": "Development",
                         "items": [
                             {
-                                "name": "Grunt, Gulp"
+                                "name": "Grunt, Gulp, Webpack"
                             },
                             {
                                 "name": "Git, JIRA"
@@ -874,7 +877,7 @@
                         ]
                     },
                     {
-                        "name": "Conceps",
+                        "name": "Concepts",
                         "items": [
                             {
                                 "name": "Test-driven Development (TDD)"
@@ -886,55 +889,55 @@
                                 "name": "MVC, MVVM"
                             },
                             {
-                                "name": "Media Queries"
+                                "name": "Scrum, Kanban, Feature-based Programming"
                             },
                             {
-                                "name": "CSS3 Transitions, CSS3 and JavaScript Animations"
+                                "name": "Media Queries, CSS3 Transitions, CSS3 and JavaScript Animations"
                             }
                         ]
                     }
                 ],
-                "footnote": "* We also know Web Components, WebGL, Canvas — SCSS, LESS — jQuery, Bootstrap — React — XML, MySQL, PostgreSQL — PHP, Wordpress, CodeIgniter — Python, Django — Brokoli, Angular CLI — Jenkins, TeamCity — Unity, UnityScript, C# — Solidity — Encryption"
+                "footnote": "* We also know Web Components, WebGL, Canvas — SCSS, LESS — jQuery, Bootstrap — React, React JS, Reactive Programming — XML, SQL, PostgreSQL — PHP, Wordpress, Laravel, CodeIgniter — Python, Django — Broccoli, Angular CLI — Codeship, Jenkins, TeamCity — Unity, UnityScript, C#, Java — Solidity — Encryption"
             },
             "whatmatters": {
                 "headline": "What matters to us",
                 "copy": "The environment, nature and all living beings lie at the heart. That reflects in how we run our company, of course.",
                 "items": [
                     {
-                        "value": "We work with <span class=\"typo-bold\">alternative energy</span> only."
+                        "value": "Our devices consume certified <span class=\"typo-bold\">renewable energy</span> only."
                     },
                     {
                         "value": "Our MacBooks are <span class=\"typo-bold\">refurbished</span>."
                     },
                     {
-                        "value": "We <span class=\"typo-bold\">recycle</span> or sell old devices."
+                        "value": "We <span class=\"typo-bold\">sell</span> unused devices or recycle them."
                     },
                     {
-                        "value": "We write <span class=\"typo-bold\">sustainable code</span>, that saves the device's battery."
+                        "value": "We write <span class=\"typo-bold\">efficient code</span>, that saves energy."
                     },
                     {
-                        "value": "We contribute to <span class=\"typo-bold\">open source projects</span>, e.g. <a href=\"https://github.com/podlove\">Podlove</a>."
+                        "value": "We contribute to <span class=\"typo-bold\">open source projects</span> like <a href=\"https://github.com/podlove\">Podlove</a>."
                     },
                     {
-                        "value": "We care about <span class=\"typo-bold\">privacy</span>, data security und SSL encryption."
+                        "value": "We care about <span class=\"typo-bold\">privacy</span>, data security and SSL encryption."
                     },
                     {
                         "value": "Whenever possible we support local stores and go without buying on Amazon."
                     },
                     {
-                        "value": "Preferably we travel with the train and alternative energy."
+                        "value": "Preferably we travel by train using renewable energy."
                     },
                     {
-                        "value": "Whenever flights cannot be avoided, we watch out for the <span class=\"typo-bold\">carbon offset</span>."
+                        "value": "Whenever flights cannot be avoided, we compensate for the <span class=\"typo-bold\">carbon offset</span>."
                     },
                     {
-                        "value": "We try to work <span class=\"typo-bold\">without paper</span> and print as little as possible."
+                        "value": "We work almost completely <span class=\"typo-bold\">without paper</span>. Our printer is a relict from a different time."
                     },
                     {
-                        "value": "We consume our books without paper."
+                        "value": "We don't buy paper books, but read them on e-readers."
                     },
                     {
-                        "value": "Both in privat and work-related we are <span class=\"typo-bold\">minimalists</span> and don't have a car."
+                        "value": "Both in privat and work-related we are <span class=\"typo-bold\">minimalists</span> and consume products and services consciously."
                     },
                     {
                         "value": "Whenever possible we eat <span class=\"typo-bold\">plant-based</span>."
