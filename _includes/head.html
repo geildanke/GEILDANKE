@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ page.title }} by Geil,Danke!</title>
+    <title>{{ page.title }} by {{ t.meta.slogan.companyslug }}</title>
     <meta name="description" content="{{ t.meta.slogan.long }}">
 
     <link rel="stylesheet" href="/styles/main.css">
@@ -10,7 +10,7 @@
     <link rel="publisher" href="https://plus.google.com/109913507347365861932">
 
     <!-- Facebook Open Graph -->
-    <meta property="og:title" content="Geil,Danke! Apps, Websites, Games, Magazines">
+    <meta property="og:title" content="{{ page.title }} by {{ t.meta.slogan.companyslug }}">
     <meta property="og:type" content="website">
     <meta property="og:description" content="{{ t.meta.slogan.long }}">
     <meta property="og:image" content="{{ site.main_host }}/social-sharing-image.jpg">
@@ -19,14 +19,14 @@
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="{{ site.main_host }}">
-    <meta name="twitter:title" content="Geil,Danke! Apps, Websites, Games, Magazines">
+    <meta name="twitter:title" content="{{ page.title }} by {{ t.meta.slogan.companyslug }}">
     <meta name="twitter:description" content="{{ t.meta.slogan.long }}">
     <meta name="twitter:image" content="{{ site.main_host }}/social-sharing-image.jpg">
     <meta name="twitter:creator" content="@geildanke">
 
     <!-- Itemprops -->
     <meta itemprop="creator" content="Michaela Lehr">
-    <meta itemprop="publisher" content="Geil,Danke!">
+    <meta itemprop="publisher" content="{{ t.meta.slogan.companyslug }}">
     <meta itemprop="contributor" content="Richard Brammer">
 
     <link rel="canonical" href="{{ site.main_host }}{{ page.url }}">
