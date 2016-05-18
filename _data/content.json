@@ -3,7 +3,7 @@
         "language": {
             "btn": {
                 "link": "/en",
-                "value": "EN"
+                "value": "english"
             }
         },
         "hero": {
@@ -26,6 +26,7 @@
                 "imprint": "/de/imprint"
             },
             "slogan": {
+                "companyslug": "GeilDanke",
                 "short": "Studio für Mobile-App-Entwicklung und Responsive Web Design",
                 "long": "Starten Sie Ihr Business auf allen Kanälen: Apps und Webseiten für iPhone, iPad, Android und Windows"
             },
@@ -478,7 +479,7 @@
         "language": {
             "btn": {
                 "link": "/de",
-                "value": "DE"
+                "value": "deutsch"
             }
         },
         "hero": {
@@ -501,6 +502,7 @@
                 "imprint": "/en/imprint"
             },
             "slogan": {
+                "companyslug": "GeilDanke",
                 "short": "A Mobile App Development and Responsive Web Design Studio",
                 "long": "Launch your business on all channels. Apps and web sites for iPhone, iPad, Android and Windows"
             },
