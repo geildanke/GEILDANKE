@@ -1,0 +1,33 @@
+.pagenotfound {
+  background-color: lighten($color-gulf-stream, 35);
+  height: 100%;
+  height: calc(100vh - 20px);
+}
+
+.pagenotfound__fourohfour {
+  @extend %grid;
+}
+
+.pagenotfound__fourohfour__icon {
+  @extend %grid__item;
+  @extend %two-twelfths;
+  @extend %push--three-twelfths;
+
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  padding-bottom: 18.5%;
+  height: 0;
+}
+.pagenotfound__fourohfour__icon--four {
+  background-image: url("../images/4@2x.png");
+}
+
+.pagenotfound__fourohfour__icon--oh {
+  background-image: url("../images/Generic Favicon White.png");
+}
+
+.pagenotfound__layout {
+  @extend .layout-container;
+}
