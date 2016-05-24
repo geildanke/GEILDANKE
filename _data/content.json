@@ -47,7 +47,8 @@
                 "playstore": "https://play.google.com/store/apps/dev?id=7392305221979596210&hl=en",
                 "facebook": "https://www.facebook.com/geildanke",
                 "googleplus": "https://www.google.com/+GeildankeBerlin",
-                "twitter": "https://twitter.com/GeilDanke"
+                "twitter": "https://twitter.com/GeilDanke",
+                "whatsapp": "whatsapp://send?text=GeilDanke%20%E2%80%93%20Studio%20f%C3%BCr%20Mobile-App-Entwicklung%20und%20Responsive%20Web%20Design%20https%3A%2F%2Fgeildanke.com%2Fde%2F"
             }
         },
         "nav": {
@@ -523,7 +524,8 @@
                 "playstore": "https://play.google.com/store/apps/dev?id=7392305221979596210&hl=en",
                 "facebook": "https://www.facebook.com/geildanke",
                 "googleplus": "https://www.google.com/+GeildankeBerlin",
-                "twitter": "https://twitter.com/GeilDanke"
+                "twitter": "https://twitter.com/GeilDanke",
+                "whatsapp": "whatsapp://send?text=GeilDanke%20%E2%80%93%20A%20Mobile%20App%20Development%20and%20Responsive%20Web%20Design%20Studio%20https%3A%2F%2Fgeildanke.com%2F"
             }
         },
         "nav": {
