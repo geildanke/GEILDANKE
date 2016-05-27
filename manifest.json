@@ -1,5 +1,12 @@
 {
 	"name": "Geil,Danke!",
+  "short_name": "Geil,Danke!",
+  "start_url": "https://geildanke.com/",
+	"description": "A Mobile App Development and Responsive Web Design Studio",
+  "display": "standalone",
+	"background_color": "#FDFDFD",
+	"theme_color": "#FF0C80",
+	​​"orientation": "natural",
 	"icons": [
 		{
 			"src": "\/android-chrome-36x36.png",
