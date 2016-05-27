@@ -58,6 +58,7 @@
   display: inline-block;
   margin: ($layout-unit / 2) 0;
   width: 200px;
+  height: 24px;
 
   @media screen and (min-width: $mq-s) {
     margin: 6px 0 0 0;
