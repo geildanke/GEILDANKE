@@ -2,13 +2,13 @@
 
 importScripts('/scripts/vendor/serviceworker-cache-polyfill.js');
 
-var cacheName = 'com.geildanke-cache-v1.0.0';
+var cacheName = 'com.geildanke-cache-v1.0.1';
 var filesToCache = [
   // Stylesheets
   '/styles/main.css',
 
   // Pages and assets
-  '/index.html',
+  '/',
   '/images/cover.png',
   '/images/geildanke-logo.svg',
   '/images/geildanke-logo-typographic.svg'
@@ -32,7 +32,7 @@ self.addEventListener('fetch', function(event) {
           return response;
         }
 
-        console.log('[*] Fetching: ' + event.request.url);
+        // console.log('[*] Fetching: ' + event.request.url);
         return fetch(event.request);
       }
     )
