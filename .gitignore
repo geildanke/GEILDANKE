@@ -2,3 +2,12 @@ _site
 _glynn.yml
 .sass-cache
 Gemfile.lock
+.idea/GD_WWW.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/typescript-compiler.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/dictionaries/michaelalehr.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
