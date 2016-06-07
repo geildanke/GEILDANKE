@@ -1,0 +1,24 @@
+---
+layout: compress
+---
+
+<!doctype html>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="{{ page.lang }}"> <!--<![endif]-->
+
+  {% assign t = site.data.content.[page.lang] %}
+
+  {% include head.html %}
+
+  <body itemscope itemtype="http://schema.org/ProfilePage">
+
+    {% include page-not-found.html %}
+    {% include footer.html %}
+
+  </body>
+
+</html>
+<!-- IE needs 512+ bytes: http://blogs.msdn.com/b/ieinternals/archive/2010/08/19/http-error-pages-in-internet-explorer.aspx -->
