@@ -22,7 +22,6 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: contain;
-  content: "";
   margin: 0 ($layout-unit / 2);
   padding-bottom: 18.5%;
   height: 0;
@@ -40,25 +39,44 @@
 .pagenotfound__layout {
   @extend .layout-container;
 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding: ($layout-unit * 2) $layout-unit $layout-unit $layout-unit;
+  width: 100%;
+
+  @media screen and (min-width: $mq-s) {
+    padding: 0 $layout-unit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .pagenotfound__searchhere {
   @extend .layout-container;
   @extend %grid;
 
-  position: absolute;
-  bottom: $layout-unit * 4;
-  left: 50%;
-  transform: translateX(-50%);
+  padding-left: 0;
+  width: 100%;
+
+  @media screen and (min-width: $mq-s) {
+    position: absolute;
+    bottom: $layout-unit * 4;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .pagenotfound__searchhere__article {
   @extend %grid__item;
-  @extend %four-twelfths;
+  @extend %s--four-twelfths;
+  @extend %m--four-twelfths;
+  @extend %l--four-twelfths;
+
+  padding-bottom: $layout-unit;
+
+  @media screen and (min-width: $mq-s) {
+    padding-bottom: 0;
+  }
 }
 
 .pagenotfound__searchhere__copy {
@@ -107,5 +125,9 @@
   color: $color-black;
   text-align: center;
 
-  margin-top: $layout-unit * 4;
+  margin-top: $layout-unit;
+
+  @media screen and (min-width: $mq-s) {
+    margin-top: $layout-unit * 4;
+  }
 }
