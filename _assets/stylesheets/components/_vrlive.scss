@@ -1,0 +1,32 @@
+.vrlive {
+  @extend .layout__grid;
+  padding-bottom: $layout-unit * 2;
+}
+
+.vrlive__canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.vrlive__canvas-wrapper {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+
+  padding-bottom: 56%;
+  height: 0;
+}
+
+.vrlive__title {
+  @extend .headline;
+  @extend .typo-bold;
+  @extend .headline--1;
+}
+
+.vrlive__title-container {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+
+  padding-top: $layout-unit * 4;
+  padding-bottom: $layout-unit * 2;
+}
