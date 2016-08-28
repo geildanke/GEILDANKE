@@ -1,0 +1,133 @@
+.pagenotfound {
+  background-color: lighten($color-gulf-stream, 35);
+  height: 100%;
+  height: calc(100vh - 20px);
+}
+
+.pagenotefound__copy {
+  text-align: center;
+
+  margin-top: $layout-unit / 2;
+}
+
+.pagenotfound__fourohfour {
+  @extend %grid;
+}
+
+.pagenotfound__fourohfour__icon {
+  @extend %grid__item;
+  @extend %two-twelfths;
+  @extend %push--three-twelfths;
+
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 ($layout-unit / 2);
+  padding-bottom: 18.5%;
+  height: 0;
+
+  transform: translateX(- $layout-unit * 1.5);
+}
+.pagenotfound__fourohfour__icon--four {
+  background-image: url("../images/4@2x.png");
+}
+
+.pagenotfound__fourohfour__icon--oh {
+  background-image: url("../images/Generic Favicon White.png");
+}
+
+.pagenotfound__layout {
+  @extend .layout-container;
+
+  padding: ($layout-unit * 2) $layout-unit $layout-unit $layout-unit;
+  width: 100%;
+
+  @media screen and (min-width: $mq-s) {
+    padding: 0 $layout-unit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.pagenotfound__searchhere {
+  @extend .layout-container;
+  @extend %grid;
+
+  padding-left: 0;
+  width: 100%;
+
+  @media screen and (min-width: $mq-s) {
+    position: absolute;
+    bottom: $layout-unit * 4;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.pagenotfound__searchhere__article {
+  @extend %grid__item;
+  @extend %s--four-twelfths;
+  @extend %m--four-twelfths;
+  @extend %l--four-twelfths;
+
+  padding-bottom: $layout-unit;
+
+  @media screen and (min-width: $mq-s) {
+    padding-bottom: 0;
+  }
+}
+
+.pagenotfound__searchhere__copy {
+  color: $color-black;
+
+  .pagenotfound__searchhere__link:active &,
+  .pagenotfound__searchhere__link:hover & {
+    color: $color-gulf-stream;
+  }
+}
+
+.pagenotfound__searchhere__image {
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  float: left;
+  margin-right: $layout-unit;
+  width: $layout-unit * 3.5;
+  height: $layout-unit * 3.5;
+}
+
+.pagenotfound__searchhere__image--home {
+  background-image: url("../images/rollingstone_gradient.jpg");
+}
+
+.pagenotfound__searchhere__image--about {
+  background-image: url("../images/thinkact-bg-gradient.jpg");
+}
+
+.pagenotfound__searchhere__image--contact {
+  background-image: url("../images/ocb-bg-gradient.jpg");
+}
+
+.pagenotfound__searchhere__teaser {
+  color: $color-main;
+  font-weight: 900;
+
+  &::after {
+    content: "—";
+    padding: 0 ($layout-unit / 4);
+  }
+}
+
+.pagenotfound__title {
+  color: $color-black;
+  text-align: center;
+
+  margin-top: $layout-unit;
+
+  @media screen and (min-width: $mq-s) {
+    margin-top: $layout-unit * 4;
+  }
+}
