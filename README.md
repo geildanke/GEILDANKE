@@ -30,10 +30,10 @@ Continuous deployment is provided executed using codeship.io
 
 ### gitflow Branch targets:
 
-master      https://geildanke.com           (planned)
+master      https://geildanke.com
 develop     https://develop.geildanke.com
-release/*   https://release.geildanke.com   (planned)
-hotfix/*    https://release.geildanke.com   (planned)
+release/*   https://release.geildanke.com
+hotfix/*    https://release.geildanke.com
 
 ### Impediment / Todo
 
