@@ -1,0 +1,7 @@
+<section class="layout-container vrarticle">
+  <article class="vrarticle__article">
+    {% for paragraph in t.vr.article.paragraphs %}
+      <p class="vrarticle__paragraph">{{paragraph.content}}</p>
+    {% endfor %}
+  </article>
+</section>

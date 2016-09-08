@@ -1,20 +1,65 @@
-.vrlive {
-  @extend .layout__grid;
-  padding-bottom: $layout-unit * 2;
-}
+.vrlive {}
 
 .vrlive__canvas {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
 }
 
 .vrlive__canvas-wrapper {
-  @extend %ten-twelfths;
-  @extend %push--one-twelfth;
-
   padding-bottom: 56%;
+  position: relative;
   height: 0;
+}
+
+.vrlive__figcaption {
+  @extend .typo-bold;
+  @extend .typo-label;
+
+  color: $color-white;
+  text-shadow: 1px 1px 0 $color-black,
+               2px 2px 0 $color-black,
+               3px 3px 0 $color-black,
+               4px 4px 0 $color-black;
+
+  position: absolute;
+  top: $layout-unit / 2;
+  right: $layout-unit;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.vrlive__grid {
+  @extend .layout__grid;
+}
+
+.vrlive__grid__item {
+  @extend .layout__grid__item;
+  @extend %s--six-twelfths;
+  @extend %m--six-twelfths;
+  @extend %l--six-twelfths;
+  
+  position: relative;
+  
+  &:first-child {
+    margin-bottom: $layout-unit;
+    
+    @media screen and (min-width: $mq-s) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.vrlive__list {
+  margin-top: $layout-unit * 2;
+}
+
+.vrlive__list__item {
+  @include list-stroke();
+
+  padding-bottom: $layout-unit / 2;
 }
 
 .vrlive__title {
