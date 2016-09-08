@@ -30,27 +30,27 @@
               {% endif %}
             </figcaption>
           </figure>
-        </div>
-        <div class="layout__grid__item corecompetence__figurecontainer corecompetence__figurecontainer--2">
-        <figure class="corecompetence__figure">
-          {% if corecompetence.image-2.cta %}
-          <a href="{{corecompetence.image-2.cta.url}}">
-          {% endif %}
-            <img class="corecompetence__figure__img" src="{{corecompetence.image-2.src}}" alt="{{corecompetence.image-2.alt}}">
-          {% if corecompetence.image-2.cta %}
-          </a>
-          {% endif %}
-          <figcaption class="corecompetence__figure__caption">
-            <p class="corecompetence__figure__caption__paragraph">{{corecompetence.image-2.caption}}</p>
+        </div><!--
+     --><div class="layout__grid__item corecompetence__figurecontainer corecompetence__figurecontainer--2">
+          <figure class="corecompetence__figure">
             {% if corecompetence.image-2.cta %}
-            <a class="corecompetence__figure__caption__paragraph corecompetence__figure__caption__link" href="{{corecompetence.image-2.cta.url}}">{{corecompetence.image-2.cta.label}}</a>
+            <a href="{{corecompetence.image-2.cta.url}}">
             {% endif %}
-          </figcaption>
-        </figure>
+              <img class="corecompetence__figure__img" src="{{corecompetence.image-2.src}}" alt="{{corecompetence.image-2.alt}}">
+            {% if corecompetence.image-2.cta %}
+            </a>
+            {% endif %}
+            <figcaption class="corecompetence__figure__caption">
+              <p class="corecompetence__figure__caption__paragraph">{{corecompetence.image-2.caption}}</p>
+              {% if corecompetence.image-2.cta %}
+              <a class="corecompetence__figure__caption__paragraph corecompetence__figure__caption__link" href="{{corecompetence.image-2.cta.url}}">{{corecompetence.image-2.cta.label}}</a>
+              {% endif %}
+            </figcaption>
+          </figure>
+        </div>
       </div>
-    </div>
-    </div>
-    <div class="layout__grid__item corecompetence__article-aside corecompetence__article-aside--right">
+    </div><!--
+ --><div class="layout__grid__item corecompetence__article-aside corecompetence__article-aside--right">
       <figure class="corecompetence__figure layout__grid">
         {% if corecompetence.image-3.cta %}
         <a href="{{corecompetence.image-3.cta.url}}">
