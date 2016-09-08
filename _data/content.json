@@ -113,6 +113,10 @@
                         "name": "Talks",
                         "items": [
                             {
+                                "name": "JSConf Australia 2016",
+                                "url": "http://2016.jsconfau.com/"
+                            },
+                            {
                                 "name": "EnterJS 2016 „Erste Schritte mit Angular 2: Components, Directives, Templates“",
                                 "url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
                             },
@@ -257,6 +261,10 @@
                         {
                             "name": "ChaosCommunicationCongress2016 33c3, Hamburg, Deutschland",
                             "url": "http://stenoknight.com/wiki/ChaosCommunicationCongress2016_33c3"
+                        },
+                        {
+                            "name": "JSConf Australia 2016, Melbourne, Australia",
+                            "url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
                         },
                         {
                             "name": "EnterJS 2016, Darmstadt, Deutschland",
@@ -590,6 +598,10 @@
                         "name": "Talks",
                         "items": [
                             {
+                                "name": "JSConf Australia 2016",
+                                "url": "http://2016.jsconfau.com/"
+                            },
+                            {
                                 "name": "EnterJS 2016 „Erste Schritte mit Angular 2: Components, Directives, Templates“",
                                 "url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
                             },
@@ -734,6 +746,10 @@
                         {
                             "name": "ChaosCommunicationCongress2016 33c3, Hamburg, Germany",
                             "url": "http://stenoknight.com/wiki/ChaosCommunicationCongress2016_33c3"
+                        },
+                        {
+                            "name": "JSConf Australia 2016, Melbourne, Australia",
+                            "url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
                         },
                         {
                             "name": "EnterJS 2016, Darmstadt, Germany",
