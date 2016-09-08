@@ -2,10 +2,28 @@
   <div class="layout-innercontainer">
     <div class="vrlive">
       <div class="vrlive__title-container">
-        <div class="vrlive__title">Try it out<span class="typo-color--main">.</span></div>
+        <div class="vrlive__title">{{t.vr.live.title}}</div>
       </div>
-      <div class="vrlive__canvas-wrapper">
-        <div id="vrlive__canvas" class="vrlive__canvas"></div>
+      <div class="vrlive__grid">
+        <div class="vrlive__grid__item">
+          <div class="vrlive__canvas-wrapper">
+            <div id="vrlive__image__canvas" class="vrlive__canvas"></div>
+          </div>
+          <figcaption class="vrlive__figcaption">{{t.vr.live.caption.image}}</figcaption>
+        </div>
+        <div class="vrlive__grid__item">
+          <div class="vrlive__canvas-wrapper">
+            <div id="vrlive__video__canvas" class="vrlive__canvas"></div>
+          </div>
+          <figcaption class="vrlive__figcaption">{{t.vr.live.caption.video}}</figcaption>
+        </div>
+      </div>
+      <div class="layout-container">
+          <ul class="vrlive__list">
+            {% for info in t.vr.live.infos %}
+              <li class="vrlive__list__item">{{info.content}}</li>
+            {% endfor %}
+          </ul>
       </div>
     </div>
   </div>

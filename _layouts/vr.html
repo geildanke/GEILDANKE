@@ -14,8 +14,16 @@ layout: compress
 
   <body>
     {% include header-default.html %}
-    <!-- {% include hero-page.html %} -->
+    {% include hero-page.html %}
+    {% include vr-article.html %}
     {% include vr-live.html %}
+    {% for cta in site.ctas %}
+      {% if cta.lang == page.lang %}
+        {% if cta.id == 'vr' %}
+          {% include cta.html %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
     {% include footer.html %}
   </body>
 
