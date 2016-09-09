@@ -346,7 +346,7 @@
 						"name": "Media Queries, CSS3 Transitions, CSS3 Animationen and jQuery Animationen"
 					}]
 				}],
-				"footnote": "* Wir kennen uns auch aus mit Web Components, WebGL, Canvas — SCSS, LESS — jQuery, Bootstrap, Angular 1.4 und davor — Titanium, React, React JS, Reactive Programming — CouchDB, XML, SQL, PostgreSQL — PHP, Wordpress, Laravel, CodeIgniter — Python, Django — Broccoli, Angular CLI — Unity, UnityScript, C#, Java — Solidity — Encryption"
+				"footnote": "* Wir kennen uns auch aus mit Web Components, WebVR, WebGL, Canvas, Web Audio, SVG — SCSS, LESS — jQuery, Bootstrap, Angular 1.4 und davor — Titanium, React, React JS, Reactive Programming — CouchDB, XML, SQL, PostgreSQL — PHP, Wordpress, Laravel, CodeIgniter — Python, Django — Broccoli, Angular CLI — Unity, UnityScript, C#, Java — Solidity — Encryption"
 			},
 			"whatmatters": {
 				"headline": "Was uns am Herzen liegt",
@@ -767,7 +767,7 @@
 						"name": "Media Queries, CSS3 Transitions, CSS3 and JavaScript Animations"
 					}]
 				}],
-				"footnote": "* We also know Web Components, WebGL, Canvas — SCSS, LESS — jQuery, Bootstrap — React, React JS, Reactive Programming — XML, SQL, PostgreSQL — PHP, Wordpress, Laravel, CodeIgniter — Python, Django — Broccoli, Angular CLI — Codeship, Jenkins, TeamCity — Unity, UnityScript, C#, Java — Solidity — Encryption"
+				"footnote": "* We also know Web Components, WebVR, WebGL, Canvas, Web Audio, SVG — SCSS, LESS — jQuery, Bootstrap — React, React JS, Reactive Programming — XML, SQL, PostgreSQL — PHP, Wordpress, Laravel, CodeIgniter — Python, Django — Broccoli, Angular CLI — Codeship, Jenkins, TeamCity — Unity, UnityScript, C#, Java — Solidity — Encryption"
 			},
 			"whatmatters": {
 				"headline": "What matters to us",
