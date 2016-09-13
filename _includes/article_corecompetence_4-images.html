@@ -24,7 +24,9 @@
             </a>
             {% endif %}
             <figcaption class="corecompetence__figure__caption">
+              {% if corecompetence.image-1.caption %}
               <p class="corecompetence__figure__caption__paragraph">{{corecompetence.image-1.caption}}</p>
+              {% endif %}
               {% if corecompetence.image-1.cta %}
               <a class="corecompetence__figure__caption__paragraph corecompetence__figure__caption__link" href="{{corecompetence.image-1.cta.url}}">{{corecompetence.image-1.cta.label}}</a>
               {% endif %}
@@ -41,7 +43,9 @@
             </a>
             {% endif %}
             <figcaption class="corecompetence__figure__caption">
+              {% if corecompetence.image-2.caption %}
               <p class="corecompetence__figure__caption__paragraph">{{corecompetence.image-2.caption}}</p>
+              {% endif %}
               {% if corecompetence.image-2.cta %}
               <a class="corecompetence__figure__caption__paragraph corecompetence__figure__caption__link" href="{{corecompetence.image-2.cta.url}}">{{corecompetence.image-2.cta.label}}</a>
               {% endif %}
@@ -62,7 +66,9 @@
         </a>
         {% endif %}
         <figcaption class="corecompetence__figure__caption corecompetence__figure__grid layout__grid__item">
+          {% if corecompetence.image-3.caption %}
           <p class="corecompetence__figure__caption__paragraph">{{corecompetence.image-3.caption}}</p>
+          {% endif %}
           {% if corecompetence.image-3.cta %}
           <a class="corecompetence__figure__caption__paragraph corecompetence__figure__caption__link" href="{{corecompetence.image-3.cta.url}}">{{corecompetence.image-3.cta.label}}</a>
           {% endif %}
@@ -79,7 +85,9 @@
         </a>
         {% endif %}
         <figcaption class="corecompetence__figure__caption corecompetence__figure__grid layout__grid__item">
+          {% if corecompetence.image-4.caption %}
           <p class="corecompetence__figure__caption__paragraph">{{corecompetence.image-4.caption}}</p>
+          {% endif %}
           {% if corecompetence.image-4.cta %}
           <a class="corecompetence__figure__caption__paragraph corecompetence__figure__caption__link" href="{{corecompetence.image-4.cta.url}}">{{corecompetence.image-4.cta.label}}</a>
           {% endif %}
