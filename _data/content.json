@@ -383,11 +383,11 @@
 		"vr": {
 			"article": {
 				"paragraphs": [{
-					"content": "Virtual Reality ist nicht nur etwas für große TV-Geräte. Man kan VR auch für das Web entwickeln: Nutzer benötigen dann <span class=\"typo-bold\">nur einen Browser</span> um das VR-Erlebnis zu genießen. Wir denken, dass es viele interessante und überzeugende Anwendungsfälle für Virtuelle Realität im Internet gibt. Auf dieser Seite finden Sie einfache Beispiele wie ein <span class=\"typo-bold\">360-Grad-Photo</span> oder ein <span class=\"typo-bold\">360-Grad-Video</span>."
+					"content": "Virtual Reality ist nicht nur etwas für AAA-Games. Man kann VR auch für das Web entwickeln: Nutzer benötigen dann <span class=\"typo-bold\">nur einen Browser</span> um das VR-Erlebnis zu genießen. Es gibt unzählige überzeugende Anwendungsfälle für Virtuelle Realität im Internet. Auf dieser Seite finden Sie interessante Beispiele wie ein <span class=\"typo-bold\">360-Grad-Photo</span> oder ein <span class=\"typo-bold\">360-Grad-Video</span> (Voll-Sphären-Video) im Browser funktionieren."
 				}, {
-					"content": "Technisch betrachtet ist Virtuelle Realität im Web-Browser möglich, weil es <span class=\"typo-bold\">moderne HTML5-APIs</span> gibt, nämlich <span class=\"typo-bold\">WebGL</span>, <span class=\"typo-bold\">WebVR</span>, die <span class=\"typo-bold\">Fullscreen API</span> oder die Web Audio API. Natürlich ist nicht jeder Browser in der Lage diese APIs zu benutzen. Deswegen sind <span class=\"typo-bold\">Fallback-Lösungen</span> immer Teil eines WebVR-Projekts."
+					"content": "Technisch betrachtet ist Virtuelle Realität im Web-Browser möglich, weil es <span class=\"typo-bold\">moderne HTML5-APIs</span> gibt, nämlich <span class=\"typo-bold\">WebGL</span>, <span class=\"typo-bold\">WebVR</span>, die <span class=\"typo-bold\">Fullscreen API</span> und die Web Audio API. Leider unterstützt nicht jeder Browser diese APIs. Deswegen sind <span class=\"typo-bold\">Fallback-Lösungen</span> immer Teil unserer WebVR-Projekte."
 				}, {
-					"content": "Ein weiterer interessanter Teil bei der Konzeption von WebVR-Erlebnissen ist das <span class=\"typo-bold\">User-Interaction-Design</span> sowie das <span class=\"typo-bold\">User-Experience-Design</span> (UX Design). Ein WebVR-Projekt muss nicht nur von Nutzern verwendet werden können, die Maus, Tastatur oder <span class=\"typo-bold\">Touch-Display</span> benutzen. Auch moderne <span class=\"typo-bold\">VR-Controller</span> oder die Rotations- und Positions-<span class=\"typo-bold\">Sensoren</span> des Gerätes dienen als Input bei VR-Anwendungen."
+					"content": "Ein weiterer wichtiger Teil bei der Konzeption von WebVR-Erlebnissen ist das <span class=\"typo-bold\">User-Interaction-Design</span> sowie das <span class=\"typo-bold\">User-Experience-Design</span> (UX Design). Ein WebVR-Projekt muss nicht nur von Nutzern verwendet werden können, die Maus, Tastatur oder <span class=\"typo-bold\">Touch-Display</span> benutzen. Auch moderne <span class=\"typo-bold\">VR-Controller</span> oder die Rotations- und Positions-<span class=\"typo-bold\">Sensoren</span> (Gyrosensor) des Gerätes dienen als Input bei VR-Anwendungen."
 				}]
 			},
 			"live": {
@@ -413,7 +413,7 @@
 						"content": "Um das Video auf Ihrem Smartphone oder Tablet zu starten, drücken Sie einmal auf das Video."
 					},
 					{
-						"content": "Foto und Video wurden mit der <a href=\"https://theta360.com/de/about/theta/s.html\" title=\"Ricoh Theta S\">Ricoh Theta S</a> aufgenommen."
+						"content": "Foto und Video wurden mit der <a target=\"_blank\" href=\"http://amzn.to/2c8v8MS\" title=\"Ricoh Theta S\">Ricoh Theta S</a> aufgenommen."
 					},
 					{
 						"content": "Die 360-Grad-Experimente laufen am besten in <span class=\"typo-bold\">Google Chrome</span>, <span class=\"typo-bold\">Firefox</span> oder Google Chrome auf einem Android-Gerät."
@@ -804,11 +804,11 @@
 		"vr": {
 			"article": {
 				"paragraphs": [{
-					"content": "Virtual Reality is not only for games on big TVs. You can create VR for the web, and <span class=\"typo-bold\">users only need a browser</span> to enjoy virtual reality content. We think there are many interesting and compelling use cases for VR in the browser. On this page we have integrated simple examples, like a <span class=\"typo-bold\">360 degree image</span> and a <span class=\"typo-bold\">360 degree video</span>."
+					"content": "Virtual Reality is not just a thing for AAA games. You can create VR for the web, and <span class=\"typo-bold\">users only need a browser</span> to enjoy virtual reality content. There are many interesting and compelling use cases for VR in the browser. On this page we have integrated stunning examples, like a <span class=\"typo-bold\">360 degree spherical image</span> and a <span class=\"typo-bold\">360 degree spherical video</span>."
 				}, {
-					"content": "Technically spoken, VR in a web browser is possible, due to <span class=\"typo-bold\">modern HTML5 APIs</span>, like <span class=\"typo-bold\">WebGL</span>, <span class=\"typo-bold\">WebVR</span>, <span class=\"typo-bold\">Fullscreen API</span> or Web Audio API. Obviously not every browser is able to use these modern APIs, so a <span class=\"typo-bold\">fallback solution</span> should always be part of a WebVR project."
+					"content": "Technically spoken, VR in a web browser is possible due to <span class=\"typo-bold\">modern HTML5 APIs</span>, like <span class=\"typo-bold\">WebGL</span>, <span class=\"typo-bold\">WebVR</span>, <span class=\"typo-bold\">Fullscreen API</span> and Web Audio API. Unfortunately not every browser is able to use these modern APIs, yet. So a <span class=\"typo-bold\">fallback solution</span> is always be part of our WebVR projects."
 				}, {
-					"content": "Another interesting part of creating a WebVR experience is <span class=\"typo-bold\">User Interaction Design</span> and <span class=\"typo-bold\">User Experience Design</span> (UX Design). A WebVR project has not only to serve the needs of users, using a mouse, keyboard or a <span class=\"typo-bold\">touch screen</span>, but also input by modern <span class=\"typo-bold\">VR controllers</span> or device rotation and position <span class=\"typo-bold\">sensors</span>."
+					"content": "Another important part of creating a WebVR experience is <span class=\"typo-bold\">User Interaction Design</span> and <span class=\"typo-bold\">User Experience Design</span> (UX Design). A WebVR project has to serve the needs of users, using a mouse, keyboard or a <span class=\"typo-bold\">touch screen</span>, and also support modern <span class=\"typo-bold\">VR controllers</span> or device rotation and position <span class=\"typo-bold\">sensors</span>."
 				}]
 			},
 			"live": {
@@ -834,7 +834,7 @@
 						"content": "To run the video on your phone or tablet, click on the video once."
 					},
 					{
-						"content": "Image and video were taken with a <a href=\"https://theta360.com/de/about/theta/s.html\" title=\"Ricoh Theta S\">Ricoh Theta S</a> camera."
+						"content": "Image and video were taken with a <a target=\"_blank\" href=\"http://amzn.to/2cjmpsp\" title=\"Ricoh Theta S\">Ricoh Theta S</a> camera."
 					},
 					{
 						"content": "These experiments run best in <span class=\"typo-bold\">Google Chrome</span>, <span class=\"typo-bold\">Firefox</span> or Google Chrome on an Android device."
