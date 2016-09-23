@@ -39,30 +39,6 @@
   height: 0;
 }
 
-.vrarticle__devices__image--cardboard {
-  background-image: url('../images/vr-cardboard.jpg');
-}
-
-.vrarticle__devices__image--desktop {
-  background-image: url('../images/vr-desktop.jpg');
-}
-
-.vrarticle__devices__image--gearvr {
-  background-image: url('../images/vr-gearvr.jpg');
-}
-
-.vrarticle__devices__image--mobile {
-  background-image: url('../images/vr-mobile.jpg');
-}
-
-.vrarticle__devices__image--oculus {
-  background-image: url('../images/vr-oculus.jpg');
-}
-
-.vrarticle__devices__image--vive {
-  background-image: url('../images/vr-htcvive.jpg');
-}
-
 .vrarticle__devices__item {
   margin-bottom: $layout-unit * 2;
   width: 100%;
@@ -103,11 +79,11 @@
   margin-bottom: $layout-unit / 2;
 }
 
-.vrarticle__headline--browser-mobile {
+.vrarticle__headline--mobile {
   @include colortag($color-smoky);
 }
 
-.vrarticle__headline--browser-desktop {
+.vrarticle__headline--desktop {
   @include colortag($color-smoky);
 }
 
@@ -119,7 +95,7 @@
   @include colortag($color-froly);
 }
 
-.vrarticle__headline--htcvive {
+.vrarticle__headline--vive {
   @include colortag($color-ming);
 }
 

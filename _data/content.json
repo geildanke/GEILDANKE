@@ -388,6 +388,50 @@
 					"content": "Technisch betrachtet ist Virtuelle Realität im Web-Browser möglich, weil es <span class=\"typo-bold\">moderne HTML5-APIs</span> gibt, nämlich <span class=\"typo-bold\">WebGL</span>, <span class=\"typo-bold\">WebVR</span>, die <span class=\"typo-bold\">Fullscreen API</span> und die Web Audio API. Leider unterstützt nicht jeder Browser diese APIs. Deswegen sind <span class=\"typo-bold\">Fallback-Lösungen</span> immer Teil unserer WebVR-Projekte."
 				}, {
 					"content": "Ein weiterer wichtiger Teil bei der Konzeption von WebVR-Erlebnissen ist das <span class=\"typo-bold\">User-Interaction-Design</span> sowie das <span class=\"typo-bold\">User-Experience-Design</span> (UX Design). Ein WebVR-Projekt muss nicht nur von Nutzern verwendet werden können, die Maus, Tastatur oder <span class=\"typo-bold\">Touch-Display</span> benutzen. Auch moderne <span class=\"typo-bold\">VR-Controller</span> oder die Rotations- und Positions-<span class=\"typo-bold\">Sensoren</span> (Gyrosensor) des Gerätes dienen als Input bei VR-Anwendungen."
+				}],
+				"headline": "How you can use VR in the Web<span class=\"typo-color--main\">.</span>",
+				"devices": [{
+					"img": {
+						"src": "../../images/vr-cardboard.jpg"
+					},
+					"modifier": "cardboard",
+					"headline": "Cardboard",
+					"copy": "The cardboard is the <span class=\"typo-bold\">cheapest</span> way to experience virtual reality. It is basically just a headset without a display made of <span class=\"typo-bold\">paper</span> or plastic, that you can use with your <span class=\"typo-bold\">mobile phone</span>. <a href=\"\" target=\"_blank\">Buy here</a>."
+				}, {
+					"img": {
+						"src": "../../images/vr-gearvr.jpg"
+					},
+					"modifier": "gearvr",
+					"headline": "Samsung Gear VR",
+					"copy": "Another virtual reality headset is the Samsung Gear VR. You can use it with a modern <span class=\"typo-bold\">Samsung Galaxy phone</span> and there is also the <span class=\"typo-bold\">Gear 360 camera</span> for making 360 degree videos or images."
+				}, {
+					"img": {
+						"src": "../../images/vr-mobile.jpg"
+					},
+					"modifier": "mobile",
+					"headline": "A Mobile Browser",
+					"copy": "With a <span class=\"typo-bold\">fallback</span> solution you can easily provide a 3D experience on mobile phones. Looking around the VR space may be possible by <span class=\"typo-bold\">rotating</span> the phone or <span class=\"typo-bold\">swiping</span> the screen."
+				}, {
+					"img": {
+						"src": "../../images/vr-oculus.jpg"
+					},
+					"modifier": "oculus",
+					"headline": "Oculus Rift",
+					"copy": "The Oculus Rift is a <span class=\"typo-bold\">virtual reality headset</span>, that has an OLED panel for each eye. It works with a <span class=\"typo-bold\">PC</span> and therefore serves a <span class=\"typo-bold\">better experience</span> than a headset that works with mobile phones."
+				}, {
+					"img": {
+						"src": "../../images/vr-htcvive.jpg"
+					},
+					"modifier": "vive",
+					"headline": "HTC Vive",
+					"copy": "Like the Oculus Rift, the HTC Vive works works with a PC and uses two screens. It also comes with special <span class=\"typo-bold\">VR controllers</span> and <span class=\"typo-bold\">laser position sensors</span> to track the user's <span class=\"typo-bold\">movement</span> in a room."
+				}, {
+					"img": {
+						"src": "../../images/vr-desktop.jpg"
+					},
+					"modifier": "desktop",
+					"headline": "A normal Browser",
+					"copy": "As for the mobile phone, in most cases you can serve a <span class=\"typo-bold\">fallback</span> solution for Non-VR devices like <span class=\"typo-bold\">notebooks</span> and <span class=\"typo-bold\">desktops</span>. Keep in mind that these fallback solutions depend on mouse or keyboard input only."
 				}]
 			},
 			"live": {
@@ -809,6 +853,50 @@
 					"content": "Technically spoken, VR in a web browser is possible due to <span class=\"typo-bold\">modern HTML5 APIs</span>, like <span class=\"typo-bold\">WebGL</span>, <span class=\"typo-bold\">WebVR</span>, <span class=\"typo-bold\">Fullscreen API</span> and Web Audio API. Unfortunately not every browser is able to use these modern APIs, yet. So a <span class=\"typo-bold\">fallback solution</span> is always be part of our WebVR projects."
 				}, {
 					"content": "Another important part of creating a WebVR experience is <span class=\"typo-bold\">User Interaction Design</span> and <span class=\"typo-bold\">User Experience Design</span> (UX Design). A WebVR project has to serve the needs of users, using a mouse, keyboard or a <span class=\"typo-bold\">touch screen</span>, and also support modern <span class=\"typo-bold\">VR controllers</span> or device rotation and position <span class=\"typo-bold\">sensors</span>."
+				}],
+				"headline": "How you can use VR in the Web<span class=\"typo-color--main\">.</span>",
+				"devices": [{
+					"img": {
+						"src": "../../images/vr-cardboard.jpg"
+					},
+					"modifier": "cardboard",
+					"headline": "Cardboard",
+					"copy": "The cardboard is the <span class=\"typo-bold\">cheapest</span> way to experience virtual reality. It is basically just a headset without a display made of <span class=\"typo-bold\">paper</span> or plastic, that you can use with your <span class=\"typo-bold\">mobile phone</span>. <a href=\"\" target=\"_blank\">Buy here</a>."
+				}, {
+					"img": {
+						"src": "../../images/vr-gearvr.jpg"
+					},
+					"modifier": "gearvr",
+					"headline": "Samsung Gear VR",
+					"copy": "Another virtual reality headset is the Samsung Gear VR. You can use it with a modern <span class=\"typo-bold\">Samsung Galaxy phone</span> and there is also the <span class=\"typo-bold\">Gear 360 camera</span> for making 360 degree videos or images."
+				}, {
+					"img": {
+						"src": "../../images/vr-mobile.jpg"
+					},
+					"modifier": "mobile",
+					"headline": "A Mobile Browser",
+					"copy": "With a <span class=\"typo-bold\">fallback</span> solution you can easily provide a 3D experience on mobile phones. Looking around the VR space may be possible by <span class=\"typo-bold\">rotating</span> the phone or <span class=\"typo-bold\">swiping</span> the screen."
+				}, {
+					"img": {
+						"src": "../../images/vr-oculus.jpg"
+					},
+					"modifier": "oculus",
+					"headline": "Oculus Rift",
+					"copy": "The Oculus Rift is a <span class=\"typo-bold\">virtual reality headset</span>, that has an OLED panel for each eye. It works with a <span class=\"typo-bold\">PC</span> and therefore serves a <span class=\"typo-bold\">better experience</span> than a headset that works with mobile phones."
+				}, {
+					"img": {
+						"src": "../../images/vr-htcvive.jpg"
+					},
+					"modifier": "vive",
+					"headline": "HTC Vive",
+					"copy": "Like the Oculus Rift, the HTC Vive works works with a PC and uses two screens. It also comes with special <span class=\"typo-bold\">VR controllers</span> and <span class=\"typo-bold\">laser position sensors</span> to track the user's <span class=\"typo-bold\">movement</span> in a room."
+				}, {
+					"img": {
+						"src": "../../images/vr-desktop.jpg"
+					},
+					"modifier": "desktop",
+					"headline": "A normal Browser",
+					"copy": "As for the mobile phone, in most cases you can serve a <span class=\"typo-bold\">fallback</span> solution for Non-VR devices like <span class=\"typo-bold\">notebooks</span> and <span class=\"typo-bold\">desktops</span>. Keep in mind that these fallback solutions depend on mouse or keyboard input only."
 				}]
 			},
 			"live": {

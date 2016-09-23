@@ -6,39 +6,16 @@
   </article>
   <article>
     <div class="vrarticle__title-container">
-      <h2 class="vrarticle__title">How you can use VR in the Web<span class="typo-color--main">.</span></h2>
+      <h2 class="vrarticle__title">{{t.vr.article.headline}}</h2>
     </div>
     <ul class="vrarticle__devices">
-      <li class="vrarticle__devices__item">
-        <div class="vrarticle__devices__image vrarticle__devices__image--cardboard"></div>
-        <h3 class="vrarticle__headline vrarticle__headline--cardboard">Cardboard</h3>
-        <p class="vrarticle__copy">The cardboard is the cheapest way to experience virtual reality. It is basically just a headset without a display made of paper or plastic, that you can use with your mobile phone.</p>
-      </li>
-      <li class="vrarticle__devices__item">
-        <div class="vrarticle__devices__image vrarticle__devices__image--gearvr"></div>
-        <h3 class="vrarticle__headline vrarticle__headline--gearvr">Samsung Gear VR</h3>
-        <p class="vrarticle__copy">Another virtual reality headset is the Samsung Gear VR. You can use it with a modern Samsung Galaxy phone and there is also the Gear 360 camera for making 360 degree videos or images.</p>
-      </li>
-      <li class="vrarticle__devices__item">
-        <div class="vrarticle__devices__image vrarticle__devices__image--mobile"></div>
-        <h3 class="vrarticle__headline vrarticle__headline--browser-mobile">A Mobile Browser</h3>
-        <p class="vrarticle__copy">With a fallback solution you can easily provide a 3D experience on mobile phones. Looking around the VR space may be possible by rotating the phone or swiping the screen.</p>
-      </li>
-      <li class="vrarticle__devices__item">
-        <div class="vrarticle__devices__image vrarticle__devices__image--oculus"></div>
-        <h3 class="vrarticle__headline vrarticle__headline--oculus">Oculus Rift</h3>
-        <p class="vrarticle__copy">The Oculus Rift is a virtual reality headset, that has an OLED panel for each eye. It works with a PC and therefore serves a better experience than a headset that works with mobile phones.</p>
-      </li>
-      <li class="vrarticle__devices__item">
-        <div class="vrarticle__devices__image vrarticle__devices__image--vive"></div>
-        <h3 class="vrarticle__headline vrarticle__headline--htcvive">HTC Vive</h3>
-        <p class="vrarticle__copy">Like the Oculus Rift, the HTC Vive works works with a PC and uses two screens. It also comes with special VR controllers and laser position sensors to track the user's movement in a room.</p>
-      </li>
-      <li class="vrarticle__devices__item">
-        <div class="vrarticle__devices__image vrarticle__devices__image--desktop"></div>
-        <h3 class="vrarticle__headline vrarticle__headline--browser-desktop">Desktop PC or Notebook</h3>
-        <p class="vrarticle__copy">As for the mobile phone, in most cases you can serve a fallback solution for Non-VR devices like notebooks and desktops. Keep in mind that these fallback solutions depend on mouse or keyboard input only.</p>
-      </li>
+      {% for device in t.vr.article.devices %}
+        <li class="vrarticle__devices__item">
+          <div class="vrarticle__devices__image vrarticle__devices__image--{{device.modifier}}" style="background-image: url('{{device.img.src}}')"></div>
+          <h3 class="vrarticle__headline vrarticle__headline--{{device.modifier}}">{{device.headline}}</h3>
+          <p class="vrarticle__copy">{{device.copy}}</p>
+        </li>
+      {% endfor %}
     </ul>
   </article>
 </section>
