@@ -1,0 +1,21 @@
+<section class="layout-container vrarticle">
+  <article class="vrarticle__article">
+    {% for paragraph in t.vr.article.paragraphs %}
+      <p class="vrarticle__paragraph">{{paragraph.content}}</p>
+    {% endfor %}
+  </article>
+  <article>
+    <div class="vrarticle__title-container">
+      <h2 class="vrarticle__title">{{t.vr.article.headline}}</h2>
+    </div>
+    <ul class="vrarticle__devices">
+      {% for device in t.vr.article.devices %}
+        <li class="vrarticle__devices__item">
+          <div class="vrarticle__devices__image vrarticle__devices__image--{{device.modifier}}" style="background-image: url('{{device.img.src}}')"></div>
+          <h3 class="vrarticle__headline vrarticle__headline--{{device.modifier}}">{{device.headline}}</h3>
+          <p class="vrarticle__copy">{{device.copy}}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </article>
+</section>

@@ -1,0 +1,19 @@
+<section id="vrlive" class="layout-container">
+  <div class="layout-innercontainer">
+    <div class="vrlive">
+      <div class="vrlive__title-container">
+        <h2 class="vrlive__title">{{t.vr.live.title}}</h2>
+      </div>
+      <div class="vrlive__canvas-wrapper">
+        <div id="vrlive__video__canvas" class="vrlive__canvas"></div>
+      </div>
+      <div class="layout-container">
+          <ul class="vrlive__list">
+            {% for info in t.vr.live.infos %}
+              <li class="vrlive__list__item">{{info.content}}</li>
+            {% endfor %}
+          </ul>
+      </div>
+    </div>
+  </div>
+</section>

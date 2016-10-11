@@ -1,969 +1,956 @@
 {
-    "de": {
-        "language": {
-            "btn": {
-                "link": "/en",
-                "value": "english"
-            }
-        },
-        "hero": {
-            "keyword": {
-                "1": "Apps",
-                "2": "Webseiten",
-                "3": "Games",
-                "4": "Magazine",
-                "5": "Consulting",
-                "6": "Design",
-                "7": "Entwicklung",
-                "8": "Produktion"
-            }
-        },
-        "meta": {
-            "links": {
-                "home": "/de/",
-                "about": "/de/about",
-                "contact": "/de/contact",
-                "imprint": "/de/imprint"
-            },
-            "slogan": {
-                "companyslug": "GeilDanke",
-                "short": "Studio für Mobile-App-Entwicklung und Responsive Web Design",
-                "long": "Starten Sie Ihr Business auf allen Kanälen: Apps und Webseiten für iPhone, iPad, Android und Windows"
-            },
-            "companyname": "Geil,Danke! GmbH",
-            "address": {
-                "street": "Fischerinsel 4",
-                "zipcode": "10179",
-                "city": "Berlin, Germany"
-            },
-            "email": {
-                "default": {
-                    "label": "hallo@geildanke.com",
-                    "url": "mailto:hallo@geildanke.com"
-                }
-            },
-            "socialmedia": {
-                "appstore": "https://itunes.apple.com/us/developer/geil-danke!-gmbh/id438669892",
-                "playstore": "https://play.google.com/store/apps/dev?id=7392305221979596210&hl=en",
-                "facebook": "https://www.facebook.com/geildanke",
-                "googleplus": "https://www.google.com/+GeildankeBerlin",
-                "twitter": "https://twitter.com/GeilDanke",
-                "whatsapp": "whatsapp://send?text=GeilDanke%20%E2%80%93%20Studio%20f%C3%BCr%20Mobile-App-Entwicklung%20und%20Responsive%20Web%20Design%20https%3A%2F%2Fgeildanke.com%2Fde%2F"
-            }
-        },
-        "nav": {
-            "about": {
-                "value": "Über uns"
-            },
-            "projects": {
-                "value": "Projekte"
-            },
-            "contact": {
-                "value": "Kontakt"
-            }
-        },
-        "contact": {
-            "title": "Wir freuen uns auf Ihre Nachricht",
-            "copy": "Schreiben Sie uns eine E-Mail an <a href=\"mailto:hallo@geildanke.com\">hallo@geildanke.com</a> oder verwenden Sie dieses Kontakt-Formular, um uns eine Nachricht zu senden.",
-            "headline": "Kontakt",
-            "form": {
-                "email": {
-                    "label": "Ihre Email-Adresse:",
-                    "placeholder": "ihre.email@example.com"
-                },
-                "message": {
-                    "label": "Ihre Nachricht:",
-                    "placeholder": "Bitte geben Sie hier Ihre Nachricht an uns ein…"
-                },
-                "privacy": {
-                    "label": "Ich bin mit der <a href=\"#\">Datenschutzerklärung</a> einverstanden."
-                },
-                "button": {
-                    "label": "E-Mail senden"
-                }
-            }
-        },
-        "imprint": "Impressum",
-        "about": {
-            "submenu": {
-                "label": "Mehr:"
-            },
-            "headline": "Wir sind ein agiles, kreatives Technologie-Studio",
-            "copy": "GeilDanke ist ein kreatives Technologie-Studio. Wir sind auf Web-Entwicklung spezialisiert und haben unseren Fokus auf <span class=\"typo-bold\">Innovation</span>, <span class=\"typo-bold\">Performance</span>, <span class=\"typo-bold\">Benutzerfreundlichkeit</span> und <span class=\"typo-bold\">Inhalt</span>. Alle unsere Projekte sind <span class=\"typo-bold\">für Mobilgeräte optimiert</span>, unsere Lösungen sind geradlinig und elegant. Wir glauben daran, dass Web-Technologie und das Web niemanden ausschließen sollte. <span class=\"typo-bold\">Zuverlässigkeit</span> und <span class=\"typo-bold\">Wartbarkeit</span> gehören fest zu unserer Arbeits-Philosophie. Darum arbeiten wir <span class=\"typo-bold\">agil</span> und entwickeln <span class=\"typo-bold\">Test-getrieben</span>. Unser virtuelles Büro macht es möglich, dass wir mit den besten Experten weltweit zusammenarbeiten können.",
-            "whoweare": {
-                "headline": "Über uns",
-                "michaela": {
-                    "name": "Michaela Lehr",
-                    "position": "Geschäftsführender Gesellschafter Kreation",
-                    "copy": "Michaela ist kreative <span class=\"typo-bold\">Frontend-Entwicklering</span> und <span class=\"typo-bold\">UX-Designerin</span> bei GeilDanke. In über fünf Jahren Branchen-Erfahrung kämpft sie immer für die <span class=\"typo-bold\">Interessen der Benutzer</span> und Konsistenz in Design- und Code-Mustern. In ihrer Freizeit liest sie gerne Bücher, macht Yoga, geht surfen oder strickt.",
-                    "books": {
-                        "name": "Bücher",
-                        "items": [
-                            {
-                                "name": "„Digitales Publizieren für Tablets: Magazin-Apps mit InDesign für iPad, Android & Co.“",
-                                "url": "http://www.amazon.de/gp/product/3898647811/ref=as_li_ss_tl?ie=UTF8&tag=paploo-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3898647811"
-                            },
-                            {
-                                "name": "„Adobe Digital Publishing Suite: Apps entwickeln mit InDesign und HTML5 - inklusive Prozessoptimierung und Profi-Tipps aus der Praxis“",
-                                "url": "http://www.amazon.de/Adobe-Digital-Publishing-Suite-Prozessoptimierung-ebook/dp/B00DUH4ZR4/"
-                            }
-                        ]
-                    },
-                    "talks": {
-                        "name": "Talks",
-                        "items": [
-                            {
-                                "name": "JSConf Australia 2016",
-                                "url": "http://2016.jsconfau.com/"
-                            },
-                            {
-                                "name": "EnterJS 2016 „Erste Schritte mit Angular 2: Components, Directives, Templates“",
-                                "url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
-                            },
-                            {
-                                "name": "Pubkon 2014 „HTML und CSS für Designer / HTML & CSS for designers“",
-                                "url": "http://de.slideshare.net/michaelalehr/html-und-css-fr-designer-html-css-for-designers-pubkon-2014"
-                            },
-                            {
-                                "name": "Medienplantage 2014 „Digital Publishing: Was Print-Designer von Web-Designern lernen können“",
-                                "url": "http://de.slideshare.net/michaelalehr/digital-publishing-22546555"
-                            },
-                            {
-                                "name": "Typographie Workshop 2015 „Digitale Magazine erstellen“",
-                                "url": "http://de.slideshare.net/michaelalehr/digitale-magazine-1-handout"
-                            }
-                        ]
-                    },
-                    "newsletter": {
-                        "name": "Newsletter",
-                        "items": [
-                            {
-                                "name": "Angular 2 Comet",
-                                "url": "https://geildanke.com/ng2comet"
-                            }
-                        ]
-                    },
-                    "articles": {
-                        "name": "Artikel/TV",
-                        "items": [
-                            {
-                                "name": "SitePoint Article \"Build Your Own Chrome Extension Using Angular 2 & TypeScript\"",
-                                "url": "http://www.sitepoint.com/chrome-extension-angular-2/"
-                            },
-                            {
-                                "name": "SitePoint Article \"Creating a WebGL Game with Unity 5 and JavaScript\"",
-                                "url": "http://www.sitepoint.com/creating-webgl-game-unity-5-javascript/"
-                            },
-                            {
-                                "name": "Interview Junge Gründer",
-                                "url": "http://www.junge-gruender.de/interviews/interview-mit-michaela-lehr-mitgruenderin-von-geildanke-gmbh/"
-                            },
-                            {
-                                "name": "Elektrischer Reporter, ZDF info",
-                                "url": "http://www.elektrischer-reporter.de/phase3/video/327/"
-                            }
-                        ]
-                    },
-                    "opensource": {
-                        "name": "Open Source",
-                        "items": [
-                            {
-                                "name": "Podlove",
-                                "url": "https://github.com/podlove/podlove-subscribe-button"
-                            }
-                        ]
-                    },
-                    "socialmediaprofiles": [
-                        {
-                            "name": "dribbble",
-                            "url": "https://dribbble.com/fischaelameer"
-                        },
-                        {
-                            "name": "twitter",
-                            "url": "https://twitter.com/FischaelaMeer"
-                        },
-                        {
-                            "name": "xing",
-                            "url": "https://www.xing.com/profile/Michaela_Lehr2"
-                        },
-                        {
-                            "name": "facebook",
-                            "url": "https://www.facebook.com/michaela.lehr"
-                        },
-                        {
-                            "name": "instagram",
-                            "url": "https://www.instagram.com/fischaelameer/"
-                        }
-                    ]
-                },
-                "richard": {
-                    "name": "Richard Brammer",
-                    "position": "Geschäftsführender Gesellschafter Technologie",
-                    "copy": "Richard ist für die <span class=\"typo-bold\">strategische Ausrichtung</span> von GeilDanke zuständig und arbeitet als <span class=\"typo-bold\">Full-stack Web-Entwickler</span>. Mit fast <span class=\"typo-bold\">zwanzig Jahren Erfahrung</span> mit Web-Technologie findet er immer die beste Lösung für Ihre Herausforderung. Privat ist er ein großer Star-Wars-Fan; er reist und wandert gerne oder geht surfen.",
-                    "books": {
-                        "name": "Bücher",
-                        "items": [
-                            {
-                                "name": "„Digitales Publizieren für Tablets: Magazin-Apps mit InDesign für iPad, Android & Co.“",
-                                "url": "http://www.amazon.de/gp/product/3898647811/ref=as_li_ss_tl?ie=UTF8&tag=paploo-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3898647811"
-                            },
-                            {
-                                "name": "„Adobe Digital Publishing Suite: Apps entwickeln mit InDesign und HTML5 - inklusive Prozessoptimierung und Profi-Tipps aus der Praxis“",
-                                "url": "http://www.amazon.de/Adobe-Digital-Publishing-Suite-Prozessoptimierung-ebook/dp/B00DUH4ZR4/"
-                            }
-                        ]
-                    },
-                    "talks": {
-                        "name": "Talks",
-                        "items": [
-                            {
-                                "name": "Pubkon 2013: „Digital Mobile Publishing für Tablets und Smartphones“",
-                                "url": "http://fr.slideshare.net/RichardBrammer/digital-mobile-publishing-f"
-                            }
-                        ]
-                    },
-                    "newsletter": {
-                        "name": "Newsletter",
-                        "items": [
-                            {
-                                "name": "Curated Blockchain News",
-                                "url": "https://geildanke.com/curated-blockchain-news/"
-                            }
-                        ]
-                    },
-                    "socialmediaprofiles": [
-                        {
-                            "name": "github",
-                            "url": "https://github.com/richardbrammer"
-                        },
-                        {
-                            "name": "twitter",
-                            "url": "https://twitter.com/richardbrammer"
-                        },
-                        {
-                            "name": "xing",
-                            "url": "https://www.xing.com/profile/Richard_Brammer"
-                        },
-                        {
-                            "name": "facebook",
-                            "url": "https://www.facebook.com/richard.brammer.75"
-                        },
-                        {
-                            "name": "instagram",
-                            "url": "https://www.instagram.com/rias1138/"
-                        }
-                    ]
-                },
-                "conferences": {
-                    "headline": "Treffen Sie uns",
-                    "copy": "Wir bilden uns ständig weiter. Dafür besuchen wir Konferenzen, Bar-Camps und Meetups. Sie sind auch auf einer der kommenden Konferenzen? Schreiben Sie uns eine kurze Nachricht – wir würden uns freuen, Sie zu treffen.",
-                    "conferences": [
-                        {
-                            "name": "ChaosCommunicationCongress2016 33c3, Hamburg, Deutschland",
-                            "url": "http://stenoknight.com/wiki/ChaosCommunicationCongress2016_33c3"
-                        },
-                        {
-                            "name": "JSConf Australia 2016, Melbourne, Australia",
-                            "url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
-                        },
-                        {
-                            "name": "EnterJS 2016, Darmstadt, Deutschland",
-                            "url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
-                        },
-                        {
-                            "name": "Google I/O 2016, Mountain View, United States",
-                            "url": "https://events.google.com/io2016/"
-                        },
-                        {
-                            "name": "Subscribe 7, Berlin, Deutschland",
-                            "url": "http://das-sendezentrum.de/subscribe/sub7/"
-                        },
-                        {
-                            "name": "32C3: 30th Chaos Communication Congress, Hamburg, Deutschland",
-                            "url": "https://events.ccc.de/congress/2015/wiki/Static:Main_Page"
-                        },
-                        {
-                            "name": "Meet the TAG (Technical Architecture Group) with Tim Berners Lee, Berlin, Deutschland",
-                            "url": "http://lanyrd.com/2015/meetthetag/"
-                        },
-                        {
-                            "name": "GDC Europe, Köln, Deutschland",
-                            "url": "http://www.gdcvault.com/browse/gdc-europe-15"
-                        },
-                        {
-                            "name": "Unite Europe 2015, Amsterdam, Niederlande",
-                            "url": "https://unite.unity.com/archive/2015"
-                        },
-                        {
-                            "name": "Beyond Tellerrand 2015, Düsseldorf, Deutschland",
-                            "url": "https://beyondtellerrand.com/events/duesseldorf-2015/speakers"
-                        },
-                        {
-                            "name": "Awwwards Conference 2015, Barcelona, Spanien",
-                            "url": "http://www.awwwards.com/conference-barcelona-2015/"
-                        },
-                        {
-                            "name": "31C3 Chaos Communication Congress, Hamburg, Deutschland",
-                            "url": "https://events.ccc.de/category/31c3/"
-                        },
-                        {
-                            "name": "Beyond Tellerrand 2014, Berlin, Deutschland",
-                            "url": "https://beyondtellerrand.com/events/berlin-2014/speakers"
-                        },
-                        {
-                            "name": "Pubkon 2014, Berlin, Deutschland",
-                            "url": "http://2014.pubkon.eu/"
-                        },
-                        {
-                            "name": "Beyond Tellerrand 2014, Düsseldorf, Deutschland",
-                            "url": "https://beyondtellerrand.com/events/duesseldorf-2014/speakers"
-                        },
-                        {
-                            "name": "Web Platform Doc Sprint, Düsseldorf, Deutschland",
-                            "url": "http://lanyrd.com/2014/wpds-dusseldorf/"
-                        },
-                        {
-                            "name": "Beyond Tellerrand 2013, Düsseldorf, Deutschland",
-                            "url": "https://beyondtellerrand.com/events/duesseldorf-2013/speakers"
-                        },
-                        {
-                            "name": "Web Platform Doc Sprint, Berlin Deutschland",
-                            "url": "https://www.eventbrite.com/e/web-platform-doc-sprint-berlin-tickets-5062233276"
-                        },
-                        {
-                            "name": "Techcrunch Disrupt 2013, New York City, United States",
-                            "url": "http://techcrunch.com/events/disrupt-ny-2013/event-info/"
-                        },
-                        {
-                            "name": "Pubkon 2013",
-                            "url": "http://www.indesign-blog.de/einladung-zur-pubkon-%E2%80%93-18-%E2%80%9320-april-2013-berlin/"
-                        },
-                        {
-                            "name": "Push Conference 2012, München, Deutschland",
-                            "url": "http://push-conference.com/2012/"
-                        },
-                        {
-                            "name": "Quo Vadis Game Developer Conference, Berlin, Deutschland",
-                            "url": "http://www.golem.de/1004/74736.html"
-                        }
-                    ]
-                }
-            },
-            "howwework": {
-                "headline": "Wie wir arbeiten"
-            },
-            "whatwedo": {
-                "headline": "Was wir tun",
-                "skills": [
-                    {
-                        "name": "Languages",
-                        "items": [
-                            {
-                                "name": "HTML5"
-                            },
-                            {
-                                "name": "CSS3, Sass"
-                            },
-                            {
-                                "name": "JavaScript, TypeScript"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Frameworks",
-                        "items": [
-                            {
-                                "name": "AngularJS 1.5, Angular 2"
-                            },
-                            {
-                                "name": "Node.js"
-                            },
-                            {
-                                "name": "Cordova, Phonegap"
-                            },
-                            {
-                                "name": "React Native"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Databases",
-                        "items": [
-                            {
-                                "name": "NoSQL, MongoDB, MySQL"
-                            },
-                            {
-                                "name": "Web Storage, LocalStorage"
-                            },
-                            {
-                                "name": "IndexedDB, Device APIs"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Entwicklung",
-                        "items": [
-                            {
-                                "name": "Grunt, Gulp, Webpack"
-                            },
-                            {
-                                "name": "Git, JIRA"
-                            },
-                            {
-                                "name": "Codeship, TeamCity, Jenkins"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Konzepte",
-                        "items": [
-                            {
-                                "name": "Test-driven Development (TDD)"
-                            },
-                            {
-                                "name": "REST, REST-ful API, JSON, CORS"
-                            },
-                            {
-                                "name": "MVC, MVVM"
-                            },
-                            {
-                                "name": "Scrum, Kanban, Feature-based Programming"
-                            },
-                            {
-                                "name": "Media Queries, CSS3 Transitions, CSS3 Animationen and jQuery Animationen"
-                            }
-                        ]
-                    }
-                ],
-                "footnote": "* Wir kennen uns auch aus mit Web Components, WebGL, Canvas — SCSS, LESS — jQuery, Bootstrap, Angular 1.4 und davor — Titanium, React, React JS, Reactive Programming — CouchDB, XML, SQL, PostgreSQL — PHP, Wordpress, Laravel, CodeIgniter — Python, Django — Broccoli, Angular CLI — Unity, UnityScript, C#, Java — Solidity — Encryption"
-            },
-            "whatmatters": {
-                "headline": "Was uns am Herzen liegt",
-                "copy": "Die Umwelt und alle Lebewesen liegen uns am Herzen. Dies spiegelt sich natürlich auch in unserem Unternehmen wieder.",
-                "items": [
-                    {
-                        "value": "Unsere Geräte arbeiten ausschließlich mit zertifiziertem Strom aus <span class=\"typo-bold\">erneuerbaren Energiequellen</span>."
-                    },
-                    {
-                        "value": "Unsere Rechner sind refurbished (<span class=\"typo-bold\">Gebrauchtgeräte</span>) von Apple."
-                    },
-                    {
-                        "value": "Nicht benötigte Geräte verkaufen wir weiter oder <span class=\"typo-bold\">recyclen</span> sie."
-                    },
-                    {
-                        "value": "Wir schreiben effizienten Code, der die Batterien der Geräte schont."
-                    },
-                    {
-                        "value": "Wir arbeiten an Open-Source-Projekten mit, z.&nbsp;B. an <a href=\"https://github.com/podlove\">Podlove</a>."
-                    },
-                    {
-                        "value": "Wir achten auf <span class=\"typo-bold\">Datenschutz</span>, Datensicherheit und <span class=\"typo-bold\">Verschlüsselung</span>."
-                    },
-                    {
-                        "value": "Soweit möglich unterstützen wir <span class=\"typo-bold\">lokale Geschäfte</span> und verzichten beispielsweise auf den Kauf bei amazon."
-                    },
-                    {
-                        "value": "Am liebsten reisen wir mit dem Zug und durch die BahnCard mit <span class=\"typo-bold\">Ökostrom</span>. "
-                    },
-                    {
-                        "value": "Wenn sich Flugreisen nicht vermeiden lassen, achten wir auf den <span class=\"typo-bold\">CO2-Ausgleich</span>."
-                    },
-                    {
-                        "value": "Wir arbeiten fast vollständig papierlos und drucken so wenig wie möglich. Unser Drucker ist ein Relikt aus einer anderen Zeit."
-                    },
-                    {
-                        "value": "Bücher konsumieren wir <span class=\"typo-bold\">papierlos</span> auf E-Readern."
-                    },
-                    {
-                        "value": "Sowohl privat als auch beruflich sind wir <span class=\"typo-bold\">Minimalisten</span> und hinterfragen unseren Konsum von Produkten und Dienstleistungen."
-                    },
-                    {
-                        "value": "Wann immer möglich ernähren wir uns <span class=\"typo-bold\">pflanzlich</span>."
-                    }
-                ]
-            }
-        }
-    },
-    "en": {
-        "language": {
-            "btn": {
-                "link": "/de",
-                "value": "deutsch"
-            }
-        },
-        "hero": {
-            "keyword": {
-                "1": "Apps",
-                "2": "Websites",
-                "3": "Games",
-                "4": "Magazines",
-                "5": "Consulting",
-                "6": "Design",
-                "7": "Development",
-                "8": "Production"
-            }
-        },
-        "meta": {
-            "links": {
-                "home": "/en/",
-                "about": "/en/about",
-                "contact": "/en/contact",
-                "imprint": "/en/imprint"
-            },
-            "slogan": {
-                "companyslug": "GeilDanke",
-                "short": "A Mobile App Development and Responsive Web Design Studio",
-                "long": "Launch your business on all channels. Apps and web sites for iPhone, iPad, Android and Windows"
-            },
-            "companyname": "Geil,Danke! GmbH",
-            "address": {
-                "street": "Fischerinsel 4",
-                "zipcode": "10179",
-                "city": "Berlin, Germany"
-            },
-            "email": {
-                "default": {
-                    "label": "hello@geildanke.com",
-                    "url": "mailto:hello@geildanke.com"
-                }
-            },
-            "socialmedia": {
-                "appstore": "https://itunes.apple.com/us/developer/geil-danke!-gmbh/id438669892",
-                "playstore": "https://play.google.com/store/apps/dev?id=7392305221979596210&hl=en",
-                "facebook": "https://www.facebook.com/geildanke",
-                "googleplus": "https://www.google.com/+GeildankeBerlin",
-                "twitter": "https://twitter.com/GeilDanke",
-                "whatsapp": "whatsapp://send?text=GeilDanke%20%E2%80%93%20A%20Mobile%20App%20Development%20and%20Responsive%20Web%20Design%20Studio%20https%3A%2F%2Fgeildanke.com%2F"
-            }
-        },
-        "nav": {
-            "about": {
-                "value": "About"
-            },
-            "projects": {
-                "value": "Projects"
-            },
-            "contact": {
-                "value": "Contact"
-            }
-        },
-        "contact": {
-            "title": "We love to hear from you",
-            "headline": "Contact",
-            "copy": "Please send us an email to <a href=\"mailto:hello@geildanke.com\">hello@geildanke.com</a> or use this contact form to send us a message.",
-            "form": {
-                "email": {
-                    "label": "Your Email:",
-                    "placeholder": "e.g. your.email@example.com"
-                },
-                "message": {
-                    "label": "Your Message:",
-                    "placeholder": "Please enter your message here."
-                },
-                "privacy": {
-                    "label": "I accept the <a href=\"#\">privacy policy</a>."
-                },
-                "button": {
-                    "label": "Send message"
-                }
-            }
-        },
-        "imprint": "Imprint",
-        "about": {
-            "submenu": {
-                "label": "Read more about:"
-            },
-            "headline": "We are agile",
-            "copy": "GeilDanke is an agile creative technology studio. We're specialized in effective web development with a focus on <span class=\"typo-bold\">innovation</span>, <span class=\"typo-bold\">performance</span>, <span class=\"typo-bold\">usability</span> and <span class=\"typo-bold\">content</span>. Our projects are <span class=\"typo-bold\">mobile-friendly</span> always, our solutions elegant and simple. We believe in web standards and a web for everybody. <span class=\"typo-bold\">Reliability</span> and maintainability are inherent parts of our working ethics. That's why we practice <span class=\"typo-bold\">agile</span> workflows and a <span class=\"typo-bold\">test-driven</span> development process. Working remotely means that we can work with the best experts from anywhere.",
-            "whoweare": {
-                "headline": "Who we are",
-                "michaela": {
-                    "name": "Michaela Lehr",
-                    "position": "Executive Partner Creation",
-                    "copy": "Michaela is GeilDanke's creative front-end developer and UX designer. Working in the tech industry for over five years, she constantly fights for the user's interests or the importance of logically consistent stylesheets. In her free time she enjoys reading a lot of books, practicing yoga, surfing and knitting.",
-                    "books": {
-                        "name": "Books",
-                        "items": [
-                            {
-                                "name": "„Digitales Publizieren für Tablets: Magazin-Apps mit InDesign für iPad, Android & Co.“",
-                                "url": "http://www.amazon.de/gp/product/3898647811/ref=as_li_ss_tl?ie=UTF8&tag=paploo-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3898647811"
-                            },
-                            {
-                                "name": "„Adobe Digital Publishing Suite: Apps entwickeln mit InDesign und HTML5 - inklusive Prozessoptimierung und Profi-Tipps aus der Praxis“",
-                                "url": "http://www.amazon.de/Adobe-Digital-Publishing-Suite-Prozessoptimierung-ebook/dp/B00DUH4ZR4/"
-                            }
-                        ]
-                    },
-                    "talks": {
-                        "name": "Talks",
-                        "items": [
-                            {
-                                "name": "JSConf Australia 2016",
-                                "url": "http://2016.jsconfau.com/"
-                            },
-                            {
-                                "name": "EnterJS 2016 „Erste Schritte mit Angular 2: Components, Directives, Templates“",
-                                "url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
-                            },
-                            {
-                                "name": "Pubkon 2014 „HTML und CSS für Designer / HTML & CSS for designers“",
-                                "url": "http://de.slideshare.net/michaelalehr/html-und-css-fr-designer-html-css-for-designers-pubkon-2014"
-                            },
-                            {
-                                "name": "Medienplantage 2014 „Digital Publishing: Was Print-Designer von Web-Designern lernen können“",
-                                "url": "http://de.slideshare.net/michaelalehr/digital-publishing-22546555"
-                            },
-                            {
-                                "name": "Typographie Workshop 2015 „Digitale Magazine erstellen“",
-                                "url": "http://de.slideshare.net/michaelalehr/digitale-magazine-1-handout"
-                            }
-                        ]
-                    },
-                    "newsletter": {
-                        "name": "Newsletter",
-                        "items": [
-                            {
-                                "name": "Angular 2 Comet",
-                                "url": "https://geildanke.com/ng2comet"
-                            }
-                        ]
-                    },
-                    "articles": {
-                        "name": "Articles",
-                        "items": [
-                            {
-                                "name": "SitePoint Article \"Build Your Own Chrome Extension Using Angular 2 & TypeScript\"",
-                                "url": "http://www.sitepoint.com/chrome-extension-angular-2/"
-                            },
-                            {
-                                "name": "SitePoint Article \"Creating a WebGL Game with Unity 5 and JavaScript\"",
-                                "url": "http://www.sitepoint.com/creating-webgl-game-unity-5-javascript/"
-                            },
-                            {
-                                "name": "Interview Junge Gründer",
-                                "url": "http://www.junge-gruender.de/interviews/interview-mit-michaela-lehr-mitgruenderin-von-geildanke-gmbh/"
-                            },
-                            {
-                                "name": "Elektrischer Reporter, ZDF info",
-                                "url": "http://www.elektrischer-reporter.de/phase3/video/327/"
-                            }
-                        ]
-                    },
-                    "opensource": {
-                        "name": "Open Source",
-                        "items": [
-                            {
-                                "name": "Podlove",
-                                "url": "https://github.com/podlove/podlove-subscribe-button"
-                            }
-                        ]
-                    },
-                    "socialmediaprofiles": [
-                        {
-                            "name": "dribbble",
-                            "url": "https://dribbble.com/fischaelameer"
-                        },
-                        {
-                            "name": "twitter",
-                            "url": "https://twitter.com/FischaelaMeer"
-                        },
-                        {
-                            "name": "xing",
-                            "url": "https://www.xing.com/profile/Michaela_Lehr2"
-                        },
-                        {
-                            "name": "facebook",
-                            "url": "https://www.facebook.com/michaela.lehr"
-                        },
-                        {
-                            "name": "instagram",
-                            "url": "https://www.instagram.com/fischaelameer/"
-                        }
-                    ]
-                },
-                "richard": {
-                    "name": "Richard Brammer",
-                    "position": "Executive Partner Technology",
-                    "copy": "Richard is GeilDanke's lead strategist and full stack web developer. With almost twenty years of experiences in web development, he finds a solution to every challenge. In private you can listen to him talking about Star Wars for hours and hours or find him traveling the world, hiking and surfing.",
-                    "books": {
-                        "name": "Books",
-                        "items": [
-                            {
-                                "name": "„Digitales Publizieren für Tablets: Magazin-Apps mit InDesign für iPad, Android & Co.“",
-                                "url": "http://www.amazon.de/gp/product/3898647811/ref=as_li_ss_tl?ie=UTF8&tag=paploo-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3898647811"
-                            },
-                            {
-                                "name": "„Adobe Digital Publishing Suite: Apps entwickeln mit InDesign und HTML5 - inklusive Prozessoptimierung und Profi-Tipps aus der Praxis“",
-                                "url": "http://www.amazon.de/Adobe-Digital-Publishing-Suite-Prozessoptimierung-ebook/dp/B00DUH4ZR4/"
-                            }
-                        ]
-                    },
-                    "talks": {
-                        "name": "Talks",
-                        "items": [
-                            {
-                                "name": "Pubkon 2013: „Digital Mobile Publishing für Tablets und Smartphones“",
-                                "url": "http://fr.slideshare.net/RichardBrammer/digital-mobile-publishing-f"
-                            }
-                        ]
-                    },
-                    "newsletter": {
-                        "name": "Newsletter",
-                        "items": [
-                            {
-                                "name": "Curated Blockchain News",
-                                "url": "https://geildanke.com/curated-blockchain-news/"
-                            }
-                        ]
-                    },
-                    "socialmediaprofiles": [
-                        {
-                            "name": "github",
-                            "url": "https://github.com/richardbrammer"
-                        },
-                        {
-                            "name": "twitter",
-                            "url": "https://twitter.com/richardbrammer"
-                        },
-                        {
-                            "name": "xing",
-                            "url": "https://www.xing.com/profile/Richard_Brammer"
-                        },
-                        {
-                            "name": "facebook",
-                            "url": "https://www.facebook.com/richard.brammer.75"
-                        },
-                        {
-                            "name": "instagram",
-                            "url": "https://www.instagram.com/rias1138/"
-                        }
-                    ]
-                },
-                "conferences": {
-                    "headline": "Meet us",
-                    "copy": "Continuously we are learning more. We visit conferences, meetups and bar camps. Will you be on one of the upcoming conferences, too? We would love to meet you.",
-                    "conferences": [
-                        {
-                            "name": "ChaosCommunicationCongress2016 33c3, Hamburg, Germany",
-                            "url": "http://stenoknight.com/wiki/ChaosCommunicationCongress2016_33c3"
-                        },
-                        {
-                            "name": "JSConf Australia 2016, Melbourne, Australia",
-                            "url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
-                        },
-                        {
-                            "name": "EnterJS 2016, Darmstadt, Germany",
-                            "url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
-                        },
-                        {
-                            "name": "Google I/O 2016, Mountain View, United States",
-                            "url": "https://events.google.com/io2016/"
-                        },
-                        {
-                            "name": "Subscribe 7, Berlin, Germany",
-                            "url": "http://das-sendezentrum.de/subscribe/sub7/"
-                        },
-                        {
-                            "name": "32C3: 30th Chaos Communication Congress, Hamburg, Germany",
-                            "url": "https://events.ccc.de/congress/2015/wiki/Static:Main_Page"
-                        },
-                        {
-                            "name": "Meet the TAG (Technical Architecture Group) with Tim Berners Lee, Berlin, Germany",
-                            "url": "http://lanyrd.com/2015/meetthetag/"
-                        },
-                        {
-                            "name": "GDC Europe, Köln, Germany",
-                            "url": "http://www.gdcvault.com/browse/gdc-europe-15"
-                        },
-                        {
-                            "name": "Unite Europe 2015, Amsterdam, Netherlands",
-                            "url": "https://unite.unity.com/archive/2015"
-                        },
-                        {
-                            "name": "Beyond Tellerrand 2015, Düsseldorf, Germany",
-                            "url": "https://beyondtellerrand.com/events/duesseldorf-2015/speakers"
-                        },
-                        {
-                            "name": "Awwwards Conference 2015, Barcelona, Spain",
-                            "url": "http://www.awwwards.com/conference-barcelona-2015/"
-                        },
-                        {
-                            "name": "31C3 Chaos Communication Congress, Hamburg, Germany",
-                            "url": "https://events.ccc.de/category/31c3/"
-                        },
-                        {
-                            "name": "Beyond Tellerrand 2014, Berlin, Germany",
-                            "url": "https://beyondtellerrand.com/events/berlin-2014/speakers"
-                        },
-                        {
-                            "name": "Pubkon 2014, Berlin, Germany",
-                            "url": "http://2014.pubkon.eu/"
-                        },
-                        {
-                            "name": "Beyond Tellerrand 2014, Düsseldorf, Germany",
-                            "url": "https://beyondtellerrand.com/events/duesseldorf-2014/speakers"
-                        },
-                        {
-                            "name": "Web Platform Doc Sprint, Düsseldorf, Germany",
-                            "url": "http://lanyrd.com/2014/wpds-dusseldorf/"
-                        },
-                        {
-                            "name": "Beyond Tellerrand 2013, Düsseldorf, Germany",
-                            "url": "https://beyondtellerrand.com/events/duesseldorf-2013/speakers"
-                        },
-                        {
-                            "name": "Web Platform Doc Sprint, Berlin Germany",
-                            "url": "https://www.eventbrite.com/e/web-platform-doc-sprint-berlin-tickets-5062233276"
-                        },
-                        {
-                            "name": "Techcrunch Disrupt 2013, New York City, United States",
-                            "url": "http://techcrunch.com/events/disrupt-ny-2013/event-info/"
-                        },
-                        {
-                            "name": "Pubkon 2013",
-                            "url": "http://www.indesign-blog.de/einladung-zur-pubkon-%E2%80%93-18-%E2%80%9320-april-2013-berlin/"
-                        },
-                        {
-                            "name": "Push Conference 2012, München, Germany",
-                            "url": "http://push-conference.com/2012/"
-                        },
-                        {
-                            "name": "Quo Vadis Game Developer Conference, Berlin, Germany",
-                            "url": "http://www.golem.de/1004/74736.html"
-                        }
-                    ]
-                }
-            },
-            "howwework": {
-                "headline": "How we work"
-            },
-            "whatwedo": {
-                "headline": "What we do",
-                "skills": [
-                    {
-                        "name": "Languages",
-                        "items": [
-                            {
-                                "name": "HTML5"
-                            },
-                            {
-                                "name": "CSS3, Sass"
-                            },
-                            {
-                                "name": "JavaScript, TypeScript"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Frameworks",
-                        "items": [
-                            {
-                                "name": "AngularJS 1.5, Angular 2"
-                            },
-                            {
-                                "name": "Node.js"
-                            },
-                            {
-                                "name": "Cordova, Phonegap, Titanium"
-                            },
-                            {
-                                "name": "React Native"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Databases",
-                        "items": [
-                            {
-                                "name": "NoSQL, MongoDB, CouchDB, MySQL"
-                            },
-                            {
-                                "name": "Web Storage, LocalStorage"
-                            },
-                            {
-                                "name": "IndexedDB, Device APIs"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Development",
-                        "items": [
-                            {
-                                "name": "Grunt, Gulp, Webpack"
-                            },
-                            {
-                                "name": "Git, JIRA"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Concepts",
-                        "items": [
-                            {
-                                "name": "Test-driven Development (TDD)"
-                            },
-                            {
-                                "name": "REST, REST-ful API, JSON"
-                            },
-                            {
-                                "name": "MVC, MVVM"
-                            },
-                            {
-                                "name": "Scrum, Kanban, Feature-based Programming"
-                            },
-                            {
-                                "name": "Media Queries, CSS3 Transitions, CSS3 and JavaScript Animations"
-                            }
-                        ]
-                    }
-                ],
-                "footnote": "* We also know Web Components, WebGL, Canvas — SCSS, LESS — jQuery, Bootstrap — React, React JS, Reactive Programming — XML, SQL, PostgreSQL — PHP, Wordpress, Laravel, CodeIgniter — Python, Django — Broccoli, Angular CLI — Codeship, Jenkins, TeamCity — Unity, UnityScript, C#, Java — Solidity — Encryption"
-            },
-            "whatmatters": {
-                "headline": "What matters to us",
-                "copy": "The environment, nature and all living beings lie at the heart. That reflects in how we run our company, of course.",
-                "items": [
-                    {
-                        "value": "Our devices consume certified <span class=\"typo-bold\">renewable energy</span> only."
-                    },
-                    {
-                        "value": "Our MacBooks are <span class=\"typo-bold\">refurbished</span>."
-                    },
-                    {
-                        "value": "We <span class=\"typo-bold\">sell</span> unused devices or recycle them."
-                    },
-                    {
-                        "value": "We write <span class=\"typo-bold\">efficient code</span>, that saves energy."
-                    },
-                    {
-                        "value": "We contribute to <span class=\"typo-bold\">open source projects</span> like <a href=\"https://github.com/podlove\">Podlove</a>."
-                    },
-                    {
-                        "value": "We care about <span class=\"typo-bold\">privacy</span>, data security and SSL encryption."
-                    },
-                    {
-                        "value": "Whenever possible we support local stores and go without buying on Amazon."
-                    },
-                    {
-                        "value": "Preferably we travel by train using renewable energy."
-                    },
-                    {
-                        "value": "Whenever flights cannot be avoided, we compensate for the <span class=\"typo-bold\">carbon offset</span>."
-                    },
-                    {
-                        "value": "We work almost completely <span class=\"typo-bold\">without paper</span>. Our printer is a relict from a different time."
-                    },
-                    {
-                        "value": "We don't buy paper books, but read them on e-readers."
-                    },
-                    {
-                        "value": "Both in privat and work-related we are <span class=\"typo-bold\">minimalists</span> and consume products and services consciously."
-                    },
-                    {
-                        "value": "Whenever possible we eat <span class=\"typo-bold\">plant-based</span>."
-                    }
-                ]
-            }
-        }
-    }
+	"de": {
+		"language": {
+			"btn": {
+				"link": "/en",
+				"value": "english"
+			}
+		},
+		"hero": {
+			"keyword": {
+				"1": "Apps",
+				"2": "Webseiten",
+				"3": "Games",
+				"4": "Magazine",
+				"5": "Consulting",
+				"6": "Design",
+				"7": "Entwicklung",
+				"8": "Produktion"
+			}
+		},
+		"meta": {
+			"links": {
+				"home": "/de/",
+				"vr": "/de/vr",
+				"about": "/de/about",
+				"contact": "/de/contact",
+				"imprint": "/de/imprint"
+			},
+			"slogan": {
+				"companyslug": "GeilDanke",
+				"short": "Studio für Mobile-App-Entwicklung und Responsive Web Design",
+				"long": "Starten Sie Ihr Business auf allen Kanälen: Apps und Webseiten für iPhone, iPad, Android und Windows"
+			},
+			"companyname": "Geil,Danke! GmbH",
+			"address": {
+				"street": "Fischerinsel 4",
+				"zipcode": "10179",
+				"city": "Berlin, Germany"
+			},
+			"email": {
+				"default": {
+					"label": "hallo@geildanke.com",
+					"url": "mailto:hallo@geildanke.com"
+				}
+			},
+			"socialmedia": {
+				"appstore": "https://itunes.apple.com/us/developer/geil-danke!-gmbh/id438669892",
+				"playstore": "https://play.google.com/store/apps/dev?id=7392305221979596210&hl=en",
+				"facebook": "https://www.facebook.com/geildanke",
+				"googleplus": "https://www.google.com/+GeildankeBerlin",
+				"twitter": "https://twitter.com/GeilDanke",
+				"whatsapp": "whatsapp://send?text=GeilDanke%20%E2%80%93%20Studio%20f%C3%BCr%20Mobile-App-Entwicklung%20und%20Responsive%20Web%20Design%20https%3A%2F%2Fgeildanke.com%2Fde%2F"
+			}
+		},
+		"nav": {
+			"about": {
+				"value": "Über uns"
+			},
+			"vr": {
+				"value": "VR"
+			},
+			"projects": {
+				"value": "Projekte"
+			},
+			"contact": {
+				"value": "Kontakt"
+			}
+		},
+		"contact": {
+			"title": "Wir freuen uns auf Ihre Nachricht",
+			"copy": "Schreiben Sie uns eine E-Mail an <a href=\"mailto:hallo@geildanke.com\">hallo@geildanke.com</a> oder verwenden Sie dieses Kontakt-Formular, um uns eine Nachricht zu senden.",
+			"headline": "Kontakt",
+			"form": {
+				"email": {
+					"label": "Ihre Email-Adresse:",
+					"placeholder": "ihre.email@example.com"
+				},
+				"message": {
+					"label": "Ihre Nachricht:",
+					"placeholder": "Bitte geben Sie hier Ihre Nachricht an uns ein…"
+				},
+				"privacy": {
+					"label": "Ich bin mit der <a href=\"#\">Datenschutzerklärung</a> einverstanden."
+				},
+				"button": {
+					"label": "E-Mail senden"
+				}
+			}
+		},
+		"imprint": "Impressum",
+		"about": {
+			"submenu": {
+				"label": "Mehr:"
+			},
+			"headline": "Wir sind ein agiles, kreatives Technologie-Studio",
+			"copy": "GeilDanke ist ein kreatives Technologie-Studio. Wir sind auf Web-Entwicklung spezialisiert und haben unseren Fokus auf <span class=\"typo-bold\">Innovation</span>, <span class=\"typo-bold\">Performance</span>, <span class=\"typo-bold\">Benutzerfreundlichkeit</span> und <span class=\"typo-bold\">Inhalt</span>. Alle unsere Projekte sind <span class=\"typo-bold\">für Mobilgeräte optimiert</span>, unsere Lösungen sind geradlinig und elegant. Wir glauben daran, dass Web-Technologie und das Web niemanden ausschließen sollte. <span class=\"typo-bold\">Zuverlässigkeit</span> und <span class=\"typo-bold\">Wartbarkeit</span> gehören fest zu unserer Arbeits-Philosophie. Darum arbeiten wir <span class=\"typo-bold\">agil</span> und entwickeln <span class=\"typo-bold\">Test-getrieben</span>. Unser virtuelles Büro macht es möglich, dass wir mit den besten Experten weltweit zusammenarbeiten können.",
+			"whoweare": {
+				"headline": "Über uns",
+				"michaela": {
+					"name": "Michaela Lehr",
+					"position": "Geschäftsführender Gesellschafter Kreation",
+					"copy": "Michaela ist kreative <span class=\"typo-bold\">Frontend-Entwicklering</span> und <span class=\"typo-bold\">UX-Designerin</span> bei GeilDanke. In über fünf Jahren Branchen-Erfahrung kämpft sie immer für die <span class=\"typo-bold\">Interessen der Benutzer</span> und Konsistenz in Design- und Code-Mustern. In ihrer Freizeit liest sie gerne Bücher, macht Yoga, geht surfen oder strickt.",
+					"books": {
+						"name": "Bücher",
+						"items": [{
+							"name": "„Digitales Publizieren für Tablets: Magazin-Apps mit InDesign für iPad, Android & Co.“",
+							"url": "http://www.amazon.de/gp/product/3898647811/ref=as_li_ss_tl?ie=UTF8&tag=paploo-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3898647811"
+						}, {
+							"name": "„Adobe Digital Publishing Suite: Apps entwickeln mit InDesign und HTML5 - inklusive Prozessoptimierung und Profi-Tipps aus der Praxis“",
+							"url": "http://www.amazon.de/Adobe-Digital-Publishing-Suite-Prozessoptimierung-ebook/dp/B00DUH4ZR4/"
+						}]
+					},
+					"talks": {
+						"name": "Talks",
+						"items": [{
+							"name": "JSConf Australia 2016",
+							"url": "http://2016.jsconfau.com/"
+						}, {
+							"name": "EnterJS 2016 „Erste Schritte mit Angular 2: Components, Directives, Templates“",
+							"url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
+						}, {
+							"name": "Pubkon 2014 „HTML und CSS für Designer / HTML & CSS for designers“",
+							"url": "http://de.slideshare.net/michaelalehr/html-und-css-fr-designer-html-css-for-designers-pubkon-2014"
+						}, {
+							"name": "Medienplantage 2014 „Digital Publishing: Was Print-Designer von Web-Designern lernen können“",
+							"url": "http://de.slideshare.net/michaelalehr/digital-publishing-22546555"
+						}, {
+							"name": "Typographie Workshop 2015 „Digitale Magazine erstellen“",
+							"url": "http://de.slideshare.net/michaelalehr/digitale-magazine-1-handout"
+						}]
+					},
+					"newsletter": {
+						"name": "Newsletter",
+						"items": [{
+							"name": "Angular 2 Comet",
+							"url": "https://geildanke.com/ng2comet"
+						}]
+					},
+					"articles": {
+						"name": "Artikel/TV",
+						"items": [{
+							"name": "SitePoint Article \"Build Your Own Chrome Extension Using Angular 2 & TypeScript\"",
+							"url": "http://www.sitepoint.com/chrome-extension-angular-2/"
+						}, {
+							"name": "SitePoint Article \"Creating a WebGL Game with Unity 5 and JavaScript\"",
+							"url": "http://www.sitepoint.com/creating-webgl-game-unity-5-javascript/"
+						}, {
+							"name": "Interview Junge Gründer",
+							"url": "http://www.junge-gruender.de/interviews/interview-mit-michaela-lehr-mitgruenderin-von-geildanke-gmbh/"
+						}, {
+							"name": "Elektrischer Reporter, ZDF info",
+							"url": "http://www.elektrischer-reporter.de/phase3/video/327/"
+						}]
+					},
+					"opensource": {
+						"name": "Open Source",
+						"items": [{
+							"name": "Podlove",
+							"url": "https://github.com/podlove/podlove-subscribe-button"
+						}]
+					},
+					"socialmediaprofiles": [{
+						"name": "dribbble",
+						"url": "https://dribbble.com/fischaelameer"
+					}, {
+						"name": "twitter",
+						"url": "https://twitter.com/FischaelaMeer"
+					}, {
+						"name": "xing",
+						"url": "https://www.xing.com/profile/Michaela_Lehr2"
+					}, {
+						"name": "facebook",
+						"url": "https://www.facebook.com/michaela.lehr"
+					}, {
+						"name": "instagram",
+						"url": "https://www.instagram.com/fischaelameer/"
+					}]
+				},
+				"richard": {
+					"name": "Richard Brammer",
+					"position": "Geschäftsführender Gesellschafter Technologie",
+					"copy": "Richard ist für die <span class=\"typo-bold\">strategische Ausrichtung</span> von GeilDanke zuständig und arbeitet als <span class=\"typo-bold\">Full-stack Web-Entwickler</span>. Mit fast <span class=\"typo-bold\">zwanzig Jahren Erfahrung</span> mit Web-Technologie findet er immer die beste Lösung für Ihre Herausforderung. Privat ist er ein großer Star-Wars-Fan; er reist und wandert gerne oder geht surfen.",
+					"books": {
+						"name": "Bücher",
+						"items": [{
+							"name": "„Digitales Publizieren für Tablets: Magazin-Apps mit InDesign für iPad, Android & Co.“",
+							"url": "http://www.amazon.de/gp/product/3898647811/ref=as_li_ss_tl?ie=UTF8&tag=paploo-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3898647811"
+						}, {
+							"name": "„Adobe Digital Publishing Suite: Apps entwickeln mit InDesign und HTML5 - inklusive Prozessoptimierung und Profi-Tipps aus der Praxis“",
+							"url": "http://www.amazon.de/Adobe-Digital-Publishing-Suite-Prozessoptimierung-ebook/dp/B00DUH4ZR4/"
+						}]
+					},
+					"talks": {
+						"name": "Talks",
+						"items": [{
+							"name": "Pubkon 2013: „Digital Mobile Publishing für Tablets und Smartphones“",
+							"url": "http://fr.slideshare.net/RichardBrammer/digital-mobile-publishing-f"
+						}]
+					},
+					"newsletter": {
+						"name": "Newsletter",
+						"items": [{
+							"name": "Curated Blockchain News",
+							"url": "https://geildanke.com/curated-blockchain-news/"
+						}]
+					},
+					"socialmediaprofiles": [{
+						"name": "github",
+						"url": "https://github.com/richardbrammer"
+					}, {
+						"name": "twitter",
+						"url": "https://twitter.com/richardbrammer"
+					}, {
+						"name": "xing",
+						"url": "https://www.xing.com/profile/Richard_Brammer"
+					}, {
+						"name": "facebook",
+						"url": "https://www.facebook.com/richard.brammer.81"
+					}, {
+						"name": "instagram",
+						"url": "https://www.instagram.com/rias1138/"
+					}]
+				},
+				"conferences": {
+					"headline": "Treffen Sie uns",
+					"copy": "Wir bilden uns ständig weiter. Dafür besuchen wir Konferenzen, Bar-Camps und Meetups. Sie sind auch auf einer der kommenden Konferenzen? Schreiben Sie uns eine kurze Nachricht – wir würden uns freuen, Sie zu treffen.",
+					"conferences": [{
+						"name": "ChaosCommunicationCongress2016 33c3, Hamburg, Deutschland",
+						"url": "http://stenoknight.com/wiki/ChaosCommunicationCongress2016_33c3"
+					}, {
+						"name": "JSConf Australia 2016, Melbourne, Australia",
+						"url": "http://2016.jsconfau.com/"
+					}, {
+						"name": "EnterJS 2016, Darmstadt, Deutschland",
+						"url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
+					}, {
+						"name": "Google I/O 2016, Mountain View, United States",
+						"url": "https://events.google.com/io2016/"
+					}, {
+						"name": "Subscribe 7, Berlin, Deutschland",
+						"url": "http://das-sendezentrum.de/subscribe/sub7/"
+					}, {
+						"name": "32C3: 30th Chaos Communication Congress, Hamburg, Deutschland",
+						"url": "https://events.ccc.de/congress/2015/wiki/Static:Main_Page"
+					}, {
+						"name": "Meet the TAG (Technical Architecture Group) with Tim Berners Lee, Berlin, Deutschland",
+						"url": "http://lanyrd.com/2015/meetthetag/"
+					}, {
+						"name": "GDC Europe, Köln, Deutschland",
+						"url": "http://www.gdcvault.com/browse/gdc-europe-15"
+					}, {
+						"name": "Unite Europe 2015, Amsterdam, Niederlande",
+						"url": "https://unite.unity.com/archive/2015"
+					}, {
+						"name": "Beyond Tellerrand 2015, Düsseldorf, Deutschland",
+						"url": "https://beyondtellerrand.com/events/duesseldorf-2015/speakers"
+					}, {
+						"name": "Awwwards Conference 2015, Barcelona, Spanien",
+						"url": "http://www.awwwards.com/conference-barcelona-2015/"
+					}, {
+						"name": "31C3 Chaos Communication Congress, Hamburg, Deutschland",
+						"url": "https://events.ccc.de/category/31c3/"
+					}, {
+						"name": "Beyond Tellerrand 2014, Berlin, Deutschland",
+						"url": "https://beyondtellerrand.com/events/berlin-2014/speakers"
+					}, {
+						"name": "Pubkon 2014, Berlin, Deutschland",
+						"url": "http://2014.pubkon.eu/"
+					}, {
+						"name": "Beyond Tellerrand 2014, Düsseldorf, Deutschland",
+						"url": "https://beyondtellerrand.com/events/duesseldorf-2014/speakers"
+					}, {
+						"name": "Web Platform Doc Sprint, Düsseldorf, Deutschland",
+						"url": "http://lanyrd.com/2014/wpds-dusseldorf/"
+					}, {
+						"name": "Beyond Tellerrand 2013, Düsseldorf, Deutschland",
+						"url": "https://beyondtellerrand.com/events/duesseldorf-2013/speakers"
+					}, {
+						"name": "Web Platform Doc Sprint, Berlin Deutschland",
+						"url": "https://www.eventbrite.com/e/web-platform-doc-sprint-berlin-tickets-5062233276"
+					}, {
+						"name": "Techcrunch Disrupt 2013, New York City, United States",
+						"url": "http://techcrunch.com/events/disrupt-ny-2013/event-info/"
+					}, {
+						"name": "Pubkon 2013",
+						"url": "http://www.indesign-blog.de/einladung-zur-pubkon-%E2%80%93-18-%E2%80%9320-april-2013-berlin/"
+					}, {
+						"name": "Push Conference 2012, München, Deutschland",
+						"url": "http://push-conference.com/2012/"
+					}, {
+						"name": "Quo Vadis Game Developer Conference, Berlin, Deutschland",
+						"url": "http://www.golem.de/1004/74736.html"
+					}]
+				}
+			},
+			"howwework": {
+				"headline": "Wie wir arbeiten"
+			},
+			"whatwedo": {
+				"headline": "Was wir tun",
+				"skills": [{
+					"name": "Languages",
+					"items": [{
+						"name": "HTML5"
+					}, {
+						"name": "CSS3, Sass"
+					}, {
+						"name": "JavaScript, TypeScript"
+					}]
+				}, {
+					"name": "Frameworks",
+					"items": [{
+						"name": "AngularJS 1.5, Angular 2"
+					}, {
+						"name": "Node.js"
+					}, {
+						"name": "Cordova, Phonegap"
+					}, {
+						"name": "React Native"
+					}]
+				}, {
+					"name": "Databases",
+					"items": [{
+						"name": "NoSQL, MongoDB, MySQL"
+					}, {
+						"name": "Web Storage, LocalStorage"
+					}, {
+						"name": "IndexedDB, Device APIs"
+					}]
+				}, {
+					"name": "Entwicklung",
+					"items": [{
+						"name": "Grunt, Gulp, Webpack"
+					}, {
+						"name": "Git, JIRA"
+					}, {
+						"name": "Codeship, TeamCity, Jenkins"
+					}]
+				}, {
+					"name": "Konzepte",
+					"items": [{
+						"name": "Test-driven Development (TDD)"
+					}, {
+						"name": "REST, REST-ful API, JSON, CORS"
+					}, {
+						"name": "MVC, MVVM"
+					}, {
+						"name": "Scrum, Kanban, Feature-based Programming"
+					}, {
+						"name": "Media Queries, CSS3 Transitions, CSS3 Animationen and jQuery Animationen"
+					}]
+				}],
+				"footnote": "* Wir kennen uns auch aus mit Web Components, WebVR, WebGL, Canvas, Web Audio, SVG — SCSS, LESS — jQuery, Bootstrap, Angular 1.4 und davor — Titanium, React, React JS, Reactive Programming — CouchDB, XML, SQL, PostgreSQL — PHP, Wordpress, Laravel, CodeIgniter — Python, Django — Broccoli, Angular CLI — Unity, UnityScript, C#, Java — Solidity — Encryption"
+			},
+			"whatmatters": {
+				"headline": "Was uns am Herzen liegt",
+				"copy": "Die Umwelt und alle Lebewesen liegen uns am Herzen. Dies spiegelt sich natürlich auch in unserem Unternehmen wieder.",
+				"items": [{
+					"value": "Unsere Geräte arbeiten ausschließlich mit zertifiziertem Strom aus <span class=\"typo-bold\">erneuerbaren Energiequellen</span>."
+				}, {
+					"value": "Unsere Rechner sind refurbished (<span class=\"typo-bold\">Gebrauchtgeräte</span>) von Apple."
+				}, {
+					"value": "Nicht benötigte Geräte verkaufen wir weiter oder <span class=\"typo-bold\">recyclen</span> sie."
+				}, {
+					"value": "Wir schreiben effizienten Code, der die Batterien der Geräte schont."
+				}, {
+					"value": "Wir arbeiten an Open-Source-Projekten mit, z.&nbsp;B. an <a href=\"https://github.com/podlove\">Podlove</a>."
+				}, {
+					"value": "Wir achten auf <span class=\"typo-bold\">Datenschutz</span>, Datensicherheit und <span class=\"typo-bold\">Verschlüsselung</span>."
+				}, {
+					"value": "Soweit möglich unterstützen wir <span class=\"typo-bold\">lokale Geschäfte</span> und verzichten beispielsweise auf den Kauf bei amazon."
+				}, {
+					"value": "Am liebsten reisen wir mit dem Zug und durch die BahnCard mit <span class=\"typo-bold\">Ökostrom</span>. "
+				}, {
+					"value": "Wenn sich Flugreisen nicht vermeiden lassen, achten wir auf den <span class=\"typo-bold\">CO2-Ausgleich</span>."
+				}, {
+					"value": "Wir arbeiten fast vollständig papierlos und drucken so wenig wie möglich. Unser Drucker ist ein Relikt aus einer anderen Zeit."
+				}, {
+					"value": "Bücher konsumieren wir <span class=\"typo-bold\">papierlos</span> auf E-Readern."
+				}, {
+					"value": "Sowohl privat als auch beruflich sind wir <span class=\"typo-bold\">Minimalisten</span> und hinterfragen unseren Konsum von Produkten und Dienstleistungen."
+				}, {
+					"value": "Wann immer möglich ernähren wir uns <span class=\"typo-bold\">pflanzlich</span>."
+				}]
+			}
+		},
+		"vr": {
+			"article": {
+				"paragraphs": [{
+					"content": "Virtual Reality ist nicht nur etwas für AAA-Games. Man kann VR auch für das Web entwickeln: Nutzer benötigen dann <span class=\"typo-bold\">nur einen Browser</span> um das VR-Erlebnis zu genießen. Es gibt unzählige überzeugende Anwendungsfälle für Virtuelle Realität im Internet. Auf dieser Seite finden Sie interessante Beispiele wie ein <span class=\"typo-bold\">360-Grad-Photo</span> oder ein <span class=\"typo-bold\">360-Grad-Video</span> (Voll-Sphären-Video) im Browser funktionieren."
+				}, {
+					"content": "Technisch betrachtet ist Virtual Reality im Web-Browser möglich, weil es <span class=\"typo-bold\">moderne HTML5-APIs</span> gibt, nämlich <span class=\"typo-bold\">WebGL</span>, <span class=\"typo-bold\">WebVR</span>, die <span class=\"typo-bold\">Fullscreen API</span> und die Web Audio API. Leider unterstützt nicht jeder Browser diese APIs. Deswegen sind <span class=\"typo-bold\">Fallback-Lösungen</span> immer Teil unserer WebVR-Projekte."
+				}, {
+					"content": "Ein weiterer wichtiger Teil bei der Konzeption von WebVR-Erlebnissen ist das <span class=\"typo-bold\">User-Interaction-Design</span> sowie das <span class=\"typo-bold\">User-Experience-Design</span> (UX Design). Ein WebVR-Projekt muss nicht nur von Nutzern verwendet werden können, die Maus, Tastatur oder <span class=\"typo-bold\">Touch-Display</span> benutzen. Auch moderne <span class=\"typo-bold\">VR-Controller</span> oder die Rotations- und Positions-<span class=\"typo-bold\">Sensoren</span> (Gyrosensor) des Gerätes dienen als Input bei VR-Anwendungen."
+				}],
+				"headline": "Wie Sie VR im Web erleben können<span class=\"typo-color--main\">.</span>",
+				"devices": [{
+					"img": {
+						"src": "../../images/vr-cardboard.jpg"
+					},
+					"modifier": "cardboard",
+					"headline": "Cardboard",
+					"copy": "Das Cardboard ist die <span class=\"typo-bold\">günstigste Möglichkeit</span>, Virtual Reality zu erleben. Das Headset, das aus <span class=\"typo-bold\">Pappe</span> oder Plastik besteht, kann ein normales <span class=\"typo-bold\">Smartphone</span> als Display verwenden. Die VR-Anwendungen laufen als Apps oder im Browser auf dem Smartphone."
+				}, {
+					"img": {
+						"src": "../../images/vr-gearvr.jpg"
+					},
+					"modifier": "gearvr",
+					"headline": "Samsung Gear VR",
+					"copy": "Das Samsung Gear VR ist ein weiteres Virtual-Reality-Headset. Man kann es mit einem modernen <span class=\"typo-bold\">Samsung Galasy Smartphone</span> benutzen. Außerdem gibt es passend dazu die <span class=\"typo-bold\">Gear 360 Camera</span>, um 360-Grad-Videos oder -Fotos aufzunehmen."
+				}, {
+					"img": {
+						"src": "../../images/vr-mobile.jpg"
+					},
+					"modifier": "mobile",
+					"headline": "Ein mobiler Browser",
+					"copy": "Mit einer <span class=\"typo-bold\">Fallback-Lösung</span> kann man 3D-Anwendungen auch auf Smartphones und Tablets ohne VR-Headset genießen. Um sich im VR-Raum umzusehen, kann das Gerät im Raum <span class=\"typo-bold\">gedreht</span> oder auf dem Display <span class=\"typo-bold\">gewischt</span> werden."
+				}, {
+					"img": {
+						"src": "../../images/vr-oculus.jpg"
+					},
+					"modifier": "oculus",
+					"headline": "Oculus Rift",
+					"copy": "Die Oculus Rift ist ein <span class=\"typo-bold\">Virtual-Reality-Headset</span>, das ein OLED-Display für jedes Auge besitzt. Man kann die Oculus Rift mit einem <span class=\"typo-bold\">PC</span> verwenden, was dazu führt, dass die Virtual-Reality-Erfahrung deutlich <span class=\"typo-bold\">besser</span> ist als die an einem Smartphone."
+				}, {
+					"img": {
+						"src": "../../images/vr-htcvive.jpg"
+					},
+					"modifier": "vive",
+					"headline": "HTC Vive",
+					"copy": "Wie die Oculus Rift funktioniert die HTC Vive mit einem PC und besitzt zwei Displays. Sie wird mit einem speziellen <span class=\"typo-bold\">VR-Controller</span> und <span class=\"typo-bold\">Laser-Positions-Sensoren</span> geliefert, die die <span class=\"typo-bold\">Bewegungen</span> des Nutzers im Raum verfolgen."
+				}, {
+					"img": {
+						"src": "../../images/vr-desktop.jpg"
+					},
+					"modifier": "desktop",
+					"headline": "Ein normaler Browser",
+					"copy": "Für viele Virtual-Reality-Anwendungen können <span class=\"typo-bold\">Fallback-Lösungen</span> entwickelt werden, wenn kein VR-Gerät zur Verfügung steht. Diese Fallback-Lösungen, die zum Beispiel auf <span class=\"typo-bold\">Notebooks</span> oder <span class=\"typo-bold\">Desktop-PCs</span> laufen, benötigen auch eine Fallback-Lösung für Input-Geräte wie das Keyboard und die Maus."
+				}, {
+					"img": {
+						"src": "../../images/vr-daydream-view.jpg"
+					},
+					"modifier": "daydreamview",
+					"headline": "Google Daydream View",
+					"copy": "Google's Daydream View ist sozusagen ein <span class=\"typo-bold\">Update</span> des Cardboards. Das Headset wird mit sogenannten <span class=\"typo-bold\">Daydream-ready Smartphones</span>, wie dem Google Pixel, verwendet und besteht nicht mehr aus Pappe, sondern aus Stoff. Die wichtigste Neuerung ist allerdings der spezielle <span class=\"typo-bold\">VR-Controller</span>."
+				}]
+			},
+			"live": {
+				"title": "Probieren Sie es aus<span class=\"typo-color--main\">.</span>",
+				"caption": {
+					"image": "360°-Foto",
+					"video": "360°-Video"
+				},
+				"infos": [
+					{
+						"content": "<span class=\"typo-bold\">Swipen</span> Sie mit dem Finger oder der Maus über das Bild oder Video, um sich umzuschauen."
+					},
+					{
+						"content": "Klicken oder drücken Sie das Vollbild-Symbol, um das Bild oder Video im <span class=\"typo-bold\">Vollbild</span> zu öffnen."
+					},
+					{
+						"content": "Auf Ihrem Telefon oder Tablet: Bewegen Sie das Gerät <span class=\"typo-bold\">um sich umzuschauen</span>."
+					},
+					{
+						"content": "Auf einem VR-Gerät: Klicken oder drücken Sie das VR-Symbol, um den <span class=\"typo-bold\">VR-Modus zu aktivieren</span>."
+					},
+					{
+						"content": "Um das Video auf Ihrem Smartphone oder Tablet zu starten, drücken Sie einmal auf das Video."
+					},
+					{
+						"content": "Foto und Video wurden mit der <a target=\"_blank\" href=\"http://amzn.to/2c8v8MS\" title=\"Ricoh Theta S\">Ricoh Theta S</a> aufgenommen."
+					},
+					{
+						"content": "Die 360-Grad-Experimente laufen am besten in <span class=\"typo-bold\">Google Chrome</span>, <span class=\"typo-bold\">Firefox</span> oder Google Chrome auf einem Android-Gerät."
+					}
+				]
+			}
+		}
+	},
+	"en": {
+		"language": {
+			"btn": {
+				"link": "/de",
+				"value": "deutsch"
+			}
+		},
+		"hero": {
+			"keyword": {
+				"1": "Apps",
+				"2": "Websites",
+				"3": "Games",
+				"4": "Magazines",
+				"5": "Consulting",
+				"6": "Design",
+				"7": "Development",
+				"8": "Production"
+			}
+		},
+		"meta": {
+			"links": {
+				"home": "/en/",
+				"vr": "/en/vr",
+				"about": "/en/about",
+				"contact": "/en/contact",
+				"imprint": "/en/imprint"
+			},
+			"slogan": {
+				"companyslug": "GeilDanke",
+				"short": "A Mobile App Development and Responsive Web Design Studio",
+				"long": "Launch your business on all channels. Apps and web sites for iPhone, iPad, Android and Windows"
+			},
+			"companyname": "Geil,Danke! GmbH",
+			"address": {
+				"street": "Fischerinsel 4",
+				"zipcode": "10179",
+				"city": "Berlin, Germany"
+			},
+			"email": {
+				"default": {
+					"label": "hello@geildanke.com",
+					"url": "mailto:hello@geildanke.com"
+				}
+			},
+			"socialmedia": {
+				"appstore": "https://itunes.apple.com/us/developer/geil-danke!-gmbh/id438669892",
+				"playstore": "https://play.google.com/store/apps/dev?id=7392305221979596210&hl=en",
+				"facebook": "https://www.facebook.com/geildanke",
+				"googleplus": "https://www.google.com/+GeildankeBerlin",
+				"twitter": "https://twitter.com/GeilDanke",
+				"whatsapp": "whatsapp://send?text=GeilDanke%20%E2%80%93%20A%20Mobile%20App%20Development%20and%20Responsive%20Web%20Design%20Studio%20https%3A%2F%2Fgeildanke.com%2F"
+			}
+		},
+		"nav": {
+			"about": {
+				"value": "About"
+			},
+			"vr": {
+				"value": "VR"
+			},
+			"projects": {
+				"value": "Projects"
+			},
+			"contact": {
+				"value": "Contact"
+			}
+		},
+		"contact": {
+			"title": "We love to hear from you",
+			"headline": "Contact",
+			"copy": "Please send us an email to <a href=\"mailto:hello@geildanke.com\">hello@geildanke.com</a> or use this contact form to send us a message.",
+			"form": {
+				"email": {
+					"label": "Your Email:",
+					"placeholder": "e.g. your.email@example.com"
+				},
+				"message": {
+					"label": "Your Message:",
+					"placeholder": "Please enter your message here."
+				},
+				"privacy": {
+					"label": "I accept the <a href=\"#\">privacy policy</a>."
+				},
+				"button": {
+					"label": "Send message"
+				}
+			}
+		},
+		"imprint": "Imprint",
+		"about": {
+			"submenu": {
+				"label": "Read more about:"
+			},
+			"headline": "We are agile",
+			"copy": "GeilDanke is an agile creative technology studio. We're specialized in effective web development with a focus on <span class=\"typo-bold\">innovation</span>, <span class=\"typo-bold\">performance</span>, <span class=\"typo-bold\">usability</span> and <span class=\"typo-bold\">content</span>. Our projects are <span class=\"typo-bold\">mobile-friendly</span> always, our solutions elegant and simple. We believe in web standards and a web for everybody. <span class=\"typo-bold\">Reliability</span> and maintainability are inherent parts of our working ethics. That's why we practice <span class=\"typo-bold\">agile</span> workflows and a <span class=\"typo-bold\">test-driven</span> development process. Working remotely means that we can work with the best experts from anywhere.",
+			"whoweare": {
+				"headline": "Who we are",
+				"michaela": {
+					"name": "Michaela Lehr",
+					"position": "Executive Partner Creation",
+					"copy": "Michaela is GeilDanke's creative front-end developer and UX designer. Working in the tech industry for over five years, she constantly fights for the user's interests or the importance of logically consistent stylesheets. In her free time she enjoys reading a lot of books, practicing yoga, surfing and knitting.",
+					"books": {
+						"name": "Books",
+						"items": [{
+							"name": "„Digitales Publizieren für Tablets: Magazin-Apps mit InDesign für iPad, Android & Co.“",
+							"url": "http://www.amazon.de/gp/product/3898647811/ref=as_li_ss_tl?ie=UTF8&tag=paploo-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3898647811"
+						}, {
+							"name": "„Adobe Digital Publishing Suite: Apps entwickeln mit InDesign und HTML5 - inklusive Prozessoptimierung und Profi-Tipps aus der Praxis“",
+							"url": "http://www.amazon.de/Adobe-Digital-Publishing-Suite-Prozessoptimierung-ebook/dp/B00DUH4ZR4/"
+						}]
+					},
+					"talks": {
+						"name": "Talks",
+						"items": [{
+							"name": "JSConf Australia 2016",
+							"url": "http://2016.jsconfau.com/"
+						}, {
+							"name": "EnterJS 2016 „Erste Schritte mit Angular 2: Components, Directives, Templates“",
+							"url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
+						}, {
+							"name": "Pubkon 2014 „HTML und CSS für Designer / HTML & CSS for designers“",
+							"url": "http://de.slideshare.net/michaelalehr/html-und-css-fr-designer-html-css-for-designers-pubkon-2014"
+						}, {
+							"name": "Medienplantage 2014 „Digital Publishing: Was Print-Designer von Web-Designern lernen können“",
+							"url": "http://de.slideshare.net/michaelalehr/digital-publishing-22546555"
+						}, {
+							"name": "Typographie Workshop 2015 „Digitale Magazine erstellen“",
+							"url": "http://de.slideshare.net/michaelalehr/digitale-magazine-1-handout"
+						}]
+					},
+					"newsletter": {
+						"name": "Newsletter",
+						"items": [{
+							"name": "Angular 2 Comet",
+							"url": "https://geildanke.com/ng2comet"
+						}]
+					},
+					"articles": {
+						"name": "Articles",
+						"items": [{
+							"name": "SitePoint Article \"Build Your Own Chrome Extension Using Angular 2 & TypeScript\"",
+							"url": "http://www.sitepoint.com/chrome-extension-angular-2/"
+						}, {
+							"name": "SitePoint Article \"Creating a WebGL Game with Unity 5 and JavaScript\"",
+							"url": "http://www.sitepoint.com/creating-webgl-game-unity-5-javascript/"
+						}, {
+							"name": "Interview Junge Gründer",
+							"url": "http://www.junge-gruender.de/interviews/interview-mit-michaela-lehr-mitgruenderin-von-geildanke-gmbh/"
+						}, {
+							"name": "Elektrischer Reporter, ZDF info",
+							"url": "http://www.elektrischer-reporter.de/phase3/video/327/"
+						}]
+					},
+					"opensource": {
+						"name": "Open Source",
+						"items": [{
+							"name": "Podlove",
+							"url": "https://github.com/podlove/podlove-subscribe-button"
+						}]
+					},
+					"socialmediaprofiles": [{
+						"name": "dribbble",
+						"url": "https://dribbble.com/fischaelameer"
+					}, {
+						"name": "twitter",
+						"url": "https://twitter.com/FischaelaMeer"
+					}, {
+						"name": "xing",
+						"url": "https://www.xing.com/profile/Michaela_Lehr2"
+					}, {
+						"name": "facebook",
+						"url": "https://www.facebook.com/michaela.lehr"
+					}, {
+						"name": "instagram",
+						"url": "https://www.instagram.com/fischaelameer/"
+					}]
+				},
+				"richard": {
+					"name": "Richard Brammer",
+					"position": "Executive Partner Technology",
+					"copy": "Richard is GeilDanke's lead strategist and full stack web developer. With almost twenty years of experiences in web development, he finds a solution to every challenge. In private you can listen to him talking about Star Wars for hours and hours or find him traveling the world, hiking and surfing.",
+					"books": {
+						"name": "Books",
+						"items": [{
+							"name": "„Digitales Publizieren für Tablets: Magazin-Apps mit InDesign für iPad, Android & Co.“",
+							"url": "http://www.amazon.de/gp/product/3898647811/ref=as_li_ss_tl?ie=UTF8&tag=paploo-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3898647811"
+						}, {
+							"name": "„Adobe Digital Publishing Suite: Apps entwickeln mit InDesign und HTML5 - inklusive Prozessoptimierung und Profi-Tipps aus der Praxis“",
+							"url": "http://www.amazon.de/Adobe-Digital-Publishing-Suite-Prozessoptimierung-ebook/dp/B00DUH4ZR4/"
+						}]
+					},
+					"talks": {
+						"name": "Talks",
+						"items": [{
+							"name": "Pubkon 2013: „Digital Mobile Publishing für Tablets und Smartphones“",
+							"url": "http://fr.slideshare.net/RichardBrammer/digital-mobile-publishing-f"
+						}]
+					},
+					"newsletter": {
+						"name": "Newsletter",
+						"items": [{
+							"name": "Curated Blockchain News",
+							"url": "https://geildanke.com/curated-blockchain-news/"
+						}]
+					},
+					"socialmediaprofiles": [{
+						"name": "github",
+						"url": "https://github.com/richardbrammer"
+					}, {
+						"name": "twitter",
+						"url": "https://twitter.com/richardbrammer"
+					}, {
+						"name": "xing",
+						"url": "https://www.xing.com/profile/Richard_Brammer"
+					}, {
+						"name": "facebook",
+						"url": "https://www.facebook.com/richard.brammer.81"
+					}, {
+						"name": "instagram",
+						"url": "https://www.instagram.com/rias1138/"
+					}]
+				},
+				"conferences": {
+					"headline": "Meet us",
+					"copy": "Continuously we are learning more. We visit conferences, meetups and bar camps. Will you be on one of the upcoming conferences, too? We would love to meet you.",
+					"conferences": [{
+						"name": "ChaosCommunicationCongress2016 33c3, Hamburg, Germany",
+						"url": "http://stenoknight.com/wiki/ChaosCommunicationCongress2016_33c3"
+					}, {
+						"name": "JSConf Australia 2016, Melbourne, Australia",
+						"url": "http://2016.jsconfau.com/"
+					}, {
+						"name": "EnterJS 2016, Darmstadt, Germany",
+						"url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
+					}, {
+						"name": "Google I/O 2016, Mountain View, United States",
+						"url": "https://events.google.com/io2016/"
+					}, {
+						"name": "Subscribe 7, Berlin, Germany",
+						"url": "http://das-sendezentrum.de/subscribe/sub7/"
+					}, {
+						"name": "32C3: 30th Chaos Communication Congress, Hamburg, Germany",
+						"url": "https://events.ccc.de/congress/2015/wiki/Static:Main_Page"
+					}, {
+						"name": "Meet the TAG (Technical Architecture Group) with Tim Berners Lee, Berlin, Germany",
+						"url": "http://lanyrd.com/2015/meetthetag/"
+					}, {
+						"name": "GDC Europe, Köln, Germany",
+						"url": "http://www.gdcvault.com/browse/gdc-europe-15"
+					}, {
+						"name": "Unite Europe 2015, Amsterdam, Netherlands",
+						"url": "https://unite.unity.com/archive/2015"
+					}, {
+						"name": "Beyond Tellerrand 2015, Düsseldorf, Germany",
+						"url": "https://beyondtellerrand.com/events/duesseldorf-2015/speakers"
+					}, {
+						"name": "Awwwards Conference 2015, Barcelona, Spain",
+						"url": "http://www.awwwards.com/conference-barcelona-2015/"
+					}, {
+						"name": "31C3 Chaos Communication Congress, Hamburg, Germany",
+						"url": "https://events.ccc.de/category/31c3/"
+					}, {
+						"name": "Beyond Tellerrand 2014, Berlin, Germany",
+						"url": "https://beyondtellerrand.com/events/berlin-2014/speakers"
+					}, {
+						"name": "Pubkon 2014, Berlin, Germany",
+						"url": "http://2014.pubkon.eu/"
+					}, {
+						"name": "Beyond Tellerrand 2014, Düsseldorf, Germany",
+						"url": "https://beyondtellerrand.com/events/duesseldorf-2014/speakers"
+					}, {
+						"name": "Web Platform Doc Sprint, Düsseldorf, Germany",
+						"url": "http://lanyrd.com/2014/wpds-dusseldorf/"
+					}, {
+						"name": "Beyond Tellerrand 2013, Düsseldorf, Germany",
+						"url": "https://beyondtellerrand.com/events/duesseldorf-2013/speakers"
+					}, {
+						"name": "Web Platform Doc Sprint, Berlin Germany",
+						"url": "https://www.eventbrite.com/e/web-platform-doc-sprint-berlin-tickets-5062233276"
+					}, {
+						"name": "Techcrunch Disrupt 2013, New York City, United States",
+						"url": "http://techcrunch.com/events/disrupt-ny-2013/event-info/"
+					}, {
+						"name": "Pubkon 2013",
+						"url": "http://www.indesign-blog.de/einladung-zur-pubkon-%E2%80%93-18-%E2%80%9320-april-2013-berlin/"
+					}, {
+						"name": "Push Conference 2012, München, Germany",
+						"url": "http://push-conference.com/2012/"
+					}, {
+						"name": "Quo Vadis Game Developer Conference, Berlin, Germany",
+						"url": "http://www.golem.de/1004/74736.html"
+					}]
+				}
+			},
+			"howwework": {
+				"headline": "How we work"
+			},
+			"whatwedo": {
+				"headline": "What we do",
+				"skills": [{
+					"name": "Languages",
+					"items": [{
+						"name": "HTML5"
+					}, {
+						"name": "CSS3, Sass"
+					}, {
+						"name": "JavaScript, TypeScript"
+					}]
+				}, {
+					"name": "Frameworks",
+					"items": [{
+						"name": "AngularJS 1.5, Angular 2"
+					}, {
+						"name": "Node.js"
+					}, {
+						"name": "Cordova, Phonegap, Titanium"
+					}, {
+						"name": "React Native"
+					}]
+				}, {
+					"name": "Databases",
+					"items": [{
+						"name": "NoSQL, MongoDB, CouchDB, MySQL"
+					}, {
+						"name": "Web Storage, LocalStorage"
+					}, {
+						"name": "IndexedDB, Device APIs"
+					}]
+				}, {
+					"name": "Development",
+					"items": [{
+						"name": "Grunt, Gulp, Webpack"
+					}, {
+						"name": "Git, JIRA"
+					}]
+				}, {
+					"name": "Concepts",
+					"items": [{
+						"name": "Test-driven Development (TDD)"
+					}, {
+						"name": "REST, REST-ful API, JSON"
+					}, {
+						"name": "MVC, MVVM"
+					}, {
+						"name": "Scrum, Kanban, Feature-based Programming"
+					}, {
+						"name": "Media Queries, CSS3 Transitions, CSS3 and JavaScript Animations"
+					}]
+				}],
+				"footnote": "* We also know Web Components, WebVR, WebGL, Canvas, Web Audio, SVG — SCSS, LESS — jQuery, Bootstrap — React, React JS, Reactive Programming — XML, SQL, PostgreSQL — PHP, Wordpress, Laravel, CodeIgniter — Python, Django — Broccoli, Angular CLI — Codeship, Jenkins, TeamCity — Unity, UnityScript, C#, Java — Solidity — Encryption"
+			},
+			"whatmatters": {
+				"headline": "What matters to us",
+				"copy": "The environment, nature and all living beings lie at the heart. That reflects in how we run our company, of course.",
+				"items": [{
+					"value": "Our devices consume certified <span class=\"typo-bold\">renewable energy</span> only."
+				}, {
+					"value": "Our MacBooks are <span class=\"typo-bold\">refurbished</span>."
+				}, {
+					"value": "We <span class=\"typo-bold\">sell</span> unused devices or recycle them."
+				}, {
+					"value": "We write <span class=\"typo-bold\">efficient code</span>, that saves energy."
+				}, {
+					"value": "We contribute to <span class=\"typo-bold\">open source projects</span> like <a href=\"https://github.com/podlove\">Podlove</a>."
+				}, {
+					"value": "We care about <span class=\"typo-bold\">privacy</span>, data security and SSL encryption."
+				}, {
+					"value": "Whenever possible we support local stores and go without buying on Amazon."
+				}, {
+					"value": "Preferably we travel by train using renewable energy."
+				}, {
+					"value": "Whenever flights cannot be avoided, we compensate for the <span class=\"typo-bold\">carbon offset</span>."
+				}, {
+					"value": "We work almost completely <span class=\"typo-bold\">without paper</span>. Our printer is a relict from a different time."
+				}, {
+					"value": "We don't buy paper books, but read them on e-readers."
+				}, {
+					"value": "Both in privat and work-related we are <span class=\"typo-bold\">minimalists</span> and consume products and services consciously."
+				}, {
+					"value": "Whenever possible we eat <span class=\"typo-bold\">plant-based</span>."
+				}]
+			}
+		},
+		"vr": {
+			"article": {
+				"paragraphs": [{
+					"content": "Virtual Reality is not just a thing for AAA games. You can create VR for the web, and <span class=\"typo-bold\">users only need a browser</span> to enjoy virtual reality content. There are many interesting and compelling use cases for VR in the browser. On this page we have integrated stunning examples, like a <span class=\"typo-bold\">360 degree spherical image</span> and a <span class=\"typo-bold\">360 degree spherical video</span>."
+				}, {
+					"content": "Technically spoken, VR in a web browser is possible due to <span class=\"typo-bold\">modern HTML5 APIs</span>, like <span class=\"typo-bold\">WebGL</span>, <span class=\"typo-bold\">WebVR</span>, <span class=\"typo-bold\">Fullscreen API</span> and Web Audio API. Unfortunately not every browser is able to use these modern APIs, yet. So a <span class=\"typo-bold\">fallback solution</span> is always part of our WebVR projects."
+				}, {
+					"content": "Another important part of creating a WebVR experience is <span class=\"typo-bold\">User Interaction Design</span> and <span class=\"typo-bold\">User Experience Design</span> (UX Design). A WebVR project has to serve the needs of users, using a mouse, keyboard or a <span class=\"typo-bold\">touch screen</span>, and also support modern <span class=\"typo-bold\">VR controllers</span> or device rotation and position <span class=\"typo-bold\">sensors</span>."
+				}],
+				"headline": "How you can use VR in the Web<span class=\"typo-color--main\">.</span>",
+				"devices": [{
+					"img": {
+						"src": "../../images/vr-cardboard.jpg"
+					},
+					"modifier": "cardboard",
+					"headline": "Cardboard",
+					"copy": "The cardboard is the <span class=\"typo-bold\">cheapest</span> way to experience virtual reality. It is basically just a headset without a display made of <span class=\"typo-bold\">paper</span> or plastic, that you can use with your <span class=\"typo-bold\">mobile phone</span>."
+				}, {
+					"img": {
+						"src": "../../images/vr-gearvr.jpg"
+					},
+					"modifier": "gearvr",
+					"headline": "Samsung Gear VR",
+					"copy": "Another virtual reality headset is the Samsung Gear VR. You can use it with a modern <span class=\"typo-bold\">Samsung Galaxy phone</span> and there is also the <span class=\"typo-bold\">Gear 360 camera</span> for making 360 degree videos or images."
+				}, {
+					"img": {
+						"src": "../../images/vr-mobile.jpg"
+					},
+					"modifier": "mobile",
+					"headline": "A Mobile Browser",
+					"copy": "With a <span class=\"typo-bold\">fallback</span> solution you can easily provide a 3D experience on mobile phones. Looking around the VR space may be possible by <span class=\"typo-bold\">rotating</span> the phone or <span class=\"typo-bold\">swiping</span> the screen."
+				}, {
+					"img": {
+						"src": "../../images/vr-oculus.jpg"
+					},
+					"modifier": "oculus",
+					"headline": "Oculus Rift",
+					"copy": "The Oculus Rift is a <span class=\"typo-bold\">virtual reality headset</span>, that has an OLED panel for each eye. It works with a <span class=\"typo-bold\">PC</span> and therefore serves a <span class=\"typo-bold\">better experience</span> than a headset that works with mobile phones."
+				}, {
+					"img": {
+						"src": "../../images/vr-htcvive.jpg"
+					},
+					"modifier": "vive",
+					"headline": "HTC Vive",
+					"copy": "Like the Oculus Rift, the HTC Vive works works with a PC and uses two screens. It also comes with special <span class=\"typo-bold\">VR controllers</span> and <span class=\"typo-bold\">laser position sensors</span> to track the user's <span class=\"typo-bold\">movement</span> in a room."
+				}, {
+					"img": {
+						"src": "../../images/vr-desktop.jpg"
+					},
+					"modifier": "desktop",
+					"headline": "A normal Browser",
+					"copy": "In most cases you can serve a <span class=\"typo-bold\">fallback</span> solution for non-VR devices like <span class=\"typo-bold\">notebooks</span> and <span class=\"typo-bold\">desktops</span>. Keep in mind that these fallback solutions depend on mouse or keyboard input only."
+				}, {
+					"img": {
+						"src": "../../images/vr-daydream-view.jpg"
+					},
+					"modifier": "daydreamview",
+					"headline": "Google Daydream View",
+					"copy": "The Google Daydream View is an <span class=\"typo-bold\">updated</span> Google Cardboard. You can use it with any <span class=\"typo-bold\">Daydream-ready smartphone</span>, like the Google Pixel. The headset is made of fabric and it comes with a special <span class=\"typo-bold\">VR controller</span>."
+				}]
+			},
+			"live": {
+				"title": "Try it out<span class=\"typo-color--main\">.</span>",
+				"caption": {
+					"image": "360° Image",
+					"video": "360° Video"
+				},
+				"infos": [
+					{
+						"content": "<span class=\"typo-bold\">Swipe</span> with your mouse or finger over the image or video to look around."
+					},
+					{
+						"content": "Click or press the fullscreen icon to open the image or video in <span class=\"typo-bold\">fullscreen mode</span>."
+					},
+					{
+						"content": "On your phone or tablet: Rotate and move your device to <span class=\"typo-bold\">look around</span>."
+					},
+					{
+						"content": "On a VR ready device: Click or press the VR icon to <span class=\"typo-bold\">activate VR mode</span>."
+					},
+					{
+						"content": "To run the video on your phone or tablet, click on the video once."
+					},
+					{
+						"content": "Image and video were taken with a <a target=\"_blank\" href=\"http://amzn.to/2cjmpsp\" title=\"Ricoh Theta S\">Ricoh Theta S</a> camera."
+					},
+					{
+						"content": "These experiments run best in <span class=\"typo-bold\">Google Chrome</span>, <span class=\"typo-bold\">Firefox</span> or Google Chrome on an Android device."
+					}
+				]
+			}
+		}
+	}
 }

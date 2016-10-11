@@ -152,6 +152,10 @@
   @extend %l--eight-twelfths;
   @extend %push--l--two-twelfths;
   @extend .headline;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 
   @media screen and (min-width: $mq-xs) {
     color: $color-white;

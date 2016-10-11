@@ -1,0 +1,130 @@
+.vrarticle {}
+
+.vrarticle__article {
+  @extend %xs--ten-twelfths;
+  @extend %push--xs--one-twelfth;
+  @extend %s--ten-twelfths;
+  @extend %push--s--one-twelfth;
+  @extend %m--ten-twelfths;
+  @extend %push--m--one-twelfth;
+  @extend %l--ten-twelfths;
+  @extend %push--l--one-twelfth;
+
+  padding-top: $layout-unit * 2;
+
+  @media screen and (min-width: $mq-xs) {
+    padding-top: $layout-unit * 4;
+  }
+}
+
+.vrarticle__copy {
+  margin-bottom: $layout-unit / 2;
+}
+
+.vrarticle__devices {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vrarticle__devices__image {
+  @include box-shadow(3);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: $layout-unit;
+  padding-bottom: 100%;
+  width: 100%;
+  height: 0;
+}
+
+.vrarticle__devices__item {
+  margin-bottom: $layout-unit * 2;
+  width: 100%;
+
+  @media screen and (min-width: $mq-xs) {
+    width: 50%;
+
+    &:nth-child(even) {
+      padding-left: $layout-unit;
+    }
+
+    &:nth-child(odd) {
+      padding-right: $layout-unit;
+    }
+  }
+
+  @media screen and (min-width: $mq-l) {
+    width: 33.3333%;
+
+    &:nth-child(3n-2) {
+      padding-left: 0;
+      padding-right: $layout-unit;
+    }
+
+    &:nth-child(3n-1) {
+      padding-left: $layout-unit / 2;
+      padding-right: $layout-unit / 2;
+    }
+
+    &:nth-child(3n) {
+      padding-left: $layout-unit;
+      padding-right: 0;
+    }
+  }
+}
+
+.vrarticle__headline {
+  margin-bottom: $layout-unit / 2;
+}
+
+.vrarticle__headline--mobile {
+  @include colortag($color-smoky);
+}
+
+.vrarticle__headline--desktop {
+  @include colortag($color-smoky);
+}
+
+.vrarticle__headline--cardboard {
+  @include colortag($color-froly);
+}
+
+.vrarticle__headline--daydreamview {
+  @include colortag($color-froly);
+}
+
+.vrarticle__headline--gearvr {
+  @include colortag($color-froly);
+}
+
+.vrarticle__headline--vive {
+  @include colortag($color-ming);
+}
+
+.vrarticle__headline--oculus {
+  @include colortag($color-ming);
+}
+
+.vrarticle__paragraph {
+  margin-bottom: $layout-unit * 2;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.vrarticle__title {
+  @extend .headline;
+  @extend .typo-bold;
+  @extend .headline--1;
+}
+
+.vrarticle__title-container {
+  @extend %ten-twelfths;
+  @extend %push--one-twelfth;
+
+  padding-top: $layout-unit * 4;
+  padding-bottom: $layout-unit * 2;
+}
