@@ -385,11 +385,11 @@
 				"paragraphs": [{
 					"content": "Virtual Reality ist nicht nur etwas für AAA-Games. Man kann VR auch für das Web entwickeln: Nutzer benötigen dann <span class=\"typo-bold\">nur einen Browser</span> um das VR-Erlebnis zu genießen. Es gibt unzählige überzeugende Anwendungsfälle für Virtuelle Realität im Internet. Auf dieser Seite finden Sie interessante Beispiele wie ein <span class=\"typo-bold\">360-Grad-Photo</span> oder ein <span class=\"typo-bold\">360-Grad-Video</span> (Voll-Sphären-Video) im Browser funktionieren."
 				}, {
-					"content": "Technisch betrachtet ist Virtuelle Realität im Web-Browser möglich, weil es <span class=\"typo-bold\">moderne HTML5-APIs</span> gibt, nämlich <span class=\"typo-bold\">WebGL</span>, <span class=\"typo-bold\">WebVR</span>, die <span class=\"typo-bold\">Fullscreen API</span> und die Web Audio API. Leider unterstützt nicht jeder Browser diese APIs. Deswegen sind <span class=\"typo-bold\">Fallback-Lösungen</span> immer Teil unserer WebVR-Projekte."
+					"content": "Technisch betrachtet ist Virtual Reality im Web-Browser möglich, weil es <span class=\"typo-bold\">moderne HTML5-APIs</span> gibt, nämlich <span class=\"typo-bold\">WebGL</span>, <span class=\"typo-bold\">WebVR</span>, die <span class=\"typo-bold\">Fullscreen API</span> und die Web Audio API. Leider unterstützt nicht jeder Browser diese APIs. Deswegen sind <span class=\"typo-bold\">Fallback-Lösungen</span> immer Teil unserer WebVR-Projekte."
 				}, {
 					"content": "Ein weiterer wichtiger Teil bei der Konzeption von WebVR-Erlebnissen ist das <span class=\"typo-bold\">User-Interaction-Design</span> sowie das <span class=\"typo-bold\">User-Experience-Design</span> (UX Design). Ein WebVR-Projekt muss nicht nur von Nutzern verwendet werden können, die Maus, Tastatur oder <span class=\"typo-bold\">Touch-Display</span> benutzen. Auch moderne <span class=\"typo-bold\">VR-Controller</span> oder die Rotations- und Positions-<span class=\"typo-bold\">Sensoren</span> (Gyrosensor) des Gerätes dienen als Input bei VR-Anwendungen."
 				}],
-				"headline": "How you can use VR in the Web<span class=\"typo-color--main\">.</span>",
+				"headline": "Wie Sie VR im Web erleben können<span class=\"typo-color--main\">.</span>",
 				"devices": [{
 					"img": {
 						"src": "../../images/vr-cardboard.jpg"
@@ -403,14 +403,14 @@
 					},
 					"modifier": "gearvr",
 					"headline": "Samsung Gear VR",
-					"copy": "Das Samsung Gear VR ist ein weiteres Virtual-Reality-Headset. Man kann es mit einem modernen <span class=\"typo-bold\">Samsung Galasy Smartphone</span> benutzen. Außerdem gibt es passend datu die <span class=\"typo-bold\">Gear 360 Camera</span>, um 360-Grad-Videos oder -Fotos aufzunehmen."
+					"copy": "Das Samsung Gear VR ist ein weiteres Virtual-Reality-Headset. Man kann es mit einem modernen <span class=\"typo-bold\">Samsung Galasy Smartphone</span> benutzen. Außerdem gibt es passend dazu die <span class=\"typo-bold\">Gear 360 Camera</span>, um 360-Grad-Videos oder -Fotos aufzunehmen."
 				}, {
 					"img": {
 						"src": "../../images/vr-mobile.jpg"
 					},
 					"modifier": "mobile",
 					"headline": "Ein mobiler Browser",
-					"copy": "Mit einer <span class=\"typo-bold\">Fallback-Lösung</span> kann man 3D-Anwendungen auch auf Smartphones und Tablets ohne VR-Headset genießen. Um sich im VR-Raum umzusehen, kann in diesem Fall beispielsweise das Gerät im Raum <span class=\"typo-bold\">gedreht</span> oder auf dem Display <span class=\"typo-bold\">gewischt</span> werden."
+					"copy": "Mit einer <span class=\"typo-bold\">Fallback-Lösung</span> kann man 3D-Anwendungen auch auf Smartphones und Tablets ohne VR-Headset genießen. Um sich im VR-Raum umzusehen, kann das Gerät im Raum <span class=\"typo-bold\">gedreht</span> oder auf dem Display <span class=\"typo-bold\">gewischt</span> werden."
 				}, {
 					"img": {
 						"src": "../../images/vr-oculus.jpg"
@@ -857,7 +857,7 @@
 				"paragraphs": [{
 					"content": "Virtual Reality is not just a thing for AAA games. You can create VR for the web, and <span class=\"typo-bold\">users only need a browser</span> to enjoy virtual reality content. There are many interesting and compelling use cases for VR in the browser. On this page we have integrated stunning examples, like a <span class=\"typo-bold\">360 degree spherical image</span> and a <span class=\"typo-bold\">360 degree spherical video</span>."
 				}, {
-					"content": "Technically spoken, VR in a web browser is possible due to <span class=\"typo-bold\">modern HTML5 APIs</span>, like <span class=\"typo-bold\">WebGL</span>, <span class=\"typo-bold\">WebVR</span>, <span class=\"typo-bold\">Fullscreen API</span> and Web Audio API. Unfortunately not every browser is able to use these modern APIs, yet. So a <span class=\"typo-bold\">fallback solution</span> is always be part of our WebVR projects."
+					"content": "Technically spoken, VR in a web browser is possible due to <span class=\"typo-bold\">modern HTML5 APIs</span>, like <span class=\"typo-bold\">WebGL</span>, <span class=\"typo-bold\">WebVR</span>, <span class=\"typo-bold\">Fullscreen API</span> and Web Audio API. Unfortunately not every browser is able to use these modern APIs, yet. So a <span class=\"typo-bold\">fallback solution</span> is always part of our WebVR projects."
 				}, {
 					"content": "Another important part of creating a WebVR experience is <span class=\"typo-bold\">User Interaction Design</span> and <span class=\"typo-bold\">User Experience Design</span> (UX Design). A WebVR project has to serve the needs of users, using a mouse, keyboard or a <span class=\"typo-bold\">touch screen</span>, and also support modern <span class=\"typo-bold\">VR controllers</span> or device rotation and position <span class=\"typo-bold\">sensors</span>."
 				}],
@@ -903,14 +903,14 @@
 					},
 					"modifier": "desktop",
 					"headline": "A normal Browser",
-					"copy": "As for the mobile phone, in most cases you can serve a <span class=\"typo-bold\">fallback</span> solution for Non-VR devices like <span class=\"typo-bold\">notebooks</span> and <span class=\"typo-bold\">desktops</span>. Keep in mind that these fallback solutions depend on mouse or keyboard input only."
+					"copy": "In most cases you can serve a <span class=\"typo-bold\">fallback</span> solution for non-VR devices like <span class=\"typo-bold\">notebooks</span> and <span class=\"typo-bold\">desktops</span>. Keep in mind that these fallback solutions depend on mouse or keyboard input only."
 				}, {
 					"img": {
 						"src": "../../images/vr-daydream-view.jpg"
 					},
 					"modifier": "daydreamview",
 					"headline": "Google Daydream View",
-					"copy": "The Google Daydream View is kind of the <span class=\"typo-bold\">update</span> of Google's Cardboard. You can use it with a so-called <span class=\"typo-bold\">Daydream-ready smartphone</span>, like the Google Pixel. The headset is made of fabric and it comes with a special <span class=\"typo-bold\">VR controller</span>."
+					"copy": "The Google Daydream View is an <span class=\"typo-bold\">updated</span> Google Cardboard. You can use it with any <span class=\"typo-bold\">Daydream-ready smartphone</span>, like the Google Pixel. The headset is made of fabric and it comes with a special <span class=\"typo-bold\">VR controller</span>."
 				}]
 			},
 			"live": {
