@@ -396,42 +396,49 @@
 					},
 					"modifier": "cardboard",
 					"headline": "Cardboard",
-					"copy": "The cardboard is the <span class=\"typo-bold\">cheapest</span> way to experience virtual reality. It is basically just a headset without a display made of <span class=\"typo-bold\">paper</span> or plastic, that you can use with your <span class=\"typo-bold\">mobile phone</span>. <a href=\"\" target=\"_blank\">Buy here</a>."
+					"copy": "Das Cardboard ist die <span class=\"typo-bold\">günstigste Möglichkeit</span>, Virtual Reality zu erleben. Das Headset, das aus <span class=\"typo-bold\">Pappe</span> oder Plastik besteht, kann ein normales <span class=\"typo-bold\">Smartphone</span> als Display verwenden. Die VR-Anwendungen laufen als Apps oder im Browser auf dem Smartphone."
 				}, {
 					"img": {
 						"src": "../../images/vr-gearvr.jpg"
 					},
 					"modifier": "gearvr",
 					"headline": "Samsung Gear VR",
-					"copy": "Another virtual reality headset is the Samsung Gear VR. You can use it with a modern <span class=\"typo-bold\">Samsung Galaxy phone</span> and there is also the <span class=\"typo-bold\">Gear 360 camera</span> for making 360 degree videos or images."
+					"copy": "Das Samsung Gear VR ist ein weiteres Virtual-Reality-Headset. Man kann es mit einem modernen <span class=\"typo-bold\">Samsung Galasy Smartphone</span> benutzen. Außerdem gibt es passend datu die <span class=\"typo-bold\">Gear 360 Camera</span>, um 360-Grad-Videos oder -Fotos aufzunehmen."
 				}, {
 					"img": {
 						"src": "../../images/vr-mobile.jpg"
 					},
 					"modifier": "mobile",
-					"headline": "A Mobile Browser",
-					"copy": "With a <span class=\"typo-bold\">fallback</span> solution you can easily provide a 3D experience on mobile phones. Looking around the VR space may be possible by <span class=\"typo-bold\">rotating</span> the phone or <span class=\"typo-bold\">swiping</span> the screen."
+					"headline": "Ein mobiler Browser",
+					"copy": "Mit einer <span class=\"typo-bold\">Fallback-Lösung</span> kann man 3D-Anwendungen auch auf Smartphones und Tablets ohne VR-Headset genießen. Um sich im VR-Raum umzusehen, kann in diesem Fall beispielsweise das Gerät im Raum <span class=\"typo-bold\">gedreht</span> oder auf dem Display <span class=\"typo-bold\">gewischt</span> werden."
 				}, {
 					"img": {
 						"src": "../../images/vr-oculus.jpg"
 					},
 					"modifier": "oculus",
 					"headline": "Oculus Rift",
-					"copy": "The Oculus Rift is a <span class=\"typo-bold\">virtual reality headset</span>, that has an OLED panel for each eye. It works with a <span class=\"typo-bold\">PC</span> and therefore serves a <span class=\"typo-bold\">better experience</span> than a headset that works with mobile phones."
+					"copy": "Die Oculus Rift ist ein <span class=\"typo-bold\">Virtual-Reality-Headset</span>, das ein OLED-Display für jedes Auge besitzt. Man kann die Oculus Rift mit einem <span class=\"typo-bold\">PC</span> verwenden, was dazu führt, dass die Virtual-Reality-Erfahrung deutlich <span class=\"typo-bold\">besser</span> ist als die an einem Smartphone."
 				}, {
 					"img": {
 						"src": "../../images/vr-htcvive.jpg"
 					},
 					"modifier": "vive",
 					"headline": "HTC Vive",
-					"copy": "Like the Oculus Rift, the HTC Vive works works with a PC and uses two screens. It also comes with special <span class=\"typo-bold\">VR controllers</span> and <span class=\"typo-bold\">laser position sensors</span> to track the user's <span class=\"typo-bold\">movement</span> in a room."
+					"copy": "Wie die Oculus Rift funktioniert die HTC Vive mit einem PC und besitzt zwei Displays. Sie wird mit einem speziellen <span class=\"typo-bold\">VR-Controller</span> und <span class=\"typo-bold\">Laser-Positions-Sensoren</span> geliefert, die die <span class=\"typo-bold\">Bewegungen</span> des Nutzers im Raum verfolgen."
 				}, {
 					"img": {
 						"src": "../../images/vr-desktop.jpg"
 					},
 					"modifier": "desktop",
-					"headline": "A normal Browser",
-					"copy": "As for the mobile phone, in most cases you can serve a <span class=\"typo-bold\">fallback</span> solution for Non-VR devices like <span class=\"typo-bold\">notebooks</span> and <span class=\"typo-bold\">desktops</span>. Keep in mind that these fallback solutions depend on mouse or keyboard input only."
+					"headline": "Ein normaler Browser",
+					"copy": "Für viele Virtual-Reality-Anwendungen können <span class=\"typo-bold\">Fallback-Lösungen</span> entwickelt werden, wenn kein VR-Gerät zur Verfügung steht. Diese Fallback-Lösungen, die zum Beispiel auf <span class=\"typo-bold\">Notebooks</span> oder <span class=\"typo-bold\">Desktop-PCs</span> laufen, benötigen auch eine Fallback-Lösung für Input-Geräte wie das Keyboard und die Maus."
+				}, {
+					"img": {
+						"src": "../../images/vr-daydream-view.jpg"
+					},
+					"modifier": "daydreamview",
+					"headline": "Google Daydream View",
+					"copy": "Google's Daydream View ist sozusagen ein <span class=\"typo-bold\">Update</span> des Cardboards. Das Headset wird mit sogenannten <span class=\"typo-bold\">Daydream-ready Smartphones</span>, wie dem Google Pixel, verwendet und besteht nicht mehr aus Pappe, sondern aus Stoff. Die wichtigste Neuerung ist allerdings der spezielle <span class=\"typo-bold\">VR-Controller</span>."
 				}]
 			},
 			"live": {
@@ -861,7 +868,7 @@
 					},
 					"modifier": "cardboard",
 					"headline": "Cardboard",
-					"copy": "The cardboard is the <span class=\"typo-bold\">cheapest</span> way to experience virtual reality. It is basically just a headset without a display made of <span class=\"typo-bold\">paper</span> or plastic, that you can use with your <span class=\"typo-bold\">mobile phone</span>. <a href=\"\" target=\"_blank\">Buy here</a>."
+					"copy": "The cardboard is the <span class=\"typo-bold\">cheapest</span> way to experience virtual reality. It is basically just a headset without a display made of <span class=\"typo-bold\">paper</span> or plastic, that you can use with your <span class=\"typo-bold\">mobile phone</span>."
 				}, {
 					"img": {
 						"src": "../../images/vr-gearvr.jpg"
@@ -897,6 +904,13 @@
 					"modifier": "desktop",
 					"headline": "A normal Browser",
 					"copy": "As for the mobile phone, in most cases you can serve a <span class=\"typo-bold\">fallback</span> solution for Non-VR devices like <span class=\"typo-bold\">notebooks</span> and <span class=\"typo-bold\">desktops</span>. Keep in mind that these fallback solutions depend on mouse or keyboard input only."
+				}, {
+					"img": {
+						"src": "../../images/vr-daydream-view.jpg"
+					},
+					"modifier": "daydreamview",
+					"headline": "Google Daydream View",
+					"copy": "The Google Daydream View is kind of the <span class=\"typo-bold\">update</span> of Google's Cardboard. You can use it with a so-called <span class=\"typo-bold\">Daydream-ready smartphone</span>, like the Google Pixel. The headset is made of fabric and it comes with a special <span class=\"typo-bold\">VR controller</span>."
 				}]
 			},
 			"live": {
