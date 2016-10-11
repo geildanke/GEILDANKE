@@ -21,6 +21,7 @@
 		"meta": {
 			"links": {
 				"home": "/de/",
+				"vr": "/de/vr",
 				"about": "/de/about",
 				"contact": "/de/contact",
 				"imprint": "/de/imprint"
@@ -54,6 +55,9 @@
 		"nav": {
 			"about": {
 				"value": "Über uns"
+			},
+			"vr": {
+				"value": "VR"
 			},
 			"projects": {
 				"value": "Projekte"
@@ -495,6 +499,7 @@
 		"meta": {
 			"links": {
 				"home": "/en/",
+				"vr": "/en/vr",
 				"about": "/en/about",
 				"contact": "/en/contact",
 				"imprint": "/en/imprint"
@@ -528,6 +533,9 @@
 		"nav": {
 			"about": {
 				"value": "About"
+			},
+			"vr": {
+				"value": "VR"
 			},
 			"projects": {
 				"value": "Projects"
