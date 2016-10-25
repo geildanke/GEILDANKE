@@ -3,7 +3,7 @@
 {% capture contact_url %}/{{ page.lang }}/contact/index.html{% endcapture %}
 {% capture projects_url %}/{{ page.lang }}/projects/index.html{% endcapture %}
 
-<header class="header layout-container typo-label">
+<header class="header layout-container typo-label {% if page.url == vr_url %}header--fixed{% endif %}">
     <nav class="nav">
         <a href="{{t.meta.links.home}}">
             <span class="nav__home-icon"></span>

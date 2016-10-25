@@ -13,6 +13,11 @@
   padding-bottom: 56%;
   position: relative;
   height: 0;
+
+  @media screen and (min-width: $mq-l) {
+    height: 650px;
+    padding-bottom: 0;
+  }
 }
 
 .vrlive__figcaption {
@@ -41,12 +46,12 @@
   @extend %s--six-twelfths;
   @extend %m--six-twelfths;
   @extend %l--six-twelfths;
-  
+
   position: relative;
-  
+
   &:first-child {
     margin-bottom: $layout-unit;
-    
+
     @media screen and (min-width: $mq-s) {
       margin-bottom: 0;
     }
