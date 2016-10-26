@@ -10,6 +10,7 @@
 
 .vrlive__canvas-wrapper {
   background-color: $color-ming;
+  background-size: cover;
   padding-bottom: 56%;
   position: relative;
   height: 0;
@@ -66,6 +67,17 @@
   @include list-stroke();
 
   padding-bottom: $layout-unit / 2;
+}
+
+.vrlive__onboarding {
+  text-align: center;
+
+  padding: $layout-unit * 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .vrlive__title {
