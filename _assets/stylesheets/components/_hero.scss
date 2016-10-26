@@ -184,3 +184,9 @@
 
   font-weight: 300;
 }
+
+.hero__vr__button {
+  position: absolute;
+  bottom: $layout-unit;
+  right: $layout-unit * 2;
+}

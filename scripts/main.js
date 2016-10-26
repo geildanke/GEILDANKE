@@ -4,8 +4,10 @@
   var activateHeroVr = {},
     activateExampleVrImage = {},
     activateExampleVrVideo = {},
+    addListeners = {},
     heroButton = {},
     heroContainer = {},
+    init = {},
     liveExampleButtonImage = {},
     liveExampleButtonVideo = {},
     liveExampleContainer = {},
@@ -18,6 +20,9 @@
   liveExampleButtonVideo = document.getElementById('vrlive_vrvideo_start');
 
   activateHeroVr = function () {
+    removeVr(liveExampleContainer, '/images/michaela.jpg', liveExampleButtonVideo);
+    removeVr(liveExampleContainer, '/images/michaela.jpg', liveExampleButtonImage);
+    heroButton.style.visibility = 'hidden';
     GEILDANKEVR.single({
       container: heroContainer,
       single: {
@@ -32,6 +37,9 @@
   };
 
   activateExampleVrImage = function () {
+    removeVr(heroContainer, '/images/michaela.jpg', heroButton);
+    removeVr(liveExampleContainer, '/images/michaela.jpg', liveExampleButtonVideo);
+    liveExampleButtonImage.style.visibility = 'hidden';
     GEILDANKEVR.single({
       container: liveExampleContainer,
       single: {
@@ -46,6 +54,9 @@
   };
 
   activateExampleVrVideo = function () {
+    removeVr(heroContainer, '/images/michaela.jpg', heroButton);
+    removeVr(liveExampleContainer, '/images/michaela.jpg', liveExampleButtonImage);
+    liveExampleButtonVideo.style.visibility = 'hidden';
     GEILDANKEVR.single({
       container: liveExampleContainer,
       single: {
@@ -59,29 +70,24 @@
     });
   };
 
+  addListeners = function () {
+    liveExampleButtonImage.addEventListener('click', activateExampleVrImage);
+    liveExampleButtonVideo.addEventListener('click', activateExampleVrVideo);
+    heroButton.addEventListener('click', activateHeroVr);
+  };
+
+  init = function () {
+    addListeners();
+    activateHeroVr();
+  };
+
   removeVr = function (container, placeholderImageUrl, button) {
     container.innerHTML = '';
     container.style.backgroundImage = 'url(' + placeholderImageUrl + ')';
     container.style.backgroundSize = 'cover';
     container.style.backgroundPosition = 'center center';
-    button.style.display = 'block';
+    button.style.visibility = 'visible';
   };
 
-  liveExampleButtonImage.addEventListener('click', function () {
-    removeVr(heroContainer, '/images/michaela.jpg', heroButton);
-    removeVr(liveExampleContainer, '/images/michaela.jpg', liveExampleButtonImage);
-    activateExampleVrImage();
-  });
-
-  liveExampleButtonVideo.addEventListener('click', function () {
-    removeVr(heroContainer, '/images/michaela.jpg', heroButton);
-    removeVr(liveExampleContainer, '/images/michaela.jpg', liveExampleButtonVideo);
-    activateExampleVrVideo();
-  });
-
-  heroButton.addEventListener('click', function () {
-    activateHeroVr();
-  });
-
-  activateHeroVr();
+  init();
 })();
