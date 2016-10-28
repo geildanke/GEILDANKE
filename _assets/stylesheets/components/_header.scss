@@ -8,10 +8,14 @@
 }
 
 .header--fixed {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
+
+  @media screen and (min-width: $mq-s) {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 1;
+  }
 }
 
 .header__slogan {

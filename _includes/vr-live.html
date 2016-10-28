@@ -4,8 +4,33 @@
       <div class="vrlive__title-container">
         <h2 class="vrlive__title">{{t.vr.live.title}}</h2>
       </div>
-      <div class="vrlive__canvas-wrapper">
-        <div id="vrlive__video__canvas" class="vrlive__canvas"></div>
+      <div id="vrlive-onboarding" class="vrlive__onboarding">
+        <div class="vrlive__onboarding__container">
+          {% for onboarding in t.vr.live.onboarding %}
+            <div class="vrlive__instruction vrlive__instruction--{{onboarding.name}}">
+              <div class="vrlive__instruction__hero vrlive__instruction__hero--{{onboarding.name}}"></div>
+              <p class="vrlive__instruction__paragraph">{{onboarding.paragraph}}</p>
+              <div class="vrlive__instruction__icon vrlive__instruction__icon--{{onboarding.name}}"></div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="vrlive__example">
+        {% for example in t.vr.live.example %}
+          <div class="vrlive__example__item">
+            <div class="vrlive__canvas-wrapper">
+              <div id="vrlive__{{example.name}}__canvas" class="vrlive__canvas"></div>
+              <div class="vrlive__ui">
+                <div id="vrlive_vr{{example.name}}_start" class="vrlive__ui__element vrlive__ui__element--{{example.name}}">
+                  <div class="vrlive__ui__container">
+                    <div class="vrlive__ui__thumb vrlive__ui__thumb--{{example.name}}"></div>
+                    <button class="vrlive__ui__button button button--decent">{{example.label}}</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
       </div>
       <div class="layout-container">
           <ul class="vrlive__list">
