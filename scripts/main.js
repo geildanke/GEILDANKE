@@ -7,12 +7,17 @@
     addListeners = {},
     heroButton = {},
     heroContainer = {},
+    onBoardingContainer = {},
     init = {},
     liveExampleButtonImage = {},
     liveExampleButtonVideo = {},
     liveExampleContainer = {},
-    removeVr = {};
+    onBoardingContainer = {},
+    removeVr = {},
+    showOnboarding = {},
+    hideOnboarding = {};
 
+  onBoardingContainer = document.getElementById('vrlive-onboarding');
   heroButton = document.getElementById('hero_vr_start');
   heroContainer = document.getElementById('vrlive__image__canvas');
   liveExampleContainer = document.getElementById('vrlive__video__canvas');
@@ -20,8 +25,9 @@
   liveExampleButtonVideo = document.getElementById('vrlive_vrvideo_start');
 
   activateHeroVr = function () {
-    removeVr(liveExampleContainer, '/images/michaela.jpg', liveExampleButtonVideo);
-    removeVr(liveExampleContainer, '/images/michaela.jpg', liveExampleButtonImage);
+    removeVr(liveExampleContainer, '', liveExampleButtonVideo);
+    removeVr(liveExampleContainer, '', liveExampleButtonImage);
+    showOnboarding();
     heroButton.style.visibility = 'hidden';
     GEILDANKEVR.single({
       container: heroContainer,
@@ -37,8 +43,9 @@
   };
 
   activateExampleVrImage = function () {
-    removeVr(heroContainer, '/images/michaela.jpg', heroButton);
-    removeVr(liveExampleContainer, '/images/michaela.jpg', liveExampleButtonVideo);
+    removeVr(heroContainer, '/images/vr-mountain-placeholder.jpg', heroButton);
+    removeVr(liveExampleContainer, '', liveExampleButtonVideo);
+    hideOnboarding();
     liveExampleButtonImage.style.visibility = 'hidden';
     GEILDANKEVR.single({
       container: liveExampleContainer,
@@ -54,8 +61,9 @@
   };
 
   activateExampleVrVideo = function () {
-    removeVr(heroContainer, '/images/michaela.jpg', heroButton);
-    removeVr(liveExampleContainer, '/images/michaela.jpg', liveExampleButtonImage);
+    removeVr(heroContainer, '/images/vr-mountain-placeholder.jpg', heroButton);
+    removeVr(liveExampleContainer, '', liveExampleButtonImage);
+    hideOnboarding();
     liveExampleButtonVideo.style.visibility = 'hidden';
     GEILDANKEVR.single({
       container: liveExampleContainer,
@@ -76,17 +84,26 @@
     heroButton.addEventListener('click', activateHeroVr);
   };
 
+  hideOnboarding = function () {
+    onBoardingContainer.style.visibility = 'hidden';
+  };
+
   init = function () {
     addListeners();
-    activateHeroVr();
+    // activateHeroVr();
   };
 
   removeVr = function (container, placeholderImageUrl, button) {
+    GEILDANKEVR.remove();
     container.innerHTML = '';
     container.style.backgroundImage = 'url(' + placeholderImageUrl + ')';
     container.style.backgroundSize = 'cover';
     container.style.backgroundPosition = 'center center';
     button.style.visibility = 'visible';
+  };
+
+  showOnboarding = function () {
+    onBoardingContainer.style.visibility = 'visible';
   };
 
   init();

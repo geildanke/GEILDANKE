@@ -453,18 +453,6 @@
 				},
 				"infos": [
 					{
-						"content": "<span class=\"typo-bold\">Swipen</span> Sie mit dem Finger oder der Maus über das Bild oder Video, um sich umzuschauen."
-					},
-					{
-						"content": "Klicken oder drücken Sie das Vollbild-Symbol, um das Bild oder Video im <span class=\"typo-bold\">Vollbild</span> zu öffnen."
-					},
-					{
-						"content": "Auf Ihrem Telefon oder Tablet: Bewegen Sie das Gerät <span class=\"typo-bold\">um sich umzuschauen</span>."
-					},
-					{
-						"content": "Auf einem VR-Gerät: Klicken oder drücken Sie das VR-Symbol, um den <span class=\"typo-bold\">VR-Modus zu aktivieren</span>."
-					},
-					{
 						"content": "Um das Video auf Ihrem Smartphone oder Tablet zu starten, drücken Sie einmal auf das Video."
 					},
 					{
@@ -928,18 +916,6 @@
 					"video": "360° Video"
 				},
 				"infos": [
-					{
-						"content": "<span class=\"typo-bold\">Swipe</span> with your mouse or finger over the image or video to look around."
-					},
-					{
-						"content": "Click or press the fullscreen icon to open the image or video in <span class=\"typo-bold\">fullscreen mode</span>."
-					},
-					{
-						"content": "On your phone or tablet: Rotate and move your device to <span class=\"typo-bold\">look around</span>."
-					},
-					{
-						"content": "On a VR ready device: Click or press the VR icon to <span class=\"typo-bold\">activate VR mode</span>."
-					},
 					{
 						"content": "To run the video on your phone or tablet, click on the video once."
 					},
