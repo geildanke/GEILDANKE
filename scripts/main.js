@@ -11,22 +11,24 @@
     init = {},
     liveExampleButtonImage = {},
     liveExampleButtonVideo = {},
-    liveExampleContainer = {},
+    liveExampleContainerImage = {},
+    liveExampleContainerVideo = {},
     onBoardingContainer = {},
+    removeAllVr = {},
     removeVr = {},
     showOnboarding = {},
     hideOnboarding = {};
 
   onBoardingContainer = document.getElementById('vrlive-onboarding');
   heroButton = document.getElementById('hero_vr_start');
-  heroContainer = document.getElementById('vrlive__image__canvas');
-  liveExampleContainer = document.getElementById('vrlive__video__canvas');
+  heroContainer = document.getElementById('vrlive__hero__canvas');
+  liveExampleContainerImage = document.getElementById('vrlive__image__canvas');
+  liveExampleContainerVideo = document.getElementById('vrlive__video__canvas');
   liveExampleButtonImage = document.getElementById('vrlive_vrimage_start');
   liveExampleButtonVideo = document.getElementById('vrlive_vrvideo_start');
 
   activateHeroVr = function () {
-    removeVr(liveExampleContainer, '', liveExampleButtonVideo);
-    removeVr(liveExampleContainer, '', liveExampleButtonImage);
+    removeAllVr();
     showOnboarding();
     heroButton.style.visibility = 'hidden';
     GEILDANKEVR.single({
@@ -43,12 +45,11 @@
   };
 
   activateExampleVrImage = function () {
-    removeVr(heroContainer, '/images/vr-mountain-placeholder.jpg', heroButton);
-    removeVr(liveExampleContainer, '', liveExampleButtonVideo);
+    removeAllVr();
     hideOnboarding();
     liveExampleButtonImage.style.visibility = 'hidden';
     GEILDANKEVR.single({
-      container: liveExampleContainer,
+      container: liveExampleContainerImage,
       single: {
         mediaType: 'image',
         url: '/images/vr-mountain.jpg',
@@ -61,12 +62,11 @@
   };
 
   activateExampleVrVideo = function () {
-    removeVr(heroContainer, '/images/vr-mountain-placeholder.jpg', heroButton);
-    removeVr(liveExampleContainer, '', liveExampleButtonImage);
+    removeAllVr();
     hideOnboarding();
     liveExampleButtonVideo.style.visibility = 'hidden';
     GEILDANKEVR.single({
-      container: liveExampleContainer,
+      container: liveExampleContainerVideo,
       single: {
         mediaType: 'video',
         url: '/images/videos/R0010084_20160628124206_20160903212208.MP4',
@@ -85,12 +85,22 @@
   };
 
   hideOnboarding = function () {
-    onBoardingContainer.style.visibility = 'hidden';
+    var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+
+    if (width >= 960) {
+      onBoardingContainer.style.visibility = 'hidden';
+    }
   };
 
   init = function () {
     addListeners();
     // activateHeroVr();
+  };
+
+  removeAllVr = function () {
+    removeVr(heroContainer, '/images/vr-mountain-placeholder.jpg', heroButton);
+    removeVr(liveExampleContainerVideo, '', liveExampleButtonVideo);
+    removeVr(liveExampleContainerImage, '', liveExampleButtonImage);
   };
 
   removeVr = function (container, placeholderImageUrl, button) {

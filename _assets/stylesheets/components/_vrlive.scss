@@ -10,6 +10,7 @@
 
 .vrlive__canvas-wrapper {
   background-size: cover;
+  margin-bottom: $layout-unit;
   padding-bottom: 56%;
   position: relative;
   height: 0;
@@ -18,6 +19,15 @@
     height: 650px;
     padding-bottom: 0;
   }
+}
+
+.vrlive__example {
+  @extend .layout__grid;
+}
+
+.vrlive__example__item {
+  @extend .layout__grid__item;
+  @extend %s--one-half;
 }
 
 .vrlive__figcaption {
@@ -60,7 +70,7 @@
 
 .vrlive__instruction {
   @extend .layout__grid__item;
-  @extend %one-third;
+  @extend %s--one-third;
   margin-bottom: $layout-unit * 2;
 }
 
@@ -144,12 +154,16 @@
 .vrlive__onboarding {
   text-align: center;
 
-  padding: $layout-unit * 2;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  padding: $layout-unit;
+
+  @media screen and (min-width: $mq-m) {
+    padding: $layout-unit * 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
 }
 
 .vrlive__onboarding__container {
@@ -171,8 +185,11 @@
 }
 
 .vrlive__ui {
-  @extend .layout__grid;
-  padding: 0 $layout-unit * 4;
+  // @extend .layout__grid;
+
+  @media screen and (min-width: $mq-s) {
+    // padding: 0 $layout-unit * 4;
+  }
 }
 
 .vrlive__ui__button {
@@ -198,8 +215,16 @@
 }
 
 .vrlive__ui__element {
-  @extend .layout__grid__item;
-  @extend %one-half;
+  // @extend .layout__grid__item;
+  // @extend %s--one-half;
+}
+
+.vrlive__ui__element--image {
+  margin-bottom: $layout-unit;
+
+  @media screen and (min-width: $mq-s) {
+    margin: 0;
+  }
 }
 
 .vrlive__ui__thumb {
@@ -207,7 +232,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
-  padding-bottom: 56%;
+  padding-bottom: calc(56% - 48px);
   position: relative;
   width: 100%;
   height: 0;

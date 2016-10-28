@@ -4,37 +4,48 @@
       <div class="vrlive__title-container">
         <h2 class="vrlive__title">{{t.vr.live.title}}</h2>
       </div>
-      <div class="vrlive__canvas-wrapper">
-        <div id="vrlive__video__canvas" class="vrlive__canvas"></div>
-        <div id="vrlive-onboarding" class="vrlive__onboarding">
-          <div class="vrlive__onboarding__container">
-            <div class="vrlive__instruction vrlive__instruction--desktop">
-              <div class="vrlive__instruction__hero vrlive__instruction__hero--desktop"></div>
-              <p class="vrlive__instruction__paragraph">On a desktop or notebook use the <span class="typo-bold">mouse</span> to look around.</p>
-              <div class="vrlive__instruction__icon vrlive__instruction__icon--desktop"></div>
-            </div>
-            <div class="vrlive__instruction vrlive__instruction--phone">
-              <div class="vrlive__instruction__hero vrlive__instruction__hero--phone"></div>
-              <p class="vrlive__instruction__paragraph">On a mobile device use the <span class="typo-bold">gyroscope</span> or <span class="typo-bold">swipe</span> to look around.</p>
-              <div class="vrlive__instruction__icon vrlive__instruction__icon--phone"></div>
-            </div>
-            <div class="vrlive__instruction vrlive__instruction--vr">
-              <div class="vrlive__instruction__hero vrlive__instruction__hero--vr"></div>
-              <p class="vrlive__instruction__paragraph">Or just use your <span class="typo-bold">VR headset</span>, and have fun!</p>
-              <div class="vrlive__instruction__icon vrlive__instruction__icon--vr"></div>
-            </div>
+      <div id="vrlive-onboarding" class="vrlive__onboarding">
+        <div class="vrlive__onboarding__container">
+          <div class="vrlive__instruction vrlive__instruction--desktop">
+            <div class="vrlive__instruction__hero vrlive__instruction__hero--desktop"></div>
+            <p class="vrlive__instruction__paragraph">On a desktop or notebook use the <span class="typo-bold">mouse</span> to look around.</p>
+            <div class="vrlive__instruction__icon vrlive__instruction__icon--desktop"></div>
           </div>
-          <div class="vrlive__ui">
-            <div id="vrlive_vrimage_start" class="vrlive__ui__element vrlive__ui__element--image">
-              <div class="vrlive__ui__container">
-                <div class="vrlive__ui__thumb vrlive__ui__thumb--image"></div>
-                <button class="vrlive__ui__button button button--decent">Start Panorama Image</button>
+          <div class="vrlive__instruction vrlive__instruction--phone">
+            <div class="vrlive__instruction__hero vrlive__instruction__hero--phone"></div>
+            <p class="vrlive__instruction__paragraph">On a mobile device use the <span class="typo-bold">gyroscope</span> or <span class="typo-bold">swipe</span> to look around.</p>
+            <div class="vrlive__instruction__icon vrlive__instruction__icon--phone"></div>
+          </div>
+          <div class="vrlive__instruction vrlive__instruction--vr">
+            <div class="vrlive__instruction__hero vrlive__instruction__hero--vr"></div>
+            <p class="vrlive__instruction__paragraph">Or just use your <span class="typo-bold">VR headset</span>, and have fun!</p>
+            <div class="vrlive__instruction__icon vrlive__instruction__icon--vr"></div>
+          </div>
+        </div>
+      </div>
+      <div class="vrlive__example">
+        <div class="vrlive__example__item">
+          <div class="vrlive__canvas-wrapper">
+            <div id="vrlive__image__canvas" class="vrlive__canvas"></div>
+            <div class="vrlive__ui">
+              <div id="vrlive_vrimage_start" class="vrlive__ui__element vrlive__ui__element--video">
+                <div class="vrlive__ui__container">
+                  <div class="vrlive__ui__thumb vrlive__ui__thumb--video"></div>
+                  <button class="vrlive__ui__button button button--decent">Start Panorama Image</button>
+                </div>
               </div>
             </div>
-            <div id="vrlive_vrvideo_start" class="vrlive__ui__element vrlive__ui__element--video">
-              <div class="vrlive__ui__container">
-                <div class="vrlive__ui__thumb vrlive__ui__thumb--video"></div>
-                <button class="vrlive__ui__button button button--decent">Start Panorama Video</button>
+          </div>
+        </div>
+        <div class="vrlive__example__item">
+          <div class="vrlive__canvas-wrapper">
+            <div id="vrlive__video__canvas" class="vrlive__canvas"></div>
+            <div class="vrlive__ui">
+              <div id="vrlive_vrvideo_start" class="vrlive__ui__element vrlive__ui__element--video">
+                <div class="vrlive__ui__container">
+                  <div class="vrlive__ui__thumb vrlive__ui__thumb--video"></div>
+                  <button class="vrlive__ui__button button button--decent">Start Panorama Video</button>
+                </div>
               </div>
             </div>
           </div>

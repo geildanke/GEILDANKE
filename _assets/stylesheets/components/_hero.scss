@@ -173,6 +173,14 @@
   }
 }
 
+.hero__hgroup--vr {
+  padding: 0 $layout-unit;
+
+  @media screen and (min-width: $mq-m) {
+    padding: 0;
+  }
+}
+
 .hero__title--page {
   @extend .headline--1;
 
@@ -187,6 +195,12 @@
 
 .hero__vr__button {
   position: absolute;
-  bottom: $layout-unit;
-  right: $layout-unit * 2;
+  top: $layout-unit;
+  right: $layout-unit;
+
+  @media screen and (min-width: $mq-m) {
+    top: auto;
+    bottom: $layout-unit;
+    right: $layout-unit * 2;
+  }
 }
