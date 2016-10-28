@@ -184,16 +184,10 @@
   padding-bottom: $layout-unit * 2;
 }
 
-.vrlive__ui {
-  // @extend .layout__grid;
-
-  @media screen and (min-width: $mq-s) {
-    // padding: 0 $layout-unit * 4;
-  }
-}
-
 .vrlive__ui__button {
   text-align: left;
+
+  margin: 0;
   width: 100%;
 }
 
