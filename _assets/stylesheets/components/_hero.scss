@@ -174,9 +174,11 @@
 }
 
 .hero__hgroup--vr {
+  @extend %s--ten-twelfths;
+  @extend %push--s--one-twelfth;
   padding: 0 $layout-unit;
 
-  @media screen and (min-width: $mq-m) {
+  @media screen and (min-width: $mq-s) {
     padding: 0;
   }
 }
@@ -193,10 +195,24 @@
   font-weight: 300;
 }
 
+.hero__vr__canvas-wrapper {
+  background-size: cover;
+  margin-bottom: $layout-unit;
+  padding-bottom: 56%;
+  position: relative;
+  height: 0;
+
+  @media screen and (min-width: $mq-l) {
+    height: 650px;
+    padding-bottom: 0;
+  }
+}
+
 .hero__vr__button {
   position: absolute;
   top: $layout-unit;
   right: $layout-unit;
+  z-index: 1;
 
   @media screen and (min-width: $mq-m) {
     top: auto;

@@ -15,9 +15,7 @@
     liveExampleContainerVideo = {},
     onBoardingContainer = {},
     removeAllVr = {},
-    removeVr = {},
-    showOnboarding = {},
-    hideOnboarding = {};
+    removeVr = {};
 
   onBoardingContainer = document.getElementById('vrlive-onboarding');
   heroButton = document.getElementById('hero_vr_start');
@@ -29,7 +27,6 @@
 
   activateHeroVr = function () {
     removeAllVr();
-    showOnboarding();
     heroButton.style.visibility = 'hidden';
     GEILDANKEVR.single({
       container: heroContainer,
@@ -46,7 +43,6 @@
 
   activateExampleVrImage = function () {
     removeAllVr();
-    hideOnboarding();
     liveExampleButtonImage.style.visibility = 'hidden';
     GEILDANKEVR.single({
       container: liveExampleContainerImage,
@@ -63,7 +59,6 @@
 
   activateExampleVrVideo = function () {
     removeAllVr();
-    hideOnboarding();
     liveExampleButtonVideo.style.visibility = 'hidden';
     GEILDANKEVR.single({
       container: liveExampleContainerVideo,
@@ -84,17 +79,9 @@
     heroButton.addEventListener('click', activateHeroVr);
   };
 
-  hideOnboarding = function () {
-    var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-
-    if (width >= 960) {
-      onBoardingContainer.style.visibility = 'hidden';
-    }
-  };
-
   init = function () {
     addListeners();
-    // activateHeroVr();
+    activateHeroVr();
   };
 
   removeAllVr = function () {
@@ -110,10 +97,6 @@
     container.style.backgroundSize = 'cover';
     container.style.backgroundPosition = 'center center';
     button.style.visibility = 'visible';
-  };
-
-  showOnboarding = function () {
-    onBoardingContainer.style.visibility = 'visible';
   };
 
   init();
