@@ -446,11 +446,36 @@
 				}]
 			},
 			"live": {
+				"restart": "Neu Starten",
 				"title": "Probieren Sie es aus<span class=\"typo-color--main\">.</span>",
 				"caption": {
 					"image": "360°-Foto",
 					"video": "360°-Video"
 				},
+				"onboarding": [
+					{
+						"name": "desktop",
+						"paragraph": "Verwenden Sie die <span class=\"typo-bold\">Maus</span>, um sich auf einem Notebook oder Desktop-Rechner umzusehen."
+					},
+					{
+						"name": "phone",
+						"paragraph": "Benutzen Sie den <span class=\"typo-bold\">Gyrosensor</span> oder <span class=\"typo-bold\">wischen</span> Sie, um sich auf einem Smartphone umzusehen."
+					},
+					{
+						"name": "vr",
+						"paragraph": "Oder verwenden Sie einfach Ihr <span class=\"typo-bold\">VR-Headset</span>. Viel Spaß!"
+					}
+				],
+				"example": [
+					{
+						"name": "image",
+						"label": "Start Panorama Image"
+					},
+					{
+						"name": "video",
+						"label": "Start Panorama Video"
+					}
+				],
 				"infos": [
 					{
 						"content": "Um das Video auf Ihrem Smartphone oder Tablet zu starten, drücken Sie einmal auf das Video."
@@ -910,11 +935,36 @@
 				}]
 			},
 			"live": {
+				"restart": "Start Again",
 				"title": "Try it out<span class=\"typo-color--main\">.</span>",
 				"caption": {
 					"image": "360° Image",
 					"video": "360° Video"
 				},
+				"onboarding": [
+					{
+						"name": "desktop",
+						"paragraph": "On a desktop or notebook use the <span class=\"typo-bold\">mouse</span> to look around."
+					},
+					{
+						"name": "phone",
+						"paragraph": "On a mobile device use the <span class=\"typo-bold\">gyroscope</span> or <span class=\"typo-bold\">swipe</span> to look around."
+					},
+					{
+						"name": "vr",
+						"paragraph": "Or just use your <span class=\"typo-bold\">VR headset</span>, and have fun!"
+					}
+				],
+				"example": [
+					{
+						"name": "image",
+						"label": "Start Panorama Image"
+					},
+					{
+						"name": "video",
+						"label": "Start Panorama Video"
+					}
+				],
 				"infos": [
 					{
 						"content": "To run the video on your phone or tablet, click on the video once."

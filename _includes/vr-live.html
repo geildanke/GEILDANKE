@@ -6,50 +6,31 @@
       </div>
       <div id="vrlive-onboarding" class="vrlive__onboarding">
         <div class="vrlive__onboarding__container">
-          <div class="vrlive__instruction vrlive__instruction--desktop">
-            <div class="vrlive__instruction__hero vrlive__instruction__hero--desktop"></div>
-            <p class="vrlive__instruction__paragraph">On a desktop or notebook use the <span class="typo-bold">mouse</span> to look around.</p>
-            <div class="vrlive__instruction__icon vrlive__instruction__icon--desktop"></div>
-          </div>
-          <div class="vrlive__instruction vrlive__instruction--phone">
-            <div class="vrlive__instruction__hero vrlive__instruction__hero--phone"></div>
-            <p class="vrlive__instruction__paragraph">On a mobile device use the <span class="typo-bold">gyroscope</span> or <span class="typo-bold">swipe</span> to look around.</p>
-            <div class="vrlive__instruction__icon vrlive__instruction__icon--phone"></div>
-          </div>
-          <div class="vrlive__instruction vrlive__instruction--vr">
-            <div class="vrlive__instruction__hero vrlive__instruction__hero--vr"></div>
-            <p class="vrlive__instruction__paragraph">Or just use your <span class="typo-bold">VR headset</span>, and have fun!</p>
-            <div class="vrlive__instruction__icon vrlive__instruction__icon--vr"></div>
-          </div>
+          {% for onboarding in t.vr.live.onboarding %}
+            <div class="vrlive__instruction vrlive__instruction--{{onboarding.name}}">
+              <div class="vrlive__instruction__hero vrlive__instruction__hero--{{onboarding.name}}"></div>
+              <p class="vrlive__instruction__paragraph">{{onboarding.paragraph}}</p>
+              <div class="vrlive__instruction__icon vrlive__instruction__icon--{{onboarding.name}}"></div>
+            </div>
+          {% endfor %}
         </div>
       </div>
       <div class="vrlive__example">
-        <div class="vrlive__example__item">
-          <div class="vrlive__canvas-wrapper">
-            <div id="vrlive__image__canvas" class="vrlive__canvas"></div>
-            <div class="vrlive__ui">
-              <div id="vrlive_vrimage_start" class="vrlive__ui__element vrlive__ui__element--image">
-                <div class="vrlive__ui__container">
-                  <div class="vrlive__ui__thumb vrlive__ui__thumb--image"></div>
-                  <button class="vrlive__ui__button button button--decent">Start Panorama Image</button>
+        {% for example in t.vr.live.example %}
+          <div class="vrlive__example__item">
+            <div class="vrlive__canvas-wrapper">
+              <div id="vrlive__{{example.name}}__canvas" class="vrlive__canvas"></div>
+              <div class="vrlive__ui">
+                <div id="vrlive_vr{{example.name}}_start" class="vrlive__ui__element vrlive__ui__element--{{example.name}}">
+                  <div class="vrlive__ui__container">
+                    <div class="vrlive__ui__thumb vrlive__ui__thumb--{{example.name}}"></div>
+                    <button class="vrlive__ui__button button button--decent">{{example.label}}</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="vrlive__example__item">
-          <div class="vrlive__canvas-wrapper">
-            <div id="vrlive__video__canvas" class="vrlive__canvas"></div>
-            <div class="vrlive__ui">
-              <div id="vrlive_vrvideo_start" class="vrlive__ui__element vrlive__ui__element--video">
-                <div class="vrlive__ui__container">
-                  <div class="vrlive__ui__thumb vrlive__ui__thumb--video"></div>
-                  <button class="vrlive__ui__button button button--decent">Start Panorama Video</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        {% endfor %}
       </div>
       <div class="layout-container">
           <ul class="vrlive__list">
