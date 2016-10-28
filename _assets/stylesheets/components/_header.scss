@@ -7,6 +7,17 @@
   }
 }
 
+.header--fixed {
+
+  @media screen and (min-width: $mq-s) {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 1;
+  }
+}
+
 .header__slogan {
   line-height: $layout-unit;
   text-align: right;

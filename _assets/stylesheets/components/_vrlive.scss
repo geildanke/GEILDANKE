@@ -9,10 +9,22 @@
 }
 
 .vrlive__canvas-wrapper {
-  background-color: $color-ming;
+  background-size: cover;
+  margin-bottom: $layout-unit;
   padding-bottom: 56%;
   position: relative;
   height: 0;
+}
+
+.vrlive__example {
+  @extend .layout__grid;
+}
+
+.vrlive__example__item {
+  @extend .layout__grid__item;
+  @extend %s--one-half;
+  @extend %m--one-half;
+  @extend %l--one-half;
 }
 
 .vrlive__figcaption {
@@ -41,16 +53,91 @@
   @extend %s--six-twelfths;
   @extend %m--six-twelfths;
   @extend %l--six-twelfths;
-  
+
   position: relative;
-  
+
   &:first-child {
     margin-bottom: $layout-unit;
-    
+
     @media screen and (min-width: $mq-s) {
       margin-bottom: 0;
     }
   }
+}
+
+.vrlive__instruction {
+  @extend .layout__grid__item;
+  @extend %s--one-third;
+  @extend %m--one-third;
+  @extend %l--one-third;
+  margin-bottom: $layout-unit * 2;
+}
+
+.vrlive__instruction__hero {
+  @include box-shadow(2);
+  margin: 0 auto ($layout-unit * 2) auto;
+  position: relative;
+  width: $layout-unit * 6;
+  height: $layout-unit * 6;
+
+  &::before {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: $layout-unit * 3;
+    height: $layout-unit * 3;
+  }
+}
+
+.vrlive__instruction__hero--desktop {
+  background-color: lighten($color-ming, 30);
+
+  &::before {
+    background-image: url('/images/icons/notebook.svg');
+  }
+}
+
+.vrlive__instruction__hero--phone {
+  background-color: lighten($color-hopbush, 30);
+
+  &::before {
+    background-image: url('/images/icons/phone.svg');
+  }
+}
+
+.vrlive__instruction__hero--vr {
+  background-color: lighten($color-main, 30);
+
+  &::before {
+    background-image: url('/images/icons/cardboard.svg');
+  }
+}
+
+.vrlive__instruction__icon {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: $layout-unit;
+  width: 100%;
+  height: $layout-unit * 3;
+}
+
+.vrlive__instruction__icon--desktop {
+  background-image: url('/images/icons/mouse.svg');
+}
+
+.vrlive__instruction__icon--phone {
+  background-image: url('/images/icons/gyroscope-touch.svg');
+}
+
+.vrlive__instruction__icon--vr {
+  background-image: url('/images/icons/party.svg');
 }
 
 .vrlive__list {
@@ -61,6 +148,26 @@
   @include list-stroke();
 
   padding-bottom: $layout-unit / 2;
+}
+
+.vrlive__onboarding {
+  text-align: center;
+
+  padding: $layout-unit;
+
+  @media screen and (min-width: $mq-l) {
+    padding-top: $layout-unit * 2;
+    padding-bottom: $layout-unit * 2;
+  }
+
+  @media screen and (min-width: $mq-l) {
+    padding-top: $layout-unit * 3;
+    padding-bottom: $layout-unit * 3;
+  }
+}
+
+.vrlive__onboarding__container {
+  @extend .layout__grid;
 }
 
 .vrlive__title {
@@ -75,4 +182,75 @@
 
   padding-top: $layout-unit * 4;
   padding-bottom: $layout-unit * 2;
+}
+
+.vrlive__ui__button {
+  text-align: left;
+
+  margin: 0;
+  width: 100%;
+}
+
+.vrlive__ui__container {
+  @include box-shadow(3);
+
+  transition: transform, box-shadow 0.125s $gd-easing;
+
+  &:hover,
+  &:active {
+    @include box-shadow(2);
+
+    transform: translateY(1px);
+
+    button {
+      color: lighten($color-ming, 50);
+    }
+  }
+}
+
+.vrlive__ui__element {
+  // @extend .layout__grid__item;
+  // @extend %l--one-half;
+}
+
+.vrlive__ui__element--image {
+  margin-bottom: $layout-unit;
+
+  @media screen and (min-width: $mq-s) {
+    margin: 0;
+  }
+}
+
+.vrlive__ui__thumb {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  padding-bottom: calc(56% - 48px);
+  position: relative;
+  width: 100%;
+  height: 0;
+
+  &::before {
+    background-image: url('/images/icons/vr-play.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content:'';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: $layout-unit * 4;
+    height: $layout-unit * 4;
+  }
+}
+
+.vrlive__ui__thumb--image {
+  background-image: url('/images/vr-mountain-placeholder.jpg');
+}
+
+.vrlive__ui__thumb--video {
+  background-image: url('/images/vr-video-placeholder.jpg');
 }

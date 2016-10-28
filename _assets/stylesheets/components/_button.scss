@@ -1,5 +1,6 @@
 .button {
   color: $color-main;
+  cursor: pointer;
   font-family: 'Montserrat';
   font-size: inherit;
   font-weight: 500;
@@ -38,5 +39,17 @@
     border-color: $color-main;
 
     transform: translateY(1px);
+  }
+}
+
+.button--decent {
+  color: lighten($color-ming, 30);
+
+  background-color: $color-ming;
+  border-color: $color-ming;
+
+  &:hover,
+  &:active {
+    color: lighten($color-ming, 50);
   }
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="102px" height="102px" viewBox="0 0 102 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-504.000000, -266.000000)" stroke="#FFFFFF">
+            <g id="Group-2" transform="translate(505.000000, 267.000000)">
+                <polygon id="Triangle" fill="#FFFFFF" transform="translate(51.281817, 50.625874) rotate(90.000000) translate(-51.281817, -50.625874) " points="51.2818169 43.4000016 59.9496494 57.8517473 42.6139844 57.8517473"></polygon>
+                <g id="Group">
+                    <path d="M3.4965035,96.5034965 L14.7071465,85.2928535" id="Line"></path>
+                    <path d="M86.013986,15.3846154 L97.2246291,4.17397235" id="Line"></path>
+                    <ellipse id="Oval-2" fill-opacity="0.100000001" fill="#FFFFFF" cx="50" cy="50" rx="50" ry="50"></ellipse>
+                    <ellipse id="Oval-2" fill-opacity="0.100000001" fill="#FFFFFF" transform="translate(49.448027, 50.846628) rotate(45.000000) translate(-49.448027, -50.846628) " cx="49.4480267" cy="50.8466281" rx="50" ry="19.9300699"></ellipse>
+                    <ellipse id="Oval-2" fill-opacity="0.100000001" fill="#FFFFFF" transform="translate(50.147327, 50.147327) rotate(-45.000000) translate(-50.147327, -50.147327) " cx="50.1473274" cy="50.1473274" rx="50" ry="19.9300699"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
