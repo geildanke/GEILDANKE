@@ -113,19 +113,19 @@
 					"talks": {
 						"name": "Talks",
 						"items": [{
-							"name": "JSConf Australia 2016",
+							"name": "JSConf Australia 2016, Melbourne",
 							"url": "http://2016.jsconfau.com/"
 						}, {
-							"name": "EnterJS 2016 „Erste Schritte mit Angular 2: Components, Directives, Templates“",
-							"url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
+							"name": "EnterJS 2016 „Erste Schritte mit Angular 2: Components, Directives, Templates“, Darmstadt, Germany",
+							"url": "http://www.slideshare.net/geildanke/2016-first-steps-with-angular-2-enterjs"
 						}, {
-							"name": "Pubkon 2014 „HTML und CSS für Designer / HTML & CSS for designers“",
+							"name": "Pubkon 2014 „HTML und CSS für Designer / HTML & CSS for designers“, Berlin, Germany",
 							"url": "http://de.slideshare.net/michaelalehr/html-und-css-fr-designer-html-css-for-designers-pubkon-2014"
 						}, {
 							"name": "Medienplantage 2014 „Digital Publishing: Was Print-Designer von Web-Designern lernen können“",
 							"url": "http://de.slideshare.net/michaelalehr/digital-publishing-22546555"
 						}, {
-							"name": "Typographie Workshop 2015 „Digitale Magazine erstellen“",
+							"name": "Typographie Workshop 2015 „Digitale Magazine erstellen“, Munich, Germany",
 							"url": "http://de.slideshare.net/michaelalehr/digitale-magazine-1-handout"
 						}]
 					},
@@ -225,14 +225,14 @@
 					"headline": "Treffen Sie uns",
 					"copy": "Wir bilden uns ständig weiter. Dafür besuchen wir Konferenzen, Bar-Camps und Meetups. Sie sind auch auf einer der kommenden Konferenzen? Schreiben Sie uns eine kurze Nachricht – wir würden uns freuen, Sie zu treffen.",
 					"conferences": [{
-						"name": "ChaosCommunicationCongress2016 33c3, Hamburg, Deutschland",
+						"name": "33C3: Chaos Communication Congress 2016, Hamburg, Deutschland",
 						"url": "http://stenoknight.com/wiki/ChaosCommunicationCongress2016_33c3"
 					}, {
 						"name": "JSConf Australia 2016, Melbourne, Australia",
 						"url": "http://2016.jsconfau.com/"
 					}, {
 						"name": "EnterJS 2016, Darmstadt, Deutschland",
-						"url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
+						"url": "http://www.slideshare.net/geildanke/2016-first-steps-with-angular-2-enterjs"
 					}, {
 						"name": "Google I/O 2016, Mountain View, United States",
 						"url": "https://events.google.com/io2016/"
@@ -240,7 +240,7 @@
 						"name": "Subscribe 7, Berlin, Deutschland",
 						"url": "http://das-sendezentrum.de/subscribe/sub7/"
 					}, {
-						"name": "32C3: 30th Chaos Communication Congress, Hamburg, Deutschland",
+						"name": "32C3: 30th Chaos Communication Congress 2015, Hamburg, Deutschland",
 						"url": "https://events.ccc.de/congress/2015/wiki/Static:Main_Page"
 					}, {
 						"name": "Meet the TAG (Technical Architecture Group) with Tim Berners Lee, Berlin, Deutschland",
@@ -604,11 +604,11 @@
 					"talks": {
 						"name": "Talks",
 						"items": [{
-							"name": "JSConf Australia 2016",
+							"name": "JSConf Australia 2016, Melbourne",
 							"url": "http://2016.jsconfau.com/"
 						}, {
 							"name": "EnterJS 2016 „Erste Schritte mit Angular 2: Components, Directives, Templates“",
-							"url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
+							"url": "http://www.slideshare.net/geildanke/2016-first-steps-with-angular-2-enterjs"
 						}, {
 							"name": "Pubkon 2014 „HTML und CSS für Designer / HTML & CSS for designers“",
 							"url": "http://de.slideshare.net/michaelalehr/html-und-css-fr-designer-html-css-for-designers-pubkon-2014"
@@ -723,7 +723,7 @@
 						"url": "http://2016.jsconfau.com/"
 					}, {
 						"name": "EnterJS 2016, Darmstadt, Germany",
-						"url": "https://www.enterjs.de/abstracts.html#erste-schritte-mit-angular-2"
+						"url": "http://www.slideshare.net/geildanke/2016-first-steps-with-angular-2-enterjs"
 					}, {
 						"name": "Google I/O 2016, Mountain View, United States",
 						"url": "https://events.google.com/io2016/"
