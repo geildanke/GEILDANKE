@@ -468,8 +468,8 @@
 				],
 				"example": [
 					{
-						"name": "image",
-						"label": "Start Panorama Image"
+						"name": "gallery",
+						"label": "Start VR Galerie"
 					},
 					{
 						"name": "video",
@@ -957,8 +957,8 @@
 				],
 				"example": [
 					{
-						"name": "image",
-						"label": "Start Panorama Image"
+						"name": "gallery",
+						"label": "Start VR Gallery"
 					},
 					{
 						"name": "video",

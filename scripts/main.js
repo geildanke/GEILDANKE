@@ -2,16 +2,16 @@
 
 (function () {
   var activateHeroVr = {},
-    activateExampleVrImage = {},
+    activateExampleVrGallery = {},
     activateExampleVrVideo = {},
     addListeners = {},
     heroButton = {},
     heroContainer = {},
     onBoardingContainer = {},
     init = {},
-    liveExampleButtonImage = {},
+    liveExampleButtonGallery = {},
     liveExampleButtonVideo = {},
-    liveExampleContainerImage = {},
+    liveExampleContainerGallery = {},
     liveExampleContainerVideo = {},
     onBoardingContainer = {},
     removeAllVr = {},
@@ -20,9 +20,9 @@
   onBoardingContainer = document.getElementById('vrlive-onboarding');
   heroButton = document.getElementById('hero_vr_start');
   heroContainer = document.getElementById('vrlive__hero__canvas');
-  liveExampleContainerImage = document.getElementById('vrlive__image__canvas');
+  liveExampleContainerGallery = document.getElementById('vrlive__gallery__canvas');
   liveExampleContainerVideo = document.getElementById('vrlive__video__canvas');
-  liveExampleButtonImage = document.getElementById('vrlive_vrimage_start');
+  liveExampleButtonGallery = document.getElementById('vrlive_vrgallery_start');
   liveExampleButtonVideo = document.getElementById('vrlive_vrvideo_start');
 
   /**
@@ -50,26 +50,38 @@
   };
 
   /**
-   * Activate VR Plugin on Live Image Example
+   * Activate VR Plugin on Live Gallery Example
    * - remove all VR Plugins
    * - hide the start button
-   * - activate VR Plugin on Live Image Example
+   * - activate VR Plugin on Live Gallery Example
    *
    * @return { void }
    */
-  activateExampleVrImage = function () {
+  activateExampleVrGallery = function () {
     removeAllVr();
-    liveExampleButtonImage.style.visibility = 'hidden';
-    GEILDANKEVR.single({
-      container: liveExampleContainerImage,
-      single: {
+    liveExampleButtonGallery.style.visibility = 'hidden';
+    GEILDANKEVR.gallery({
+      container: liveExampleContainerGallery,
+      singles: [{
         mediaType: 'image',
-        url: '/images/vr-mountain.jpg',
-        optionalConfig: {
-          startRotation: 70,
-          isAnimation: true
-        }
-      }
+        url: '/images/IGtoGD_0.jpg'
+      },
+      {
+        mediaType: 'image',
+        url: '/images/IGtoGD_1.jpg'
+      },
+      {
+        mediaType: 'image',
+        url: '/images/IGtoGD_2.jpg'
+      },
+      {
+        mediaType: 'image',
+        url: '/images/IGtoGD_3.jpg'
+      },
+      {
+        mediaType: 'image',
+        url: '/images/IGtoGD_4.jpg'
+      }]
     });
   };
 
@@ -88,7 +100,10 @@
       container: liveExampleContainerVideo,
       single: {
         mediaType: 'video',
-        url: '/images/videos/R0010084_20160628124206_20160903212208.MP4',
+        url: {
+            mp4: '/images/videos/R0010084_20160628124206_20160903212208.MP4',
+            webm: '/images/videos/R0010084_20160628124206_20160903212208.webm'
+        },
         optionalConfig: {
           startRotation: 70,
           isAnimation: true
@@ -103,7 +118,7 @@
    * @return { void }
    */
   addListeners = function () {
-    liveExampleButtonImage.addEventListener('click', activateExampleVrImage);
+    liveExampleButtonGallery.addEventListener('click', activateExampleVrGallery);
     liveExampleButtonVideo.addEventListener('click', activateExampleVrVideo);
     heroButton.addEventListener('click', activateHeroVr);
   };
@@ -126,7 +141,7 @@
   removeAllVr = function () {
     removeVr(heroContainer, '/images/vr-mountain-placeholder.jpg', heroButton);
     removeVr(liveExampleContainerVideo, '', liveExampleButtonVideo);
-    removeVr(liveExampleContainerImage, '', liveExampleButtonImage);
+    removeVr(liveExampleContainerGallery, '', liveExampleButtonGallery);
   };
 
   /**
