@@ -4,6 +4,13 @@
       <p class="vrarticle__paragraph">{{paragraph.content}}</p>
     {% endfor %}
   </article>
+  {% for cta in site.ctas %}
+    {% if cta.lang == page.lang %}
+      {% if cta.id == 'vr-newsletter' %}
+        {% include cta.html %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
   <article>
     <div class="vrarticle__title-container">
       <h2 class="vrarticle__title">{{t.vr.article.headline}}</h2>
