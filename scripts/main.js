@@ -43,7 +43,8 @@
         url: '/images/vr-mountain.jpg',
         optionalConfig: {
           startRotation: 70,
-          isAnimation: true
+          isAnimation: true,
+          animationSpeed: 2
         }
       }
     });
@@ -106,7 +107,8 @@
         },
         optionalConfig: {
           startRotation: 70,
-          isAnimation: true
+          isAnimation: false,
+          videoMuted: true
         }
       }
     });
