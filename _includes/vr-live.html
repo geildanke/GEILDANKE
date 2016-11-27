@@ -19,9 +19,8 @@
         {% for example in t.vr.live.example %}
        --><div class="vrlive__example__item">
             <div class="vrlive__canvas-wrapper">
-              <div id="vrlive__{{example.name}}__canvas" class="vrlive__canvas"></div>
               <div class="vrlive__ui">
-                <div id="vrlive_vr{{example.name}}_start" class="vrlive__ui__element vrlive__ui__element--{{example.name}}">
+                <div class="vrlive__ui__element vrlive__ui__element--{{example.name}}">
                   <div class="vrlive__ui__container">
                     <div class="vrlive__ui__thumb vrlive__ui__thumb--{{example.name}}"></div>
                     <button class="vrlive__ui__button button button--decent">{{example.label}}</button>

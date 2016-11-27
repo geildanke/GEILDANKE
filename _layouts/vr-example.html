@@ -1,0 +1,22 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="{{ page.lang }}"> <!--<![endif]-->
+
+  {% assign t = site.data.content.[page.lang] %}
+
+  {% include head.html %}
+
+  <body>
+    <div id="vrlive__{{page.id}}__canvas" class="vrlive__canvas"></div>
+  </body>
+
+  <script src="/scripts/vendor/geildankevr.min.js?v=4.4.0"></script>
+  <script src="/scripts/geildankevr-{{page.id}}.js"></script>
+  {% include google-analytics.html %}
+</html>
