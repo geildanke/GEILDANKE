@@ -469,11 +469,11 @@
 				"example": [
 					{
 						"name": "gallery",
-						"label": "Start VR Galerie"
+						"label": "Öffne VR-Galerie"
 					},
 					{
 						"name": "video",
-						"label": "Start Panorama Video"
+						"label": "Öffne Panorama-Video"
 					}
 				],
 				"infos": [
@@ -958,11 +958,11 @@
 				"example": [
 					{
 						"name": "gallery",
-						"label": "Start VR Gallery"
+						"label": "Open VR Gallery"
 					},
 					{
 						"name": "video",
-						"label": "Start Panorama Video"
+						"label": "Open Panorama Video"
 					}
 				],
 				"infos": [
