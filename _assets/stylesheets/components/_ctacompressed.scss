@@ -1,0 +1,17 @@
+.cta-compressed {
+  color: $color-gray-light;
+  text-align: center;
+
+  background-color: $color-main;
+  padding: $layout-unit 0;
+}
+
+.cta-compressed__link {
+  color: $color-white-alpha;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    color: $color-white;
+  }
+}
