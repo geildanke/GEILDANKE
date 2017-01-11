@@ -385,6 +385,9 @@
 			}
 		},
 		"vr": {
+			"ctacompressed": {
+				"paragraph": "Laden Sie den Votrag von Michaela <a class=\"cta-compressed__link\" href=\"http://www.slideshare.net/geildanke/an-introduction-to-webvr-or-how-to-make-your-user-sick-in-60-seconds\" target=\"_blank\">\"An Introduction to WebVR\"</a> von der JSConf Australia 2016 als PDF herunter."
+			},
 			"article": {
 				"paragraphs": [{
 					"content": "Virtual Reality ist nicht nur etwas für AAA-Games. Man kann VR auch für das Web entwickeln: Nutzer benötigen dann <span class=\"typo-bold\">nur einen Browser</span> um das VR-Erlebnis zu genießen. Es gibt unzählige überzeugende Anwendungsfälle für Virtuelle Realität im Internet. Auf dieser Seite finden Sie interessante Beispiele wie ein <span class=\"typo-bold\">360-Grad-Photo</span> oder ein <span class=\"typo-bold\">360-Grad-Video</span> (Voll-Sphären-Video) im Browser funktionieren."
@@ -874,6 +877,9 @@
 			}
 		},
 		"vr": {
+			"ctacompressed": {
+				"paragraph": "Download the slides of Michaela's talk from JSConf Australia 2016 <a class=\"cta-compressed__link\" href=\"http://www.slideshare.net/geildanke/an-introduction-to-webvr-or-how-to-make-your-user-sick-in-60-seconds\" target=\"_blank\">\"An Introduction to WebVR\"</a>."
+			},
 			"article": {
 				"paragraphs": [{
 					"content": "Virtual Reality is not just a thing for AAA games. You can create VR for the web, and <span class=\"typo-bold\">users only need a browser</span> to enjoy virtual reality content. There are many interesting and compelling use cases for VR in the browser. On this page we have integrated stunning examples, like a <span class=\"typo-bold\">360 degree spherical image</span> and a <span class=\"typo-bold\">360 degree spherical video</span>."
