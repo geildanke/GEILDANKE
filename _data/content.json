@@ -878,7 +878,9 @@
 		},
 		"vr": {
 			"ctacompressed": {
-				"paragraph": "Download the slides of Michaela's talk from JSConf Australia 2016 <a class=\"cta-compressed__link\" href=\"http://www.slideshare.net/geildanke/an-introduction-to-webvr-or-how-to-make-your-user-sick-in-60-seconds\" target=\"_blank\">\"An Introduction to WebVR\"</a>."
+        "paragraphs": [
+			  	"Download the slides of Michaela's talk from ReactConf Santa Clara 2017 <a class=\"cta-compressed__link\" href=\"https://de.slideshare.net/geildanke/goodbye-flatland-an-introduction-to-react-vr-and-what-it-means-for-web-developers\" target=\"_blank\">\"Goodbye, Flatland! An introduction to React VR and what it means for developers.\"</a>."
+        ]
 			},
 			"article": {
 				"paragraphs": [{
