@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Messe Leipzig</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+
+      <a href="#" class="scene" data-id="0-ccc_leipzig_artrium_ebene-0_00">
+        <li class="text">CCC_Leipzig_Artrium_Ebene-0_00</li>
+      </a>
+
+      <a href="#" class="scene" data-id="1-ccc_leipzig_artrium_ebene-0_01">
+        <li class="text">CCC_Leipzig_Artrium_Ebene-0_01</li>
+      </a>
+
+      <a href="#" class="scene" data-id="2-ccc_leipzig_artrium_ebene-1_00">
+        <li class="text">CCC_Leipzig_Artrium_Ebene-1_00</li>
+      </a>
+
+      <a href="#" class="scene" data-id="3-ccc_leipzig_artrium_ebene-1_01">
+        <li class="text">CCC_Leipzig_Artrium_Ebene-1_01</li>
+      </a>
+
+      <a href="#" class="scene" data-id="4-ccc_leipzig_artrium_ebene-3_00">
+        <li class="text">CCC_Leipzig_Artrium_Ebene-3_00</li>
+      </a>
+
+      <a href="#" class="scene" data-id="5-ccc_leipzig_artrium_ebene-3_01">
+        <li class="text">CCC_Leipzig_Artrium_Ebene-3_01</li>
+      </a>
+
+      <a href="#" class="scene" data-id="6-ccc_leipzig_ccl_saal-1_00">
+        <li class="text">CCC_Leipzig_CCL_Saal-1_00</li>
+      </a>
+
+      <a href="#" class="scene" data-id="7-ccc_leipzig_ccl_saal-1_01">
+        <li class="text">CCC_Leipzig_CCL_Saal-1_01</li>
+      </a>
+
+      <a href="#" class="scene" data-id="8-ccc_leipzig_ccl_saal-1-vorhalle-seite">
+        <li class="text">CCC_Leipzig_CCL_Saal-1-Vorhalle-Seite</li>
+      </a>
+
+      <a href="#" class="scene" data-id="9-ccc_leipzig_ccl_saal-1-vorsaal">
+        <li class="text">CCC_Leipzig_CCL_Saal-1-Vorsaal</li>
+      </a>
+
+      <a href="#" class="scene" data-id="10-ccc_leipzig_ccl_saal-2_00">
+        <li class="text">CCC_Leipzig_CCL_Saal-2_00</li>
+      </a>
+
+      <a href="#" class="scene" data-id="11-ccc_leipzig_ccl_saal-2_01">
+        <li class="text">CCC_Leipzig_CCL_Saal-2_01</li>
+      </a>
+
+      <a href="#" class="scene" data-id="12-ccc_leipzig_ccl_saal-2-3-vorsaal">
+        <li class="text">CCC_Leipzig_CCL_Saal-2-3-Vorsaal</li>
+      </a>
+
+      <a href="#" class="scene" data-id="13-ccc_leipzig_ccl_saal-2-vorsaal-links">
+        <li class="text">CCC_Leipzig_CCL_Saal-2-Vorsaal-Links</li>
+      </a>
+
+      <a href="#" class="scene" data-id="14-ccc_leipzig_ccl_saal-3_00">
+        <li class="text">CCC_Leipzig_CCL_Saal-3_00</li>
+      </a>
+
+      <a href="#" class="scene" data-id="15-ccc_leipzig_ccl_saal-3_01">
+        <li class="text">CCC_Leipzig_CCL_Saal-3_01</li>
+      </a>
+
+      <a href="#" class="scene" data-id="16-ccc_leipzig_ccl_knstlergarderobe-1270">
+        <li class="text">CCC_Leipzig_CCL_Künstlergarderobe-1270</li>
+      </a>
+
+      <a href="#" class="scene" data-id="17-ccc_leipzig_ccl_knstlergarderobe-1280">
+        <li class="text">CCC_Leipzig_CCL_Künstlergarderobe-1280</li>
+      </a>
+
+      <a href="#" class="scene" data-id="18-ccc_leipzig_ccl_knstlergarderobe-1290">
+        <li class="text">CCC_Leipzig_CCL_Künstlergarderobe-1290</li>
+      </a>
+
+      <a href="#" class="scene" data-id="19-ccc_leipzig_ccl_knstlergarderobe-1300">
+        <li class="text">CCC_Leipzig_CCL_Künstlergarderobe-1300</li>
+      </a>
+
+      <a href="#" class="scene" data-id="20-ccc_leipzig_ccl_vortragsraum-9">
+        <li class="text">CCC_Leipzig_CCL_Vortragsraum-9</li>
+      </a>
+
+      <a href="#" class="scene" data-id="21-ccc_leipzig_ccl_vortragsraum-10">
+        <li class="text">CCC_Leipzig_CCL_Vortragsraum-10</li>
+      </a>
+
+      <a href="#" class="scene" data-id="22-ccc_leipzig_ccl_vortragsraum-11">
+        <li class="text">CCC_Leipzig_CCL_Vortragsraum-11</li>
+      </a>
+
+      <a href="#" class="scene" data-id="23-ccc_leipzig_ccl_vortragsraum-12">
+        <li class="text">CCC_Leipzig_CCL_Vortragsraum-12</li>
+      </a>
+
+      <a href="#" class="scene" data-id="24-ccc_leipzig_ccl_bankettraum-1">
+        <li class="text">CCC_Leipzig_CCL_Bankettraum-1</li>
+      </a>
+
+      <a href="#" class="scene" data-id="25-ccc_leipzig_ccl_bankettraum-2">
+        <li class="text">CCC_Leipzig_CCL_Bankettraum-2</li>
+      </a>
+
+      <a href="#" class="scene" data-id="26-ccc_leipzig_ccl_bankettraum-3">
+        <li class="text">CCC_Leipzig_CCL_Bankettraum-3</li>
+      </a>
+
+      <a href="#" class="scene" data-id="27-ccc_leipzig_ccl_bankettraum-4">
+        <li class="text">CCC_Leipzig_CCL_Bankettraum-4</li>
+      </a>
+
+      <a href="#" class="scene" data-id="28-ccc_leipzig_ccl_ebene-0-rechts-von-multipurpose-vorsaal">
+        <li class="text">CCC_Leipzig_CCL_Ebene-0-Rechts-von-Multipurpose-Vorsaal</li>
+      </a>
+
+      <a href="#" class="scene" data-id="29-ccc_leipzig_ccl_ebene-minus-1">
+        <li class="text">CCC_Leipzig_CCL_Ebene-Minus-1</li>
+      </a>
+
+      <a href="#" class="scene" data-id="30-ccc_leipzig_ccl_ebene-1_00">
+        <li class="text">CCC_Leipzig_CCL_Ebene-1_00</li>
+      </a>
+
+      <a href="#" class="scene" data-id="31-ccc_leipzig_ccl_ebene-1_01">
+        <li class="text">CCC_Leipzig_CCL_Ebene-1_01</li>
+      </a>
+
+      <a href="#" class="scene" data-id="32-ccc_leipzig_ccl_ebene-2">
+        <li class="text">CCC_Leipzig_CCL_Ebene-2</li>
+      </a>
+
+      <a href="#" class="scene" data-id="33-ccc_leipzig_ccl_ebene-0-multipurpose-2-vorsaal">
+        <li class="text">CCC_Leipzig_CCL_Ebene-0-Multipurpose-2-Vorsaal</li>
+      </a>
+
+      <a href="#" class="scene" data-id="34-ccc_leipzig_ccl_multipurpose-1">
+        <li class="text">CCC_Leipzig_CCL_Multipurpose-1</li>
+      </a>
+
+      <a href="#" class="scene" data-id="35-ccc_leipzig_ccl_multipurpose-2">
+        <li class="text">CCC_Leipzig_CCL_Multipurpose-2</li>
+      </a>
+
+      <a href="#" class="scene" data-id="36-ccc_leipzig_ccl_multipurpose-vorsaal-links">
+        <li class="text">CCC_Leipzig_CCL_Multipurpose-Vorsaal-Links</li>
+      </a>
+
+      <a href="#" class="scene" data-id="37-ccc_leipzig_ccl_multipurpose-vorsaal">
+        <li class="text">CCC_Leipzig_CCL_Multipurpose-Vorsaal</li>
+      </a>
+
+      <a href="#" class="scene" data-id="38-ccc_leipzig_ccl_saal-4">
+        <li class="text">CCC_Leipzig_CCL_Saal-4</li>
+      </a>
+
+      <a href="#" class="scene" data-id="39-ccc_leipzig_ccl_saal-5">
+        <li class="text">CCC_Leipzig_CCL_Saal-5</li>
+      </a>
+
+      <a href="#" class="scene" data-id="40-ccc_leipzig_ccl_seminarraum-6">
+        <li class="text">CCC_Leipzig_CCL_Seminarraum-6</li>
+      </a>
+
+      <a href="#" class="scene" data-id="41-ccc_leipzig_ccl_seminarraum-7">
+        <li class="text">CCC_Leipzig_CCL_Seminarraum-7</li>
+      </a>
+
+      <a href="#" class="scene" data-id="42-ccc_leipzig_ccl_seminarraum-8">
+        <li class="text">CCC_Leipzig_CCL_Seminarraum-8</li>
+      </a>
+
+      <a href="#" class="scene" data-id="43-ccc_leipzig_ccl_seminarraum-13">
+        <li class="text">CCC_Leipzig_CCL_Seminarraum-13</li>
+      </a>
+
+      <a href="#" class="scene" data-id="44-ccc_leipzig_ccl_seminarraum-14-15">
+        <li class="text">CCC_Leipzig_CCL_Seminarraum-14-15</li>
+      </a>
+
+      <a href="#" class="scene" data-id="45-ccc_leipzig_ccl_zwischenraum-zu-saal-1">
+        <li class="text">CCC_Leipzig_CCL_Zwischenraum-zu-Saal-1</li>
+      </a>
+
+      <a href="#" class="scene" data-id="46-ccc_leipzig_ccl_eingang-registrierung">
+        <li class="text">CCC_Leipzig_CCL_Eingang-Registrierung</li>
+      </a>
+
+      <a href="#" class="scene" data-id="47-ccc_leipzig_glashalle_ebene-0">
+        <li class="text">CCC_Leipzig_Glashalle_Ebene-0</li>
+      </a>
+
+      <a href="#" class="scene" data-id="48-ccc_leipzig_glashalle_brcke-zwischen-halle-2-und-3-mitte">
+        <li class="text">CCC_Leipzig_Glashalle_Brücke-Zwischen-Halle-2-und-3-Mitte</li>
+      </a>
+
+      <a href="#" class="scene" data-id="49-ccc_leipzig_glashalle_brcke-zwischen-halle-1-und-ccl-westen">
+        <li class="text">CCC_Leipzig_Glashalle_Brücke-Zwischen-Halle-1-und-CCL-Westen</li>
+      </a>
+
+      <a href="#" class="scene" data-id="50-ccc_leipzig_halle-1_ne">
+        <li class="text">CCC_Leipzig_Halle-1_NE</li>
+      </a>
+
+      <a href="#" class="scene" data-id="51-ccc_leipzig_halle-1_sw">
+        <li class="text">CCC_Leipzig_Halle-1_SW</li>
+      </a>
+
+      <a href="#" class="scene" data-id="52-ccc_leipzig_halle-1_se">
+        <li class="text">CCC_Leipzig_Halle-1_SE</li>
+      </a>
+
+      <a href="#" class="scene" data-id="53-ccc_leipzig_halle-1_mitte">
+        <li class="text">CCC_Leipzig_Halle-1_Mitte</li>
+      </a>
+
+      <a href="#" class="scene" data-id="54-ccc_leipzig_halle-1-vorhalle">
+        <li class="text">CCC_Leipzig_Halle-1-Vorhalle</li>
+      </a>
+
+      <a href="#" class="scene" data-id="55-ccc_leipzig_meetingraum-m1-2">
+        <li class="text">CCC_Leipzig_Meetingraum-M1-2</li>
+      </a>
+
+      <a href="#" class="scene" data-id="56-ccc_leipzig_meetingraum-m3">
+        <li class="text">CCC_Leipzig_Meetingraum-M3</li>
+      </a>
+
+      <a href="#" class="scene" data-id="57-ccc_leipzig_meetingraum-m4">
+        <li class="text">CCC_Leipzig_Meetingraum-M4</li>
+      </a>
+
+      <a href="#" class="scene" data-id="58-ccc_leipzig_meetingraum-m5">
+        <li class="text">CCC_Leipzig_Meetingraum-M5</li>
+      </a>
+
+      <a href="#" class="scene" data-id="59-ccc_leipzig_meetingraum-m6">
+        <li class="text">CCC_Leipzig_Meetingraum-M6</li>
+      </a>
+
+      <a href="#" class="scene" data-id="60-ccc_leipzig_meetingraum-m7">
+        <li class="text">CCC_Leipzig_Meetingraum-M7</li>
+      </a>
+
+      <a href="#" class="scene" data-id="61-ccc_leipzig_meetingraum-m8">
+        <li class="text">CCC_Leipzig_Meetingraum-M8</li>
+      </a>
+
+      <a href="#" class="scene" data-id="62-ccc_leipzig_meetingraume-vorhalle">
+        <li class="text">CCC_Leipzig_Meetingräume-Vorhalle</li>
+      </a>
+
+      <a href="#" class="scene" data-id="63-ccc_leipzig_outside_cch-eingang">
+        <li class="text">CCC_Leipzig_Outside_CCH-Eingang</li>
+      </a>
+
+      <a href="#" class="scene" data-id="64-ccc_leipzig_outside_tram">
+        <li class="text">CCC_Leipzig_Outside_Tram</li>
+      </a>
+
+      <a href="#" class="scene" data-id="65-ccc_leipzig_outside_messe-eingang">
+        <li class="text">CCC_Leipzig_Outside_Messe-Eingang</li>
+      </a>
+
+      <a href="#" class="scene" data-id="66-ccc_leipzig_outside_mitte">
+        <li class="text">CCC_Leipzig_Outside_Mitte</li>
+      </a>
+
+      <a href="#" class="scene" data-id="67-ccc_leipzig_presselounge">
+        <li class="text">CCC_Leipzig_Presselounge</li>
+      </a>
+
+      <a href="#" class="scene" data-id="68-ccc_leipzig_ubergang-halle-1-glashalle">
+        <li class="text">CCC_Leipzig_Übergang-Halle-1-Glashalle</li>
+      </a>
+
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="#" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="#" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="#" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="#" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="#" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="#" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="#" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="#" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/es5-shim.js"></script>
+<script src="vendor/eventShim.js"></script>
+<script src="vendor/classList.js"></script>
+<script src="vendor/requestAnimationFrame.js" ></script>
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
