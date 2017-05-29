@@ -1,0 +1,59 @@
+#next {
+  background-image: url("../assets/next.png");
+}
+
+#next.deactivated {
+  background-image: url("../assets/next_inactive.png");
+}
+
+#next:hover {
+  background-image: url("../assets/next_hover.png");
+}
+
+#next.deactivated:hover {
+  background-image: url("../assets/next_inactive.png");
+}
+
+#prev {
+  background-image: url("../assets/prev.png");
+}
+
+#prev.deactivated {
+  background-image: url("../assets/prev_inactive.png");
+}
+
+#prev:hover {
+  background-image: url("../assets/prev_hover.png");
+}
+
+#prev.deactivated:hover {
+  background-image: url("../assets/prev_inactive.png");
+}
+
+.button {
+  background-color: #ee7203;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  width: 64px;
+  height: 64px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button.deactivated {
+  cursor: default;
+}
+
+.ui {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
