@@ -31,8 +31,8 @@ AFRAME.registerComponent('set-image', {
         nextPosition: '-3 -1 2',
         nextRotation: '0 170 0',
         phiStart: 90,
-        prevPosition: '3 -1 -2',
-        prevRotation: '0 350 0'
+        prevPosition: '2 -1 3',
+        prevRotation: '0 180 0'
       },
       {
         key: 2,
@@ -40,8 +40,8 @@ AFRAME.registerComponent('set-image', {
         nextPosition: '-2 -1 3',
         nextRotation: '0 160 0',
         phiStart: 290,
-        prevPosition: '3 -1 -2',
-        prevRotation: '0 270 0'
+        prevPosition: '3 -1 4',
+        prevRotation: '0 190 0'
       },
       {
         key: 3,
@@ -76,8 +76,8 @@ AFRAME.registerComponent('set-image', {
         nextPosition: '0 -100 0', // make button invisible o.o
         nextRotation: '0 0 0',
         phiStart: 190,
-        prevPosition: '3 -1 -2',
-        prevRotation: '0 270 0'
+        prevPosition: '0 -100 0',
+        prevRotation: '0 0 0'
       }
     ],
     data = this.data,
