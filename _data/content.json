@@ -31,7 +31,7 @@
 				"short": "Studio für Mobile-App-Entwicklung und Responsive Web Design",
 				"long": "Starten Sie Ihr Business auf allen Kanälen: Apps und Webseiten für iPhone, iPad, Android und Windows"
 			},
-			"companyname": "Geil,Danke! GmbH",
+			"companyname": "Michaela Lehr, Geil,Danke!",
 			"address": {
 				"street": "Fischerinsel 4",
 				"zipcode": "10179",
@@ -319,40 +319,24 @@
 				"skills": [{
 					"name": "Languages",
 					"items": [{
-						"name": "HTML5"
+						"name": "HTML"
 					}, {
-						"name": "CSS3, Sass"
+						"name": "CSS, Scss, Sass, Less"
 					}, {
 						"name": "JavaScript, TypeScript"
+					}, {
+						"name": "Elixir"
 					}]
 				}, {
 					"name": "Frameworks",
 					"items": [{
-						"name": "AngularJS 1.5, Angular 2"
-					}, {
-						"name": "Node.js"
-					}, {
-						"name": "Cordova, Phonegap"
+						"name": "ReactJS, Vue, AngularJS, Angular"
 					}, {
 						"name": "React Native"
-					}]
-				}, {
-					"name": "Databases",
-					"items": [{
-						"name": "NoSQL, MongoDB, MySQL"
 					}, {
-						"name": "Web Storage, LocalStorage"
+						"name": "Phoenix"
 					}, {
-						"name": "IndexedDB, Device APIs"
-					}]
-				}, {
-					"name": "Entwicklung",
-					"items": [{
-						"name": "Grunt, Gulp, Webpack"
-					}, {
-						"name": "Git, JIRA"
-					}, {
-						"name": "Codeship, TeamCity, Jenkins"
+						"name": "Cordova, Phonegap"
 					}]
 				}, {
 					"name": "Konzepte",
@@ -365,10 +349,10 @@
 					}, {
 						"name": "Scrum, Kanban, Feature-based Programming"
 					}, {
-						"name": "Media Queries, CSS3 Transitions, CSS3 Animationen and jQuery Animationen"
+						"name": "Responsive Webdesign, Transitions und Animationen mit CSS und JavaScript"
 					}]
 				}],
-				"footnote": "* Wir kennen uns auch aus mit Web Components, WebVR, WebGL, Canvas, Web Audio, SVG — SCSS, LESS — jQuery, Bootstrap, Angular 1.4 und davor — Titanium, React, React JS, Reactive Programming — CouchDB, XML, SQL, PostgreSQL — PHP, Wordpress, Laravel, CodeIgniter — Python, Django — Broccoli, Angular CLI — Unity, UnityScript, C#, Java — Solidity — Encryption"
+				"footnote": "* Wir kennen uns auch aus mit Web Components, WebVR, WebGL, Canvas, Web Audio, SVG, PostgreSQL, Unity, MonoScript, C#"
 			},
 			"whatmatters": {
 				"headline": "Was uns am Herzen liegt",
@@ -543,7 +527,7 @@
 				"short": "A Mobile App Development and Responsive Web Design Studio",
 				"long": "Launch your business on all channels. Apps and web sites for iPhone, iPad, Android and Windows"
 			},
-			"companyname": "Geil,Danke! GmbH",
+			"companyname": "Michaela Lehr, Geil,Danke!",
 			"address": {
 				"street": "Fischerinsel 4",
 				"zipcode": "10179",
@@ -831,38 +815,24 @@
 				"skills": [{
 					"name": "Languages",
 					"items": [{
-						"name": "HTML5"
+						"name": "HTML"
 					}, {
-						"name": "CSS3, Sass"
+						"name": "CSS, Sass, Scss, Less"
 					}, {
 						"name": "JavaScript, TypeScript"
+					}, {
+						"name": "Elixir"
 					}]
 				}, {
 					"name": "Frameworks",
 					"items": [{
-						"name": "AngularJS 1.5, Angular 2"
-					}, {
-						"name": "Node.js"
-					}, {
-						"name": "Cordova, Phonegap, Titanium"
+						"name": "ReactJS, Vue, AngularJS, Angular"
 					}, {
 						"name": "React Native"
-					}]
-				}, {
-					"name": "Databases",
-					"items": [{
-						"name": "NoSQL, MongoDB, CouchDB, MySQL"
 					}, {
-						"name": "Web Storage, LocalStorage"
+						"name": "Phoenix"
 					}, {
-						"name": "IndexedDB, Device APIs"
-					}]
-				}, {
-					"name": "Development",
-					"items": [{
-						"name": "Grunt, Gulp, Webpack"
-					}, {
-						"name": "Git, JIRA"
+						"name": "Cordova, Phonegap"
 					}]
 				}, {
 					"name": "Concepts",
@@ -875,10 +845,10 @@
 					}, {
 						"name": "Scrum, Kanban, Feature-based Programming"
 					}, {
-						"name": "Media Queries, CSS3 Transitions, CSS3 and JavaScript Animations"
+						"name": "Transitions and animations with JavaScript and CSS"
 					}]
 				}],
-				"footnote": "* We also know Web Components, WebVR, WebGL, Canvas, Web Audio, SVG — SCSS, LESS — jQuery, Bootstrap — React, React JS, Reactive Programming — XML, SQL, PostgreSQL — PHP, Wordpress, Laravel, CodeIgniter — Python, Django — Broccoli, Angular CLI — Codeship, Jenkins, TeamCity — Unity, UnityScript, C#, Java — Solidity — Encryption"
+				"footnote": "* We also know Web Components, WebVR, WebGL, Canvas, Web Audio, SVG, PostgreSQL, Unity, MonoScript, C#"
 			},
 			"whatmatters": {
 				"headline": "What matters to us",

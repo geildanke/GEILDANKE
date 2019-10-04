@@ -2,7 +2,8 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem "jekyll", "2.5.3"
+gem "jekyll"
 
+gem 'jekyll-watch'
 gem 'jekyll-assets'
 gem 'autoprefixer-rails'

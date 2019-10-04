@@ -1,2 +1,2 @@
-require "jekyll-assets"
-require "autoprefixer-rails"
+# require "jekyll-assets"
+# require "autoprefixer-rails"

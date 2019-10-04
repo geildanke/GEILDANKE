@@ -1,16 +1,11 @@
 /* TEAM */
-	Technical Director: Richard Brammer
-	Contact: richard.brammer@geildanke.com
-	Twitter: @richardbrammer
-	From: Berlin, Germany
-
-	Creative Director: Michaela Lehr
+	Author: Michaela Lehr
 	Contact: michaela.lehr@geildanke.com
 	Twitter: @fischaelameer
 	From: Berlin, Germany
 
 /* SITE */
-	Last update: 2016
+	Last update: 2019
 	Language: Deutsch / English
 	Doctype: HTML5
-	IDE: Atom, Jekyll, Codeship
+	IDE: VS Code, Jekyll
