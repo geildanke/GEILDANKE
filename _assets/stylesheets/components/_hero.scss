@@ -142,6 +142,10 @@
   }
 }
 
+.hero__copy--contact {
+  margin-bottom: 100px;
+}
+
 .hero__hgroup {
   @extend %xs--ten-twelfths;
   @extend %push--xs--one-twelfth;
